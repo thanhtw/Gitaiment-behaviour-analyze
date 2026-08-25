@@ -37,6 +37,29 @@ OUTCOMES = [
     "AvgBestScore", "AvgClearTime",
 ]
 
+FEATURE_DEFINITIONS = {
+    "ActivitySpanDays": "Days between the player's first and last recorded event.",
+    "TotalSessions": "Number of recorded login/session events.",
+    "EventsPerSession": "Total logged events divided by total sessions.",
+    "QuestsPerSession": "Quests added divided by total sessions.",
+    "HelpRatio": "Hint-assisted plus answer-assisted quests divided by quests added.",
+    "ActionSuccessRate": "Correct actions divided by correct plus failed actions.",
+    "QuestCompletionRate": "Completed quests divided by quests added.",
+    "PerfectRatio": "Perfect quest completions divided by all completed quests.",
+    "ManualOpens": "Number of game-manual opening events.",
+    "LeaderboardChecks": "Number of global leaderboard checks.",
+    "CommandsExecuted": "Cumulative number of Git commands executed.",
+    "StagesAttempted": "Number of distinct stages observed in the event log.",
+}
+OUTCOME_DEFINITIONS = {
+    "GameProgress": "Cumulative game-progress percentage; used only for profiling.",
+    "TotalScore": "Cumulative stage score; used only for profiling.",
+    "TotalStars": "Cumulative earned stars; used only for profiling.",
+    "StagesCleared": "Cumulative number of stages cleared; used only for profiling.",
+    "AvgBestScore": "Mean best score across player-stage records; used only for profiling.",
+    "AvgClearTime": "Mean clear time across player-stage records; used only for profiling.",
+}
+
 
 def build_python_feature_table(source):
     """Derive clustering variables directly from the combined per-user CSV."""
@@ -279,6 +302,12 @@ def main(data_dir="."):
 
     gaps.to_csv(data_dir / "analysis_gap_statistic.csv", index=False, encoding="utf-8-sig")
     validity.to_csv(data_dir / "analysis_cluster_selection_methods.csv", index=False, encoding="utf-8-sig")
+    pd.DataFrame(
+        [{"feature": name, "role": "clustering input", "definition": FEATURE_DEFINITIONS[name]}
+         for name in FEATURES] +
+        [{"feature": name, "role": "profile outcome", "definition": OUTCOME_DEFINITIONS[name]}
+         for name in OUTCOMES]
+    ).to_csv(data_dir / "analysis_cluster_feature_dictionary.csv", index=False, encoding="utf-8-sig")
     assignments.to_csv(data_dir / "analysis_kmeans_assignments.csv", index=False, encoding="utf-8-sig")
     profiles.to_csv(data_dir / "analysis_cluster_profiles.csv", index=False, encoding="utf-8-sig")
     standardized_profiles.to_csv(

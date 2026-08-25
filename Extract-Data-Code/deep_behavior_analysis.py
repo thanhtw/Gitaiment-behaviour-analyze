@@ -599,11 +599,19 @@ def export_analysis_results(results, output_dir):
         for seq, count in failure_seq.most_common(50):
             seq_data.append({'sequence': ' → '.join(seq), 'count': count, 'type': 'with_help'})
         for seq, count in results.get('failure_sequences', Counter()).most_common(50):
-            seq_data.append({'sequence': ' → '.join(seq), 'count': count, 'type': 'failed_action'})
+            seq_data.append({'sequence': ' → '.join(seq + ('Failed Action',)), 'count': count, 'type': 'failed_action'})
         sequence_df = pd.DataFrame(seq_data)
         sequence_df.to_csv(f"{output_dir}/analysis_behavior_sequences.csv", index=False, encoding='utf-8-sig')
         print(f"Exported: analysis_behavior_sequences.csv")
         create_sequence_charts(sequence_df, output_dir)
+        pd.DataFrame([
+            {'field': 'sequence', 'definition': 'Ordered event-name pattern immediately before and including the focal outcome where applicable.'},
+            {'field': 'count', 'definition': 'Number of times the exact sequence was observed across all players in both data versions.'},
+            {'field': 'type=success_perfect', 'definition': 'Three events immediately preceding a Complete Quest event whose detail contains Perfect.'},
+            {'field': 'type=with_help', 'definition': 'Three events immediately preceding a Complete Quest event whose detail contains Hint or Answer.'},
+            {'field': 'type=failed_action', 'definition': 'Two events immediately preceding Failed Action, followed by the Failed Action outcome.'},
+            {'field': 'ordering', 'definition': 'Events are grouped by player and ordered by eventTime; sequences never cross player boundaries.'},
+        ]).to_csv(f"{output_dir}/analysis_sequence_feature_dictionary.csv", index=False, encoding='utf-8-sig')
 
 
 def create_sequence_charts(sequence_df, output_dir):

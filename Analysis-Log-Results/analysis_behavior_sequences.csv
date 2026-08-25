@@ -99,50 +99,50 @@ Read GameManual → Last Conversation → Execute Git Command,1,with_help
 Read GameManual → Open Window → Add New Quest,1,with_help
 Use Answer → Use Answer → Correct Action,1,with_help
 Last Conversation → Use Answer → Execute Git Command,1,with_help
-Failed Action → Failed Action,368,failed_action
-Complete Quest → Add New Quest,196,failed_action
-Add New Quest → Failed Action,95,failed_action
-Execute Git Command → Execute Git Command,29,failed_action
-Open Window → Read GameManual,27,failed_action
-Execute Git Command → Failed Action,25,failed_action
-Last Conversation → Failed Action,25,failed_action
-Read GameManual → Failed Action,21,failed_action
-Open Window → Failed Action,19,failed_action
-Add New Quest → Last Conversation,19,failed_action
-Add New Quest → Open Window,14,failed_action
-Failed Action → Last Conversation,13,failed_action
-Execute Git Command → Last Conversation,10,failed_action
-Add New Quest → Execute Git Command,10,failed_action
-Last Conversation → Last Conversation,10,failed_action
-Read GameManual → Read GameManual,10,failed_action
-Failed Action → Use Answer,8,failed_action
-Open Window → Add New Quest,8,failed_action
-Failed Action → Open Window,8,failed_action
-Use Answer → Failed Action,6,failed_action
-Open Window → Open Window,5,failed_action
-Read GameManual → Execute Git Command,5,failed_action
-Failed Action → Use Hint,5,failed_action
-Last Conversation → Execute Git Command,4,failed_action
-Last Conversation → Open Window,4,failed_action
-Use Hint → Failed Action,4,failed_action
-Failed Action → Execute Git Command,4,failed_action
-Open Window → Last Conversation,3,failed_action
-Failed Action → Correct Action,2,failed_action
-Use Hint → Execute Git Command,2,failed_action
-Add New Quest → Use Hint,2,failed_action
-Check GlobalLeaderBoard → Check GlobalLeaderBoard,2,failed_action
-Open Window → Use Answer,1,failed_action
-Execute Git Command → Open Window,1,failed_action
-Start Stage → Add New Quest,1,failed_action
-Correct Action → Correct Action,1,failed_action
-Last Conversation → Use Answer,1,failed_action
-Use Hint → Use Hint,1,failed_action
-Read GameManual → Add New Quest,1,failed_action
-Check GlobalLeaderBoard → Failed Action,1,failed_action
-Use Hint → Last Conversation,1,failed_action
-Read GameManual → Last Conversation,1,failed_action
-Read GameManual → Open Window,1,failed_action
-Add New Quest → Use Answer,1,failed_action
-Open Window → Use Hint,1,failed_action
-Use Answer → Last Conversation,1,failed_action
-Open Window → Execute Git Command,1,failed_action
+Failed Action → Failed Action → Failed Action,368,failed_action
+Complete Quest → Add New Quest → Failed Action,196,failed_action
+Add New Quest → Failed Action → Failed Action,95,failed_action
+Execute Git Command → Execute Git Command → Failed Action,29,failed_action
+Open Window → Read GameManual → Failed Action,27,failed_action
+Execute Git Command → Failed Action → Failed Action,25,failed_action
+Last Conversation → Failed Action → Failed Action,25,failed_action
+Read GameManual → Failed Action → Failed Action,21,failed_action
+Open Window → Failed Action → Failed Action,19,failed_action
+Add New Quest → Last Conversation → Failed Action,19,failed_action
+Add New Quest → Open Window → Failed Action,14,failed_action
+Failed Action → Last Conversation → Failed Action,13,failed_action
+Execute Git Command → Last Conversation → Failed Action,10,failed_action
+Add New Quest → Execute Git Command → Failed Action,10,failed_action
+Last Conversation → Last Conversation → Failed Action,10,failed_action
+Read GameManual → Read GameManual → Failed Action,10,failed_action
+Failed Action → Use Answer → Failed Action,8,failed_action
+Open Window → Add New Quest → Failed Action,8,failed_action
+Failed Action → Open Window → Failed Action,8,failed_action
+Use Answer → Failed Action → Failed Action,6,failed_action
+Open Window → Open Window → Failed Action,5,failed_action
+Read GameManual → Execute Git Command → Failed Action,5,failed_action
+Failed Action → Use Hint → Failed Action,5,failed_action
+Last Conversation → Execute Git Command → Failed Action,4,failed_action
+Last Conversation → Open Window → Failed Action,4,failed_action
+Use Hint → Failed Action → Failed Action,4,failed_action
+Failed Action → Execute Git Command → Failed Action,4,failed_action
+Open Window → Last Conversation → Failed Action,3,failed_action
+Failed Action → Correct Action → Failed Action,2,failed_action
+Use Hint → Execute Git Command → Failed Action,2,failed_action
+Add New Quest → Use Hint → Failed Action,2,failed_action
+Check GlobalLeaderBoard → Check GlobalLeaderBoard → Failed Action,2,failed_action
+Open Window → Use Answer → Failed Action,1,failed_action
+Execute Git Command → Open Window → Failed Action,1,failed_action
+Start Stage → Add New Quest → Failed Action,1,failed_action
+Correct Action → Correct Action → Failed Action,1,failed_action
+Last Conversation → Use Answer → Failed Action,1,failed_action
+Use Hint → Use Hint → Failed Action,1,failed_action
+Read GameManual → Add New Quest → Failed Action,1,failed_action
+Check GlobalLeaderBoard → Failed Action → Failed Action,1,failed_action
+Use Hint → Last Conversation → Failed Action,1,failed_action
+Read GameManual → Last Conversation → Failed Action,1,failed_action
+Read GameManual → Open Window → Failed Action,1,failed_action
+Add New Quest → Use Answer → Failed Action,1,failed_action
+Open Window → Use Hint → Failed Action,1,failed_action
+Use Answer → Last Conversation → Failed Action,1,failed_action
+Open Window → Execute Git Command → Failed Action,1,failed_action

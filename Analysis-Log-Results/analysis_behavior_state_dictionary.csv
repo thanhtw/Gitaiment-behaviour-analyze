@@ -1,0 +1,7 @@
+﻿state,label,definition,included_events
+A,Action,Successful task-level action; currently represented by Correct Action.,Correct Action
+E,Exploration,"Navigation or information exploration: opening windows, checking the global leaderboard, or logging in.",Open Window; Check GlobalLeaderBoard; Login
+CM,Command manipulation,Direct Git command manipulation; represented by Execute Git Command.,Execute Git Command
+IM,Instructional material/help,"Use of instructional or conversational support: game manual, hint, answer, or last conversation.",Read GameManual; Use Hint; Use Answer; Last Conversation
+F,Failure,"Unsuccessful behavior or unresolved stage exit: failed action, unclear restart, or return without clearing.",Failed Action; Restart Stage(Not Clear); Back To Stage Select(Not Clear)
+R,Reward/progression,"Quest/stage progression or reward-related activity: add/complete quest, start/complete stage, or clear-stage return/restart.",Add New Quest; Complete Quest; Complete Stage; Start Stage; Back To Stage Select(Clear); Restart Stage(Clear)

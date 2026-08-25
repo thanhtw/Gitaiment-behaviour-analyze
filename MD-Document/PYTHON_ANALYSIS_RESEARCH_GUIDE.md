@@ -11,15 +11,50 @@ python Extract-Data-Code\run_analysis.py
 
 Tables and figures are written to `Analysis-Log-Results`.
 
+### Data used in the current combined analysis
+
+| Combined table | Version-1 | Version-2 | Total |
+|---|---:|---:|---:|
+| Events | 22,118 | 9,512 | 31,630 |
+| Player game records | 50 | 54 | 104 |
+| Player-stage records | 1,700 | 1,836 | 3,536 |
+| Player-owned stage leaderboard entries | 741 | 254 | 995 |
+| Global leaderboard entries | 637 | 293 | 930 |
+
+After sources are combined, the per-user table contains 105 distinct usernames observed in at least one source. Cluster and profile analyses use these 105 cases. Transition and sequence analyses use the 31,630 combined timestamped events. Event histories are concatenated across versions. One player-save username (`Le Trung Hieu`) occurs in both versions; because save and stage fields are cumulative snapshots, its latest Version-2 snapshot is retained rather than summing both snapshots and double-counting progress.
+
 ## Behavioral sequence analysis
 
 Events are ordered by player and timestamp. Event sequences preceding perfect completion, hint/answer-assisted completion, and failed actions are counted. These frequencies identify recurring pathways; they do not establish causality. Highly active players produce more sequences, so frequency should be interpreted alongside engagement.
+
+Sequence output fields are:
+
+| Field/type | Meaning |
+|---|---|
+| `sequence` | Ordered event names forming the observed pattern. |
+| `count` | Frequency across the combined Version-1 and Version-2 event logs. |
+| `success_perfect` | Three events immediately before a `Complete Quest` event marked `Perfect`. |
+| `with_help` | Three events immediately before a `Complete Quest` event marked `Hint` or `Answer`. |
+| `failed_action` | Two events before `Failed Action`, followed by the failure event. |
+
+Sequences are calculated within players and never cross from one player to another. Only the 50 most frequent patterns per outcome are exported and visualized. The sequence features are raw event categories and local temporal order; cluster labels and performance outcomes are not used to create these patterns.
 
 Outputs include `analysis_behavior_sequences.csv`, three outcome-specific sequence charts, and `figure_sequence_category_comparison.png`.
 
 ### Cluster-specific transition diagrams
 
 The workflow also reduces events to six interpretable states: **A** (action), **E** (exploration), **CM** (command manipulation), **IM** (instructional material/help), **F** (failure), and **R** (reward/progression). For each player, consecutive state pairs are counted after ordering events by timestamp. Counts are pooled within clusters and converted to conditional probabilities, where each value means the probability of the next state given the current state.
+
+| State | Meaning | Included game events |
+|---|---|---|
+| A — Action | Successful task-level action | `Correct Action` |
+| E — Exploration | Navigation or information exploration | `Open Window`, `Check GlobalLeaderBoard`, `Login` |
+| CM — Command manipulation | Direct Git command activity | `Execute Git Command` |
+| IM — Instructional material/help | Instructional, hint, answer, or conversational support | `Read GameManual`, `Use Hint`, `Use Answer`, `Last Conversation` |
+| F — Failure | Unsuccessful action or unresolved stage exit | `Failed Action`, `Restart Stage(Not Clear)`, `Back To Stage Select(Not Clear)` |
+| R — Reward/progression | Quest or stage progression and clear-related activity | `Add New Quest`, `Complete Quest`, `Start Stage`, `Complete Stage`, `Back To Stage Select(Clear)`, `Restart Stage(Clear)` |
+
+These are operational categories created for this study, not labels stored in the original database. If the paper uses different theoretical definitions, revise `EVENT_TO_STATE` in `behavior_transition_analysis.py` and rerun the workflow.
 
 The diagrams display transitions with probability at least .15 and at least five observations to control visual clutter. All transitions, including those omitted visually, remain in `analysis_behavior_transitions_by_cluster.csv`. Node size represents state frequency and arrow width represents transition probability. The accompanying heatmaps show the complete numerical transition matrices.
 
@@ -36,6 +71,23 @@ Suggested methods text:
 ## Cluster construction
 
 Clusters use 12 behavioral features: activity span, sessions, events per session, quests per session, help ratio, action success rate, quest completion rate, perfect ratio, manual opens, leaderboard checks, commands executed, and stages attempted. Missing values are median-imputed and features are standardized. Performance outcomes are withheld from fitting and used afterward for profile interpretation, reducing circularity.
+
+| Clustering feature | Operational definition |
+|---|---|
+| ActivitySpanDays | Days between first and last recorded event |
+| TotalSessions | Number of recorded login/session events |
+| EventsPerSession | Total events / sessions |
+| QuestsPerSession | Quests added / sessions |
+| HelpRatio | (Hint-assisted + answer-assisted quests) / quests added |
+| ActionSuccessRate | Correct actions / (correct + failed actions) |
+| QuestCompletionRate | Completed quests / quests added |
+| PerfectRatio | Perfect completions / completed quests |
+| ManualOpens | Number of game-manual opening events |
+| LeaderboardChecks | Number of global leaderboard checks |
+| CommandsExecuted | Cumulative executed Git commands |
+| StagesAttempted | Distinct stages observed in event logs |
+
+Six variables—GameProgress, TotalScore, TotalStars, StagesCleared, AvgBestScore, and AvgClearTime—are **profile outcomes**, not K-means inputs. They help explain external performance differences after behavioral groups have been formed.
 
 Suggested methods text:
 

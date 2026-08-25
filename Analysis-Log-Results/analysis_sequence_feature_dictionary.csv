@@ -1,0 +1,7 @@
+﻿field,definition
+sequence,Ordered event-name pattern immediately before and including the focal outcome where applicable.
+count,Number of times the exact sequence was observed across all players in both data versions.
+type=success_perfect,Three events immediately preceding a Complete Quest event whose detail contains Perfect.
+type=with_help,Three events immediately preceding a Complete Quest event whose detail contains Hint or Answer.
+type=failed_action,"Two events immediately preceding Failed Action, followed by the Failed Action outcome."
+ordering,Events are grouped by player and ordered by eventTime; sequences never cross player boundaries.

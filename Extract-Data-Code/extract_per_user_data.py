@@ -197,7 +197,11 @@ def extract_user_game_record(game_records_df, username):
     if len(user_record) == 0:
         return None
     
-    record = user_record.iloc[0].to_dict()
+    # Player-save values are cumulative. If a player occurs in both exports,
+    # use the latest Version-2 snapshot instead of summing or taking Version-1.
+    if 'dataVersion' in user_record.columns and (user_record['dataVersion'] == 'Version-2').any():
+        user_record = user_record[user_record['dataVersion'] == 'Version-2']
+    record = user_record.iloc[-1].to_dict()
     return record
 
 def extract_user_stage_progress(stage_data_df, username):
@@ -210,6 +214,11 @@ def extract_user_stage_progress(stage_data_df, username):
     
     if len(user_stages) == 0:
         return None, None
+
+    # Stage rows are also cumulative snapshots; retain the latest version for
+    # overlapping users so the same stages are not counted twice.
+    if 'dataVersion' in user_stages.columns and (user_stages['dataVersion'] == 'Version-2').any():
+        user_stages = user_stages[user_stages['dataVersion'] == 'Version-2'].copy()
     
     # Summary statistics
     summary = {

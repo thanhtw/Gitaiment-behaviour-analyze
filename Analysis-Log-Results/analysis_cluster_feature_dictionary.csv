@@ -1,0 +1,19 @@
+﻿feature,role,definition
+ActivitySpanDays,clustering input,Days between the player's first and last recorded event.
+TotalSessions,clustering input,Number of recorded login/session events.
+EventsPerSession,clustering input,Total logged events divided by total sessions.
+QuestsPerSession,clustering input,Quests added divided by total sessions.
+HelpRatio,clustering input,Hint-assisted plus answer-assisted quests divided by quests added.
+ActionSuccessRate,clustering input,Correct actions divided by correct plus failed actions.
+QuestCompletionRate,clustering input,Completed quests divided by quests added.
+PerfectRatio,clustering input,Perfect quest completions divided by all completed quests.
+ManualOpens,clustering input,Number of game-manual opening events.
+LeaderboardChecks,clustering input,Number of global leaderboard checks.
+CommandsExecuted,clustering input,Cumulative number of Git commands executed.
+StagesAttempted,clustering input,Number of distinct stages observed in the event log.
+GameProgress,profile outcome,Cumulative game-progress percentage; used only for profiling.
+TotalScore,profile outcome,Cumulative stage score; used only for profiling.
+TotalStars,profile outcome,Cumulative earned stars; used only for profiling.
+StagesCleared,profile outcome,Cumulative number of stages cleared; used only for profiling.
+AvgBestScore,profile outcome,Mean best score across player-stage records; used only for profiling.
+AvgClearTime,profile outcome,Mean clear time across player-stage records; used only for profiling.

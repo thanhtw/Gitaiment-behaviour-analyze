@@ -31,6 +31,15 @@ EVENT_TO_STATE = {
     "Restart Stage(Clear)": "R",
 }
 
+STATE_DESCRIPTIONS = {
+    "A": "Successful task-level action; currently represented by Correct Action.",
+    "E": "Navigation or information exploration: opening windows, checking the global leaderboard, or logging in.",
+    "CM": "Direct Git command manipulation; represented by Execute Git Command.",
+    "IM": "Use of instructional or conversational support: game manual, hint, answer, or last conversation.",
+    "F": "Unsuccessful behavior or unresolved stage exit: failed action, unclear restart, or return without clearing.",
+    "R": "Quest/stage progression or reward-related activity: add/complete quest, start/complete stage, or clear-stage return/restart.",
+}
+
 
 def calculate_transitions(events, assignments):
     events = events.copy()
@@ -114,6 +123,11 @@ def main(data_dir="."):
     transitions, state_counts = calculate_transitions(events, assignments)
     transitions.to_csv(data_dir / "analysis_behavior_transitions_by_cluster.csv", index=False, encoding="utf-8-sig")
     state_counts.to_csv(data_dir / "analysis_behavior_state_profiles.csv", index=False, encoding="utf-8-sig")
+    pd.DataFrame([
+        {"state": state, "label": STATE_LABELS[state], "definition": STATE_DESCRIPTIONS[state],
+         "included_events": "; ".join(event for event, mapped in EVENT_TO_STATE.items() if mapped == state)}
+        for state in STATE_ORDER
+    ]).to_csv(data_dir / "analysis_behavior_state_dictionary.csv", index=False, encoding="utf-8-sig")
     for cluster in sorted(transitions["Cluster"].unique()):
         draw_transition_diagram(cluster, transitions[transitions["Cluster"] == cluster],
                                 state_counts[state_counts["Cluster"] == cluster], data_dir)
