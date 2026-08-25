@@ -1,0 +1,996 @@
+﻿dataVersion,ownerPlayerId,ownerUsername,stageName,stageType,rank,playerName,playerStar,playerScore,playerClearTime
+Version-1,65bb36f051ce7228bbeb3d35,Xue,Game Introduction (Tutorial),Basic,1,Xue,2,5500,515
+Version-1,65bc968e51ce7228bbeb3dba,clear,Game Introduction (Tutorial),Basic,1,clear,4,7000,21
+Version-1,65bc968e51ce7228bbeb3dba,clear,Game Introduction (Tutorial),Basic,2,clear,4,7000,21
+Version-1,65bc968e51ce7228bbeb3dba,clear,Game Introduction (Tutorial),Basic,3,clear,4,7000,29
+Version-1,65bc968e51ce7228bbeb3dba,clear,Version Control and Git (Tutorial),Basic,1,clear,4,3000,44
+Version-1,65bc968e51ce7228bbeb3dba,clear,Create Local Repository (Tutorial),Basic,1,clear,4,4000,19
+Version-1,65bc968e51ce7228bbeb3dba,clear,Create Local Repository (Tutorial),Basic,2,clear,4,4000,21
+Version-1,65bc968e51ce7228bbeb3dba,clear,Create Local Repository (Tutorial),Basic,3,clear,4,4000,22
+Version-1,65bc968e51ce7228bbeb3dba,clear,Basic Staging Area (Tutorial),Basic,1,clear,4,5000,151
+Version-1,65bc968e51ce7228bbeb3dba,clear,Advanced Staging Area (Tutorial),Basic,1,clear,4,6000,139
+Version-1,65bc968e51ce7228bbeb3dba,clear,Creating First Version (Tutorial),Basic,1,clear,4,16000,408
+Version-1,65bc968e51ce7228bbeb3dba,clear,Switching Project Versions (Tutorial),Basic,1,clear,4,8000,211
+Version-1,65bc968e51ce7228bbeb3dba,clear,Git Branching Basics (Tutorial),Branch,1,clear,4,9000,241
+Version-1,65bc968e51ce7228bbeb3dba,clear,Fast-Forward Merging (Tutorial),Branch,1,clear,4,6000,69
+Version-1,65bc968e51ce7228bbeb3dba,clear,Fast-Forward Merging (Tutorial),Branch,2,clear,4,6000,169
+Version-1,65bc968e51ce7228bbeb3dba,clear,Auto Merging (Tutorial),Branch,1,clear,3,7750,424
+Version-1,65bc968e51ce7228bbeb3dba,clear,Auto Merging (Tutorial),Branch,2,clear,3,7750,692
+Version-1,65bc968e51ce7228bbeb3dba,clear,Merge Conflicts (Tutorial),Branch,1,clear,4,7000,70
+Version-1,65bc968e51ce7228bbeb3dba,clear,Merge Conflicts (Tutorial),Branch,2,clear,4,7000,74
+Version-1,65bc968e51ce7228bbeb3dba,clear,Merge Conflicts (Tutorial),Branch,3,clear,4,7000,715
+Version-1,65bc968e51ce7228bbeb3dba,clear,Create Remote Repository (Tutorial),Remote,1,clear,4,6000,62
+Version-1,65bc968e51ce7228bbeb3dba,clear,Create Remote Repository (Tutorial),Remote,2,clear,3,5750,2199
+Version-1,65bc968e51ce7228bbeb3dba,clear,Push to Remote Branches (Tutorial),Remote,1,clear,4,6000,95
+Version-1,65bc968e51ce7228bbeb3dba,clear,Push to Remote Branches (Tutorial),Remote,2,clear,4,6000,1044
+Version-1,65bc968e51ce7228bbeb3dba,clear,Keep Branches in Sync (Tutorial),Remote,1,clear,4,5000,199
+Version-1,65bc968e51ce7228bbeb3dba,clear,Preparation for Merging (Tutorial),Remote,1,clear,4,8000,287
+Version-1,65bc968e51ce7228bbeb3dba,clear,Preparation for Merging (Tutorial),Remote,2,clear,3,7750,162
+Version-1,65bc968e51ce7228bbeb3dba,clear,Creating a Pull Request (Tutorial),Remote,1,clear,3,10750,5330
+Version-1,65bd08ad51ce7228bbeb3ee8,ccc,Game Introduction (Tutorial),Basic,1,c,4,7000,24
+Version-1,65bd08ad51ce7228bbeb3ee8,ccc,Game Introduction (Tutorial),Basic,2,c,4,7000,25
+Version-1,65bd08ad51ce7228bbeb3ee8,ccc,Game Introduction (Tutorial),Basic,3,c,4,7000,30
+Version-1,65bd08ad51ce7228bbeb3ee8,ccc,Version Control and Git (Tutorial),Basic,1,c,3,2000,29
+Version-1,65bd08ad51ce7228bbeb3ee8,ccc,Create Local Repository (Tutorial),Basic,1,c,4,4000,21
+Version-1,65bd08ad51ce7228bbeb3ee8,ccc,Create Local Repository (Tutorial),Basic,2,c,3,3750,45
+Version-1,65bd08ad51ce7228bbeb3ee8,ccc,Basic Staging Area (Tutorial),Basic,1,c,4,5000,31
+Version-1,65bd08ad51ce7228bbeb3ee8,ccc,Basic Staging Area (Tutorial),Basic,2,c,4,5000,42
+Version-1,65bd08ad51ce7228bbeb3ee8,ccc,Advanced Staging Area (Tutorial),Basic,1,c,4,6000,53
+Version-1,65bd08ad51ce7228bbeb3ee8,ccc,Creating First Version (Tutorial),Basic,1,c,4,16000,110
+Version-1,65bd08ad51ce7228bbeb3ee8,ccc,Switching Project Versions (Tutorial),Basic,1,c,4,8000,74
+Version-1,65bd08ad51ce7228bbeb3ee8,ccc,Git Branching Basics (Tutorial),Branch,1,c,4,9000,76
+Version-1,65bd08ad51ce7228bbeb3ee8,ccc,Fast-Forward Merging (Tutorial),Branch,1,c,4,6000,63
+Version-1,65bd08ad51ce7228bbeb3ee8,ccc,Fast-Forward Merging (Tutorial),Branch,2,c,4,6000,88
+Version-1,65bd08ad51ce7228bbeb3ee8,ccc,Auto Merging (Tutorial),Branch,1,c,4,8000,122
+Version-1,65bd08ad51ce7228bbeb3ee8,ccc,Merge Conflicts (Tutorial),Branch,1,c,3,6750,87
+Version-1,65bd08ad51ce7228bbeb3ee8,ccc,Create Remote Repository (Tutorial),Remote,1,c,4,6000,46
+Version-1,65bd08ad51ce7228bbeb3ee8,ccc,Push to Remote Branches (Tutorial),Remote,1,c,4,6000,96
+Version-1,65bd08ad51ce7228bbeb3ee8,ccc,Keep Branches in Sync (Tutorial),Remote,1,c,4,5000,86
+Version-1,65bd08ad51ce7228bbeb3ee8,ccc,Preparation for Merging (Tutorial),Remote,1,c,4,8000,164
+Version-1,65bd08ad51ce7228bbeb3ee8,ccc,Creating a Pull Request (Tutorial),Remote,1,c,3,10750,140
+Version-1,65bd08ad51ce7228bbeb3ee8,ccc,Review and Merge Pull Requests (Tutorial),Remote,1,c,4,4000,45
+Version-1,65bd08ad51ce7228bbeb3ee8,ccc,Review and Merge Pull Requests (Tutorial),Remote,2,c,4,4000,53
+Version-1,65bd08ad51ce7228bbeb3ee8,ccc,Review and Merge Pull Requests (Tutorial),Remote,3,c,4,4000,71
+Version-1,65bd08ad51ce7228bbeb3ee8,ccc,Game Introduction (Practice),Basic,1,c,4,7000,18
+Version-1,65bd08ad51ce7228bbeb3ee8,ccc,Game Introduction (Practice),Basic,2,c,4,7000,36
+Version-1,65bd08ad51ce7228bbeb3ee8,ccc,Game Introduction (Practice),Basic,3,c,3,6750,22
+Version-1,65bd08ad51ce7228bbeb3ee8,ccc,Version Control and Git (Practice),Basic,1,c,4,6000,79
+Version-1,65bd08ad51ce7228bbeb3ee8,ccc,Version Control and Git (Practice),Basic,2,c,4,5000,37
+Version-1,65bd08ad51ce7228bbeb3ee8,ccc,Version Control and Git (Practice),Basic,3,c,3,2000,30
+Version-1,65bd08ad51ce7228bbeb3ee8,ccc,Create Local Repository (Practice),Basic,1,c,2,3000,13
+Version-1,65bd08ad51ce7228bbeb3ee8,ccc,Create Local Repository (Practice),Basic,2,c,2,3000,15
+Version-1,65bd08ad51ce7228bbeb3ee8,ccc,Create Local Repository (Practice),Basic,3,c,2,3000,18
+Version-1,65bd08ad51ce7228bbeb3ee8,ccc,Basic Staging Area (Practice),Basic,1,c,1,3000,28
+Version-1,65bd08ad51ce7228bbeb3ee8,ccc,Basic Staging Area (Practice),Basic,2,c,1,3000,50
+Version-1,65bd08ad51ce7228bbeb3ee8,ccc,Advanced Staging Area (Practice),Basic,1,c,1,3000,24
+Version-1,65bd08ad51ce7228bbeb3ee8,ccc,Advanced Staging Area (Practice),Basic,2,c,1,3000,42
+Version-1,65bd08ad51ce7228bbeb3ee8,ccc,Advanced Staging Area (Practice),Basic,3,c,1,3000,77
+Version-1,65bd08ad51ce7228bbeb3ee8,ccc,Creating First Version (Practice),Basic,1,c,1,7750,80
+Version-1,65bd08ad51ce7228bbeb3ee8,ccc,Switching Project Versions (Practice),Basic,1,c,1,6750,105
+Version-1,65bd08ad51ce7228bbeb3ee8,ccc,Switching Project Versions (Practice),Basic,2,c,1,6000,196
+Version-1,65bd08ad51ce7228bbeb3ee8,ccc,Git Branching Basics (Practice),Branch,1,c,4,9000,77
+Version-1,65bd08ad51ce7228bbeb3ee8,ccc,Git Branching Basics (Practice),Branch,2,c,4,9000,81
+Version-1,65bd08ad51ce7228bbeb3ee8,ccc,Git Branching Basics (Practice),Branch,3,c,3,8750,165
+Version-1,65bd08ad51ce7228bbeb3ee8,ccc,Fast-Forward Merging (Practice),Branch,1,c,4,6250,155
+Version-1,65bd08ad51ce7228bbeb3ee8,ccc,Auto Merging (Practice),Branch,1,c,1,5750,288
+Version-1,65bd08ad51ce7228bbeb3ee8,ccc,Merge Conflicts (Practice),Branch,1,c,4,8500,471
+Version-1,65bd08ad51ce7228bbeb3ee8,ccc,Create Remote Repository (Practice),Remote,1,c,4,6000,33
+Version-1,65bd08ad51ce7228bbeb3ee8,ccc,Create Remote Repository (Practice),Remote,2,c,3,5750,48
+Version-1,65bd08ad51ce7228bbeb3ee8,ccc,Push to Remote Branches (Practice),Remote,1,c,4,6750,87
+Version-1,65bd08ad51ce7228bbeb3ee8,ccc,Push to Remote Branches (Practice),Remote,2,c,4,6750,99
+Version-1,65bd08ad51ce7228bbeb3ee8,ccc,Push to Remote Branches (Practice),Remote,3,c,4,6500,147
+Version-1,65bd08ad51ce7228bbeb3ee8,ccc,Keep Branches in Sync (Practice),Remote,1,c,1,3750,157
+Version-1,65bd08ad51ce7228bbeb3ee8,ccc,Keep Branches in Sync (Practice),Remote,2,c,1,3500,123
+Version-1,65bd08ad51ce7228bbeb3ee8,ccc,Preparation for Merging (Practice),Remote,1,c,2,6000,130
+Version-1,65bd08ad51ce7228bbeb3ee8,ccc,Preparation for Merging (Practice),Remote,2,c,1,5750,115
+Version-1,65bd08ad51ce7228bbeb3ee8,ccc,Creating a Pull Request (Practice),Remote,1,c,4,11000,289
+Version-1,65bd08ad51ce7228bbeb3ee8,ccc,Creating a Pull Request (Practice),Remote,2,c,3,10750,159
+Version-1,65bd08ad51ce7228bbeb3ee8,ccc,Review and Merge Pull Requests (Practice),Remote,1,c,4,5000,54
+Version-1,65bd08ad51ce7228bbeb3ee8,ccc,Review and Merge Pull Requests (Practice),Remote,2,c,4,5000,122
+Version-1,65bd08ad51ce7228bbeb3ee8,ccc,Review and Merge Pull Requests (Practice),Remote,3,c,4,4750,115
+Version-1,65c07fd7e5681b767119adc4,Player Name,Game Introduction (Tutorial),Basic,1,Player Name,1,5250,116
+Version-1,65c07fd7e5681b767119adc4,Player Name,Game Introduction (Tutorial),Basic,2,Player Name,1,5250,231
+Version-1,65c07fd7e5681b767119adc4,Player Name,Game Introduction (Tutorial),Basic,3,Player Name,1,5000,44
+Version-1,65c07fd7e5681b767119adc4,Player Name,Version Control and Git (Tutorial),Basic,1,Player Name,4,3000,64
+Version-1,65c07fd7e5681b767119adc4,Player Name,Create Local Repository (Tutorial),Basic,1,Player Name,4,4000,79
+Version-1,65c07fd7e5681b767119adc4,Player Name,Create Local Repository (Tutorial),Basic,2,Player Name,3,3500,125
+Version-1,65f72f34e5681b767119d8c9,eee,Game Introduction (Tutorial),Basic,1,e,1,1000,123
+Version-1,65f72f34e5681b767119d8c9,eee,Version Control and Git (Tutorial),Basic,1,e,3,2000,112
+Version-1,65f72f34e5681b767119d8c9,eee,Create Local Repository (Tutorial),Basic,1,e,1,1000,130
+Version-1,65f72f34e5681b767119d8c9,eee,Basic Staging Area (Tutorial),Basic,1,e,1,1000,155
+Version-1,65f72f34e5681b767119d8c9,eee,Advanced Staging Area (Tutorial),Basic,1,e,1,1000,119
+Version-1,65f72f34e5681b767119d8c9,eee,Creating First Version (Tutorial),Basic,1,e,1,0,369
+Version-1,65f72f34e5681b767119d8c9,eee,Switching Project Versions (Tutorial),Basic,1,e,1,1000,183
+Version-1,65f72f34e5681b767119d8c9,eee,Git Branching Basics (Tutorial),Branch,1,e,1,0,247
+Version-1,65f72f34e5681b767119d8c9,eee,Fast-Forward Merging (Tutorial),Branch,1,e,1,0,163
+Version-1,65f72f34e5681b767119d8c9,eee,Auto Merging (Tutorial),Branch,1,e,1,0,282
+Version-1,65f72f34e5681b767119d8c9,eee,Merge Conflicts (Tutorial),Branch,1,e,1,0,232
+Version-1,65f72f34e5681b767119d8c9,eee,Create Remote Repository (Tutorial),Remote,1,e,1,0,129
+Version-1,65f72f34e5681b767119d8c9,eee,Push to Remote Branches (Tutorial),Remote,1,e,1,0,227
+Version-1,65f72f34e5681b767119d8c9,eee,Keep Branches in Sync (Tutorial),Remote,1,e,1,1000,140
+Version-1,65f72f34e5681b767119d8c9,eee,Preparation for Merging (Tutorial),Remote,1,e,1,1500,183
+Version-1,65f72f34e5681b767119d8c9,eee,Creating a Pull Request (Tutorial),Remote,1,e,4,11000,157
+Version-1,65f72f34e5681b767119d8c9,eee,Creating a Pull Request (Tutorial),Remote,2,e,1,1000,282
+Version-1,65f72f34e5681b767119d8c9,eee,Review and Merge Pull Requests (Tutorial),Remote,1,e,1,0,120
+Version-1,65f72f34e5681b767119d8c9,eee,Game Introduction (Practice),Basic,1,e,4,7000,19
+Version-1,65f72f34e5681b767119d8c9,eee,Game Introduction (Practice),Basic,2,e,1,0,151
+Version-1,65f72f34e5681b767119d8c9,eee,Version Control and Git (Practice),Basic,1,e,3,6000,50
+Version-1,65f7b3b0e5681b767119e413,NewPlayer,Game Introduction (Tutorial),Basic,1,clear,4,7000,21
+Version-1,65f7b3b0e5681b767119e413,NewPlayer,Game Introduction (Tutorial),Basic,2,clear,4,7000,21
+Version-1,65f7b3b0e5681b767119e413,NewPlayer,Game Introduction (Tutorial),Basic,3,clear,4,7000,29
+Version-1,65f7b3b0e5681b767119e413,NewPlayer,Version Control and Git (Tutorial),Basic,1,clear,4,3000,44
+Version-1,65f7b3b0e5681b767119e413,NewPlayer,Create Local Repository (Tutorial),Basic,1,clear,4,4000,19
+Version-1,65f7b3b0e5681b767119e413,NewPlayer,Create Local Repository (Tutorial),Basic,2,clear,4,4000,21
+Version-1,65f7b3b0e5681b767119e413,NewPlayer,Create Local Repository (Tutorial),Basic,3,clear,4,4000,22
+Version-1,65f7b3b0e5681b767119e413,NewPlayer,Basic Staging Area (Tutorial),Basic,1,clear,4,5000,151
+Version-1,65f7b3b0e5681b767119e413,NewPlayer,Advanced Staging Area (Tutorial),Basic,1,clear,4,6000,139
+Version-1,65f7b3b0e5681b767119e413,NewPlayer,Creating First Version (Tutorial),Basic,1,clear,4,16000,408
+Version-1,65f7b3b0e5681b767119e413,NewPlayer,Switching Project Versions (Tutorial),Basic,1,clear,4,8000,211
+Version-1,65f7b3b0e5681b767119e413,NewPlayer,Git Branching Basics (Tutorial),Branch,1,clear,4,9000,241
+Version-1,65f7b3b0e5681b767119e413,NewPlayer,Fast-Forward Merging (Tutorial),Branch,1,clear,4,6000,69
+Version-1,65f7b3b0e5681b767119e413,NewPlayer,Fast-Forward Merging (Tutorial),Branch,2,clear,4,6000,169
+Version-1,65f7b3b0e5681b767119e413,NewPlayer,Auto Merging (Tutorial),Branch,1,clear,3,7750,424
+Version-1,65f7b3b0e5681b767119e413,NewPlayer,Auto Merging (Tutorial),Branch,2,clear,3,7750,692
+Version-1,65f7b3b0e5681b767119e413,NewPlayer,Merge Conflicts (Tutorial),Branch,1,clear,4,7000,70
+Version-1,65f7b3b0e5681b767119e413,NewPlayer,Merge Conflicts (Tutorial),Branch,2,clear,4,7000,74
+Version-1,65f7b3b0e5681b767119e413,NewPlayer,Merge Conflicts (Tutorial),Branch,3,clear,4,7000,715
+Version-1,65f7b3b0e5681b767119e413,NewPlayer,Create Remote Repository (Tutorial),Remote,1,clear,4,6000,62
+Version-1,65f7b3b0e5681b767119e413,NewPlayer,Create Remote Repository (Tutorial),Remote,2,clear,3,5750,2199
+Version-1,65f7b3b0e5681b767119e413,NewPlayer,Push to Remote Branches (Tutorial),Remote,1,clear,4,6000,95
+Version-1,65f7b3b0e5681b767119e413,NewPlayer,Push to Remote Branches (Tutorial),Remote,2,clear,4,6000,1044
+Version-1,65f7b3b0e5681b767119e413,NewPlayer,Keep Branches in Sync (Tutorial),Remote,1,clear,4,5000,199
+Version-1,65f7b3b0e5681b767119e413,NewPlayer,Preparation for Merging (Tutorial),Remote,1,clear,4,8000,287
+Version-1,65f7b3b0e5681b767119e413,NewPlayer,Preparation for Merging (Tutorial),Remote,2,clear,3,7750,162
+Version-1,65f7b3b0e5681b767119e413,NewPlayer,Creating a Pull Request (Tutorial),Remote,1,clear,3,10750,5330
+Version-1,65f7d11ce5681b767119e453,D1180757,Game Introduction (Tutorial),Basic,1,D1180757,2,5750,394
+Version-1,65f7d11ce5681b767119e453,D1180757,Version Control and Git (Tutorial),Basic,1,D1180757,4,3000,231
+Version-1,65f7d11ce5681b767119e453,D1180757,Create Local Repository (Tutorial),Basic,1,D1180757,4,4000,208
+Version-1,65f7d11ce5681b767119e453,D1180757,Basic Staging Area (Tutorial),Basic,1,D1180757,4,5000,322
+Version-1,65f7d11ce5681b767119e453,D1180757,Advanced Staging Area (Tutorial),Basic,1,D1180757,4,6000,234
+Version-1,65f7d11ce5681b767119e453,D1180757,Creating First Version (Tutorial),Basic,1,D1180757,3,15500,619
+Version-1,65f7d11ce5681b767119e453,D1180757,Switching Project Versions (Tutorial),Basic,1,D1180757,3,7500,396
+Version-1,65f7d11ce5681b767119e453,D1180757,Git Branching Basics (Tutorial),Branch,1,D1180757,2,7750,560
+Version-1,65f7d11ce5681b767119e453,D1180757,Fast-Forward Merging (Tutorial),Branch,1,D1180757,3,5750,212
+Version-1,65f7d11ce5681b767119e453,D1180757,Auto Merging (Tutorial),Branch,1,D1180757,3,7750,418
+Version-1,65f7d11ce5681b767119e453,D1180757,Create Remote Repository (Tutorial),Remote,1,D1180757,4,6000,240
+Version-1,65f7d11ce5681b767119e453,D1180757,Push to Remote Branches (Tutorial),Remote,1,D1180757,3,5500,313
+Version-1,65f7d11ce5681b767119e453,D1180757,Keep Branches in Sync (Tutorial),Remote,1,D1180757,4,5000,284
+Version-1,65f7d11ce5681b767119e453,D1180757,Preparation for Merging (Tutorial),Remote,1,D1180757,1,5500,806
+Version-1,65f7d11ce5681b767119e453,D1180757,Creating a Pull Request (Tutorial),Remote,1,D1180757,2,9500,800
+Version-1,65f7d11ce5681b767119e453,D1180757,Review and Merge Pull Requests (Tutorial),Remote,1,D1180757,4,4000,398
+Version-1,65f7d12de5681b767119e459,D1018508,Game Introduction (Tutorial),Basic,1,D1018508,4,7000,60
+Version-1,65f7d12de5681b767119e459,D1018508,Version Control and Git (Tutorial),Basic,1,D1018508,4,3000,135
+Version-1,65f7d12de5681b767119e459,D1018508,Create Local Repository (Tutorial),Basic,1,D1018508,4,4000,34
+Version-1,65f7d12de5681b767119e459,D1018508,Create Local Repository (Tutorial),Basic,2,D1018508,3,3750,115
+Version-1,65f7d12de5681b767119e459,D1018508,Basic Staging Area (Tutorial),Basic,1,D1018508,4,5000,180
+Version-1,65f7d12de5681b767119e459,D1018508,Advanced Staging Area (Tutorial),Basic,1,D1018508,4,6000,252
+Version-1,65f7d12de5681b767119e459,D1018508,Creating First Version (Tutorial),Basic,1,D1018508,4,16000,348
+Version-1,65f7d12de5681b767119e459,D1018508,Switching Project Versions (Tutorial),Basic,1,D1018508,4,8000,216
+Version-1,65f7d12de5681b767119e459,D1018508,Git Branching Basics (Tutorial),Branch,1,D1018508,4,9000,337
+Version-1,65f7d12de5681b767119e459,D1018508,Fast-Forward Merging (Tutorial),Branch,1,D1018508,4,6000,201
+Version-1,65f7d12de5681b767119e459,D1018508,Auto Merging (Tutorial),Branch,1,D1018508,4,8000,165
+Version-1,65f7d12de5681b767119e459,D1018508,Auto Merging (Tutorial),Branch,2,D1018508,3,7750,328
+Version-1,65f7d12de5681b767119e459,D1018508,Merge Conflicts (Tutorial),Branch,1,D1018508,4,7000,136
+Version-1,65f7d12de5681b767119e459,D1018508,Create Remote Repository (Tutorial),Remote,1,D1018508,4,6000,146
+Version-1,65f7d12de5681b767119e459,D1018508,Push to Remote Branches (Tutorial),Remote,1,D1018508,4,6000,164
+Version-1,65f7d12de5681b767119e459,D1018508,Keep Branches in Sync (Tutorial),Remote,1,D1018508,4,5000,193
+Version-1,65f7d12de5681b767119e459,D1018508,Preparation for Merging (Tutorial),Remote,1,D1018508,4,8000,273
+Version-1,65f7d12de5681b767119e459,D1018508,Creating a Pull Request (Tutorial),Remote,1,D1018508,4,11000,260
+Version-1,65f7d12de5681b767119e459,D1018508,Creating a Pull Request (Tutorial),Remote,2,D1018508,3,10750,656
+Version-1,65f7d12de5681b767119e459,D1018508,Review and Merge Pull Requests (Tutorial),Remote,1,D1018508,4,4000,201
+Version-1,65f7d12de5681b767119e459,D1018508,Game Introduction (Practice),Basic,1,D1018508,4,7000,34
+Version-1,65f7d12de5681b767119e459,D1018508,Version Control and Git (Practice),Basic,1,D1018508,4,7000,63
+Version-1,65f7d12de5681b767119e459,D1018508,Review and Merge Pull Requests (Practice),Remote,1,D1018508,4,5000,112
+Version-1,65f7d132e5681b767119e45f,d1030978,Game Introduction (Tutorial),Basic,1,d1030978,4,7000,58
+Version-1,65f7d132e5681b767119e45f,d1030978,Game Introduction (Tutorial),Basic,2,d1030978,3,6750,467
+Version-1,65f7d132e5681b767119e45f,d1030978,Version Control and Git (Tutorial),Basic,1,d1030978,4,3000,35
+Version-1,65f7d132e5681b767119e45f,d1030978,Version Control and Git (Tutorial),Basic,2,d1030978,3,2000,100
+Version-1,65f7d132e5681b767119e45f,d1030978,Create Local Repository (Tutorial),Basic,1,d1030978,4,4000,140
+Version-1,65f7d132e5681b767119e45f,d1030978,Basic Staging Area (Tutorial),Basic,1,d1030978,4,5000,229
+Version-1,65f7d132e5681b767119e45f,d1030978,Advanced Staging Area (Tutorial),Basic,1,d1030978,4,6000,262
+Version-1,65f7d132e5681b767119e45f,d1030978,Creating First Version (Tutorial),Basic,1,d1030978,4,16000,762
+Version-1,65f7d132e5681b767119e45f,d1030978,Switching Project Versions (Tutorial),Basic,1,d1030978,4,8000,122
+Version-1,65f7d132e5681b767119e45f,d1030978,Switching Project Versions (Tutorial),Basic,2,d1030978,3,7750,554
+Version-1,65f7d132e5681b767119e45f,d1030978,Git Branching Basics (Tutorial),Branch,1,d1030978,1,6000,509
+Version-1,65f7d132e5681b767119e45f,d1030978,Game Introduction (Practice),Basic,1,d1030978,4,7000,42
+Version-1,65f7d132e5681b767119e45f,d1030978,Version Control and Git (Practice),Basic,1,d1030978,4,7000,50
+Version-1,65f7d132e5681b767119e45f,d1030978,Version Control and Git (Practice),Basic,2,d1030978,1,2000,75
+Version-1,65f7d132e5681b767119e45f,d1030978,Version Control and Git (Practice),Basic,3,d1030978,1,1000,67
+Version-1,65f7d132e5681b767119e45f,d1030978,Create Local Repository (Practice),Basic,1,d1030978,4,3000,90
+Version-1,65f7d132e5681b767119e45f,d1030978,Creating First Version (Practice),Basic,1,d1030978,4,8000,139
+Version-1,65f7d132e5681b767119e45f,d1030978,Switching Project Versions (Practice),Basic,1,d1030978,4,7000,74
+Version-1,65f7d132e5681b767119e45f,d1030978,Switching Project Versions (Practice),Basic,2,d1030978,2,6000,108
+Version-1,65f7d133e5681b767119e465,d0653940,Game Introduction (Tutorial),Basic,1,d0653940,2,6000,368
+Version-1,65f7d133e5681b767119e465,d0653940,Version Control and Git (Tutorial),Basic,1,d0653940,2,1000,154
+Version-1,65f7d133e5681b767119e465,d0653940,Create Local Repository (Tutorial),Basic,1,d0653940,3,3750,153
+Version-1,65f7d133e5681b767119e465,d0653940,Basic Staging Area (Tutorial),Basic,1,d0653940,3,4750,308
+Version-1,65f7d133e5681b767119e465,d0653940,Advanced Staging Area (Tutorial),Basic,1,d0653940,4,6000,259
+Version-1,65f7d133e5681b767119e465,d0653940,Creating First Version (Tutorial),Basic,1,d0653940,3,15000,1012
+Version-1,65f7d133e5681b767119e465,d0653940,Switching Project Versions (Tutorial),Basic,1,d0653940,3,7750,484
+Version-1,65f7d133e5681b767119e465,d0653940,Git Branching Basics (Tutorial),Branch,1,d0653940,3,8500,718
+Version-1,65f7d133e5681b767119e465,d0653940,Fast-Forward Merging (Tutorial),Branch,1,d0653940,4,6000,298
+Version-1,65f7d133e5681b767119e465,d0653940,Auto Merging (Tutorial),Branch,1,d0653940,3,7750,477
+Version-1,65f7d133e5681b767119e465,d0653940,Merge Conflicts (Tutorial),Branch,1,d0653940,3,6750,380
+Version-1,65f7d133e5681b767119e465,d0653940,Create Remote Repository (Tutorial),Remote,1,d0653940,3,5500,217
+Version-1,65f7d133e5681b767119e465,d0653940,Push to Remote Branches (Tutorial),Remote,1,d0653940,4,6000,529
+Version-1,65f7d133e5681b767119e465,d0653940,Keep Branches in Sync (Tutorial),Remote,1,d0653940,4,5000,289
+Version-1,65f7d133e5681b767119e465,d0653940,Preparation for Merging (Tutorial),Remote,1,d0653940,1,3000,795
+Version-1,65f7d135e5681b767119e46b,D1060300,Game Introduction (Tutorial),Basic,1,D1060300,3,6500,257
+Version-1,65f7d135e5681b767119e46b,D1060300,Version Control and Git (Tutorial),Basic,1,D1060300,4,3000,120
+Version-1,65f7d135e5681b767119e46b,D1060300,Create Local Repository (Tutorial),Basic,1,D1060300,4,4000,130
+Version-1,65f7d135e5681b767119e46b,D1060300,Basic Staging Area (Tutorial),Basic,1,D1060300,4,5000,203
+Version-1,65f7d135e5681b767119e46b,D1060300,Advanced Staging Area (Tutorial),Basic,1,D1060300,4,6000,145
+Version-1,65f7d135e5681b767119e46b,D1060300,Creating First Version (Tutorial),Basic,1,D1060300,4,16000,308
+Version-1,65f7d135e5681b767119e46b,D1060300,Switching Project Versions (Tutorial),Basic,1,D1060300,4,8000,201
+Version-1,65f7d135e5681b767119e46b,D1060300,Git Branching Basics (Tutorial),Branch,1,D1060300,4,9000,506
+Version-1,65f7d135e5681b767119e46b,D1060300,Fast-Forward Merging (Tutorial),Branch,1,D1060300,4,6000,167
+Version-1,65f7d135e5681b767119e46b,D1060300,Auto Merging (Tutorial),Branch,1,D1060300,3,7500,262
+Version-1,65f7d135e5681b767119e46b,D1060300,Merge Conflicts (Tutorial),Branch,1,D1060300,3,6750,227
+Version-1,65f7d135e5681b767119e46b,D1060300,Create Remote Repository (Tutorial),Remote,1,D1060300,4,6000,141
+Version-1,65f7d135e5681b767119e46b,D1060300,Push to Remote Branches (Tutorial),Remote,1,D1060300,3,5750,367
+Version-1,65f7d135e5681b767119e46b,D1060300,Keep Branches in Sync (Tutorial),Remote,1,D1060300,4,5000,459
+Version-1,65f7d135e5681b767119e46b,D1060300,Preparation for Merging (Tutorial),Remote,1,D1060300,3,7500,258
+Version-1,65f7d135e5681b767119e46b,D1060300,Creating a Pull Request (Tutorial),Remote,1,D1060300,3,10000,626
+Version-1,65f7d136e5681b767119e471,D0957884,Game Introduction (Tutorial),Basic,1,D0957884,3,6500,208
+Version-1,65f7d136e5681b767119e471,D0957884,Version Control and Git (Tutorial),Basic,1,D0957884,4,3000,105
+Version-1,65f7d136e5681b767119e471,D0957884,Create Local Repository (Tutorial),Basic,1,D0957884,4,4000,125
+Version-1,65f7d136e5681b767119e471,D0957884,Basic Staging Area (Tutorial),Basic,1,D0957884,4,5000,170
+Version-1,65f7d136e5681b767119e471,D0957884,Advanced Staging Area (Tutorial),Basic,1,D0957884,4,6000,156
+Version-1,65f7d136e5681b767119e471,D0957884,Creating First Version (Tutorial),Basic,1,D0957884,4,16000,332
+Version-1,65f7d136e5681b767119e471,D0957884,Switching Project Versions (Tutorial),Basic,1,D0957884,4,8000,224
+Version-1,65f7d136e5681b767119e471,D0957884,Git Branching Basics (Tutorial),Branch,1,D0957884,4,9000,276
+Version-1,65f7d136e5681b767119e471,D0957884,Fast-Forward Merging (Tutorial),Branch,1,D0957884,4,6000,163
+Version-1,65f7d136e5681b767119e471,D0957884,Auto Merging (Tutorial),Branch,1,D0957884,4,8000,347
+Version-1,65f7d136e5681b767119e471,D0957884,Merge Conflicts (Tutorial),Branch,1,D0957884,4,7000,225
+Version-1,65f7d136e5681b767119e471,D0957884,Create Remote Repository (Tutorial),Remote,1,D0957884,4,6000,223
+Version-1,65f7d136e5681b767119e471,D0957884,Push to Remote Branches (Tutorial),Remote,1,D0957884,4,6000,215
+Version-1,65f7d136e5681b767119e471,D0957884,Keep Branches in Sync (Tutorial),Remote,1,D0957884,4,5000,259
+Version-1,65f7d136e5681b767119e471,D0957884,Preparation for Merging (Tutorial),Remote,1,D0957884,2,6750,675
+Version-1,65f7d136e5681b767119e471,D0957884,Creating a Pull Request (Tutorial),Remote,1,D0957884,3,10500,269
+Version-1,65f7d136e5681b767119e471,D0957884,Creating a Pull Request (Tutorial),Remote,2,D0957884,2,9750,753
+Version-1,65f7d136e5681b767119e471,D0957884,Review and Merge Pull Requests (Tutorial),Remote,1,D0957884,4,4000,218
+Version-1,65f7d13fe5681b767119e47e,D0987439,Game Introduction (Tutorial),Basic,1,D0987439,3,6500,202
+Version-1,65f7d13fe5681b767119e47e,D0987439,Version Control and Git (Tutorial),Basic,1,D0987439,4,3000,165
+Version-1,65f7d13fe5681b767119e47e,D0987439,Create Local Repository (Tutorial),Basic,1,D0987439,4,4000,146
+Version-1,65f7d13fe5681b767119e47e,D0987439,Basic Staging Area (Tutorial),Basic,1,D0987439,4,5000,166
+Version-1,65f7d13fe5681b767119e47e,D0987439,Advanced Staging Area (Tutorial),Basic,1,D0987439,4,6000,308
+Version-1,65f7d13fe5681b767119e47e,D0987439,Creating First Version (Tutorial),Basic,1,D0987439,4,16000,396
+Version-1,65f7d13fe5681b767119e47e,D0987439,Switching Project Versions (Tutorial),Basic,1,D0987439,4,8000,212
+Version-1,65f7d13fe5681b767119e47e,D0987439,Git Branching Basics (Tutorial),Branch,1,D0987439,4,9000,441
+Version-1,65f7d13fe5681b767119e47e,D0987439,Fast-Forward Merging (Tutorial),Branch,1,D0987439,4,6000,141
+Version-1,65f7d13fe5681b767119e47e,D0987439,Auto Merging (Tutorial),Branch,1,D0987439,3,7750,323
+Version-1,65f7d13fe5681b767119e47e,D0987439,Merge Conflicts (Tutorial),Branch,1,D0987439,3,6750,285
+Version-1,65f7d13fe5681b767119e47e,D0987439,Create Remote Repository (Tutorial),Remote,1,D0987439,4,6000,181
+Version-1,65f7d13fe5681b767119e47e,D0987439,Push to Remote Branches (Tutorial),Remote,1,D0987439,4,6000,182
+Version-1,65f7d13fe5681b767119e47e,D0987439,Keep Branches in Sync (Tutorial),Remote,1,D0987439,4,5000,124
+Version-1,65f7d13fe5681b767119e47e,D0987439,Preparation for Merging (Tutorial),Remote,1,D0987439,4,8000,181
+Version-1,65f7d13fe5681b767119e47e,D0987439,Creating a Pull Request (Tutorial),Remote,1,D0987439,4,11000,240
+Version-1,65f7d13fe5681b767119e47e,D0987439,Review and Merge Pull Requests (Tutorial),Remote,1,D0987439,4,4000,267
+Version-1,65f7d13fe5681b767119e47e,D0987439,Game Introduction (Practice),Basic,1,D0987439,4,7000,50
+Version-1,65f7d141e5681b767119e484,kenchin0627,Game Introduction (Tutorial),Basic,1,kenchin0627,3,6250,230
+Version-1,65f7d141e5681b767119e484,kenchin0627,Version Control and Git (Tutorial),Basic,1,kenchin0627,2,1000,66
+Version-1,65f7d141e5681b767119e484,kenchin0627,Version Control and Git (Tutorial),Basic,2,kenchin0627,2,1000,82
+Version-1,65f7d141e5681b767119e484,kenchin0627,Create Local Repository (Tutorial),Basic,1,kenchin0627,4,4000,100
+Version-1,65f7d141e5681b767119e484,kenchin0627,Basic Staging Area (Tutorial),Basic,1,kenchin0627,4,5000,116
+Version-1,65f7d141e5681b767119e484,kenchin0627,Advanced Staging Area (Tutorial),Basic,1,kenchin0627,4,6000,170
+Version-1,65f7d141e5681b767119e484,kenchin0627,Creating First Version (Tutorial),Basic,1,kenchin0627,3,15750,447
+Version-1,65f7d141e5681b767119e484,kenchin0627,Switching Project Versions (Tutorial),Basic,1,kenchin0627,3,7750,518
+Version-1,65f7d141e5681b767119e484,kenchin0627,Git Branching Basics (Tutorial),Branch,1,kenchin0627,3,8750,397
+Version-1,65f7d141e5681b767119e484,kenchin0627,Fast-Forward Merging (Tutorial),Branch,1,kenchin0627,4,6000,187
+Version-1,65f7d141e5681b767119e484,kenchin0627,Auto Merging (Tutorial),Branch,1,kenchin0627,3,7500,424
+Version-1,65f7d141e5681b767119e484,kenchin0627,Merge Conflicts (Tutorial),Branch,1,kenchin0627,3,6750,297
+Version-1,65f7d141e5681b767119e484,kenchin0627,Create Remote Repository (Tutorial),Remote,1,kenchin0627,4,6000,161
+Version-1,65f7d141e5681b767119e484,kenchin0627,Push to Remote Branches (Tutorial),Remote,1,kenchin0627,3,5750,420
+Version-1,65f7d141e5681b767119e484,kenchin0627,Keep Branches in Sync (Tutorial),Remote,1,kenchin0627,4,5000,175
+Version-1,65f7d141e5681b767119e484,kenchin0627,Preparation for Merging (Tutorial),Remote,1,kenchin0627,3,7750,434
+Version-1,65f7d141e5681b767119e484,kenchin0627,Creating a Pull Request (Tutorial),Remote,1,kenchin0627,4,11000,643
+Version-1,65f7d141e5681b767119e484,kenchin0627,Review and Merge Pull Requests (Tutorial),Remote,1,kenchin0627,4,4000,116
+Version-1,65f7d141e5681b767119e484,kenchin0627,Game Introduction (Practice),Basic,1,kenchin0627,4,7000,37
+Version-1,65f7d143e5681b767119e48a,d0947523,Game Introduction (Tutorial),Basic,1,d0947523,4,7000,46
+Version-1,65f7d143e5681b767119e48a,d0947523,Game Introduction (Tutorial),Basic,2,d0947523,3,6750,191
+Version-1,65f7d143e5681b767119e48a,d0947523,Version Control and Git (Tutorial),Basic,1,d0947523,4,3000,120
+Version-1,65f7d143e5681b767119e48a,d0947523,Create Local Repository (Tutorial),Basic,1,d0947523,4,4000,73
+Version-1,65f7d143e5681b767119e48a,d0947523,Basic Staging Area (Tutorial),Basic,1,d0947523,4,5000,71
+Version-1,65f7d143e5681b767119e48a,d0947523,Advanced Staging Area (Tutorial),Basic,1,d0947523,4,6000,379
+Version-1,65f7d143e5681b767119e48a,d0947523,Creating First Version (Tutorial),Basic,1,d0947523,4,16000,467
+Version-1,65f7d143e5681b767119e48a,d0947523,Switching Project Versions (Tutorial),Basic,1,d0947523,4,8000,310
+Version-1,65f7d143e5681b767119e48a,d0947523,Git Branching Basics (Tutorial),Branch,1,d0947523,4,9000,389
+Version-1,65f7d143e5681b767119e48a,d0947523,Fast-Forward Merging (Tutorial),Branch,1,d0947523,4,6000,192
+Version-1,65f7d143e5681b767119e48a,d0947523,Auto Merging (Tutorial),Branch,1,d0947523,4,8000,221
+Version-1,65f7d143e5681b767119e48a,d0947523,Merge Conflicts (Tutorial),Branch,1,d0947523,4,7000,222
+Version-1,65f7d143e5681b767119e48a,d0947523,Create Remote Repository (Tutorial),Remote,1,d0947523,4,6000,129
+Version-1,65f7d143e5681b767119e48a,d0947523,Push to Remote Branches (Tutorial),Remote,1,d0947523,4,6000,301
+Version-1,65f7d143e5681b767119e48a,d0947523,Keep Branches in Sync (Tutorial),Remote,1,d0947523,4,5000,320
+Version-1,65f7d143e5681b767119e48a,d0947523,Preparation for Merging (Tutorial),Remote,1,d0947523,4,8000,291
+Version-1,65f7d143e5681b767119e48a,d0947523,Creating a Pull Request (Tutorial),Remote,1,d0947523,3,10750,475
+Version-1,65f7d143e5681b767119e48a,d0947523,Review and Merge Pull Requests (Tutorial),Remote,1,d0947523,4,4000,182
+Version-1,65f7d143e5681b767119e48a,d0947523,Game Introduction (Practice),Basic,1,d0947523,4,7000,36
+Version-1,65f7d143e5681b767119e490,D1179580,Game Introduction (Tutorial),Basic,1,D1179580,4,7000,64
+Version-1,65f7d143e5681b767119e490,D1179580,Game Introduction (Tutorial),Basic,2,D1179580,3,6500,395
+Version-1,65f7d143e5681b767119e490,D1179580,Version Control and Git (Tutorial),Basic,1,D1179580,4,3000,53
+Version-1,65f7d143e5681b767119e490,D1179580,Version Control and Git (Tutorial),Basic,2,D1179580,3,2000,211
+Version-1,65f7d143e5681b767119e490,D1179580,Create Local Repository (Tutorial),Basic,1,D1179580,4,4000,394
+Version-1,65f7d143e5681b767119e490,D1179580,Basic Staging Area (Tutorial),Basic,1,D1179580,4,5000,366
+Version-1,65f7d143e5681b767119e490,D1179580,Advanced Staging Area (Tutorial),Basic,1,D1179580,4,6000,227
+Version-1,65f7d143e5681b767119e490,D1179580,Creating First Version (Tutorial),Basic,1,D1179580,4,16000,518
+Version-1,65f7d143e5681b767119e490,D1179580,Switching Project Versions (Tutorial),Basic,1,D1179580,4,8000,422
+Version-1,65f7d143e5681b767119e490,D1179580,Git Branching Basics (Tutorial),Branch,1,D1179580,4,9000,414
+Version-1,65f7d143e5681b767119e490,D1179580,Fast-Forward Merging (Tutorial),Branch,1,D1179580,4,6000,269
+Version-1,65f7d143e5681b767119e490,D1179580,Auto Merging (Tutorial),Branch,1,D1179580,4,8000,313
+Version-1,65f7d143e5681b767119e490,D1179580,Auto Merging (Tutorial),Branch,2,D1179580,3,7750,576
+Version-1,65f7d143e5681b767119e490,D1179580,Merge Conflicts (Tutorial),Branch,1,D1179580,4,7000,399
+Version-1,65f7d143e5681b767119e490,D1179580,Create Remote Repository (Tutorial),Remote,1,D1179580,4,6000,284
+Version-1,65f7d143e5681b767119e490,D1179580,Push to Remote Branches (Tutorial),Remote,1,D1179580,4,6000,137
+Version-1,65f7d143e5681b767119e490,D1179580,Push to Remote Branches (Tutorial),Remote,2,D1179580,3,5750,345
+Version-1,65f7d143e5681b767119e490,D1179580,Keep Branches in Sync (Tutorial),Remote,1,D1179580,4,5000,247
+Version-1,65f7d143e5681b767119e490,D1179580,Preparation for Merging (Tutorial),Remote,1,D1179580,3,7750,456
+Version-1,65f7d144e5681b767119e496,Loe,Game Introduction (Tutorial),Basic,1,Loe,3,6250,270
+Version-1,65f7d144e5681b767119e496,Loe,Version Control and Git (Tutorial),Basic,1,Loe,4,3000,138
+Version-1,65f7d144e5681b767119e496,Loe,Create Local Repository (Tutorial),Basic,1,Loe,4,4000,142
+Version-1,65f7d144e5681b767119e496,Loe,Basic Staging Area (Tutorial),Basic,1,Loe,4,5000,228
+Version-1,65f7d144e5681b767119e496,Loe,Advanced Staging Area (Tutorial),Basic,1,Loe,4,6000,178
+Version-1,65f7d144e5681b767119e496,Loe,Creating First Version (Tutorial),Basic,1,Loe,3,15750,441
+Version-1,65f7d144e5681b767119e496,Loe,Switching Project Versions (Tutorial),Basic,1,Loe,4,8000,196
+Version-1,65f7d144e5681b767119e496,Loe,Switching Project Versions (Tutorial),Basic,2,Loe,4,8000,297
+Version-1,65f7d144e5681b767119e496,Loe,Git Branching Basics (Tutorial),Branch,1,Loe,4,9000,374
+Version-1,65f7d144e5681b767119e496,Loe,Fast-Forward Merging (Tutorial),Branch,1,Loe,4,6000,151
+Version-1,65f7d144e5681b767119e496,Loe,Auto Merging (Tutorial),Branch,1,Loe,3,7750,299
+Version-1,65f7d144e5681b767119e496,Loe,Merge Conflicts (Tutorial),Branch,1,Loe,3,6750,361
+Version-1,65f7d144e5681b767119e496,Loe,Create Remote Repository (Tutorial),Remote,1,Loe,4,6000,95
+Version-1,65f7d144e5681b767119e496,Loe,Push to Remote Branches (Tutorial),Remote,1,Loe,4,6000,242
+Version-1,65f7d144e5681b767119e496,Loe,Keep Branches in Sync (Tutorial),Remote,1,Loe,4,5000,149
+Version-1,65f7d144e5681b767119e496,Loe,Preparation for Merging (Tutorial),Remote,1,Loe,3,7250,365
+Version-1,65f7d144e5681b767119e496,Loe,Creating a Pull Request (Tutorial),Remote,1,Loe,3,10750,1055
+Version-1,65f7d144e5681b767119e496,Loe,Review and Merge Pull Requests (Tutorial),Remote,1,Loe,4,4000,120
+Version-1,65f7d144e5681b767119e496,Loe,Game Introduction (Practice),Basic,1,Loe,4,7000,47
+Version-1,65f7d144e5681b767119e496,Loe,Version Control and Git (Practice),Basic,1,Loe,3,5000,178
+Version-1,65f7d144e5681b767119e496,Loe,Create Local Repository (Practice),Basic,1,Loe,3,2500,71
+Version-1,65f7d144e5681b767119e496,Loe,Advanced Staging Area (Practice),Basic,1,Loe,4,3000,77
+Version-1,65f7d144e5681b767119e496,Loe,Creating First Version (Practice),Basic,1,Loe,4,8000,126
+Version-1,65f7d144e5681b767119e496,Loe,Fast-Forward Merging (Practice),Branch,1,Loe,3,6750,181
+Version-1,65f7d145e5681b767119e49e,Once,Game Introduction (Tutorial),Basic,1,Once,3,6750,409
+Version-1,65f7d145e5681b767119e49e,Once,Version Control and Git (Tutorial),Basic,1,Once,3,2000,158
+Version-1,65f7d145e5681b767119e49e,Once,Create Local Repository (Tutorial),Basic,1,Once,4,4000,209
+Version-1,65f7d145e5681b767119e49e,Once,Basic Staging Area (Tutorial),Basic,1,Once,4,5000,229
+Version-1,65f7d145e5681b767119e49e,Once,Advanced Staging Area (Tutorial),Basic,1,Once,4,6000,314
+Version-1,65f7d145e5681b767119e49e,Once,Creating First Version (Tutorial),Basic,1,Once,4,16000,590
+Version-1,65f7d145e5681b767119e49e,Once,Switching Project Versions (Tutorial),Basic,1,Once,4,8000,537
+Version-1,65f7d145e5681b767119e49e,Once,Git Branching Basics (Tutorial),Branch,1,Once,4,9000,652
+Version-1,65f7d145e5681b767119e49e,Once,Fast-Forward Merging (Tutorial),Branch,1,Once,4,6000,210
+Version-1,65f7d145e5681b767119e49e,Once,Auto Merging (Tutorial),Branch,1,Once,3,7250,478
+Version-1,65f7d150e5681b767119e4a8,D0982730,Game Introduction (Tutorial),Basic,1,D0982730,3,6250,726
+Version-1,65f7d150e5681b767119e4a8,D0982730,Version Control and Git (Tutorial),Basic,1,D0982730,4,3000,284
+Version-1,65f7d150e5681b767119e4a8,D0982730,Create Local Repository (Tutorial),Basic,1,D0982730,2,3000,313
+Version-1,65f7d150e5681b767119e4a8,D0982730,Basic Staging Area (Tutorial),Basic,1,D0982730,4,5000,201
+Version-1,65f7d150e5681b767119e4a8,D0982730,Advanced Staging Area (Tutorial),Basic,1,D0982730,4,6000,182
+Version-1,65f7d150e5681b767119e4a8,D0982730,Creating First Version (Tutorial),Basic,1,D0982730,4,16000,430
+Version-1,65f7d150e5681b767119e4a8,D0982730,Switching Project Versions (Tutorial),Basic,1,D0982730,4,8000,445
+Version-1,65f7d150e5681b767119e4a8,D0982730,Git Branching Basics (Tutorial),Branch,1,D0982730,4,9000,452
+Version-1,65f7d150e5681b767119e4a8,D0982730,Fast-Forward Merging (Tutorial),Branch,1,D0982730,4,6000,215
+Version-1,65f7d150e5681b767119e4a8,D0982730,Auto Merging (Tutorial),Branch,1,D0982730,3,7750,313
+Version-1,65f7d150e5681b767119e4a8,D0982730,Merge Conflicts (Tutorial),Branch,1,D0982730,4,7000,296
+Version-1,65f7d150e5681b767119e4a8,D0982730,Create Remote Repository (Tutorial),Remote,1,D0982730,4,6000,268
+Version-1,65f7d150e5681b767119e4a8,D0982730,Push to Remote Branches (Tutorial),Remote,1,D0982730,3,5500,371
+Version-1,65f7d150e5681b767119e4a8,D0982730,Keep Branches in Sync (Tutorial),Remote,1,D0982730,4,5000,207
+Version-1,65f7d150e5681b767119e4a8,D0982730,Preparation for Merging (Tutorial),Remote,1,D0982730,3,7250,449
+Version-1,65f7d151e5681b767119e4ae,D1051888,Game Introduction (Tutorial),Basic,1,D1051888,3,6750,342
+Version-1,65f7d151e5681b767119e4ae,D1051888,Version Control and Git (Tutorial),Basic,1,D1051888,4,3000,297
+Version-1,65f7d151e5681b767119e4ae,D1051888,Create Local Repository (Tutorial),Basic,1,D1051888,4,4000,147
+Version-1,65f7d151e5681b767119e4ae,D1051888,Basic Staging Area (Tutorial),Basic,1,D1051888,4,5000,322
+Version-1,65f7d151e5681b767119e4ae,D1051888,Advanced Staging Area (Tutorial),Basic,1,D1051888,4,6000,258
+Version-1,65f7d151e5681b767119e4ae,D1051888,Creating First Version (Tutorial),Basic,1,D1051888,4,16000,547
+Version-1,65f7d151e5681b767119e4ae,D1051888,Switching Project Versions (Tutorial),Basic,1,D1051888,4,8000,285
+Version-1,65f7d151e5681b767119e4ae,D1051888,Switching Project Versions (Tutorial),Basic,2,D1051888,2,7000,1082
+Version-1,65f7d151e5681b767119e4ae,D1051888,Git Branching Basics (Tutorial),Branch,1,D1051888,4,9000,359
+Version-1,65f7d151e5681b767119e4ae,D1051888,Fast-Forward Merging (Tutorial),Branch,1,D1051888,4,6000,140
+Version-1,65f7d151e5681b767119e4ae,D1051888,Auto Merging (Tutorial),Branch,1,D1051888,3,7750,458
+Version-1,65f7d151e5681b767119e4ae,D1051888,Merge Conflicts (Tutorial),Branch,1,D1051888,3,6750,396
+Version-1,65f7d151e5681b767119e4ae,D1051888,Create Remote Repository (Tutorial),Remote,1,D1051888,4,6000,595
+Version-1,65f7d151e5681b767119e4ae,D1051888,Push to Remote Branches (Tutorial),Remote,1,D1051888,3,5750,487
+Version-1,65f7d156e5681b767119e4b8,D0957411,Game Introduction (Tutorial),Basic,1,D0957411,4,7000,52
+Version-1,65f7d156e5681b767119e4b8,D0957411,Game Introduction (Tutorial),Basic,2,D0957411,3,6750,175
+Version-1,65f7d156e5681b767119e4b8,D0957411,Version Control and Git (Tutorial),Basic,1,D0957411,4,3000,104
+Version-1,65f7d156e5681b767119e4b8,D0957411,Create Local Repository (Tutorial),Basic,1,D0957411,4,4000,191
+Version-1,65f7d156e5681b767119e4b8,D0957411,Basic Staging Area (Tutorial),Basic,1,D0957411,4,5000,171
+Version-1,65f7d156e5681b767119e4b8,D0957411,Advanced Staging Area (Tutorial),Basic,1,D0957411,4,6000,172
+Version-1,65f7d156e5681b767119e4b8,D0957411,Creating First Version (Tutorial),Basic,1,D0957411,4,16000,379
+Version-1,65f7d156e5681b767119e4b8,D0957411,Switching Project Versions (Tutorial),Basic,1,D0957411,4,8000,268
+Version-1,65f7d156e5681b767119e4b8,D0957411,Git Branching Basics (Tutorial),Branch,1,D0957411,4,9000,239
+Version-1,65f7d156e5681b767119e4b8,D0957411,Git Branching Basics (Tutorial),Branch,2,D0957411,2,8000,474
+Version-1,65f7d156e5681b767119e4b8,D0957411,Fast-Forward Merging (Tutorial),Branch,1,D0957411,4,6000,216
+Version-1,65f7d156e5681b767119e4b8,D0957411,Auto Merging (Tutorial),Branch,1,D0957411,4,8000,298
+Version-1,65f7d156e5681b767119e4b8,D0957411,Merge Conflicts (Tutorial),Branch,1,D0957411,4,7000,279
+Version-1,65f7d156e5681b767119e4b8,D0957411,Create Remote Repository (Tutorial),Remote,1,D0957411,4,6000,70
+Version-1,65f7d156e5681b767119e4b8,D0957411,Create Remote Repository (Tutorial),Remote,2,D0957411,2,5000,221
+Version-1,65f7d156e5681b767119e4b8,D0957411,Push to Remote Branches (Tutorial),Remote,1,D0957411,4,6000,210
+Version-1,65f7d156e5681b767119e4b8,D0957411,Keep Branches in Sync (Tutorial),Remote,1,D0957411,4,5000,208
+Version-1,65f7d156e5681b767119e4b8,D0957411,Preparation for Merging (Tutorial),Remote,1,D0957411,4,8000,377
+Version-1,65f7d156e5681b767119e4b8,D0957411,Creating a Pull Request (Tutorial),Remote,1,D0957411,3,10750,652
+Version-1,65f7d156e5681b767119e4b8,D0957411,Game Introduction (Practice),Basic,1,D0957411,4,7000,32
+Version-1,65f7d156e5681b767119e4b8,D0957411,Version Control and Git (Practice),Basic,1,D0957411,4,7000,49
+Version-1,65f7d156e5681b767119e4b8,D0957411,Version Control and Git (Practice),Basic,2,D0957411,3,6000,93
+Version-1,65f7d156e5681b767119e4b8,D0957411,Create Local Repository (Practice),Basic,1,D0957411,4,3000,50
+Version-1,65f7d15ae5681b767119e4c5,D1018734,Game Introduction (Tutorial),Basic,1,D1018734,4,7000,50
+Version-1,65f7d15ae5681b767119e4c5,D1018734,Game Introduction (Tutorial),Basic,2,D1018734,2,6000,483
+Version-1,65f7d15ae5681b767119e4c5,D1018734,Version Control and Git (Tutorial),Basic,1,D1018734,4,3000,80
+Version-1,65f7d15ae5681b767119e4c5,D1018734,Create Local Repository (Tutorial),Basic,1,D1018734,4,4000,70
+Version-1,65f7d15ae5681b767119e4c5,D1018734,Basic Staging Area (Tutorial),Basic,1,D1018734,4,5000,173
+Version-1,65f7d15ae5681b767119e4c5,D1018734,Advanced Staging Area (Tutorial),Basic,1,D1018734,4,6000,124
+Version-1,65f7d15ae5681b767119e4c5,D1018734,Creating First Version (Tutorial),Basic,1,D1018734,2,14000,855
+Version-1,65f7d15ae5681b767119e4c5,D1018734,Switching Project Versions (Tutorial),Basic,1,D1018734,4,8000,188
+Version-1,65f7d15ae5681b767119e4c5,D1018734,Git Branching Basics (Tutorial),Branch,1,D1018734,2,8000,287
+Version-1,65f7d15ae5681b767119e4c5,D1018734,Fast-Forward Merging (Tutorial),Branch,1,D1018734,4,6000,191
+Version-1,65f7d15ae5681b767119e4c5,D1018734,Auto Merging (Tutorial),Branch,1,D1018734,3,7750,311
+Version-1,65f7d15ae5681b767119e4c5,D1018734,Merge Conflicts (Tutorial),Branch,1,D1018734,3,6750,216
+Version-1,65f7d15ae5681b767119e4c5,D1018734,Create Remote Repository (Tutorial),Remote,1,D1018734,4,6000,116
+Version-1,65f7d15ae5681b767119e4c5,D1018734,Push to Remote Branches (Tutorial),Remote,1,D1018734,3,5750,214
+Version-1,65f7d15ae5681b767119e4c5,D1018734,Keep Branches in Sync (Tutorial),Remote,1,D1018734,4,5000,144
+Version-1,65f7d15ae5681b767119e4c5,D1018734,Preparation for Merging (Tutorial),Remote,1,D1018734,3,7250,502
+Version-1,65f7d15ae5681b767119e4c5,D1018734,Creating a Pull Request (Tutorial),Remote,1,D1018734,1,7500,826
+Version-1,65f7d15ae5681b767119e4c5,D1018734,Review and Merge Pull Requests (Tutorial),Remote,1,D1018734,4,4000,249
+Version-1,65f7d15ae5681b767119e4cb,D1060003,Game Introduction (Tutorial),Basic,1,D1060003,2,6000,240
+Version-1,65f7d15ae5681b767119e4cb,D1060003,Version Control and Git (Tutorial),Basic,1,D1060003,1,0,89
+Version-1,65f7d15ae5681b767119e4cb,D1060003,Create Local Repository (Tutorial),Basic,1,D1060003,2,3000,97
+Version-1,65f7d15ae5681b767119e4cb,D1060003,Basic Staging Area (Tutorial),Basic,1,D1060003,4,5000,167
+Version-1,65f7d15ae5681b767119e4cb,D1060003,Advanced Staging Area (Tutorial),Basic,1,D1060003,4,6000,169
+Version-1,65f7d15be5681b767119e4d1,D1059887,Game Introduction (Tutorial),Basic,1,D1059887,4,7000,428
+Version-1,65f7d15be5681b767119e4d1,D1059887,Version Control and Git (Tutorial),Basic,1,D1059887,4,3000,82
+Version-1,65f7d15be5681b767119e4d1,D1059887,Create Local Repository (Tutorial),Basic,1,D1059887,4,4000,229
+Version-1,65f7d15be5681b767119e4d1,D1059887,Basic Staging Area (Tutorial),Basic,1,D1059887,4,5000,322
+Version-1,65f7d15be5681b767119e4d1,D1059887,Advanced Staging Area (Tutorial),Basic,1,D1059887,4,6000,258
+Version-1,65f7d15be5681b767119e4d1,D1059887,Creating First Version (Tutorial),Basic,1,D1059887,4,16000,831
+Version-1,65f7d15be5681b767119e4d1,D1059887,Switching Project Versions (Tutorial),Basic,1,D1059887,4,8000,332
+Version-1,65f7d15be5681b767119e4d1,D1059887,Git Branching Basics (Tutorial),Branch,1,D1059887,4,9000,555
+Version-1,65f7d15be5681b767119e4d1,D1059887,Fast-Forward Merging (Tutorial),Branch,1,D1059887,4,6000,240
+Version-1,65f7d15be5681b767119e4d1,D1059887,Auto Merging (Tutorial),Branch,1,D1059887,4,8000,292
+Version-1,65f7d15be5681b767119e4d1,D1059887,Merge Conflicts (Tutorial),Branch,1,D1059887,4,7000,349
+Version-1,65f7d15be5681b767119e4d1,D1059887,Create Remote Repository (Tutorial),Remote,1,D1059887,4,6000,216
+Version-1,65f7d15be5681b767119e4d1,D1059887,Push to Remote Branches (Tutorial),Remote,1,D1059887,4,6000,393
+Version-1,65f7d15be5681b767119e4d1,D1059887,Keep Branches in Sync (Tutorial),Remote,1,D1059887,4,5000,263
+Version-1,65f7d15be5681b767119e4d1,D1059887,Preparation for Merging (Tutorial),Remote,1,D1059887,4,8000,594
+Version-1,65f7d15ce5681b767119e4d7,d1031329,Game Introduction (Tutorial),Basic,1,d1031329,3,6250,221
+Version-1,65f7d15ce5681b767119e4d7,d1031329,Version Control and Git (Tutorial),Basic,1,d1031329,4,3000,99
+Version-1,65f7d15ce5681b767119e4d7,d1031329,Create Local Repository (Tutorial),Basic,1,d1031329,4,4000,178
+Version-1,65f7d15ce5681b767119e4d7,d1031329,Basic Staging Area (Tutorial),Basic,1,d1031329,4,5000,119
+Version-1,65f7d15ce5681b767119e4d7,d1031329,Advanced Staging Area (Tutorial),Basic,1,d1031329,4,6000,179
+Version-1,65f7d15ce5681b767119e4d7,d1031329,Creating First Version (Tutorial),Basic,1,d1031329,4,16000,301
+Version-1,65f7d15ce5681b767119e4d7,d1031329,Switching Project Versions (Tutorial),Basic,1,d1031329,4,8000,165
+Version-1,65f7d15ce5681b767119e4d7,d1031329,Git Branching Basics (Tutorial),Branch,1,d1031329,4,9000,473
+Version-1,65f7d15ce5681b767119e4d7,d1031329,Fast-Forward Merging (Tutorial),Branch,1,d1031329,4,6000,192
+Version-1,65f7d15ce5681b767119e4d7,d1031329,Auto Merging (Tutorial),Branch,1,d1031329,3,7750,320
+Version-1,65f7d15ce5681b767119e4d7,d1031329,Create Remote Repository (Tutorial),Remote,1,d1031329,4,6000,114
+Version-1,65f7d15ce5681b767119e4d7,d1031329,Push to Remote Branches (Tutorial),Remote,1,d1031329,4,6000,243
+Version-1,65f7d15ce5681b767119e4d7,d1031329,Keep Branches in Sync (Tutorial),Remote,1,d1031329,4,5000,813
+Version-1,65f7d15ce5681b767119e4d7,d1031329,Preparation for Merging (Tutorial),Remote,1,d1031329,3,7000,451
+Version-1,65f7d15ce5681b767119e4d7,d1031329,Creating a Pull Request (Tutorial),Remote,1,d1031329,1,6750,1033
+Version-1,65f7d15ce5681b767119e4d7,d1031329,Review and Merge Pull Requests (Tutorial),Remote,1,d1031329,2,3000,201
+Version-1,65f7d160e5681b767119e4eb,cookie,Game Introduction (Tutorial),Basic,1,cookie,4,7000,257
+Version-1,65f7d160e5681b767119e4eb,cookie,Version Control and Git (Tutorial),Basic,1,cookie,4,3000,193
+Version-1,65f7d160e5681b767119e4eb,cookie,Create Local Repository (Tutorial),Basic,1,cookie,4,4000,163
+Version-1,65f7d160e5681b767119e4eb,cookie,Basic Staging Area (Tutorial),Basic,1,cookie,4,5000,262
+Version-1,65f7d160e5681b767119e4eb,cookie,Advanced Staging Area (Tutorial),Basic,1,cookie,4,6000,212
+Version-1,65f7d160e5681b767119e4eb,cookie,Creating First Version (Tutorial),Basic,1,cookie,3,15750,569
+Version-1,65f7d160e5681b767119e4eb,cookie,Switching Project Versions (Tutorial),Basic,1,cookie,4,8000,334
+Version-1,65f7d160e5681b767119e4eb,cookie,Git Branching Basics (Tutorial),Branch,1,cookie,4,9000,469
+Version-1,65f7d160e5681b767119e4eb,cookie,Fast-Forward Merging (Tutorial),Branch,1,cookie,4,6000,247
+Version-1,65f7d160e5681b767119e4eb,cookie,Auto Merging (Tutorial),Branch,1,cookie,3,7750,576
+Version-1,65f7d160e5681b767119e4eb,cookie,Merge Conflicts (Tutorial),Branch,1,cookie,4,7000,321
+Version-1,65f7d160e5681b767119e4eb,cookie,Create Remote Repository (Tutorial),Remote,1,cookie,4,6000,222
+Version-1,65f7d160e5681b767119e4eb,cookie,Push to Remote Branches (Tutorial),Remote,1,cookie,4,6000,191
+Version-1,65f7d160e5681b767119e4eb,cookie,Keep Branches in Sync (Tutorial),Remote,1,cookie,4,5000,299
+Version-1,65f7d160e5681b767119e4eb,cookie,Preparation for Merging (Tutorial),Remote,1,cookie,4,8000,573
+Version-1,65f7d160e5681b767119e4eb,cookie,Creating a Pull Request (Tutorial),Remote,1,cookie,3,10750,758
+Version-1,65f7d160e5681b767119e4eb,cookie,Review and Merge Pull Requests (Tutorial),Remote,1,cookie,4,4000,308
+Version-1,65f7d160e5681b767119e4f2,D1051092,Game Introduction (Tutorial),Basic,1,D1051092,4,7000,48
+Version-1,65f7d160e5681b767119e4f2,D1051092,Game Introduction (Tutorial),Basic,2,D1051092,3,6750,306
+Version-1,65f7d160e5681b767119e4f2,D1051092,Version Control and Git (Tutorial),Basic,1,D1051092,4,3000,76
+Version-1,65f7d160e5681b767119e4f2,D1051092,Create Local Repository (Tutorial),Basic,1,D1051092,4,4000,135
+Version-1,65f7d160e5681b767119e4f2,D1051092,Basic Staging Area (Tutorial),Basic,1,D1051092,4,5000,222
+Version-1,65f7d160e5681b767119e4f2,D1051092,Advanced Staging Area (Tutorial),Basic,1,D1051092,4,6000,207
+Version-1,65f7d160e5681b767119e4f2,D1051092,Creating First Version (Tutorial),Basic,1,D1051092,4,16000,394
+Version-1,65f7d160e5681b767119e4f2,D1051092,Switching Project Versions (Tutorial),Basic,1,D1051092,4,8000,203
+Version-1,65f7d160e5681b767119e4f2,D1051092,Git Branching Basics (Tutorial),Branch,1,D1051092,4,9000,279
+Version-1,65f7d160e5681b767119e4f2,D1051092,Fast-Forward Merging (Tutorial),Branch,1,D1051092,4,6000,132
+Version-1,65f7d160e5681b767119e4f2,D1051092,Auto Merging (Tutorial),Branch,1,D1051092,4,8000,300
+Version-1,65f7d160e5681b767119e4f2,D1051092,Merge Conflicts (Tutorial),Branch,1,D1051092,4,7000,216
+Version-1,65f7d160e5681b767119e4f2,D1051092,Create Remote Repository (Tutorial),Remote,1,D1051092,4,6000,143
+Version-1,65f7d160e5681b767119e4f2,D1051092,Push to Remote Branches (Tutorial),Remote,1,D1051092,4,6000,167
+Version-1,65f7d160e5681b767119e4f2,D1051092,Keep Branches in Sync (Tutorial),Remote,1,D1051092,4,5000,118
+Version-1,65f7d160e5681b767119e4f2,D1051092,Preparation for Merging (Tutorial),Remote,1,D1051092,4,8000,302
+Version-1,65f7d164e5681b767119e506,user1,Game Introduction (Tutorial),Basic,1,user1,4,7000,214
+Version-1,65f7d164e5681b767119e506,user1,Version Control and Git (Tutorial),Basic,1,user1,4,3000,77
+Version-1,65f7d164e5681b767119e506,user1,Create Local Repository (Tutorial),Basic,1,user1,4,4000,190
+Version-1,65f7d164e5681b767119e506,user1,Basic Staging Area (Tutorial),Basic,1,user1,4,5000,298
+Version-1,65f7d164e5681b767119e506,user1,Advanced Staging Area (Tutorial),Basic,1,user1,4,6000,270
+Version-1,65f7d164e5681b767119e506,user1,Creating First Version (Tutorial),Basic,1,user1,4,16000,666
+Version-1,65f7d164e5681b767119e506,user1,Switching Project Versions (Tutorial),Basic,1,user1,4,8000,346
+Version-1,65f7d164e5681b767119e506,user1,Git Branching Basics (Tutorial),Branch,1,user1,4,9000,460
+Version-1,65f7d164e5681b767119e506,user1,Fast-Forward Merging (Tutorial),Branch,1,user1,4,6000,241
+Version-1,65f7d164e5681b767119e506,user1,Auto Merging (Tutorial),Branch,1,user1,4,8000,271
+Version-1,65f7d164e5681b767119e506,user1,Auto Merging (Tutorial),Branch,2,user1,3,7750,445
+Version-1,65f7d164e5681b767119e506,user1,Merge Conflicts (Tutorial),Branch,1,user1,4,7000,321
+Version-1,65f7d164e5681b767119e506,user1,Create Remote Repository (Tutorial),Remote,1,user1,4,6000,232
+Version-1,65f7d164e5681b767119e506,user1,Push to Remote Branches (Tutorial),Remote,1,user1,4,6000,331
+Version-1,65f7d164e5681b767119e506,user1,Keep Branches in Sync (Tutorial),Remote,1,user1,4,5000,422
+Version-1,65f7d164e5681b767119e506,user1,Preparation for Merging (Tutorial),Remote,1,user1,3,7750,630
+Version-1,65f7d164e5681b767119e506,user1,Game Introduction (Practice),Basic,1,user1,4,7000,63
+Version-1,65f7d164e5681b767119e506,user1,Version Control and Git (Practice),Basic,1,user1,4,7000,151
+Version-1,65f7d165e5681b767119e50c,D1093071,Game Introduction (Tutorial),Basic,1,D1093071,3,6500,289
+Version-1,65f7d165e5681b767119e50c,D1093071,Version Control and Git (Tutorial),Basic,1,D1093071,3,2000,266
+Version-1,65f7d165e5681b767119e50c,D1093071,Create Local Repository (Tutorial),Basic,1,D1093071,3,3500,340
+Version-1,65f7d165e5681b767119e50c,D1093071,Basic Staging Area (Tutorial),Basic,1,D1093071,2,4000,490
+Version-1,65f7d165e5681b767119e50c,D1093071,Advanced Staging Area (Tutorial),Basic,1,D1093071,3,5500,343
+Version-1,65f7d165e5681b767119e50c,D1093071,Creating First Version (Tutorial),Basic,1,D1093071,3,15000,882
+Version-1,65f7d165e5681b767119e50c,D1093071,Switching Project Versions (Tutorial),Basic,1,D1093071,4,8000,473
+Version-1,65f7d168e5681b767119e517,D0948466,Game Introduction (Tutorial),Basic,1,D0948466,3,6250,277
+Version-1,65f7d168e5681b767119e517,D0948466,Version Control and Git (Tutorial),Basic,1,D0948466,4,3000,492
+Version-1,65f7d168e5681b767119e517,D0948466,Create Local Repository (Tutorial),Basic,1,D0948466,4,4000,349
+Version-1,65f7d168e5681b767119e517,D0948466,Basic Staging Area (Tutorial),Basic,1,D0948466,4,5000,517
+Version-1,65f7d168e5681b767119e517,D0948466,Advanced Staging Area (Tutorial),Basic,1,D0948466,4,6000,510
+Version-1,65f7d168e5681b767119e517,D0948466,Creating First Version (Tutorial),Basic,1,D0948466,4,16000,557
+Version-1,65f7d168e5681b767119e517,D0948466,Switching Project Versions (Tutorial),Basic,1,D0948466,4,8000,434
+Version-1,65f7d168e5681b767119e517,D0948466,Git Branching Basics (Tutorial),Branch,1,D0948466,4,9000,628
+Version-1,65f7d168e5681b767119e517,D0948466,Fast-Forward Merging (Tutorial),Branch,1,D0948466,4,6000,333
+Version-1,65f7d168e5681b767119e517,D0948466,Auto Merging (Tutorial),Branch,1,D0948466,3,7750,517
+Version-1,65f7d168e5681b767119e517,D0948466,Merge Conflicts (Tutorial),Branch,1,D0948466,4,7000,397
+Version-1,65f7d16ce5681b767119e530,xin,Game Introduction (Tutorial),Basic,1,xin,4,7000,52
+Version-1,65f7d16ce5681b767119e530,xin,Game Introduction (Tutorial),Basic,2,xin,2,5500,319
+Version-1,65f7d16ce5681b767119e530,xin,Version Control and Git (Tutorial),Basic,1,xin,3,2000,123
+Version-1,65f7d16ce5681b767119e530,xin,Create Local Repository (Tutorial),Basic,1,xin,2,3000,308
+Version-1,65f7d16ce5681b767119e530,xin,Basic Staging Area (Tutorial),Basic,1,xin,3,4500,166
+Version-1,65f7d16ee5681b767119e538,D0987322,Game Introduction (Tutorial),Basic,1,D0987322,4,7000,50
+Version-1,65f7d16ee5681b767119e538,D0987322,Version Control and Git (Tutorial),Basic,1,D0987322,4,3000,73
+Version-1,65f7d16ee5681b767119e538,D0987322,Create Local Repository (Tutorial),Basic,1,D0987322,4,4000,102
+Version-1,65f7d16ee5681b767119e538,D0987322,Basic Staging Area (Tutorial),Basic,1,D0987322,4,5000,95
+Version-1,65f7d16ee5681b767119e538,D0987322,Advanced Staging Area (Tutorial),Basic,1,D0987322,4,6000,162
+Version-1,65f7d16ee5681b767119e538,D0987322,Creating First Version (Tutorial),Basic,1,D0987322,4,16000,418
+Version-1,65f7d16ee5681b767119e538,D0987322,Switching Project Versions (Tutorial),Basic,1,D0987322,4,8000,321
+Version-1,65f7d16ee5681b767119e538,D0987322,Git Branching Basics (Tutorial),Branch,1,D0987322,4,9000,798
+Version-1,65f7d16ee5681b767119e538,D0987322,Fast-Forward Merging (Tutorial),Branch,1,D0987322,4,6000,224
+Version-1,65f7d16ee5681b767119e538,D0987322,Auto Merging (Tutorial),Branch,1,D0987322,4,8000,358
+Version-1,65f7d16ee5681b767119e538,D0987322,Merge Conflicts (Tutorial),Branch,1,D0987322,4,7000,285
+Version-1,65f7d16ee5681b767119e538,D0987322,Create Remote Repository (Tutorial),Remote,1,D0987322,4,6000,102
+Version-1,65f7d16ee5681b767119e538,D0987322,Push to Remote Branches (Tutorial),Remote,1,D0987322,4,6000,220
+Version-1,65f7d16ee5681b767119e538,D0987322,Keep Branches in Sync (Tutorial),Remote,1,D0987322,4,5000,160
+Version-1,65f7d16ee5681b767119e538,D0987322,Preparation for Merging (Tutorial),Remote,1,D0987322,4,8000,411
+Version-1,65f7d16ee5681b767119e538,D0987322,Creating a Pull Request (Tutorial),Remote,1,D0987322,4,11000,230
+Version-1,65f7d16ee5681b767119e538,D0987322,Review and Merge Pull Requests (Tutorial),Remote,1,D0987322,4,4000,190
+Version-1,65f7d16fe5681b767119e541,tom134679,Game Introduction (Tutorial),Basic,1,tom134679,3,6250,460
+Version-1,65f7d16fe5681b767119e541,tom134679,Version Control and Git (Tutorial),Basic,1,tom134679,4,3000,412
+Version-1,65f7d16fe5681b767119e541,tom134679,Create Local Repository (Tutorial),Basic,1,tom134679,4,4000,985
+Version-1,65f7d16fe5681b767119e541,tom134679,Basic Staging Area (Tutorial),Basic,1,tom134679,4,5000,352
+Version-1,65f7d16fe5681b767119e541,tom134679,Advanced Staging Area (Tutorial),Basic,1,tom134679,4,6000,230
+Version-1,65f7d16fe5681b767119e541,tom134679,Creating First Version (Tutorial),Basic,1,tom134679,4,16000,604
+Version-1,65f7d16fe5681b767119e541,tom134679,Switching Project Versions (Tutorial),Basic,1,tom134679,4,8000,533
+Version-1,65f7d16fe5681b767119e541,tom134679,Game Introduction (Practice),Basic,1,tom134679,4,7000,39
+Version-1,65f7d16fe5681b767119e541,tom134679,Version Control and Git (Practice),Basic,1,tom134679,4,7000,105
+Version-1,65f7d16fe5681b767119e541,tom134679,Create Local Repository (Practice),Basic,1,tom134679,4,3000,41
+Version-1,65f7d16fe5681b767119e541,tom134679,Creating First Version (Practice),Basic,1,tom134679,4,8000,136
+Version-1,65f7d16fe5681b767119e541,tom134679,Switching Project Versions (Practice),Basic,1,tom134679,3,6750,282
+Version-1,65f7d173e5681b767119e54f,k,Game Introduction (Tutorial),Basic,1,k,2,6000,516
+Version-1,65f7d173e5681b767119e54f,k,Version Control and Git (Tutorial),Basic,1,k,3,2000,92
+Version-1,65f7d173e5681b767119e54f,k,Version Control and Git (Tutorial),Basic,2,k,2,1000,446
+Version-1,65f7d173e5681b767119e54f,k,Create Local Repository (Tutorial),Basic,1,k,1,2000,3774
+Version-1,65f7d183e5681b767119e57d,D0948155,Game Introduction (Tutorial),Basic,1,D0948155,4,7000,53
+Version-1,65f7d183e5681b767119e57d,D0948155,Game Introduction (Tutorial),Basic,2,D0948155,3,6250,437
+Version-1,65f7d183e5681b767119e57d,D0948155,Version Control and Git (Tutorial),Basic,1,D0948155,4,3000,90
+Version-1,65f7d183e5681b767119e57d,D0948155,Create Local Repository (Tutorial),Basic,1,D0948155,4,4000,38
+Version-1,65f7d183e5681b767119e57d,D0948155,Create Local Repository (Tutorial),Basic,2,D0948155,3,3750,125
+Version-1,65f7d183e5681b767119e57d,D0948155,Basic Staging Area (Tutorial),Basic,1,D0948155,4,5000,159
+Version-1,65f7d183e5681b767119e57d,D0948155,Advanced Staging Area (Tutorial),Basic,1,D0948155,4,6000,131
+Version-1,65f7d183e5681b767119e57d,D0948155,Creating First Version (Tutorial),Basic,1,D0948155,4,16000,252
+Version-1,65f7d183e5681b767119e57d,D0948155,Switching Project Versions (Tutorial),Basic,1,D0948155,4,8000,217
+Version-1,65f7d183e5681b767119e57d,D0948155,Git Branching Basics (Tutorial),Branch,1,D0948155,4,9000,299
+Version-1,65f7d183e5681b767119e57d,D0948155,Fast-Forward Merging (Tutorial),Branch,1,D0948155,4,6000,177
+Version-1,65f7d183e5681b767119e57d,D0948155,Auto Merging (Tutorial),Branch,1,D0948155,4,8000,186
+Version-1,65f7d183e5681b767119e57d,D0948155,Merge Conflicts (Tutorial),Branch,1,D0948155,4,7000,124
+Version-1,65f7d183e5681b767119e57d,D0948155,Create Remote Repository (Tutorial),Remote,1,D0948155,4,6000,93
+Version-1,65f7d183e5681b767119e57d,D0948155,Push to Remote Branches (Tutorial),Remote,1,D0948155,4,6000,243
+Version-1,65f7d183e5681b767119e57d,D0948155,Keep Branches in Sync (Tutorial),Remote,1,D0948155,4,5000,206
+Version-1,65f7d183e5681b767119e57d,D0948155,Preparation for Merging (Tutorial),Remote,1,D0948155,3,7750,259
+Version-1,65f7d183e5681b767119e57d,D0948155,Creating a Pull Request (Tutorial),Remote,1,D0948155,2,9750,748
+Version-1,65f7d183e5681b767119e57d,D0948155,Review and Merge Pull Requests (Tutorial),Remote,1,D0948155,4,4000,89
+Version-1,65f7d18ae5681b767119e597,Thanathiti,Game Introduction (Tutorial),Basic,1,Thanathiti,3,6750,132
+Version-1,65f7d18ae5681b767119e597,Thanathiti,Version Control and Git (Tutorial),Basic,1,Thanathiti,3,2000,83
+Version-1,65f7d18ae5681b767119e597,Thanathiti,Create Local Repository (Tutorial),Basic,1,Thanathiti,4,4000,155
+Version-1,65f7d18fe5681b767119e5a6,D1051432,Game Introduction (Tutorial),Basic,1,D1051432,4,7000,50
+Version-1,65f7d18fe5681b767119e5a6,D1051432,Game Introduction (Tutorial),Basic,2,D1051432,3,6750,231
+Version-1,65f7d18fe5681b767119e5a6,D1051432,Version Control and Git (Tutorial),Basic,1,D1051432,4,3000,195
+Version-1,65f7d18fe5681b767119e5a6,D1051432,Create Local Repository (Tutorial),Basic,1,D1051432,4,4000,180
+Version-1,65f7d18fe5681b767119e5a6,D1051432,Basic Staging Area (Tutorial),Basic,1,D1051432,4,5000,256
+Version-1,65f7d18fe5681b767119e5a6,D1051432,Advanced Staging Area (Tutorial),Basic,1,D1051432,4,6000,179
+Version-1,65f7d18fe5681b767119e5a6,D1051432,Creating First Version (Tutorial),Basic,1,D1051432,4,16000,438
+Version-1,65f7d18fe5681b767119e5a6,D1051432,Switching Project Versions (Tutorial),Basic,1,D1051432,4,8000,307
+Version-1,65f7d18fe5681b767119e5a6,D1051432,Git Branching Basics (Tutorial),Branch,1,D1051432,4,9000,356
+Version-1,65f7d18fe5681b767119e5a6,D1051432,Fast-Forward Merging (Tutorial),Branch,1,D1051432,4,6000,167
+Version-1,65f7d18fe5681b767119e5a6,D1051432,Auto Merging (Tutorial),Branch,1,D1051432,4,8000,329
+Version-1,65f7d18fe5681b767119e5a6,D1051432,Merge Conflicts (Tutorial),Branch,1,D1051432,4,7000,311
+Version-1,65f7d18fe5681b767119e5a6,D1051432,Create Remote Repository (Tutorial),Remote,1,D1051432,4,6000,170
+Version-1,65f7d18fe5681b767119e5a6,D1051432,Push to Remote Branches (Tutorial),Remote,1,D1051432,4,6000,207
+Version-1,65f7d18fe5681b767119e5a6,D1051432,Keep Branches in Sync (Tutorial),Remote,1,D1051432,4,5000,196
+Version-1,65f7d18fe5681b767119e5a6,D1051432,Preparation for Merging (Tutorial),Remote,1,D1051432,4,8000,331
+Version-1,65f7d18fe5681b767119e5a6,D1051432,Creating a Pull Request (Tutorial),Remote,1,D1051432,4,11000,398
+Version-1,65f7d18fe5681b767119e5a6,D1051432,Review and Merge Pull Requests (Tutorial),Remote,1,D1051432,4,4000,214
+Version-1,65f7d18fe5681b767119e5a6,D1051432,Game Introduction (Practice),Basic,1,D1051432,4,7000,40
+Version-1,65f7d18fe5681b767119e5a6,D1051432,Version Control and Git (Practice),Basic,1,D1051432,4,7000,63
+Version-1,65f7d18fe5681b767119e5a6,D1051432,Create Local Repository (Practice),Basic,1,D1051432,4,3000,27
+Version-1,65f7d18fe5681b767119e5ac,D0948214,Game Introduction (Tutorial),Basic,1,D0948214,4,7000,51
+Version-1,65f7d18fe5681b767119e5ac,D0948214,Game Introduction (Tutorial),Basic,2,D0948214,4,7000,74
+Version-1,65f7d18fe5681b767119e5ac,D0948214,Game Introduction (Tutorial),Basic,3,D0948214,3,6750,337
+Version-1,65f7d18fe5681b767119e5ac,D0948214,Version Control and Git (Tutorial),Basic,1,D0948214,4,3000,126
+Version-1,65f7d18fe5681b767119e5ac,D0948214,Create Local Repository (Tutorial),Basic,1,D0948214,4,4000,33
+Version-1,65f7d18fe5681b767119e5ac,D0948214,Create Local Repository (Tutorial),Basic,2,D0948214,4,4000,108
+Version-1,65f7d18fe5681b767119e5ac,D0948214,Basic Staging Area (Tutorial),Basic,1,D0948214,4,5000,213
+Version-1,65f7d18fe5681b767119e5ac,D0948214,Advanced Staging Area (Tutorial),Basic,1,D0948214,4,6000,229
+Version-1,65f7d18fe5681b767119e5ac,D0948214,Creating First Version (Tutorial),Basic,1,D0948214,4,16000,524
+Version-1,65f7d18fe5681b767119e5ac,D0948214,Switching Project Versions (Tutorial),Basic,1,D0948214,4,8000,423
+Version-1,65f7d18fe5681b767119e5ac,D0948214,Git Branching Basics (Tutorial),Branch,1,D0948214,4,9000,292
+Version-1,65f7d18fe5681b767119e5ac,D0948214,Fast-Forward Merging (Tutorial),Branch,1,D0948214,4,6000,181
+Version-1,65f7d18fe5681b767119e5ac,D0948214,Auto Merging (Tutorial),Branch,1,D0948214,4,8000,211
+Version-1,65f7d18fe5681b767119e5ac,D0948214,Auto Merging (Tutorial),Branch,2,D0948214,3,7750,328
+Version-1,65f7d18fe5681b767119e5ac,D0948214,Merge Conflicts (Tutorial),Branch,1,D0948214,4,7000,191
+Version-1,65f7d18fe5681b767119e5ac,D0948214,Create Remote Repository (Tutorial),Remote,1,D0948214,4,6000,120
+Version-1,65f7d18fe5681b767119e5ac,D0948214,Push to Remote Branches (Tutorial),Remote,1,D0948214,4,6000,266
+Version-1,65f7d18fe5681b767119e5ac,D0948214,Keep Branches in Sync (Tutorial),Remote,1,D0948214,4,5000,143
+Version-1,65f7d18fe5681b767119e5ac,D0948214,Preparation for Merging (Tutorial),Remote,1,D0948214,4,8000,339
+Version-1,65f7d18fe5681b767119e5ac,D0948214,Creating a Pull Request (Tutorial),Remote,1,D0948214,4,11000,346
+Version-1,65f7d18fe5681b767119e5ac,D0948214,Review and Merge Pull Requests (Tutorial),Remote,1,D0948214,4,4000,266
+Version-1,65f7d199e5681b767119e5c3,Monstung,Game Introduction (Tutorial),Basic,1,Monstung,1,5250,1881
+Version-1,65f7d199e5681b767119e5c3,Monstung,Version Control and Git (Tutorial),Basic,1,Monstung,3,2000,194
+Version-1,65f7d199e5681b767119e5c3,Monstung,Create Local Repository (Tutorial),Basic,1,Monstung,3,3750,728
+Version-1,65f7d199e5681b767119e5c3,Monstung,Basic Staging Area (Tutorial),Basic,1,Monstung,3,4750,1325
+Version-1,65f7d199e5681b767119e5c3,Monstung,Advanced Staging Area (Tutorial),Basic,1,Monstung,4,6000,262
+Version-1,65f7d199e5681b767119e5c3,Monstung,Creating First Version (Tutorial),Basic,1,Monstung,3,15750,245
+Version-1,65f7d199e5681b767119e5c3,Monstung,Switching Project Versions (Tutorial),Basic,1,Monstung,3,7750,468
+Version-1,65f7d19ee5681b767119e5da,D0948019,Game Introduction (Tutorial),Basic,1,D0948019,4,7000,37
+Version-1,65f7d19ee5681b767119e5da,D0948019,Game Introduction (Tutorial),Basic,2,D0948019,4,7000,38
+Version-1,65f7d19ee5681b767119e5da,D0948019,Game Introduction (Tutorial),Basic,3,D0948019,4,7000,83
+Version-1,65f7d19ee5681b767119e5da,D0948019,Version Control and Git (Tutorial),Basic,1,D0948019,4,3000,228
+Version-1,65f7d19ee5681b767119e5da,D0948019,Create Local Repository (Tutorial),Basic,1,D0948019,4,4000,171
+Version-1,65f7d19ee5681b767119e5da,D0948019,Basic Staging Area (Tutorial),Basic,1,D0948019,4,5000,445
+Version-1,65f7d19ee5681b767119e5da,D0948019,Advanced Staging Area (Tutorial),Basic,1,D0948019,4,6000,210
+Version-1,65f7d19ee5681b767119e5da,D0948019,Creating First Version (Tutorial),Basic,1,D0948019,4,16000,512
+Version-1,65f7d19ee5681b767119e5da,D0948019,Switching Project Versions (Tutorial),Basic,1,D0948019,4,8000,316
+Version-1,65f7d19ee5681b767119e5da,D0948019,Git Branching Basics (Tutorial),Branch,1,D0948019,4,9000,233
+Version-1,65f7d19ee5681b767119e5da,D0948019,Fast-Forward Merging (Tutorial),Branch,1,D0948019,4,6000,158
+Version-1,65f7d19ee5681b767119e5da,D0948019,Auto Merging (Tutorial),Branch,1,D0948019,4,8000,255
+Version-1,65f7d19ee5681b767119e5da,D0948019,Merge Conflicts (Tutorial),Branch,1,D0948019,4,7000,183
+Version-1,65f7d19ee5681b767119e5da,D0948019,Create Remote Repository (Tutorial),Remote,1,D0948019,4,6000,54
+Version-1,65f7d19ee5681b767119e5da,D0948019,Push to Remote Branches (Tutorial),Remote,1,D0948019,4,6000,216
+Version-1,65f7d19ee5681b767119e5da,D0948019,Keep Branches in Sync (Tutorial),Remote,1,D0948019,4,5000,166
+Version-1,65f7d19ee5681b767119e5da,D0948019,Preparation for Merging (Tutorial),Remote,1,D0948019,4,8000,210
+Version-1,65f7d19ee5681b767119e5da,D0948019,Preparation for Merging (Tutorial),Remote,2,D0948019,3,7750,231
+Version-1,65f7d19ee5681b767119e5da,D0948019,Creating a Pull Request (Tutorial),Remote,1,D0948019,4,11000,189
+Version-1,65f7d19ee5681b767119e5da,D0948019,Creating a Pull Request (Tutorial),Remote,2,D0948019,3,10000,283
+Version-1,65f7d19ee5681b767119e5da,D0948019,Review and Merge Pull Requests (Tutorial),Remote,1,D0948019,4,4000,71
+Version-1,65f7d1a0e5681b767119e5e8,D1051652,Game Introduction (Tutorial),Basic,1,D1051652,4,7000,228
+Version-1,65f7d1a0e5681b767119e5e8,D1051652,Version Control and Git (Tutorial),Basic,1,D1051652,4,3000,80
+Version-1,65f7d1a0e5681b767119e5e8,D1051652,Version Control and Git (Tutorial),Basic,2,D1051652,2,1000,195
+Version-1,65f7d1a0e5681b767119e5e8,D1051652,Create Local Repository (Tutorial),Basic,1,D1051652,4,4000,147
+Version-1,65f7d1a0e5681b767119e5e8,D1051652,Basic Staging Area (Tutorial),Basic,1,D1051652,4,5000,206
+Version-1,65f7d1a0e5681b767119e5e8,D1051652,Advanced Staging Area (Tutorial),Basic,1,D1051652,4,6000,239
+Version-1,65f7d1a0e5681b767119e5e8,D1051652,Creating First Version (Tutorial),Basic,1,D1051652,4,16000,495
+Version-1,65f7d1a0e5681b767119e5e8,D1051652,Switching Project Versions (Tutorial),Basic,1,D1051652,4,8000,258
+Version-1,65f7d1a0e5681b767119e5e8,D1051652,Git Branching Basics (Tutorial),Branch,1,D1051652,3,8750,755
+Version-1,65f7d1a0e5681b767119e5e8,D1051652,Fast-Forward Merging (Tutorial),Branch,1,D1051652,4,6000,559
+Version-1,65f7d1a1e5681b767119e5f2,tukta26884,Game Introduction (Tutorial),Basic,1,tukta26884,2,5500,1837
+Version-1,65f7d1a1e5681b767119e5f2,tukta26884,Version Control and Git (Tutorial),Basic,1,tukta26884,4,3000,378
+Version-1,65f7d1a1e5681b767119e5f2,tukta26884,Create Local Repository (Tutorial),Basic,1,tukta26884,3,3500,796
+Version-1,65f7d1a1e5681b767119e5f2,tukta26884,Basic Staging Area (Tutorial),Basic,1,tukta26884,3,4750,1297
+Version-1,65f7d1a1e5681b767119e5f2,tukta26884,Advanced Staging Area (Tutorial),Basic,1,tukta26884,3,5750,372
+Version-1,65f7d1a1e5681b767119e5f2,tukta26884,Creating First Version (Tutorial),Basic,1,tukta26884,3,15750,573
+Version-1,65f7d1a1e5681b767119e5f2,tukta26884,Switching Project Versions (Tutorial),Basic,1,tukta26884,4,8000,565
+Version-1,65f7d1a3e5681b767119e600,D1076775,Game Introduction (Tutorial),Basic,1,D1076775,2,6000,987
+Version-1,65f7d1ade5681b767119e62c,D0916167,Game Introduction (Tutorial),Basic,1,D0916167,3,6500,149
+Version-1,65f7d1ade5681b767119e62c,D0916167,Version Control and Git (Tutorial),Basic,1,D0916167,4,3000,119
+Version-1,65f7d1ade5681b767119e62c,D0916167,Create Local Repository (Tutorial),Basic,1,D0916167,4,4000,121
+Version-1,65f7d1ade5681b767119e62c,D0916167,Basic Staging Area (Tutorial),Basic,1,D0916167,4,5000,129
+Version-1,65f7d1ade5681b767119e62c,D0916167,Advanced Staging Area (Tutorial),Basic,1,D0916167,4,6000,229
+Version-1,65f7d1ade5681b767119e62c,D0916167,Creating First Version (Tutorial),Basic,1,D0916167,4,16000,265
+Version-1,65f7d1ade5681b767119e62c,D0916167,Switching Project Versions (Tutorial),Basic,1,D0916167,4,8000,499
+Version-1,65f7d1ade5681b767119e62c,D0916167,Git Branching Basics (Tutorial),Branch,1,D0916167,4,9000,254
+Version-1,65f7d1afe5681b767119e636,d1051284,Game Introduction (Tutorial),Basic,1,d1051284,3,6500,320
+Version-1,65f7d1afe5681b767119e636,d1051284,Version Control and Git (Tutorial),Basic,1,d1051284,3,2000,234
+Version-1,65f7d1afe5681b767119e636,d1051284,Create Local Repository (Tutorial),Basic,1,d1051284,4,4000,60
+Version-1,65f7d1afe5681b767119e636,d1051284,Create Local Repository (Tutorial),Basic,2,d1051284,3,3500,977
+Version-1,65f7d1afe5681b767119e636,d1051284,Basic Staging Area (Tutorial),Basic,1,d1051284,4,5000,243
+Version-1,65f7d1afe5681b767119e636,d1051284,Advanced Staging Area (Tutorial),Basic,1,d1051284,4,6000,307
+Version-1,65f7d1afe5681b767119e636,d1051284,Creating First Version (Tutorial),Basic,1,d1051284,4,16000,741
+Version-1,65f7d1afe5681b767119e636,d1051284,Switching Project Versions (Tutorial),Basic,1,d1051284,4,8000,351
+Version-1,65f7d1afe5681b767119e636,d1051284,Git Branching Basics (Tutorial),Branch,1,d1051284,3,8750,701
+Version-1,65f7d1afe5681b767119e636,d1051284,Fast-Forward Merging (Tutorial),Branch,1,d1051284,4,6000,282
+Version-1,65f7d1afe5681b767119e636,d1051284,Fast-Forward Merging (Tutorial),Branch,2,d1051284,3,5750,789
+Version-1,65f7d1afe5681b767119e636,d1051284,Auto Merging (Tutorial),Branch,1,d1051284,4,8000,580
+Version-1,65f7d1c5e5681b767119e6a2,d1090685,Game Introduction (Tutorial),Basic,1,d1090685,3,6500,371
+Version-1,65f7d1c5e5681b767119e6a2,d1090685,Version Control and Git (Tutorial),Basic,1,d1090685,3,2000,152
+Version-1,65f7d1c5e5681b767119e6a2,d1090685,Create Local Repository (Tutorial),Basic,1,d1090685,4,4000,225
+Version-1,65f7d1c5e5681b767119e6a2,d1090685,Basic Staging Area (Tutorial),Basic,1,d1090685,4,5000,189
+Version-1,65f7d1c5e5681b767119e6a2,d1090685,Advanced Staging Area (Tutorial),Basic,1,d1090685,4,6000,245
+Version-1,65f7d1c5e5681b767119e6a2,d1090685,Creating First Version (Tutorial),Basic,1,d1090685,4,16000,583
+Version-1,65f7d1c5e5681b767119e6a2,d1090685,Switching Project Versions (Tutorial),Basic,1,d1090685,4,8000,277
+Version-1,65f7d1c5e5681b767119e6a2,d1090685,Git Branching Basics (Tutorial),Branch,1,d1090685,4,9000,354
+Version-1,65f7d1c5e5681b767119e6a2,d1090685,Fast-Forward Merging (Tutorial),Branch,1,d1090685,4,6000,248
+Version-1,65f7d1c5e5681b767119e6a2,d1090685,Auto Merging (Tutorial),Branch,1,d1090685,3,7750,467
+Version-1,65f7d1c5e5681b767119e6a2,d1090685,Merge Conflicts (Tutorial),Branch,1,d1090685,4,7000,408
+Version-1,65f7d1c5e5681b767119e6a2,d1090685,Create Remote Repository (Tutorial),Remote,1,d1090685,4,6000,367
+Version-1,65f7d1c5e5681b767119e6a2,d1090685,Push to Remote Branches (Tutorial),Remote,1,d1090685,3,5500,793
+Version-1,65f7d1c5e5681b767119e6a2,d1090685,Keep Branches in Sync (Tutorial),Remote,1,d1090685,4,5000,539
+Version-1,65f7d1c5e5681b767119e6a2,d1090685,Game Introduction (Practice),Basic,1,d1090685,4,7000,47
+Version-1,65f7d1c5e5681b767119e6a2,d1090685,Version Control and Git (Practice),Basic,1,d1090685,4,7000,100
+Version-1,65f7d1c5e5681b767119e6a2,d1090685,Create Local Repository (Practice),Basic,1,d1090685,4,3000,34
+Version-1,65f7d1c5e5681b767119e6a2,d1090685,Create Local Repository (Practice),Basic,2,d1090685,3,2750,71
+Version-1,65f7d1e1e5681b767119e731,D1051492,Game Introduction (Tutorial),Basic,1,D1051492,3,6750,268
+Version-1,65f7d1e1e5681b767119e731,D1051492,Version Control and Git (Tutorial),Basic,1,D1051492,4,3000,55
+Version-1,65f7d1e1e5681b767119e731,D1051492,Version Control and Git (Tutorial),Basic,2,D1051492,2,1000,326
+Version-1,65f7d1e1e5681b767119e731,D1051492,Create Local Repository (Tutorial),Basic,1,D1051492,4,4000,162
+Version-1,65f7d1e1e5681b767119e731,D1051492,Basic Staging Area (Tutorial),Basic,1,D1051492,4,5000,248
+Version-1,65f7d1e1e5681b767119e731,D1051492,Advanced Staging Area (Tutorial),Basic,1,D1051492,4,6000,213
+Version-1,65f7d1e1e5681b767119e731,D1051492,Creating First Version (Tutorial),Basic,1,D1051492,3,15750,431
+Version-1,65f7d1e1e5681b767119e731,D1051492,Switching Project Versions (Tutorial),Basic,1,D1051492,4,8000,277
+Version-1,65f7d1e1e5681b767119e731,D1051492,Git Branching Basics (Tutorial),Branch,1,D1051492,4,9000,255
+Version-1,65f7d1e1e5681b767119e731,D1051492,Fast-Forward Merging (Tutorial),Branch,1,D1051492,4,6000,171
+Version-1,65f7d1e1e5681b767119e731,D1051492,Auto Merging (Tutorial),Branch,1,D1051492,3,7750,247
+Version-1,65f7d1e1e5681b767119e731,D1051492,Merge Conflicts (Tutorial),Branch,1,D1051492,1,5000,408
+Version-1,65f7d1e1e5681b767119e731,D1051492,Create Remote Repository (Tutorial),Remote,1,D1051492,4,6000,145
+Version-1,65f7d1e1e5681b767119e731,D1051492,Push to Remote Branches (Tutorial),Remote,1,D1051492,4,6000,199
+Version-1,65f7d1e1e5681b767119e731,D1051492,Keep Branches in Sync (Tutorial),Remote,1,D1051492,4,5000,138
+Version-1,65f7d1e1e5681b767119e731,D1051492,Preparation for Merging (Tutorial),Remote,1,D1051492,2,6000,388
+Version-1,65f7d1e1e5681b767119e731,D1051492,Game Introduction (Practice),Basic,1,D1051492,4,7000,45
+Version-1,65f7d1e1e5681b767119e731,D1051492,Version Control and Git (Practice),Basic,1,D1051492,4,7000,94
+Version-1,65f7d1e1e5681b767119e731,D1051492,Create Local Repository (Practice),Basic,1,D1051492,4,3000,76
+Version-1,65f7d1e1e5681b767119e731,D1051492,Creating First Version (Practice),Basic,1,D1051492,4,8000,109
+Version-1,65f7d1e1e5681b767119e731,D1051492,Switching Project Versions (Practice),Basic,1,D1051492,2,6000,270
+Version-2,6a5ad0e7ff79bf083c5271ff,thomasvi,Game Introduction (Tutorial),Basic,1,thomasvi,3,6500,420
+Version-2,6a5ad0e7ff79bf083c5271ff,thomasvi,Version Control and Git (Tutorial),Basic,1,thomasvi,4,3000,103
+Version-2,6a5ad0e7ff79bf083c5271ff,thomasvi,Create Local Repository (Tutorial),Basic,1,thomasvi,4,4000,49
+Version-2,6a5ad0e7ff79bf083c5271ff,thomasvi,Basic Staging Area (Tutorial),Basic,1,thomasvi,4,5000,117
+Version-2,6a5ad0e7ff79bf083c5271ff,thomasvi,Advanced Staging Area (Tutorial),Basic,1,thomasvi,4,6000,125
+Version-2,6a5ad0e7ff79bf083c5271ff,thomasvi,Creating First Version (Tutorial),Basic,1,thomasvi,4,16000,222
+Version-2,6a5ad0e7ff79bf083c5271ff,thomasvi,Switching Project Versions (Tutorial),Basic,1,thomasvi,4,8000,169
+Version-2,6a5ad0e7ff79bf083c5271ff,thomasvi,Git Branching Basics (Tutorial),Branch,1,thomasvi,4,9000,236
+Version-2,6a5ad0e7ff79bf083c5271ff,thomasvi,Fast-Forward Merging (Tutorial),Branch,1,thomasvi,4,6000,109
+Version-2,6a5ad0e7ff79bf083c5271ff,thomasvi,Auto Merging (Tutorial),Branch,1,thomasvi,2,6750,352
+Version-2,6a5ad0e7ff79bf083c5271ff,thomasvi,Merge Conflicts (Tutorial),Branch,1,thomasvi,4,7000,122
+Version-2,6a5ad0e7ff79bf083c5271ff,thomasvi,Create Remote Repository (Tutorial),Remote,1,thomasvi,4,6000,80
+Version-2,6a5ad0e7ff79bf083c5271ff,thomasvi,Create Remote Repository (Tutorial),Remote,2,thomasvi,1,4000,297
+Version-2,6a5ad0e7ff79bf083c5271ff,thomasvi,Push to Remote Branches (Tutorial),Remote,1,thomasvi,1,4000,284
+Version-2,6a643ae5ff79bf083c5277a0,tranhoanglong,Game Introduction (Tutorial),Basic,1,tranhoanglong,3,6500,439
+Version-2,6a643ae5ff79bf083c5277a0,tranhoanglong,Version Control and Git (Tutorial),Basic,1,tranhoanglong,4,3000,105
+Version-2,6a643ae5ff79bf083c5277a0,tranhoanglong,Create Local Repository (Tutorial),Basic,1,tranhoanglong,4,4000,356
+Version-2,6a643ae5ff79bf083c5277a0,tranhoanglong,Basic Staging Area (Tutorial),Basic,1,tranhoanglong,4,5000,264
+Version-2,6a643ae5ff79bf083c5277a0,tranhoanglong,Advanced Staging Area (Tutorial),Basic,1,tranhoanglong,4,6000,140
+Version-2,6a643ae5ff79bf083c5277a0,tranhoanglong,Creating First Version (Tutorial),Basic,1,tranhoanglong,4,16000,338
+Version-2,6a643ae5ff79bf083c5277a0,tranhoanglong,Switching Project Versions (Tutorial),Basic,1,tranhoanglong,4,8000,249
+Version-2,6a643ae5ff79bf083c5277a0,tranhoanglong,Game Introduction (Practice),Basic,1,tranhoanglong,3,6500,42
+Version-2,6a643ae5ff79bf083c5277a0,tranhoanglong,Version Control and Git (Practice),Basic,1,tranhoanglong,3,6000,142
+Version-2,6a643ae5ff79bf083c5277a0,tranhoanglong,Create Local Repository (Practice),Basic,1,tranhoanglong,4,3000,31
+Version-2,6a643ae5ff79bf083c5277a0,tranhoanglong,Basic Staging Area (Practice),Basic,1,tranhoanglong,4,3000,408
+Version-2,6a643ae5ff79bf083c5277a0,tranhoanglong,Advanced Staging Area (Practice),Basic,1,tranhoanglong,4,3000,74
+Version-2,6a643ae5ff79bf083c5277a0,tranhoanglong,Creating First Version (Practice),Basic,1,tranhoanglong,4,8000,126
+Version-2,6a643ae5ff79bf083c5277a0,tranhoanglong,Switching Project Versions (Practice),Basic,1,tranhoanglong,2,6000,782
+Version-2,6a64475aff79bf083c527a7b,Thach Ngoc Phu,Game Introduction (Tutorial),Basic,1,Thach Ngoc Phu,3,6500,450
+Version-2,6a644f77ff79bf083c527b73,TranCongHau,Game Introduction (Tutorial),Basic,1,TranCongHau,4,7000,58
+Version-2,6a644f77ff79bf083c527b73,TranCongHau,Game Introduction (Tutorial),Basic,2,TranCongHau,1,4500,313
+Version-2,6a644f77ff79bf083c527b73,TranCongHau,Version Control and Git (Tutorial),Basic,1,TranCongHau,4,3000,79
+Version-2,6a644f77ff79bf083c527b73,TranCongHau,Create Local Repository (Tutorial),Basic,1,TranCongHau,4,4000,43
+Version-2,6a644f77ff79bf083c527b73,TranCongHau,Basic Staging Area (Tutorial),Basic,1,TranCongHau,4,5000,109
+Version-2,6a644f77ff79bf083c527b73,TranCongHau,Advanced Staging Area (Tutorial),Basic,1,TranCongHau,4,6000,241
+Version-2,6a644f77ff79bf083c527b73,TranCongHau,Creating First Version (Tutorial),Basic,1,TranCongHau,4,16000,294
+Version-2,6a644f77ff79bf083c527b73,TranCongHau,Switching Project Versions (Tutorial),Basic,1,TranCongHau,4,8000,159
+Version-2,6a644f77ff79bf083c527b73,TranCongHau,Git Branching Basics (Tutorial),Branch,1,TranCongHau,4,9000,309
+Version-2,6a644f77ff79bf083c527b73,TranCongHau,Game Introduction (Practice),Basic,1,TranCongHau,4,7000,52
+Version-2,6a644f77ff79bf083c527b73,TranCongHau,Version Control and Git (Practice),Basic,1,TranCongHau,3,6000,139
+Version-2,6a64647aff79bf083c527c7f,dat,Game Introduction (Tutorial),Basic,1,dat,2,6000,285
+Version-2,6a6464afff79bf083c527c87,tranhoangoanh,Game Introduction (Tutorial),Basic,1,tranhoangoanh,3,6250,452
+Version-2,6a6464afff79bf083c527c87,tranhoangoanh,Version Control and Git (Tutorial),Basic,1,tranhoangoanh,4,3000,105
+Version-2,6a6464afff79bf083c527c87,tranhoangoanh,Create Local Repository (Tutorial),Basic,1,tranhoangoanh,4,4000,53
+Version-2,6a6464afff79bf083c527c87,tranhoangoanh,Basic Staging Area (Tutorial),Basic,1,tranhoangoanh,4,5000,358
+Version-2,6a6464afff79bf083c527c87,tranhoangoanh,Advanced Staging Area (Tutorial),Basic,1,tranhoangoanh,2,5000,222
+Version-2,6a6464afff79bf083c527c87,tranhoangoanh,Creating First Version (Tutorial),Basic,1,tranhoangoanh,4,16000,678
+Version-2,6a64669dff79bf083c527cc8,PhanHoangDinh,Game Introduction (Tutorial),Basic,1,PhanHoangDinh,1,2750,571
+Version-2,6a6467faff79bf083c527cf4,TranVuNgocHuynh,Game Introduction (Tutorial),Basic,1,TranVuNgocHuynh,4,7000,54
+Version-2,6a6467faff79bf083c527cf4,TranVuNgocHuynh,Game Introduction (Tutorial),Basic,2,TranVuNgocHuynh,3,6250,308
+Version-2,6a6467faff79bf083c527cf4,TranVuNgocHuynh,Version Control and Git (Tutorial),Basic,1,TranVuNgocHuynh,4,3000,157
+Version-2,6a6467faff79bf083c527cf4,TranVuNgocHuynh,Create Local Repository (Tutorial),Basic,1,TranVuNgocHuynh,4,4000,33
+Version-2,6a6467faff79bf083c527cf4,TranVuNgocHuynh,Create Local Repository (Tutorial),Basic,2,TranVuNgocHuynh,3,3750,102
+Version-2,6a6467faff79bf083c527cf4,TranVuNgocHuynh,Basic Staging Area (Tutorial),Basic,1,TranVuNgocHuynh,4,5000,231
+Version-2,6a6467faff79bf083c527cf4,TranVuNgocHuynh,Advanced Staging Area (Tutorial),Basic,1,TranVuNgocHuynh,4,6000,295
+Version-2,6a6467faff79bf083c527cf4,TranVuNgocHuynh,Creating First Version (Tutorial),Basic,1,TranVuNgocHuynh,4,16000,281
+Version-2,6a6467faff79bf083c527cf4,TranVuNgocHuynh,Switching Project Versions (Tutorial),Basic,1,TranVuNgocHuynh,4,8000,243
+Version-2,6a6467faff79bf083c527cf4,TranVuNgocHuynh,Game Introduction (Practice),Basic,1,TranVuNgocHuynh,4,7000,38
+Version-2,6a6467faff79bf083c527cf4,TranVuNgocHuynh,Version Control and Git (Practice),Basic,1,TranVuNgocHuynh,4,7000,171
+Version-2,6a646bfeff79bf083c527e4a,huynhduongtanphat,Game Introduction (Tutorial),Basic,1,huynhduongtanphat,3,6750,327
+Version-2,6a646bfeff79bf083c527e4a,huynhduongtanphat,Version Control and Git (Tutorial),Basic,1,huynhduongtanphat,2,1000,156
+Version-2,6a646bfeff79bf083c527e4a,huynhduongtanphat,Create Local Repository (Tutorial),Basic,1,huynhduongtanphat,3,3750,124
+Version-2,6a646bfeff79bf083c527e4a,huynhduongtanphat,Basic Staging Area (Tutorial),Basic,1,huynhduongtanphat,4,5000,135
+Version-2,6a646bfeff79bf083c527e4a,huynhduongtanphat,Advanced Staging Area (Tutorial),Basic,1,huynhduongtanphat,4,6000,486
+Version-2,6a646bfeff79bf083c527e4a,huynhduongtanphat,Creating First Version (Tutorial),Basic,1,huynhduongtanphat,4,16000,272
+Version-2,6a6474aeff79bf083c5280ee,Le Trung Hieu,Game Introduction (Tutorial),Basic,1,Le Trung Hieu,4,7000,69
+Version-2,6a6474aeff79bf083c5280ee,Le Trung Hieu,Game Introduction (Tutorial),Basic,2,Le Trung Hieu,3,6750,304
+Version-2,6a6477b9ff79bf083c528300,Le trung hieu,Game Introduction (Tutorial),Basic,1,Le trung hieu,4,7000,48
+Version-2,6a6477b9ff79bf083c528300,Le trung hieu,Game Introduction (Tutorial),Basic,2,Le trung hieu,4,7000,56
+Version-2,6a6477b9ff79bf083c528300,Le trung hieu,Game Introduction (Tutorial),Basic,3,Le trung hieu,4,7000,56
+Version-2,6a6477b9ff79bf083c528300,Le trung hieu,Version Control and Git (Tutorial),Basic,1,Le trung hieu,4,3000,47
+Version-2,6a6477b9ff79bf083c528300,Le trung hieu,Version Control and Git (Tutorial),Basic,2,Le trung hieu,4,3000,123
+Version-2,6a6477b9ff79bf083c528300,Le trung hieu,Create Local Repository (Tutorial),Basic,1,Le trung hieu,4,4000,35
+Version-2,6a6477b9ff79bf083c528300,Le trung hieu,Create Local Repository (Tutorial),Basic,2,Le trung hieu,4,4000,88
+Version-2,6a6477b9ff79bf083c528300,Le trung hieu,Basic Staging Area (Tutorial),Basic,1,Le trung hieu,4,5000,67
+Version-2,6a6477b9ff79bf083c528300,Le trung hieu,Basic Staging Area (Tutorial),Basic,2,Le trung hieu,4,5000,145
+Version-2,6a6477b9ff79bf083c528300,Le trung hieu,Advanced Staging Area (Tutorial),Basic,1,Le trung hieu,4,6000,87
+Version-2,6a6477b9ff79bf083c528300,Le trung hieu,Creating First Version (Tutorial),Basic,1,Le trung hieu,4,16000,195
+Version-2,6a6477b9ff79bf083c528300,Le trung hieu,Switching Project Versions (Tutorial),Basic,1,Le trung hieu,4,8000,98
+Version-2,6a6477b9ff79bf083c528300,Le trung hieu,Git Branching Basics (Tutorial),Branch,1,Le trung hieu,4,9000,166
+Version-2,6a6477b9ff79bf083c528300,Le trung hieu,Fast-Forward Merging (Tutorial),Branch,1,Le trung hieu,4,6000,152
+Version-2,6a6477b9ff79bf083c528300,Le trung hieu,Auto Merging (Tutorial),Branch,1,Le trung hieu,4,8000,159
+Version-2,6a6477b9ff79bf083c528300,Le trung hieu,Merge Conflicts (Tutorial),Branch,1,Le trung hieu,4,7000,135
+Version-2,6a6477b9ff79bf083c528300,Le trung hieu,Create Remote Repository (Tutorial),Remote,1,Le trung hieu,4,6000,80
+Version-2,6a6477b9ff79bf083c528300,Le trung hieu,Push to Remote Branches (Tutorial),Remote,1,Le trung hieu,4,6000,149
+Version-2,6a6477b9ff79bf083c528300,Le trung hieu,Keep Branches in Sync (Tutorial),Remote,1,Le trung hieu,3,4500,223
+Version-2,6a6477b9ff79bf083c528300,Le trung hieu,Preparation for Merging (Tutorial),Remote,1,Le trung hieu,4,8000,169
+Version-2,6a6477b9ff79bf083c528300,Le trung hieu,Game Introduction (Practice),Basic,1,Le trung hieu,4,7000,40
+Version-2,6a6477b9ff79bf083c528300,Le trung hieu,Version Control and Git (Practice),Basic,1,Le trung hieu,4,7000,86
+Version-2,6a648361ff79bf083c528752,THACH NGUYEN QUE ANH,Game Introduction (Tutorial),Basic,1,THACH NGUYEN QUE ANH,1,5250,454
+Version-2,6a648361ff79bf083c528752,THACH NGUYEN QUE ANH,Version Control and Git (Tutorial),Basic,1,THACH NGUYEN QUE ANH,4,3000,199
+Version-2,6a648361ff79bf083c528752,THACH NGUYEN QUE ANH,Create Local Repository (Tutorial),Basic,1,THACH NGUYEN QUE ANH,4,4000,174
+Version-2,6a648361ff79bf083c528752,THACH NGUYEN QUE ANH,Basic Staging Area (Tutorial),Basic,1,THACH NGUYEN QUE ANH,4,5000,263
+Version-2,6a648361ff79bf083c528752,THACH NGUYEN QUE ANH,Basic Staging Area (Tutorial),Basic,2,THACH NGUYEN QUE ANH,1,2000,615
+Version-2,6a648361ff79bf083c528752,THACH NGUYEN QUE ANH,Advanced Staging Area (Tutorial),Basic,1,THACH NGUYEN QUE ANH,4,6000,384
+Version-2,6a648361ff79bf083c528752,THACH NGUYEN QUE ANH,Creating First Version (Tutorial),Basic,1,THACH NGUYEN QUE ANH,3,15000,1240
+Version-2,6a648361ff79bf083c528752,THACH NGUYEN QUE ANH,Switching Project Versions (Tutorial),Basic,1,THACH NGUYEN QUE ANH,4,8000,561
+Version-2,6a649896ff79bf083c528e01,huynhchidat,Game Introduction (Tutorial),Basic,1,huynhchidat,3,6750,52
+Version-2,6a649896ff79bf083c528e01,huynhchidat,Game Introduction (Tutorial),Basic,2,huynhchidat,2,6000,365
+Version-2,6a649896ff79bf083c528e01,huynhchidat,Version Control and Git (Tutorial),Basic,1,huynhchidat,2,1000,264
+Version-2,6a649896ff79bf083c528e01,huynhchidat,Create Local Repository (Tutorial),Basic,1,huynhchidat,4,4000,106
+Version-2,6a649896ff79bf083c528e01,huynhchidat,Basic Staging Area (Tutorial),Basic,1,huynhchidat,4,5000,188
+Version-2,6a649896ff79bf083c528e01,huynhchidat,Advanced Staging Area (Tutorial),Basic,1,huynhchidat,4,6000,246
+Version-2,6a649896ff79bf083c528e01,huynhchidat,Creating First Version (Tutorial),Basic,1,huynhchidat,4,16000,475
+Version-2,6a649896ff79bf083c528e01,huynhchidat,Switching Project Versions (Tutorial),Basic,1,huynhchidat,4,8000,273
+Version-2,6a649b75ff79bf083c528ee0,HuynhLeNgocTrinh,Game Introduction (Tutorial),Basic,1,HuynhLeNgocTrinh,3,6750,404
+Version-2,6a649b75ff79bf083c528ee0,HuynhLeNgocTrinh,Version Control and Git (Tutorial),Basic,1,HuynhLeNgocTrinh,4,3000,195
+Version-2,6a649b75ff79bf083c528ee0,HuynhLeNgocTrinh,Create Local Repository (Tutorial),Basic,1,HuynhLeNgocTrinh,3,3750,104
+Version-2,6a649b75ff79bf083c528ee0,HuynhLeNgocTrinh,Basic Staging Area (Tutorial),Basic,1,HuynhLeNgocTrinh,4,5000,327
+Version-2,6a649b75ff79bf083c528ee0,HuynhLeNgocTrinh,Advanced Staging Area (Tutorial),Basic,1,HuynhLeNgocTrinh,4,6000,408
+Version-2,6a649b75ff79bf083c528ee0,HuynhLeNgocTrinh,Creating First Version (Tutorial),Basic,1,HuynhLeNgocTrinh,3,15750,480
+Version-2,6a649b75ff79bf083c528ee0,HuynhLeNgocTrinh,Switching Project Versions (Tutorial),Basic,1,HuynhLeNgocTrinh,4,8000,117
+Version-2,6a649b75ff79bf083c528ee0,HuynhLeNgocTrinh,Switching Project Versions (Tutorial),Basic,2,HuynhLeNgocTrinh,4,8000,402
+Version-2,6a649b75ff79bf083c528ee0,HuynhLeNgocTrinh,Git Branching Basics (Tutorial),Branch,1,HuynhLeNgocTrinh,4,9000,542
+Version-2,6a649b75ff79bf083c528ee0,HuynhLeNgocTrinh,Fast-Forward Merging (Tutorial),Branch,1,HuynhLeNgocTrinh,4,6000,215
+Version-2,6a649b75ff79bf083c528ee0,HuynhLeNgocTrinh,Auto Merging (Tutorial),Branch,1,HuynhLeNgocTrinh,3,7750,570
+Version-2,6a649b75ff79bf083c528ee0,HuynhLeNgocTrinh,Merge Conflicts (Tutorial),Branch,1,HuynhLeNgocTrinh,3,6750,172
+Version-2,6a649b75ff79bf083c528ee0,HuynhLeNgocTrinh,Create Remote Repository (Tutorial),Remote,1,HuynhLeNgocTrinh,3,5750,176
+Version-2,6a649b75ff79bf083c528ee0,HuynhLeNgocTrinh,Push to Remote Branches (Tutorial),Remote,1,HuynhLeNgocTrinh,4,6000,561
+Version-2,6a649b75ff79bf083c528ee0,HuynhLeNgocTrinh,Keep Branches in Sync (Tutorial),Remote,1,HuynhLeNgocTrinh,3,4500,1606
+Version-2,6a649b75ff79bf083c528ee0,HuynhLeNgocTrinh,Game Introduction (Practice),Basic,1,HuynhLeNgocTrinh,4,7000,48
+Version-2,6a649b75ff79bf083c528ee0,HuynhLeNgocTrinh,Version Control and Git (Practice),Basic,1,HuynhLeNgocTrinh,4,7000,121
+Version-2,6a649b75ff79bf083c528ee0,HuynhLeNgocTrinh,Create Local Repository (Practice),Basic,1,HuynhLeNgocTrinh,3,2750,90
+Version-2,6a649b75ff79bf083c528ee0,HuynhLeNgocTrinh,Basic Staging Area (Practice),Basic,1,HuynhLeNgocTrinh,4,3000,253
+Version-2,6a649b75ff79bf083c528ee0,HuynhLeNgocTrinh,Advanced Staging Area (Practice),Basic,1,HuynhLeNgocTrinh,3,2750,620
+Version-2,6a649b75ff79bf083c528ee0,HuynhLeNgocTrinh,Creating First Version (Practice),Basic,1,HuynhLeNgocTrinh,4,8000,127
+Version-2,6a649b75ff79bf083c528ee0,HuynhLeNgocTrinh,Switching Project Versions (Practice),Basic,1,HuynhLeNgocTrinh,3,6750,281
+Version-2,6a649b75ff79bf083c528ee0,HuynhLeNgocTrinh,Git Branching Basics (Practice),Branch,1,HuynhLeNgocTrinh,3,8750,229
+Version-2,6a649b75ff79bf083c528ee0,HuynhLeNgocTrinh,Fast-Forward Merging (Practice),Branch,1,HuynhLeNgocTrinh,3,6750,383
+Version-2,6a64a005ff79bf083c529087,TranThiYenKhoa,Game Introduction (Tutorial),Basic,1,TranThiYenKhoa,2,6000,734
+Version-2,6a64a005ff79bf083c529087,TranThiYenKhoa,Version Control and Git (Tutorial),Basic,1,TranThiYenKhoa,1,0,566
+Version-2,6a64a54eff79bf083c5292bb,Nguyen Thi Thuy Duy,Game Introduction (Tutorial),Basic,1,Nguyen Thi Thuy Duy,2,5750,614
+Version-2,6a64a54eff79bf083c5292bb,Nguyen Thi Thuy Duy,Version Control and Git (Tutorial),Basic,1,Nguyen Thi Thuy Duy,4,3000,177
+Version-2,6a64a54eff79bf083c5292bb,Nguyen Thi Thuy Duy,Create Local Repository (Tutorial),Basic,1,Nguyen Thi Thuy Duy,2,3000,479
+Version-2,6a64a54eff79bf083c5292bb,Nguyen Thi Thuy Duy,Basic Staging Area (Tutorial),Basic,1,Nguyen Thi Thuy Duy,2,4000,313
+Version-2,6a64a54eff79bf083c5292bb,Nguyen Thi Thuy Duy,Advanced Staging Area (Tutorial),Basic,1,Nguyen Thi Thuy Duy,4,6000,249
+Version-2,6a64a54eff79bf083c5292bb,Nguyen Thi Thuy Duy,Creating First Version (Tutorial),Basic,1,Nguyen Thi Thuy Duy,3,15750,617
+Version-2,6a64a54eff79bf083c5292bb,Nguyen Thi Thuy Duy,Switching Project Versions (Tutorial),Basic,1,Nguyen Thi Thuy Duy,4,8000,345
+Version-2,6a64a54eff79bf083c5292bb,Nguyen Thi Thuy Duy,Git Branching Basics (Tutorial),Branch,1,Nguyen Thi Thuy Duy,3,8500,644
+Version-2,6a64a54eff79bf083c5292bb,Nguyen Thi Thuy Duy,Fast-Forward Merging (Tutorial),Branch,1,Nguyen Thi Thuy Duy,4,6000,211
+Version-2,6a64a54eff79bf083c5292bb,Nguyen Thi Thuy Duy,Auto Merging (Tutorial),Branch,1,Nguyen Thi Thuy Duy,2,7000,761
+Version-2,6a64a54eff79bf083c5292bb,Nguyen Thi Thuy Duy,Merge Conflicts (Tutorial),Branch,1,Nguyen Thi Thuy Duy,4,7000,198
+Version-2,6a64a54eff79bf083c5292bb,Nguyen Thi Thuy Duy,Create Remote Repository (Tutorial),Remote,1,Nguyen Thi Thuy Duy,4,6000,232
+Version-2,6a64a54eff79bf083c5292bb,Nguyen Thi Thuy Duy,Push to Remote Branches (Tutorial),Remote,1,Nguyen Thi Thuy Duy,3,5750,447
+Version-2,6a64b229ff79bf083c529418,ledanghuy,Game Introduction (Tutorial),Basic,1,ledanghuy,3,6250,334
+Version-2,6a64b229ff79bf083c529418,ledanghuy,Version Control and Git (Tutorial),Basic,1,ledanghuy,4,3000,177
+Version-2,6a64b229ff79bf083c529418,ledanghuy,Create Local Repository (Tutorial),Basic,1,ledanghuy,4,4000,167
+Version-2,6a64b229ff79bf083c529418,ledanghuy,Basic Staging Area (Tutorial),Basic,1,ledanghuy,4,5000,403
+Version-2,6a64b229ff79bf083c529418,ledanghuy,Advanced Staging Area (Tutorial),Basic,1,ledanghuy,4,6000,234
+Version-2,6a64b229ff79bf083c529418,ledanghuy,Creating First Version (Tutorial),Basic,1,ledanghuy,3,15250,781
+Version-2,6a64b229ff79bf083c529418,ledanghuy,Switching Project Versions (Tutorial),Basic,1,ledanghuy,4,8000,387
+Version-2,6a64c883ff79bf083c5295d5,phan tran truong huy ,Game Introduction (Tutorial),Basic,1,phan tran truong huy ,3,6500,687
+Version-2,6a6564a7ff79bf083c529833,thachthingoctram,Game Introduction (Tutorial),Basic,1,thachthingoctram,4,7000,346
+Version-2,6a6564a7ff79bf083c529833,thachthingoctram,Version Control and Git (Tutorial),Basic,1,thachthingoctram,4,3000,181
+Version-2,6a6564a7ff79bf083c529833,thachthingoctram,Create Local Repository (Tutorial),Basic,1,thachthingoctram,2,3000,346
+Version-2,6a6564a7ff79bf083c529833,thachthingoctram,Basic Staging Area (Tutorial),Basic,1,thachthingoctram,4,5000,550
+Version-2,6a6564a7ff79bf083c529833,thachthingoctram,Advanced Staging Area (Tutorial),Basic,1,thachthingoctram,4,6000,314
+Version-2,6a6564a7ff79bf083c529833,thachthingoctram,Creating First Version (Tutorial),Basic,1,thachthingoctram,4,16000,721
+Version-2,6a6564a7ff79bf083c529833,thachthingoctram,Game Introduction (Practice),Basic,1,thachthingoctram,4,7000,60
+Version-2,6a6564a7ff79bf083c529833,thachthingoctram,Version Control and Git (Practice),Basic,1,thachthingoctram,3,6000,251
+Version-2,6a6564a7ff79bf083c529833,thachthingoctram,Create Local Repository (Practice),Basic,1,thachthingoctram,4,3000,75
+Version-2,6a6564a7ff79bf083c529833,thachthingoctram,Advanced Staging Area (Practice),Basic,1,thachthingoctram,4,3000,274
+Version-2,6a6564a7ff79bf083c529833,thachthingoctram,Creating First Version (Practice),Basic,1,thachthingoctram,4,8000,331
+Version-2,6a6568c3ff79bf083c5298e0,NguyenTruongMinhCang,Game Introduction (Tutorial),Basic,1,NguyenTruongMinhCang,4,7000,46
+Version-2,6a6568c3ff79bf083c5298e0,NguyenTruongMinhCang,Game Introduction (Tutorial),Basic,2,NguyenTruongMinhCang,3,6250,81
+Version-2,6a6568c3ff79bf083c5298e0,NguyenTruongMinhCang,Game Introduction (Tutorial),Basic,3,NguyenTruongMinhCang,1,5250,310
+Version-2,6a659288ff79bf083c52a02e,TuGiaDat,Game Introduction (Tutorial),Basic,1,TuGiaDat,4,7000,65
+Version-2,6a659288ff79bf083c52a02e,TuGiaDat,Version Control and Git (Tutorial),Basic,1,TuGiaDat,4,3000,647
+Version-2,6a659288ff79bf083c52a02e,TuGiaDat,Create Local Repository (Tutorial),Basic,1,TuGiaDat,4,4000,510
+Version-2,6a659288ff79bf083c52a02e,TuGiaDat,Basic Staging Area (Tutorial),Basic,1,TuGiaDat,4,5000,778
+Version-2,6a659288ff79bf083c52a02e,TuGiaDat,Advanced Staging Area (Tutorial),Basic,1,TuGiaDat,4,6000,518
+Version-2,6a659288ff79bf083c52a02e,TuGiaDat,Creating First Version (Tutorial),Basic,1,TuGiaDat,4,16000,214
+Version-2,6a659288ff79bf083c52a02e,TuGiaDat,Creating First Version (Tutorial),Basic,2,TuGiaDat,2,14750,741
+Version-2,6a659288ff79bf083c52a02e,TuGiaDat,Switching Project Versions (Tutorial),Basic,1,TuGiaDat,3,7500,790
+Version-2,6a659288ff79bf083c52a02e,TuGiaDat,Git Branching Basics (Tutorial),Branch,1,TuGiaDat,2,8000,865
+Version-2,6a659288ff79bf083c52a02e,TuGiaDat,Git Branching Basics (Tutorial),Branch,2,TuGiaDat,1,6500,1450
+Version-2,6a659288ff79bf083c52a02e,TuGiaDat,Game Introduction (Practice),Basic,1,TuGiaDat,3,6250,101
+Version-2,6a659288ff79bf083c52a02e,TuGiaDat,Version Control and Git (Practice),Basic,1,TuGiaDat,2,4000,211
+Version-2,6a65970bff79bf083c52a0d6,nguyenhoanthong,Game Introduction (Tutorial),Basic,1,nguyenhoanthong,4,7000,392
+Version-2,6a65970bff79bf083c52a0d6,nguyenhoanthong,Version Control and Git (Tutorial),Basic,1,nguyenhoanthong,4,3000,45
+Version-2,6a65970bff79bf083c52a0d6,nguyenhoanthong,Version Control and Git (Tutorial),Basic,2,nguyenhoanthong,3,2000,68
+Version-2,6a65970bff79bf083c52a0d6,nguyenhoanthong,Version Control and Git (Tutorial),Basic,3,nguyenhoanthong,3,2000,100
+Version-2,6a65970bff79bf083c52a0d6,nguyenhoanthong,Create Local Repository (Tutorial),Basic,1,nguyenhoanthong,4,4000,33
+Version-2,6a65970bff79bf083c52a0d6,nguyenhoanthong,Create Local Repository (Tutorial),Basic,2,nguyenhoanthong,2,3000,334
+Version-2,6a65970bff79bf083c52a0d6,nguyenhoanthong,Basic Staging Area (Tutorial),Basic,1,nguyenhoanthong,4,5000,59
+Version-2,6a65970bff79bf083c52a0d6,nguyenhoanthong,Basic Staging Area (Tutorial),Basic,2,nguyenhoanthong,4,5000,231
+Version-2,6a65970bff79bf083c52a0d6,nguyenhoanthong,Advanced Staging Area (Tutorial),Basic,1,nguyenhoanthong,4,6000,253
+Version-2,6a65970bff79bf083c52a0d6,nguyenhoanthong,Creating First Version (Tutorial),Basic,1,nguyenhoanthong,4,16000,394
+Version-2,6a65970bff79bf083c52a0d6,nguyenhoanthong,Switching Project Versions (Tutorial),Basic,1,nguyenhoanthong,4,8000,199
+Version-2,6a65970bff79bf083c52a0d6,nguyenhoanthong,Switching Project Versions (Tutorial),Basic,2,nguyenhoanthong,3,7750,509
+Version-2,6a65970bff79bf083c52a0d6,nguyenhoanthong,Git Branching Basics (Tutorial),Branch,1,nguyenhoanthong,4,9000,236
+Version-2,6a65970bff79bf083c52a0d6,nguyenhoanthong,Git Branching Basics (Tutorial),Branch,2,nguyenhoanthong,2,8000,1239
+Version-2,6a65970bff79bf083c52a0d6,nguyenhoanthong,Fast-Forward Merging (Tutorial),Branch,1,nguyenhoanthong,4,6000,380
+Version-2,6a65970bff79bf083c52a0d6,nguyenhoanthong,Auto Merging (Tutorial),Branch,1,nguyenhoanthong,3,7750,483
+Version-2,6a65970bff79bf083c52a0d6,nguyenhoanthong,Merge Conflicts (Tutorial),Branch,1,nguyenhoanthong,3,6750,446
+Version-2,6a65970bff79bf083c52a0d6,nguyenhoanthong,Game Introduction (Practice),Basic,1,nguyenhoanthong,4,7000,53
+Version-2,6a65970bff79bf083c52a0d6,nguyenhoanthong,Version Control and Git (Practice),Basic,1,nguyenhoanthong,4,7000,104
+Version-2,6a65970bff79bf083c52a0d6,nguyenhoanthong,Basic Staging Area (Practice),Basic,1,nguyenhoanthong,4,3000,45
+Version-2,6a65970bff79bf083c52a0d6,nguyenhoanthong,Basic Staging Area (Practice),Basic,2,nguyenhoanthong,3,2500,383
+Version-2,6a65970bff79bf083c52a0d6,nguyenhoanthong,Advanced Staging Area (Practice),Basic,1,nguyenhoanthong,4,3000,130
+Version-2,6a65970bff79bf083c52a0d6,nguyenhoanthong,Creating First Version (Practice),Basic,1,nguyenhoanthong,4,8000,134
+Version-2,6a65970bff79bf083c52a0d6,nguyenhoanthong,Switching Project Versions (Practice),Basic,1,nguyenhoanthong,3,6750,211
+Version-2,6a65970bff79bf083c52a0d6,nguyenhoanthong,Git Branching Basics (Practice),Branch,1,nguyenhoanthong,3,8750,320
+Version-2,6a65970bff79bf083c52a0d6,nguyenhoanthong,Fast-Forward Merging (Practice),Branch,1,nguyenhoanthong,4,7000,262
+Version-2,6a65970bff79bf083c52a0d6,nguyenhoanthong,Auto Merging (Practice),Branch,1,nguyenhoanthong,3,5750,288
+Version-2,6a65bdbbff79bf083c52a4a5,lamminhthien,Game Introduction (Tutorial),Basic,1,lamminhthien,4,7000,46
+Version-2,6a65bdbbff79bf083c52a4a5,lamminhthien,Game Introduction (Tutorial),Basic,2,lamminhthien,3,6500,131
+Version-2,6a65bedfff79bf083c52a4ed,Le Nguyen Minh Tan,Game Introduction (Tutorial),Basic,1,Le Nguyen Minh Tan,4,7000,76
+Version-2,6a65c060ff79bf083c52a599,NguyenDuyTan,Game Introduction (Tutorial),Basic,1,NguyenDuyTan,4,7000,59
+Version-2,6a65c156ff79bf083c52a633,HuynhThienSonTTA,Game Introduction (Tutorial),Basic,1,HuynhThienSonTTA,3,6750,67
+Version-2,6a65c192ff79bf083c52a665,dinhminhven,Game Introduction (Tutorial),Basic,1,dinhminhven,4,7000,39
+Version-2,6a65c192ff79bf083c52a665,dinhminhven,Game Introduction (Tutorial),Basic,2,dinhminhven,4,7000,46
+Version-2,6a65c192ff79bf083c52a665,dinhminhven,Game Introduction (Tutorial),Basic,3,dinhminhven,3,6500,98
+Version-2,6a65c1b1ff79bf083c52a686,NguyenAnNinhTTA,Game Introduction (Tutorial),Basic,1,NguyenAnNinhTTA,4,7000,43
+Version-2,6a65c1b1ff79bf083c52a686,NguyenAnNinhTTA,Game Introduction (Tutorial),Basic,2,NguyenAnNinhTTA,3,6750,130
+Version-2,6a65ded4ff79bf083c52acb6,truongquangkhai,Game Introduction (Tutorial),Basic,1,truongquangkhai,3,6750,320
+Version-2,6a65ded4ff79bf083c52acb6,truongquangkhai,Version Control and Git (Tutorial),Basic,1,truongquangkhai,3,2000,247
+Version-2,6a65ded4ff79bf083c52acb6,truongquangkhai,Create Local Repository (Tutorial),Basic,1,truongquangkhai,4,4000,91
+Version-2,6a65ded4ff79bf083c52acb6,truongquangkhai,Basic Staging Area (Tutorial),Basic,1,truongquangkhai,4,5000,247
+Version-2,6a65ded4ff79bf083c52acb6,truongquangkhai,Advanced Staging Area (Tutorial),Basic,1,truongquangkhai,4,6000,301
+Version-2,6a65ded4ff79bf083c52acb6,truongquangkhai,Advanced Staging Area (Tutorial),Basic,2,truongquangkhai,2,5000,593
+Version-2,6a65ded4ff79bf083c52acb6,truongquangkhai,Creating First Version (Tutorial),Basic,1,truongquangkhai,4,16000,601
+Version-2,6a65ded4ff79bf083c52acb6,truongquangkhai,Switching Project Versions (Tutorial),Basic,1,truongquangkhai,4,8000,255
+Version-2,6a65ded4ff79bf083c52acb6,truongquangkhai,Game Introduction (Practice),Basic,1,truongquangkhai,3,6500,200
+Version-2,6a65ded4ff79bf083c52acb6,truongquangkhai,Version Control and Git (Practice),Basic,1,truongquangkhai,2,4000,92
+Version-2,6a65ded4ff79bf083c52acb6,truongquangkhai,Version Control and Git (Practice),Basic,2,truongquangkhai,1,2000,90
+Version-2,6a65ee47ff79bf083c52b31f,Dang Thai Bao,Game Introduction (Tutorial),Basic,1,Dang Thai Bao,3,6500,289
+Version-2,6a65ee47ff79bf083c52b31f,Dang Thai Bao,Version Control and Git (Tutorial),Basic,1,Dang Thai Bao,4,3000,53
+Version-2,6a65ee47ff79bf083c52b31f,Dang Thai Bao,Version Control and Git (Tutorial),Basic,2,Dang Thai Bao,1,0,80
+Version-2,6a65ee47ff79bf083c52b31f,Dang Thai Bao,Version Control and Git (Tutorial),Basic,3,Dang Thai Bao,1,0,153
+Version-2,6a65ee47ff79bf083c52b31f,Dang Thai Bao,Create Local Repository (Tutorial),Basic,1,Dang Thai Bao,3,3750,213
+Version-2,6a65ee47ff79bf083c52b31f,Dang Thai Bao,Basic Staging Area (Tutorial),Basic,1,Dang Thai Bao,4,5000,203
+Version-2,6a65ee47ff79bf083c52b31f,Dang Thai Bao,Advanced Staging Area (Tutorial),Basic,1,Dang Thai Bao,4,6000,186
+Version-2,6a65ee47ff79bf083c52b31f,Dang Thai Bao,Creating First Version (Tutorial),Basic,1,Dang Thai Bao,4,16000,495
+Version-2,6a65ee47ff79bf083c52b31f,Dang Thai Bao,Switching Project Versions (Tutorial),Basic,1,Dang Thai Bao,3,7750,315
+Version-2,6a65ee47ff79bf083c52b31f,Dang Thai Bao,Git Branching Basics (Tutorial),Branch,1,Dang Thai Bao,3,8750,484
+Version-2,6a65ee47ff79bf083c52b31f,Dang Thai Bao,Fast-Forward Merging (Tutorial),Branch,1,Dang Thai Bao,4,6000,649
+Version-2,6a661d6cff79bf083c52bbca,NguyenThiHanDu,Game Introduction (Tutorial),Basic,1,NguyenThiHanDu,3,6500,520
+Version-2,6a661d6cff79bf083c52bbca,NguyenThiHanDu,Version Control and Git (Tutorial),Basic,1,NguyenThiHanDu,3,2000,224
+Version-2,6a661d6cff79bf083c52bbca,NguyenThiHanDu,Create Local Repository (Tutorial),Basic,1,NguyenThiHanDu,4,4000,129
+Version-2,6a661d6cff79bf083c52bbca,NguyenThiHanDu,Create Local Repository (Tutorial),Basic,2,NguyenThiHanDu,3,3750,185
+Version-2,6a661d6cff79bf083c52bbca,NguyenThiHanDu,Basic Staging Area (Tutorial),Basic,1,NguyenThiHanDu,3,4500,459
+Version-2,6a661d6cff79bf083c52bbca,NguyenThiHanDu,Advanced Staging Area (Tutorial),Basic,1,NguyenThiHanDu,4,6000,327
+Version-2,6a661d6cff79bf083c52bbca,NguyenThiHanDu,Creating First Version (Tutorial),Basic,1,NguyenThiHanDu,3,15750,852
+Version-2,6a661d6cff79bf083c52bbca,NguyenThiHanDu,Switching Project Versions (Tutorial),Basic,1,NguyenThiHanDu,4,8000,542
+Version-2,6a665226ff79bf083c52c115,phankhanhduy,Game Introduction (Tutorial),Basic,1,phankhanhduy,4,7000,62
+Version-2,6a665226ff79bf083c52c115,phankhanhduy,Game Introduction (Tutorial),Basic,2,phankhanhduy,1,5250,476
+Version-2,6a665310ff79bf083c52c135,nguyenthixuannhi,Game Introduction (Tutorial),Basic,1,nguyenthixuannhi,4,7000,84
+Version-2,6a665310ff79bf083c52c135,nguyenthixuannhi,Game Introduction (Tutorial),Basic,2,nguyenthixuannhi,4,7000,776
+Version-2,6a66c7caff79bf083c52c224,NguyenGiaNguyen,Game Introduction (Tutorial),Basic,1,NguyenGiaNguyen,4,7000,74
+Version-2,6a66e284ff79bf083c52c373,nguyenminhthuan,Game Introduction (Tutorial),Basic,1,nguyenminhthuan,3,6500,407
+Version-2,6a67108dff79bf083c52c4ee,PhamBaHaoLong,Game Introduction (Tutorial),Basic,1,PhamBaHaoLong,4,7000,98
+Version-2,6a6bf168ff79bf083c52c56c,nguyenbuithieugia,Game Introduction (Tutorial),Basic,1,nguyenbuithieugia,3,6500,306
+Version-2,6a6bf168ff79bf083c52c56c,nguyenbuithieugia,Version Control and Git (Tutorial),Basic,1,nguyenbuithieugia,3,2000,265

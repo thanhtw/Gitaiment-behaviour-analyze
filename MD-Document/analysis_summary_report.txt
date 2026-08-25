@@ -1,0 +1,41 @@
+
+GiTaiment Game Analytics Summary Report
+========================================
+Generated: 2025-12-09 22:10:26
+
+PLAYER OVERVIEW
+---------------
+Total Active Players: 47
+Average Game Progress: 39.9%
+Average Play Time: 1.31 hours
+Average Score: 90027
+
+PLAYER SEGMENTS
+---------------
+Progress Distribution:
+progressSegment
+Advanced         18
+Intermediate     17
+Beginner         11
+Completionist     1
+
+Learning Styles:
+learningStyle
+Master            39
+Hint-Dependent     3
+Balanced           3
+Independent        2
+
+Engagement Levels:
+engagementLevel
+Medium    34
+Low       11
+High       2
+
+KEY INSIGHTS
+------------
+1. Completion Rate: 2.1%
+2. Average Perfect Clear Rate: 87.5%
+3. Average Hint Usage Rate: 6.2%
+4. Players using Game Manual: 41 (87.2%)
+5. Average Commands per Player: 124.7

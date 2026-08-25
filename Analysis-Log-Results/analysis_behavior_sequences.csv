@@ -1,0 +1,148 @@
+﻿sequence,count,type
+Complete Quest → Add New Quest → Execute Git Command,1074,success_perfect
+Add New Quest → Execute Git Command → Execute Git Command,971,success_perfect
+Complete Quest → Add New Quest → Correct Action,788,success_perfect
+Execute Git Command → Execute Git Command → Execute Git Command,674,success_perfect
+Add New Quest → Complete Quest → Add New Quest,508,success_perfect
+Execute Git Command → Complete Quest → Add New Quest,310,success_perfect
+Back To Stage Select(Clear) → Start Stage → Add New Quest,266,success_perfect
+Start Stage → Add New Quest → Execute Git Command,245,success_perfect
+Last Conversation → Execute Git Command → Execute Git Command,104,success_perfect
+Login → Start Stage → Add New Quest,99,success_perfect
+Correct Action → Correct Action → Correct Action,73,success_perfect
+Check GlobalLeaderBoard → Start Stage → Add New Quest,62,success_perfect
+Read GameManual → Execute Git Command → Execute Git Command,60,success_perfect
+Restart Stage(Not Clear) → Add New Quest → Execute Git Command,54,success_perfect
+Add New Quest → Last Conversation → Execute Git Command,53,success_perfect
+Execute Git Command → Last Conversation → Execute Git Command,39,success_perfect
+Open Window → Execute Git Command → Execute Git Command,39,success_perfect
+Start Stage → Add New Quest → Add New Quest,36,success_perfect
+Last Conversation → Last Conversation → Execute Git Command,32,success_perfect
+Add New Quest → Last Conversation → Correct Action,32,success_perfect
+Add New Quest → Open Window → Execute Git Command,27,success_perfect
+Back To Stage Select(Not Clear) → Start Stage → Add New Quest,26,success_perfect
+Open Window → Read GameManual → Execute Git Command,25,success_perfect
+Open Window → Start Stage → Add New Quest,25,success_perfect
+Complete Quest → Add New Quest → Last Conversation,23,success_perfect
+Complete Stage → Restart Stage(Clear) → Add New Quest,21,success_perfect
+Open Window → Add New Quest → Execute Git Command,21,success_perfect
+Open Window → Add New Quest → Correct Action,19,success_perfect
+Add New Quest → Execute Git Command → Correct Action,19,success_perfect
+Add New Quest → Open Window → Correct Action,18,success_perfect
+Open Window → Read GameManual → Correct Action,15,success_perfect
+Execute Git Command → Restart Stage(Not Clear) → Add New Quest,14,success_perfect
+Add New Quest → Restart Stage(Not Clear) → Add New Quest,13,success_perfect
+Complete Quest → Add New Quest → Complete Quest,11,success_perfect
+Restart Stage(Clear) → Add New Quest → Execute Git Command,8,success_perfect
+Complete Quest → Add New Quest → Add New Quest,8,success_perfect
+Execute Git Command → Execute Git Command → Correct Action,8,success_perfect
+Open Window → Last Conversation → Correct Action,7,success_perfect
+Complete Quest → Complete Quest → Add New Quest,7,success_perfect
+Restart Stage(Not Clear) → Restart Stage(Not Clear) → Add New Quest,7,success_perfect
+Last Conversation → Complete Quest → Add New Quest,6,success_perfect
+Add New Quest → Add New Quest → Execute Git Command,6,success_perfect
+Complete Quest → Restart Stage(Not Clear) → Add New Quest,6,success_perfect
+Check GlobalLeaderBoard → Restart Stage(Clear) → Add New Quest,6,success_perfect
+Read GameManual → Read GameManual → Add New Quest,5,success_perfect
+Last Conversation → Last Conversation → Correct Action,5,success_perfect
+Add New Quest → Execute Git Command → Complete Quest,5,success_perfect
+Read GameManual → Last Conversation → Execute Git Command,5,success_perfect
+Read GameManual → Read GameManual → Correct Action,5,success_perfect
+Restart Stage(Not Clear) → Add New Quest → Add New Quest,5,success_perfect
+Add New Quest → Complete Quest → Add New Quest,54,with_help
+Execute Git Command → Execute Git Command → Execute Git Command,34,with_help
+Use Answer → Execute Git Command → Execute Git Command,10,with_help
+Failed Action → Use Hint → Correct Action,6,with_help
+Start Stage → Add New Quest → Add New Quest,6,with_help
+Failed Action → Use Answer → Correct Action,6,with_help
+Failed Action → Failed Action → Correct Action,5,with_help
+Correct Action → Correct Action → Correct Action,4,with_help
+Execute Git Command → Use Answer → Execute Git Command,4,with_help
+Use Answer → Use Answer → Execute Git Command,4,with_help
+Open Window → Use Hint → Correct Action,4,with_help
+Last Conversation → Use Hint → Correct Action,4,with_help
+Add New Quest → Use Hint → Correct Action,4,with_help
+Use Hint → Execute Git Command → Execute Git Command,4,with_help
+Execute Git Command → Use Hint → Correct Action,3,with_help
+Open Window → Use Answer → Execute Git Command,3,with_help
+Execute Git Command → Use Answer → Correct Action,3,with_help
+Open Window → Add New Quest → Add New Quest,3,with_help
+Use Hint → Failed Action → Correct Action,3,with_help
+Read GameManual → Use Hint → Correct Action,3,with_help
+Add New Quest → Restart Stage(Not Clear) → Add New Quest,2,with_help
+Add New Quest → Open Window → Use Answer,2,with_help
+Open Window → Read GameManual → Execute Git Command,2,with_help
+Add New Quest → Use Answer → Correct Action,2,with_help
+Execute Git Command → Use Hint → Execute Git Command,2,with_help
+Open Window → Use Answer → Correct Action,2,with_help
+Use Hint → Use Answer → Execute Git Command,2,with_help
+Add New Quest → Open Window → Add New Quest,2,with_help
+Last Conversation → Last Conversation → Correct Action,2,with_help
+Add New Quest → Use Answer → Execute Git Command,2,with_help
+Use Answer → Failed Action → Correct Action,2,with_help
+Add New Quest → Use Hint → Execute Git Command,1,with_help
+Complete Quest → Add New Quest → Use Hint,1,with_help
+Execute Git Command → Execute Git Command → Complete Quest,1,with_help
+Add New Quest → Use Answer → Use Answer,1,with_help
+Use Hint → Use Hint → Last Conversation,1,with_help
+Failed Action → Execute Git Command → Execute Git Command,1,with_help
+Execute Git Command → Execute Git Command → Use Hint,1,with_help
+Complete Quest → Add New Quest → Use Answer,1,with_help
+Back To Stage Select(Clear) → Start Stage → Add New Quest,1,with_help
+Add New Quest → Failed Action → Use Answer,1,with_help
+Use Hint → Last Conversation → Execute Git Command,1,with_help
+Failed Action → Open Window → Execute Git Command,1,with_help
+Back To Stage Select(Not Clear) → Start Stage → Add New Quest,1,with_help
+Use Answer → Execute Git Command → Use Answer,1,with_help
+Read GameManual → Read GameManual → Add New Quest,1,with_help
+Read GameManual → Last Conversation → Execute Git Command,1,with_help
+Read GameManual → Open Window → Add New Quest,1,with_help
+Use Answer → Use Answer → Correct Action,1,with_help
+Last Conversation → Use Answer → Execute Git Command,1,with_help
+Failed Action → Failed Action,368,failed_action
+Complete Quest → Add New Quest,196,failed_action
+Add New Quest → Failed Action,95,failed_action
+Execute Git Command → Execute Git Command,29,failed_action
+Open Window → Read GameManual,27,failed_action
+Execute Git Command → Failed Action,25,failed_action
+Last Conversation → Failed Action,25,failed_action
+Read GameManual → Failed Action,21,failed_action
+Open Window → Failed Action,19,failed_action
+Add New Quest → Last Conversation,19,failed_action
+Add New Quest → Open Window,14,failed_action
+Failed Action → Last Conversation,13,failed_action
+Execute Git Command → Last Conversation,10,failed_action
+Add New Quest → Execute Git Command,10,failed_action
+Last Conversation → Last Conversation,10,failed_action
+Read GameManual → Read GameManual,10,failed_action
+Failed Action → Use Answer,8,failed_action
+Open Window → Add New Quest,8,failed_action
+Failed Action → Open Window,8,failed_action
+Use Answer → Failed Action,6,failed_action
+Open Window → Open Window,5,failed_action
+Read GameManual → Execute Git Command,5,failed_action
+Failed Action → Use Hint,5,failed_action
+Last Conversation → Execute Git Command,4,failed_action
+Last Conversation → Open Window,4,failed_action
+Use Hint → Failed Action,4,failed_action
+Failed Action → Execute Git Command,4,failed_action
+Open Window → Last Conversation,3,failed_action
+Failed Action → Correct Action,2,failed_action
+Use Hint → Execute Git Command,2,failed_action
+Add New Quest → Use Hint,2,failed_action
+Check GlobalLeaderBoard → Check GlobalLeaderBoard,2,failed_action
+Open Window → Use Answer,1,failed_action
+Execute Git Command → Open Window,1,failed_action
+Start Stage → Add New Quest,1,failed_action
+Correct Action → Correct Action,1,failed_action
+Last Conversation → Use Answer,1,failed_action
+Use Hint → Use Hint,1,failed_action
+Read GameManual → Add New Quest,1,failed_action
+Check GlobalLeaderBoard → Failed Action,1,failed_action
+Use Hint → Last Conversation,1,failed_action
+Read GameManual → Last Conversation,1,failed_action
+Read GameManual → Open Window,1,failed_action
+Add New Quest → Use Answer,1,failed_action
+Open Window → Use Hint,1,failed_action
+Use Answer → Last Conversation,1,failed_action
+Open Window → Execute Git Command,1,failed_action

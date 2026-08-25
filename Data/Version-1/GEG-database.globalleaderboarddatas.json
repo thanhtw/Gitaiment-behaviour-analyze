@@ -1,0 +1,4053 @@
+[{
+  "_id": {
+    "$oid": "65b66a9e52a20bf165a05b0e"
+  },
+  "leaderBoardType": "GameProgress",
+  "leaderBoardData": [
+    {
+      "playerName": "d0947523",
+      "gameProgress": 52,
+      "playTime": 4415
+    },
+    {
+      "playerName": "Thanathiti",
+      "gameProgress": 8,
+      "playTime": 370
+    },
+    {
+      "playerName": "D0957884",
+      "gameProgress": 50,
+      "playTime": 4449
+    },
+    {
+      "playerName": "D0957411",
+      "gameProgress": 55,
+      "playTime": 4980
+    },
+    {
+      "playerName": "kenchin0627",
+      "gameProgress": 52,
+      "playTime": 5020
+    },
+    {
+      "playerName": "D0987439",
+      "gameProgress": 52,
+      "playTime": 4010
+    },
+    {
+      "playerName": "D1018508",
+      "gameProgress": 58,
+      "playTime": 4609
+    },
+    {
+      "playerName": "D1060003",
+      "gameProgress": 14,
+      "playTime": 762
+    },
+    {
+      "playerName": "user1",
+      "gameProgress": 50,
+      "playTime": 5628
+    },
+    {
+      "playerName": "Loe",
+      "gameProgress": 67,
+      "playTime": 5781
+    },
+    {
+      "playerName": "d1031329",
+      "gameProgress": 47,
+      "playTime": 5102
+    },
+    {
+      "playerName": "D1060300",
+      "gameProgress": 47,
+      "playTime": 4377
+    },
+    {
+      "playerName": "cookie",
+      "gameProgress": 50,
+      "playTime": 5954
+    },
+    {
+      "playerName": "D1051432",
+      "gameProgress": 58,
+      "playTime": 4645
+    },
+    {
+      "playerName": "D1051092",
+      "gameProgress": 44,
+      "playTime": 3248
+    },
+    {
+      "playerName": "D1093071",
+      "gameProgress": 20,
+      "playTime": 3083
+    },
+    {
+      "playerName": "D1051652",
+      "gameProgress": 26,
+      "playTime": 3162
+    },
+    {
+      "playerName": "D0916167",
+      "gameProgress": 23,
+      "playTime": 1765
+    },
+    {
+      "playerName": "d0653940",
+      "gameProgress": 44,
+      "playTime": 6441
+    },
+    {
+      "playerName": "xin",
+      "gameProgress": 11,
+      "playTime": 968
+    },
+    {
+      "playerName": "D1180757",
+      "gameProgress": 47,
+      "playTime": 6435
+    },
+    {
+      "playerName": "D0987322",
+      "gameProgress": 50,
+      "playTime": 4199
+    },
+    {
+      "playerName": "D1179580",
+      "gameProgress": 44,
+      "playTime": 6090
+    },
+    {
+      "playerName": "D1051888",
+      "gameProgress": 38,
+      "playTime": 5715
+    },
+    {
+      "playerName": "D0948466",
+      "gameProgress": 32,
+      "playTime": 5011
+    },
+    {
+      "playerName": "Once",
+      "gameProgress": 29,
+      "playTime": 3786
+    },
+    {
+      "playerName": "D1051492",
+      "gameProgress": 58,
+      "playTime": 4525
+    },
+    {
+      "playerName": "d1051284",
+      "gameProgress": 29,
+      "playTime": 5585
+    },
+    {
+      "playerName": "D0948214",
+      "gameProgress": 50,
+      "playTime": 4801
+    },
+    {
+      "playerName": "d1030978",
+      "gameProgress": 38,
+      "playTime": 3883
+    },
+    {
+      "playerName": "D1059887",
+      "gameProgress": 44,
+      "playTime": 5384
+    },
+    {
+      "playerName": "tom134679",
+      "gameProgress": 35,
+      "playTime": 4179
+    },
+    {
+      "playerName": "D0948155",
+      "gameProgress": 50,
+      "playTime": 3926
+    },
+    {
+      "playerName": "d1090685",
+      "gameProgress": 50,
+      "playTime": 5470
+    },
+    {
+      "playerName": "D0948019",
+      "gameProgress": 50,
+      "playTime": 4508
+    },
+    {
+      "playerName": "k",
+      "gameProgress": 8,
+      "playTime": 4828
+    },
+    {
+      "playerName": "D1018734",
+      "gameProgress": 50,
+      "playTime": 5079
+    },
+    {
+      "playerName": "D1076775",
+      "gameProgress": 2,
+      "playTime": 987
+    },
+    {
+      "playerName": "D0982730",
+      "gameProgress": 44,
+      "playTime": 5152
+    },
+    {
+      "playerName": "tukta26884",
+      "gameProgress": 20,
+      "playTime": 5818
+    },
+    {
+      "playerName": "Monstung",
+      "gameProgress": 20,
+      "playTime": 5103
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65b66ac252a20bf165a05b0f"
+  },
+  "leaderBoardType": "TotalScore",
+  "leaderBoardData": [
+    {
+      "playerName": "d0947523",
+      "totalScore": 125750,
+      "playTime": 4415
+    },
+    {
+      "playerName": "Thanathiti",
+      "totalScore": 12750,
+      "playTime": 370
+    },
+    {
+      "playerName": "D0957884",
+      "totalScore": 116750,
+      "playTime": 4943
+    },
+    {
+      "playerName": "D0957411",
+      "totalScore": 131750,
+      "playTime": 4980
+    },
+    {
+      "playerName": "kenchin0627",
+      "totalScore": 121250,
+      "playTime": 5020
+    },
+    {
+      "playerName": "D0987439",
+      "totalScore": 125000,
+      "playTime": 4010
+    },
+    {
+      "playerName": "D1018508",
+      "totalScore": 138000,
+      "playTime": 4609
+    },
+    {
+      "playerName": "D1060003",
+      "totalScore": 20000,
+      "playTime": 762
+    },
+    {
+      "playerName": "user1",
+      "totalScore": 117750,
+      "playTime": 5628
+    },
+    {
+      "playerName": "Loe",
+      "totalScore": 148750,
+      "playTime": 5781
+    },
+    {
+      "playerName": "d1031329",
+      "totalScore": 104750,
+      "playTime": 5102
+    },
+    {
+      "playerName": "D1060300",
+      "totalScore": 112000,
+      "playTime": 4377
+    },
+    {
+      "playerName": "cookie",
+      "totalScore": 118250,
+      "playTime": 5954
+    },
+    {
+      "playerName": "D1051432",
+      "totalScore": 136000,
+      "playTime": 4645
+    },
+    {
+      "playerName": "D1093071",
+      "totalScore": 44500,
+      "playTime": 3083
+    },
+    {
+      "playerName": "D1051652",
+      "totalScore": 63750,
+      "playTime": 3162
+    },
+    {
+      "playerName": "D0916167",
+      "totalScore": 57500,
+      "playTime": 1765
+    },
+    {
+      "playerName": "d0653940",
+      "totalScore": 92750,
+      "playTime": 6441
+    },
+    {
+      "playerName": "xin",
+      "totalScore": 16500,
+      "playTime": 968
+    },
+    {
+      "playerName": "D1180757",
+      "totalScore": 103500,
+      "playTime": 6435
+    },
+    {
+      "playerName": "D0987322",
+      "totalScore": 119000,
+      "playTime": 4199
+    },
+    {
+      "playerName": "D1179580",
+      "totalScore": 103750,
+      "playTime": 6090
+    },
+    {
+      "playerName": "D1051888",
+      "totalScore": 90000,
+      "playTime": 5715
+    },
+    {
+      "playerName": "D0948466",
+      "totalScore": 78000,
+      "playTime": 5011
+    },
+    {
+      "playerName": "D1051092",
+      "totalScore": 104000,
+      "playTime": 3248
+    },
+    {
+      "playerName": "Once",
+      "totalScore": 70000,
+      "playTime": 3786
+    },
+    {
+      "playerName": "D1051492",
+      "totalScore": 130250,
+      "playTime": 4525
+    },
+    {
+      "playerName": "d1051284",
+      "totalScore": 70250,
+      "playTime": 5585
+    },
+    {
+      "playerName": "D0948214",
+      "totalScore": 119000,
+      "playTime": 4801
+    },
+    {
+      "playerName": "d1030978",
+      "totalScore": 87000,
+      "playTime": 3883
+    },
+    {
+      "playerName": "D1059887",
+      "totalScore": 104000,
+      "playTime": 5384
+    },
+    {
+      "playerName": "tom134679",
+      "totalScore": 80000,
+      "playTime": 4179
+    },
+    {
+      "playerName": "D0948155",
+      "totalScore": 117500,
+      "playTime": 3926
+    },
+    {
+      "playerName": "d1090685",
+      "totalScore": 110750,
+      "playTime": 5470
+    },
+    {
+      "playerName": "D0948019",
+      "totalScore": 119000,
+      "playTime": 4718
+    },
+    {
+      "playerName": "k",
+      "totalScore": 10000,
+      "playTime": 4828
+    },
+    {
+      "playerName": "D1018734",
+      "totalScore": 111000,
+      "playTime": 5079
+    },
+    {
+      "playerName": "D1076775",
+      "totalScore": 6000,
+      "playTime": 987
+    },
+    {
+      "playerName": "D0982730",
+      "totalScore": 100750,
+      "playTime": 5152
+    },
+    {
+      "playerName": "tukta26884",
+      "totalScore": 46250,
+      "playTime": 5818
+    },
+    {
+      "playerName": "Monstung",
+      "totalScore": 45250,
+      "playTime": 5103
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65b66fd252a20bf165a05b1e"
+  },
+  "leaderBoardType": "ClearStageBestRecord",
+  "stageName": "Game Introduction (Tutorial)",
+  "leaderBoardData": [
+    {
+      "playerName": "d0947523",
+      "playerStar": 4,
+      "playerScore": 7000,
+      "playerClearTime": 46
+    },
+    {
+      "playerName": "Thanathiti",
+      "playerStar": 3,
+      "playerScore": 6750,
+      "playerClearTime": 132
+    },
+    {
+      "playerName": "D0957884",
+      "playerStar": 3,
+      "playerScore": 6500,
+      "playerClearTime": 208
+    },
+    {
+      "playerName": "D0957411",
+      "playerStar": 4,
+      "playerScore": 7000,
+      "playerClearTime": 52
+    },
+    {
+      "playerName": "kenchin0627",
+      "playerStar": 3,
+      "playerScore": 6250,
+      "playerClearTime": 230
+    },
+    {
+      "playerName": "D0987439",
+      "playerStar": 3,
+      "playerScore": 6500,
+      "playerClearTime": 202
+    },
+    {
+      "playerName": "D1018508",
+      "playerStar": 4,
+      "playerScore": 7000,
+      "playerClearTime": 60
+    },
+    {
+      "playerName": "D1060003",
+      "playerStar": 2,
+      "playerScore": 6000,
+      "playerClearTime": 240
+    },
+    {
+      "playerName": "user1",
+      "playerStar": 4,
+      "playerScore": 7000,
+      "playerClearTime": 214
+    },
+    {
+      "playerName": "Loe",
+      "playerStar": 3,
+      "playerScore": 6250,
+      "playerClearTime": 270
+    },
+    {
+      "playerName": "d1031329",
+      "playerStar": 3,
+      "playerScore": 6250,
+      "playerClearTime": 221
+    },
+    {
+      "playerName": "D1060300",
+      "playerStar": 3,
+      "playerScore": 6500,
+      "playerClearTime": 257
+    },
+    {
+      "playerName": "cookie",
+      "playerStar": 4,
+      "playerScore": 7000,
+      "playerClearTime": 257
+    },
+    {
+      "playerName": "D1051432",
+      "playerStar": 4,
+      "playerScore": 7000,
+      "playerClearTime": 50
+    },
+    {
+      "playerName": "D1051092",
+      "playerStar": 4,
+      "playerScore": 7000,
+      "playerClearTime": 48
+    },
+    {
+      "playerName": "D1093071",
+      "playerStar": 3,
+      "playerScore": 6500,
+      "playerClearTime": 289
+    },
+    {
+      "playerName": "D1051652",
+      "playerStar": 4,
+      "playerScore": 7000,
+      "playerClearTime": 228
+    },
+    {
+      "playerName": "D0916167",
+      "playerStar": 3,
+      "playerScore": 6500,
+      "playerClearTime": 149
+    },
+    {
+      "playerName": "d0653940",
+      "playerStar": 2,
+      "playerScore": 6000,
+      "playerClearTime": 368
+    },
+    {
+      "playerName": "xin",
+      "playerStar": 4,
+      "playerScore": 7000,
+      "playerClearTime": 52
+    },
+    {
+      "playerName": "D1180757",
+      "playerStar": 2,
+      "playerScore": 5750,
+      "playerClearTime": 394
+    },
+    {
+      "playerName": "D0987322",
+      "playerStar": 4,
+      "playerScore": 7000,
+      "playerClearTime": 50
+    },
+    {
+      "playerName": "D1179580",
+      "playerStar": 4,
+      "playerScore": 7000,
+      "playerClearTime": 64
+    },
+    {
+      "playerName": "D1051888",
+      "playerStar": 3,
+      "playerScore": 6750,
+      "playerClearTime": 342
+    },
+    {
+      "playerName": "D0948466",
+      "playerStar": 3,
+      "playerScore": 6250,
+      "playerClearTime": 277
+    },
+    {
+      "playerName": "Once",
+      "playerStar": 3,
+      "playerScore": 6750,
+      "playerClearTime": 409
+    },
+    {
+      "playerName": "D1051492",
+      "playerStar": 3,
+      "playerScore": 6750,
+      "playerClearTime": 268
+    },
+    {
+      "playerName": "d1051284",
+      "playerStar": 3,
+      "playerScore": 6500,
+      "playerClearTime": 320
+    },
+    {
+      "playerName": "D0948214",
+      "playerStar": 4,
+      "playerScore": 7000,
+      "playerClearTime": 51
+    },
+    {
+      "playerName": "d1030978",
+      "playerStar": 4,
+      "playerScore": 7000,
+      "playerClearTime": 58
+    },
+    {
+      "playerName": "D1059887",
+      "playerStar": 4,
+      "playerScore": 7000,
+      "playerClearTime": 428
+    },
+    {
+      "playerName": "tom134679",
+      "playerStar": 3,
+      "playerScore": 6250,
+      "playerClearTime": 460
+    },
+    {
+      "playerName": "D0948155",
+      "playerStar": 4,
+      "playerScore": 7000,
+      "playerClearTime": 53
+    },
+    {
+      "playerName": "d1090685",
+      "playerStar": 3,
+      "playerScore": 6500,
+      "playerClearTime": 371
+    },
+    {
+      "playerName": "D0948019",
+      "playerStar": 4,
+      "playerScore": 7000,
+      "playerClearTime": 37
+    },
+    {
+      "playerName": "k",
+      "playerStar": 2,
+      "playerScore": 6000,
+      "playerClearTime": 516
+    },
+    {
+      "playerName": "D1018734",
+      "playerStar": 4,
+      "playerScore": 7000,
+      "playerClearTime": 50
+    },
+    {
+      "playerName": "D1076775",
+      "playerStar": 2,
+      "playerScore": 6000,
+      "playerClearTime": 987
+    },
+    {
+      "playerName": "D0982730",
+      "playerStar": 3,
+      "playerScore": 6250,
+      "playerClearTime": 726
+    },
+    {
+      "playerName": "tukta26884",
+      "playerStar": 2,
+      "playerScore": 5500,
+      "playerClearTime": 1837
+    },
+    {
+      "playerName": "Monstung",
+      "playerStar": 1,
+      "playerScore": 5250,
+      "playerClearTime": 1881
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65b66fd552a20bf165a05b1f"
+  },
+  "leaderBoardType": "ClearStageBestRecord",
+  "stageName": "Version Control and Git (Tutorial)",
+  "leaderBoardData": [
+    {
+      "playerName": "d0947523",
+      "playerStar": 4,
+      "playerScore": 3000,
+      "playerClearTime": 120
+    },
+    {
+      "playerName": "D0957411",
+      "playerStar": 4,
+      "playerScore": 3000,
+      "playerClearTime": 104
+    },
+    {
+      "playerName": "D0957884",
+      "playerStar": 4,
+      "playerScore": 3000,
+      "playerClearTime": 105
+    },
+    {
+      "playerName": "Thanathiti",
+      "playerStar": 3,
+      "playerScore": 2000,
+      "playerClearTime": 83
+    },
+    {
+      "playerName": "d1031329",
+      "playerStar": 4,
+      "playerScore": 3000,
+      "playerClearTime": 99
+    },
+    {
+      "playerName": "D1051092",
+      "playerStar": 4,
+      "playerScore": 3000,
+      "playerClearTime": 76
+    },
+    {
+      "playerName": "D1018508",
+      "playerStar": 4,
+      "playerScore": 3000,
+      "playerClearTime": 135
+    },
+    {
+      "playerName": "D1060300",
+      "playerStar": 4,
+      "playerScore": 3000,
+      "playerClearTime": 120
+    },
+    {
+      "playerName": "Loe",
+      "playerStar": 4,
+      "playerScore": 3000,
+      "playerClearTime": 138
+    },
+    {
+      "playerName": "D0987322",
+      "playerStar": 4,
+      "playerScore": 3000,
+      "playerClearTime": 73
+    },
+    {
+      "playerName": "kenchin0627",
+      "playerStar": 2,
+      "playerScore": 1000,
+      "playerClearTime": 66
+    },
+    {
+      "playerName": "D0916167",
+      "playerStar": 4,
+      "playerScore": 3000,
+      "playerClearTime": 119
+    },
+    {
+      "playerName": "D0987439",
+      "playerStar": 4,
+      "playerScore": 3000,
+      "playerClearTime": 165
+    },
+    {
+      "playerName": "d0653940",
+      "playerStar": 2,
+      "playerScore": 1000,
+      "playerClearTime": 154
+    },
+    {
+      "playerName": "D1051432",
+      "playerStar": 4,
+      "playerScore": 3000,
+      "playerClearTime": 195
+    },
+    {
+      "playerName": "cookie",
+      "playerStar": 4,
+      "playerScore": 3000,
+      "playerClearTime": 193
+    },
+    {
+      "playerName": "user1",
+      "playerStar": 4,
+      "playerScore": 3000,
+      "playerClearTime": 77
+    },
+    {
+      "playerName": "xin",
+      "playerStar": 3,
+      "playerScore": 2000,
+      "playerClearTime": 123
+    },
+    {
+      "playerName": "D1051652",
+      "playerStar": 4,
+      "playerScore": 3000,
+      "playerClearTime": 80
+    },
+    {
+      "playerName": "D0948155",
+      "playerStar": 4,
+      "playerScore": 3000,
+      "playerClearTime": 90
+    },
+    {
+      "playerName": "D1093071",
+      "playerStar": 3,
+      "playerScore": 2000,
+      "playerClearTime": 266
+    },
+    {
+      "playerName": "d1051284",
+      "playerStar": 3,
+      "playerScore": 2000,
+      "playerClearTime": 234
+    },
+    {
+      "playerName": "d1090685",
+      "playerStar": 3,
+      "playerScore": 2000,
+      "playerClearTime": 152
+    },
+    {
+      "playerName": "D1179580",
+      "playerStar": 4,
+      "playerScore": 3000,
+      "playerClearTime": 53
+    },
+    {
+      "playerName": "D1180757",
+      "playerStar": 4,
+      "playerScore": 3000,
+      "playerClearTime": 231
+    },
+    {
+      "playerName": "D1018734",
+      "playerStar": 4,
+      "playerScore": 3000,
+      "playerClearTime": 80
+    },
+    {
+      "playerName": "D1060003",
+      "playerStar": 1,
+      "playerScore": 0,
+      "playerClearTime": 89
+    },
+    {
+      "playerName": "D1051888",
+      "playerStar": 4,
+      "playerScore": 3000,
+      "playerClearTime": 297
+    },
+    {
+      "playerName": "D1051492",
+      "playerStar": 4,
+      "playerScore": 3000,
+      "playerClearTime": 55
+    },
+    {
+      "playerName": "d1030978",
+      "playerStar": 4,
+      "playerScore": 3000,
+      "playerClearTime": 35
+    },
+    {
+      "playerName": "Once",
+      "playerStar": 3,
+      "playerScore": 2000,
+      "playerClearTime": 158
+    },
+    {
+      "playerName": "D0948214",
+      "playerStar": 4,
+      "playerScore": 3000,
+      "playerClearTime": 126
+    },
+    {
+      "playerName": "D0948019",
+      "playerStar": 4,
+      "playerScore": 3000,
+      "playerClearTime": 228
+    },
+    {
+      "playerName": "D0948466",
+      "playerStar": 4,
+      "playerScore": 3000,
+      "playerClearTime": 492
+    },
+    {
+      "playerName": "tom134679",
+      "playerStar": 4,
+      "playerScore": 3000,
+      "playerClearTime": 412
+    },
+    {
+      "playerName": "D1059887",
+      "playerStar": 4,
+      "playerScore": 3000,
+      "playerClearTime": 82
+    },
+    {
+      "playerName": "k",
+      "playerStar": 3,
+      "playerScore": 2000,
+      "playerClearTime": 92
+    },
+    {
+      "playerName": "D0982730",
+      "playerStar": 4,
+      "playerScore": 3000,
+      "playerClearTime": 284
+    },
+    {
+      "playerName": "tukta26884",
+      "playerStar": 4,
+      "playerScore": 3000,
+      "playerClearTime": 378
+    },
+    {
+      "playerName": "Monstung",
+      "playerStar": 3,
+      "playerScore": 2000,
+      "playerClearTime": 194
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65b66fd752a20bf165a05b20"
+  },
+  "leaderBoardType": "ClearStageBestRecord",
+  "stageName": "Create Local Repository (Tutorial)",
+  "leaderBoardData": [
+    {
+      "playerName": "d0947523",
+      "playerStar": 4,
+      "playerScore": 4000,
+      "playerClearTime": 73
+    },
+    {
+      "playerName": "D0957884",
+      "playerStar": 4,
+      "playerScore": 4000,
+      "playerClearTime": 125
+    },
+    {
+      "playerName": "Thanathiti",
+      "playerStar": 4,
+      "playerScore": 4000,
+      "playerClearTime": 155
+    },
+    {
+      "playerName": "D0957411",
+      "playerStar": 4,
+      "playerScore": 4000,
+      "playerClearTime": 191
+    },
+    {
+      "playerName": "D1018508",
+      "playerStar": 4,
+      "playerScore": 4000,
+      "playerClearTime": 34
+    },
+    {
+      "playerName": "D1051092",
+      "playerStar": 4,
+      "playerScore": 4000,
+      "playerClearTime": 135
+    },
+    {
+      "playerName": "D1060300",
+      "playerStar": 4,
+      "playerScore": 4000,
+      "playerClearTime": 130
+    },
+    {
+      "playerName": "D0987322",
+      "playerStar": 4,
+      "playerScore": 4000,
+      "playerClearTime": 102
+    },
+    {
+      "playerName": "Loe",
+      "playerStar": 4,
+      "playerScore": 4000,
+      "playerClearTime": 142
+    },
+    {
+      "playerName": "d1031329",
+      "playerStar": 4,
+      "playerScore": 4000,
+      "playerClearTime": 178
+    },
+    {
+      "playerName": "D0916167",
+      "playerStar": 4,
+      "playerScore": 4000,
+      "playerClearTime": 121
+    },
+    {
+      "playerName": "D0987439",
+      "playerStar": 4,
+      "playerScore": 4000,
+      "playerClearTime": 146
+    },
+    {
+      "playerName": "kenchin0627",
+      "playerStar": 4,
+      "playerScore": 4000,
+      "playerClearTime": 100
+    },
+    {
+      "playerName": "d0653940",
+      "playerStar": 3,
+      "playerScore": 3750,
+      "playerClearTime": 153
+    },
+    {
+      "playerName": "cookie",
+      "playerStar": 4,
+      "playerScore": 4000,
+      "playerClearTime": 163
+    },
+    {
+      "playerName": "user1",
+      "playerStar": 4,
+      "playerScore": 4000,
+      "playerClearTime": 190
+    },
+    {
+      "playerName": "D0948155",
+      "playerStar": 4,
+      "playerScore": 4000,
+      "playerClearTime": 38
+    },
+    {
+      "playerName": "D1051652",
+      "playerStar": 4,
+      "playerScore": 4000,
+      "playerClearTime": 147
+    },
+    {
+      "playerName": "D1018734",
+      "playerStar": 4,
+      "playerScore": 4000,
+      "playerClearTime": 70
+    },
+    {
+      "playerName": "D1051432",
+      "playerStar": 4,
+      "playerScore": 4000,
+      "playerClearTime": 180
+    },
+    {
+      "playerName": "xin",
+      "playerStar": 2,
+      "playerScore": 3000,
+      "playerClearTime": 308
+    },
+    {
+      "playerName": "d1090685",
+      "playerStar": 4,
+      "playerScore": 4000,
+      "playerClearTime": 225
+    },
+    {
+      "playerName": "D1180757",
+      "playerStar": 4,
+      "playerScore": 4000,
+      "playerClearTime": 208
+    },
+    {
+      "playerName": "D1051888",
+      "playerStar": 4,
+      "playerScore": 4000,
+      "playerClearTime": 147
+    },
+    {
+      "playerName": "d1030978",
+      "playerStar": 4,
+      "playerScore": 4000,
+      "playerClearTime": 140
+    },
+    {
+      "playerName": "D1060003",
+      "playerStar": 2,
+      "playerScore": 3000,
+      "playerClearTime": 97
+    },
+    {
+      "playerName": "D1093071",
+      "playerStar": 3,
+      "playerScore": 3500,
+      "playerClearTime": 340
+    },
+    {
+      "playerName": "D0948214",
+      "playerStar": 4,
+      "playerScore": 4000,
+      "playerClearTime": 33
+    },
+    {
+      "playerName": "D1051492",
+      "playerStar": 4,
+      "playerScore": 4000,
+      "playerClearTime": 162
+    },
+    {
+      "playerName": "D0948019",
+      "playerStar": 4,
+      "playerScore": 4000,
+      "playerClearTime": 171
+    },
+    {
+      "playerName": "D1179580",
+      "playerStar": 4,
+      "playerScore": 4000,
+      "playerClearTime": 394
+    },
+    {
+      "playerName": "D1059887",
+      "playerStar": 4,
+      "playerScore": 4000,
+      "playerClearTime": 229
+    },
+    {
+      "playerName": "D0948466",
+      "playerStar": 4,
+      "playerScore": 4000,
+      "playerClearTime": 349
+    },
+    {
+      "playerName": "Once",
+      "playerStar": 4,
+      "playerScore": 4000,
+      "playerClearTime": 209
+    },
+    {
+      "playerName": "d1051284",
+      "playerStar": 4,
+      "playerScore": 4000,
+      "playerClearTime": 60
+    },
+    {
+      "playerName": "tom134679",
+      "playerStar": 4,
+      "playerScore": 4000,
+      "playerClearTime": 985
+    },
+    {
+      "playerName": "D0982730",
+      "playerStar": 2,
+      "playerScore": 3000,
+      "playerClearTime": 313
+    },
+    {
+      "playerName": "Monstung",
+      "playerStar": 3,
+      "playerScore": 3750,
+      "playerClearTime": 728
+    },
+    {
+      "playerName": "tukta26884",
+      "playerStar": 3,
+      "playerScore": 3500,
+      "playerClearTime": 796
+    },
+    {
+      "playerName": "k",
+      "playerStar": 1,
+      "playerScore": 2000,
+      "playerClearTime": 3774
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65b66fd952a20bf165a05b21"
+  },
+  "leaderBoardType": "ClearStageBestRecord",
+  "stageName": "Basic Staging Area (Tutorial)",
+  "leaderBoardData": [
+    {
+      "playerName": "d0947523",
+      "playerStar": 4,
+      "playerScore": 5000,
+      "playerClearTime": 71
+    },
+    {
+      "playerName": "D0957884",
+      "playerStar": 4,
+      "playerScore": 5000,
+      "playerClearTime": 170
+    },
+    {
+      "playerName": "D0957411",
+      "playerStar": 4,
+      "playerScore": 5000,
+      "playerClearTime": 171
+    },
+    {
+      "playerName": "d1031329",
+      "playerStar": 4,
+      "playerScore": 5000,
+      "playerClearTime": 119
+    },
+    {
+      "playerName": "D1060300",
+      "playerStar": 4,
+      "playerScore": 5000,
+      "playerClearTime": 203
+    },
+    {
+      "playerName": "D1018508",
+      "playerStar": 4,
+      "playerScore": 5000,
+      "playerClearTime": 180
+    },
+    {
+      "playerName": "kenchin0627",
+      "playerStar": 4,
+      "playerScore": 5000,
+      "playerClearTime": 116
+    },
+    {
+      "playerName": "D0987322",
+      "playerStar": 4,
+      "playerScore": 5000,
+      "playerClearTime": 95
+    },
+    {
+      "playerName": "Loe",
+      "playerStar": 4,
+      "playerScore": 5000,
+      "playerClearTime": 228
+    },
+    {
+      "playerName": "D0987439",
+      "playerStar": 4,
+      "playerScore": 5000,
+      "playerClearTime": 166
+    },
+    {
+      "playerName": "D1051092",
+      "playerStar": 4,
+      "playerScore": 5000,
+      "playerClearTime": 222
+    },
+    {
+      "playerName": "D0916167",
+      "playerStar": 4,
+      "playerScore": 5000,
+      "playerClearTime": 129
+    },
+    {
+      "playerName": "D0948155",
+      "playerStar": 4,
+      "playerScore": 5000,
+      "playerClearTime": 159
+    },
+    {
+      "playerName": "D1018734",
+      "playerStar": 4,
+      "playerScore": 5000,
+      "playerClearTime": 173
+    },
+    {
+      "playerName": "d0653940",
+      "playerStar": 3,
+      "playerScore": 4750,
+      "playerClearTime": 308
+    },
+    {
+      "playerName": "cookie",
+      "playerStar": 4,
+      "playerScore": 5000,
+      "playerClearTime": 262
+    },
+    {
+      "playerName": "user1",
+      "playerStar": 4,
+      "playerScore": 5000,
+      "playerClearTime": 298
+    },
+    {
+      "playerName": "d1090685",
+      "playerStar": 4,
+      "playerScore": 5000,
+      "playerClearTime": 189
+    },
+    {
+      "playerName": "D0948214",
+      "playerStar": 4,
+      "playerScore": 5000,
+      "playerClearTime": 213
+    },
+    {
+      "playerName": "xin",
+      "playerStar": 3,
+      "playerScore": 4500,
+      "playerClearTime": 166
+    },
+    {
+      "playerName": "D1051652",
+      "playerStar": 4,
+      "playerScore": 5000,
+      "playerClearTime": 206
+    },
+    {
+      "playerName": "D1051432",
+      "playerStar": 4,
+      "playerScore": 5000,
+      "playerClearTime": 256
+    },
+    {
+      "playerName": "D1051492",
+      "playerStar": 4,
+      "playerScore": 5000,
+      "playerClearTime": 248
+    },
+    {
+      "playerName": "D1180757",
+      "playerStar": 4,
+      "playerScore": 5000,
+      "playerClearTime": 322
+    },
+    {
+      "playerName": "d1030978",
+      "playerStar": 4,
+      "playerScore": 5000,
+      "playerClearTime": 229
+    },
+    {
+      "playerName": "D1051888",
+      "playerStar": 4,
+      "playerScore": 5000,
+      "playerClearTime": 322
+    },
+    {
+      "playerName": "D1093071",
+      "playerStar": 2,
+      "playerScore": 4000,
+      "playerClearTime": 490
+    },
+    {
+      "playerName": "D1179580",
+      "playerStar": 4,
+      "playerScore": 5000,
+      "playerClearTime": 366
+    },
+    {
+      "playerName": "D1059887",
+      "playerStar": 4,
+      "playerScore": 5000,
+      "playerClearTime": 322
+    },
+    {
+      "playerName": "D0948019",
+      "playerStar": 4,
+      "playerScore": 5000,
+      "playerClearTime": 445
+    },
+    {
+      "playerName": "Once",
+      "playerStar": 4,
+      "playerScore": 5000,
+      "playerClearTime": 229
+    },
+    {
+      "playerName": "d1051284",
+      "playerStar": 4,
+      "playerScore": 5000,
+      "playerClearTime": 243
+    },
+    {
+      "playerName": "D0948466",
+      "playerStar": 4,
+      "playerScore": 5000,
+      "playerClearTime": 517
+    },
+    {
+      "playerName": "tom134679",
+      "playerStar": 4,
+      "playerScore": 5000,
+      "playerClearTime": 352
+    },
+    {
+      "playerName": "D0982730",
+      "playerStar": 4,
+      "playerScore": 5000,
+      "playerClearTime": 201
+    },
+    {
+      "playerName": "D1060003",
+      "playerStar": 4,
+      "playerScore": 5000,
+      "playerClearTime": 167
+    },
+    {
+      "playerName": "Monstung",
+      "playerStar": 3,
+      "playerScore": 4750,
+      "playerClearTime": 1325
+    },
+    {
+      "playerName": "tukta26884",
+      "playerStar": 3,
+      "playerScore": 4750,
+      "playerClearTime": 1297
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65b66fdd52a20bf165a05b22"
+  },
+  "leaderBoardType": "ClearStageBestRecord",
+  "stageName": "Advanced Staging Area (Tutorial)",
+  "leaderBoardData": [
+    {
+      "playerName": "D0957884",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 156
+    },
+    {
+      "playerName": "d1031329",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 179
+    },
+    {
+      "playerName": "D0957411",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 172
+    },
+    {
+      "playerName": "kenchin0627",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 170
+    },
+    {
+      "playerName": "D0987322",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 162
+    },
+    {
+      "playerName": "Loe",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 178
+    },
+    {
+      "playerName": "D0948155",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 131
+    },
+    {
+      "playerName": "d0947523",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 379
+    },
+    {
+      "playerName": "D1018508",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 252
+    },
+    {
+      "playerName": "D1060300",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 145
+    },
+    {
+      "playerName": "D1051092",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 207
+    },
+    {
+      "playerName": "D1018734",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 124
+    },
+    {
+      "playerName": "D0987439",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 308
+    },
+    {
+      "playerName": "cookie",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 212
+    },
+    {
+      "playerName": "d0653940",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 259
+    },
+    {
+      "playerName": "D0916167",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 229
+    },
+    {
+      "playerName": "d1090685",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 245
+    },
+    {
+      "playerName": "user1",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 270
+    },
+    {
+      "playerName": "D1051432",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 179
+    },
+    {
+      "playerName": "D1051652",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 239
+    },
+    {
+      "playerName": "D0948214",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 229
+    },
+    {
+      "playerName": "D1051492",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 213
+    },
+    {
+      "playerName": "D1180757",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 234
+    },
+    {
+      "playerName": "d1030978",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 262
+    },
+    {
+      "playerName": "D1051888",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 258
+    },
+    {
+      "playerName": "D1093071",
+      "playerStar": 3,
+      "playerScore": 5500,
+      "playerClearTime": 343
+    },
+    {
+      "playerName": "D1179580",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 227
+    },
+    {
+      "playerName": "D1059887",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 258
+    },
+    {
+      "playerName": "D0948019",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 210
+    },
+    {
+      "playerName": "D0948466",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 510
+    },
+    {
+      "playerName": "D0982730",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 182
+    },
+    {
+      "playerName": "d1051284",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 307
+    },
+    {
+      "playerName": "tom134679",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 230
+    },
+    {
+      "playerName": "Once",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 314
+    },
+    {
+      "playerName": "D1060003",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 169
+    },
+    {
+      "playerName": "Monstung",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 262
+    },
+    {
+      "playerName": "tukta26884",
+      "playerStar": 3,
+      "playerScore": 5750,
+      "playerClearTime": 372
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65b66fe052a20bf165a05b23"
+  },
+  "leaderBoardType": "ClearStageBestRecord",
+  "stageName": "Creating First Version (Tutorial)",
+  "leaderBoardData": [
+    {
+      "playerName": "D0957884",
+      "playerStar": 4,
+      "playerScore": 16000,
+      "playerClearTime": 332
+    },
+    {
+      "playerName": "d1031329",
+      "playerStar": 4,
+      "playerScore": 16000,
+      "playerClearTime": 301
+    },
+    {
+      "playerName": "D0948155",
+      "playerStar": 4,
+      "playerScore": 16000,
+      "playerClearTime": 252
+    },
+    {
+      "playerName": "D0957411",
+      "playerStar": 4,
+      "playerScore": 16000,
+      "playerClearTime": 379
+    },
+    {
+      "playerName": "D1018508",
+      "playerStar": 4,
+      "playerScore": 16000,
+      "playerClearTime": 348
+    },
+    {
+      "playerName": "D0987322",
+      "playerStar": 4,
+      "playerScore": 16000,
+      "playerClearTime": 418
+    },
+    {
+      "playerName": "kenchin0627",
+      "playerStar": 3,
+      "playerScore": 15750,
+      "playerClearTime": 447
+    },
+    {
+      "playerName": "D1060300",
+      "playerStar": 4,
+      "playerScore": 16000,
+      "playerClearTime": 308
+    },
+    {
+      "playerName": "Loe",
+      "playerStar": 3,
+      "playerScore": 15750,
+      "playerClearTime": 441
+    },
+    {
+      "playerName": "D1051092",
+      "playerStar": 4,
+      "playerScore": 16000,
+      "playerClearTime": 394
+    },
+    {
+      "playerName": "d0947523",
+      "playerStar": 4,
+      "playerScore": 16000,
+      "playerClearTime": 467
+    },
+    {
+      "playerName": "D0987439",
+      "playerStar": 4,
+      "playerScore": 16000,
+      "playerClearTime": 396
+    },
+    {
+      "playerName": "cookie",
+      "playerStar": 3,
+      "playerScore": 15750,
+      "playerClearTime": 569
+    },
+    {
+      "playerName": "D1051432",
+      "playerStar": 4,
+      "playerScore": 16000,
+      "playerClearTime": 438
+    },
+    {
+      "playerName": "D1018734",
+      "playerStar": 2,
+      "playerScore": 14000,
+      "playerClearTime": 855
+    },
+    {
+      "playerName": "D1051492",
+      "playerStar": 3,
+      "playerScore": 15750,
+      "playerClearTime": 431
+    },
+    {
+      "playerName": "D1051652",
+      "playerStar": 4,
+      "playerScore": 16000,
+      "playerClearTime": 495
+    },
+    {
+      "playerName": "d1090685",
+      "playerStar": 4,
+      "playerScore": 16000,
+      "playerClearTime": 583
+    },
+    {
+      "playerName": "D0948214",
+      "playerStar": 4,
+      "playerScore": 16000,
+      "playerClearTime": 524
+    },
+    {
+      "playerName": "D0916167",
+      "playerStar": 4,
+      "playerScore": 16000,
+      "playerClearTime": 265
+    },
+    {
+      "playerName": "user1",
+      "playerStar": 4,
+      "playerScore": 16000,
+      "playerClearTime": 666
+    },
+    {
+      "playerName": "D1180757",
+      "playerStar": 3,
+      "playerScore": 15500,
+      "playerClearTime": 619
+    },
+    {
+      "playerName": "D1051888",
+      "playerStar": 4,
+      "playerScore": 16000,
+      "playerClearTime": 547
+    },
+    {
+      "playerName": "d0653940",
+      "playerStar": 3,
+      "playerScore": 15000,
+      "playerClearTime": 1012
+    },
+    {
+      "playerName": "D1179580",
+      "playerStar": 4,
+      "playerScore": 16000,
+      "playerClearTime": 518
+    },
+    {
+      "playerName": "d1030978",
+      "playerStar": 4,
+      "playerScore": 16000,
+      "playerClearTime": 762
+    },
+    {
+      "playerName": "D0948019",
+      "playerStar": 4,
+      "playerScore": 16000,
+      "playerClearTime": 512
+    },
+    {
+      "playerName": "D1093071",
+      "playerStar": 3,
+      "playerScore": 15000,
+      "playerClearTime": 882
+    },
+    {
+      "playerName": "D1059887",
+      "playerStar": 4,
+      "playerScore": 16000,
+      "playerClearTime": 831
+    },
+    {
+      "playerName": "D0948466",
+      "playerStar": 4,
+      "playerScore": 16000,
+      "playerClearTime": 557
+    },
+    {
+      "playerName": "D0982730",
+      "playerStar": 4,
+      "playerScore": 16000,
+      "playerClearTime": 430
+    },
+    {
+      "playerName": "d1051284",
+      "playerStar": 4,
+      "playerScore": 16000,
+      "playerClearTime": 741
+    },
+    {
+      "playerName": "Once",
+      "playerStar": 4,
+      "playerScore": 16000,
+      "playerClearTime": 590
+    },
+    {
+      "playerName": "tom134679",
+      "playerStar": 4,
+      "playerScore": 16000,
+      "playerClearTime": 604
+    },
+    {
+      "playerName": "Monstung",
+      "playerStar": 3,
+      "playerScore": 15750,
+      "playerClearTime": 245
+    },
+    {
+      "playerName": "tukta26884",
+      "playerStar": 3,
+      "playerScore": 15750,
+      "playerClearTime": 573
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65b66fe752a20bf165a05b24"
+  },
+  "leaderBoardType": "ClearStageBestRecord",
+  "stageName": "Switching Project Versions (Tutorial)",
+  "leaderBoardData": [
+    {
+      "playerName": "d1031329",
+      "playerStar": 4,
+      "playerScore": 8000,
+      "playerClearTime": 165
+    },
+    {
+      "playerName": "D0957884",
+      "playerStar": 4,
+      "playerScore": 8000,
+      "playerClearTime": 224
+    },
+    {
+      "playerName": "D0948155",
+      "playerStar": 4,
+      "playerScore": 8000,
+      "playerClearTime": 217
+    },
+    {
+      "playerName": "D0957411",
+      "playerStar": 4,
+      "playerScore": 8000,
+      "playerClearTime": 268
+    },
+    {
+      "playerName": "D1018508",
+      "playerStar": 4,
+      "playerScore": 8000,
+      "playerClearTime": 216
+    },
+    {
+      "playerName": "D1060300",
+      "playerStar": 4,
+      "playerScore": 8000,
+      "playerClearTime": 201
+    },
+    {
+      "playerName": "D1051092",
+      "playerStar": 4,
+      "playerScore": 8000,
+      "playerClearTime": 203
+    },
+    {
+      "playerName": "Loe",
+      "playerStar": 4,
+      "playerScore": 8000,
+      "playerClearTime": 196
+    },
+    {
+      "playerName": "D0987439",
+      "playerStar": 4,
+      "playerScore": 8000,
+      "playerClearTime": 212
+    },
+    {
+      "playerName": "D0987322",
+      "playerStar": 4,
+      "playerScore": 8000,
+      "playerClearTime": 321
+    },
+    {
+      "playerName": "d0947523",
+      "playerStar": 4,
+      "playerScore": 8000,
+      "playerClearTime": 310
+    },
+    {
+      "playerName": "kenchin0627",
+      "playerStar": 3,
+      "playerScore": 7750,
+      "playerClearTime": 518
+    },
+    {
+      "playerName": "D1018734",
+      "playerStar": 4,
+      "playerScore": 8000,
+      "playerClearTime": 188
+    },
+    {
+      "playerName": "cookie",
+      "playerStar": 4,
+      "playerScore": 8000,
+      "playerClearTime": 334
+    },
+    {
+      "playerName": "D1051492",
+      "playerStar": 4,
+      "playerScore": 8000,
+      "playerClearTime": 277
+    },
+    {
+      "playerName": "D1051432",
+      "playerStar": 4,
+      "playerScore": 8000,
+      "playerClearTime": 307
+    },
+    {
+      "playerName": "D1051652",
+      "playerStar": 4,
+      "playerScore": 8000,
+      "playerClearTime": 258
+    },
+    {
+      "playerName": "d1090685",
+      "playerStar": 4,
+      "playerScore": 8000,
+      "playerClearTime": 277
+    },
+    {
+      "playerName": "user1",
+      "playerStar": 4,
+      "playerScore": 8000,
+      "playerClearTime": 346
+    },
+    {
+      "playerName": "D0948214",
+      "playerStar": 4,
+      "playerScore": 8000,
+      "playerClearTime": 423
+    },
+    {
+      "playerName": "D0916167",
+      "playerStar": 4,
+      "playerScore": 8000,
+      "playerClearTime": 499
+    },
+    {
+      "playerName": "D1180757",
+      "playerStar": 3,
+      "playerScore": 7500,
+      "playerClearTime": 396
+    },
+    {
+      "playerName": "D0948019",
+      "playerStar": 4,
+      "playerScore": 8000,
+      "playerClearTime": 316
+    },
+    {
+      "playerName": "d0653940",
+      "playerStar": 3,
+      "playerScore": 7750,
+      "playerClearTime": 484
+    },
+    {
+      "playerName": "D1179580",
+      "playerStar": 4,
+      "playerScore": 8000,
+      "playerClearTime": 422
+    },
+    {
+      "playerName": "d1030978",
+      "playerStar": 4,
+      "playerScore": 8000,
+      "playerClearTime": 122
+    },
+    {
+      "playerName": "D1059887",
+      "playerStar": 4,
+      "playerScore": 8000,
+      "playerClearTime": 332
+    },
+    {
+      "playerName": "D1093071",
+      "playerStar": 4,
+      "playerScore": 8000,
+      "playerClearTime": 473
+    },
+    {
+      "playerName": "D1051888",
+      "playerStar": 4,
+      "playerScore": 8000,
+      "playerClearTime": 285
+    },
+    {
+      "playerName": "D0948466",
+      "playerStar": 4,
+      "playerScore": 8000,
+      "playerClearTime": 434
+    },
+    {
+      "playerName": "D0982730",
+      "playerStar": 4,
+      "playerScore": 8000,
+      "playerClearTime": 445
+    },
+    {
+      "playerName": "d1051284",
+      "playerStar": 4,
+      "playerScore": 8000,
+      "playerClearTime": 351
+    },
+    {
+      "playerName": "Once",
+      "playerStar": 4,
+      "playerScore": 8000,
+      "playerClearTime": 537
+    },
+    {
+      "playerName": "tom134679",
+      "playerStar": 4,
+      "playerScore": 8000,
+      "playerClearTime": 533
+    },
+    {
+      "playerName": "Monstung",
+      "playerStar": 3,
+      "playerScore": 7750,
+      "playerClearTime": 468
+    },
+    {
+      "playerName": "tukta26884",
+      "playerStar": 4,
+      "playerScore": 8000,
+      "playerClearTime": 565
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65b66fe952a20bf165a05b25"
+  },
+  "leaderBoardType": "ClearStageBestRecord",
+  "stageName": "Git Branching Basics (Tutorial)",
+  "leaderBoardData": [
+    {
+      "playerName": "D0957884",
+      "playerStar": 4,
+      "playerScore": 9000,
+      "playerClearTime": 276
+    },
+    {
+      "playerName": "d1031329",
+      "playerStar": 4,
+      "playerScore": 9000,
+      "playerClearTime": 473
+    },
+    {
+      "playerName": "D0957411",
+      "playerStar": 4,
+      "playerScore": 9000,
+      "playerClearTime": 239
+    },
+    {
+      "playerName": "D1018508",
+      "playerStar": 4,
+      "playerScore": 9000,
+      "playerClearTime": 337
+    },
+    {
+      "playerName": "D0987439",
+      "playerStar": 4,
+      "playerScore": 9000,
+      "playerClearTime": 441
+    },
+    {
+      "playerName": "D1051092",
+      "playerStar": 4,
+      "playerScore": 9000,
+      "playerClearTime": 279
+    },
+    {
+      "playerName": "kenchin0627",
+      "playerStar": 3,
+      "playerScore": 8750,
+      "playerClearTime": 397
+    },
+    {
+      "playerName": "D1018734",
+      "playerStar": 2,
+      "playerScore": 8000,
+      "playerClearTime": 287
+    },
+    {
+      "playerName": "d0947523",
+      "playerStar": 4,
+      "playerScore": 9000,
+      "playerClearTime": 389
+    },
+    {
+      "playerName": "cookie",
+      "playerStar": 4,
+      "playerScore": 9000,
+      "playerClearTime": 469
+    },
+    {
+      "playerName": "D0987322",
+      "playerStar": 4,
+      "playerScore": 9000,
+      "playerClearTime": 798
+    },
+    {
+      "playerName": "user1",
+      "playerStar": 4,
+      "playerScore": 9000,
+      "playerClearTime": 460
+    },
+    {
+      "playerName": "D1180757",
+      "playerStar": 2,
+      "playerScore": 7750,
+      "playerClearTime": 560
+    },
+    {
+      "playerName": "D1179580",
+      "playerStar": 4,
+      "playerScore": 9000,
+      "playerClearTime": 414
+    },
+    {
+      "playerName": "D0948155",
+      "playerStar": 4,
+      "playerScore": 9000,
+      "playerClearTime": 299
+    },
+    {
+      "playerName": "D0948214",
+      "playerStar": 4,
+      "playerScore": 9000,
+      "playerClearTime": 292
+    },
+    {
+      "playerName": "d1090685",
+      "playerStar": 4,
+      "playerScore": 9000,
+      "playerClearTime": 354
+    },
+    {
+      "playerName": "d0653940",
+      "playerStar": 3,
+      "playerScore": 8500,
+      "playerClearTime": 718
+    },
+    {
+      "playerName": "D1059887",
+      "playerStar": 4,
+      "playerScore": 9000,
+      "playerClearTime": 555
+    },
+    {
+      "playerName": "D1051432",
+      "playerStar": 4,
+      "playerScore": 9000,
+      "playerClearTime": 356
+    },
+    {
+      "playerName": "D0948019",
+      "playerStar": 4,
+      "playerScore": 9000,
+      "playerClearTime": 233
+    },
+    {
+      "playerName": "Loe",
+      "playerStar": 4,
+      "playerScore": 9000,
+      "playerClearTime": 374
+    },
+    {
+      "playerName": "D1051492",
+      "playerStar": 4,
+      "playerScore": 9000,
+      "playerClearTime": 255
+    },
+    {
+      "playerName": "D1051888",
+      "playerStar": 4,
+      "playerScore": 9000,
+      "playerClearTime": 359
+    },
+    {
+      "playerName": "D1060300",
+      "playerStar": 4,
+      "playerScore": 9000,
+      "playerClearTime": 506
+    },
+    {
+      "playerName": "D0948466",
+      "playerStar": 4,
+      "playerScore": 9000,
+      "playerClearTime": 628
+    },
+    {
+      "playerName": "D0982730",
+      "playerStar": 4,
+      "playerScore": 9000,
+      "playerClearTime": 452
+    },
+    {
+      "playerName": "d1051284",
+      "playerStar": 3,
+      "playerScore": 8750,
+      "playerClearTime": 701
+    },
+    {
+      "playerName": "d1030978",
+      "playerStar": 1,
+      "playerScore": 6000,
+      "playerClearTime": 509
+    },
+    {
+      "playerName": "Once",
+      "playerStar": 4,
+      "playerScore": 9000,
+      "playerClearTime": 652
+    },
+    {
+      "playerName": "D1051652",
+      "playerStar": 3,
+      "playerScore": 8750,
+      "playerClearTime": 755
+    },
+    {
+      "playerName": "D0916167",
+      "playerStar": 4,
+      "playerScore": 9000,
+      "playerClearTime": 254
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65b66fec52a20bf165a05b26"
+  },
+  "leaderBoardType": "ClearStageBestRecord",
+  "stageName": "Fast-Forward Merging (Tutorial)",
+  "leaderBoardData": [
+    {
+      "playerName": "D0957884",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 163
+    },
+    {
+      "playerName": "d1031329",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 192
+    },
+    {
+      "playerName": "D0987439",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 141
+    },
+    {
+      "playerName": "D1051092",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 132
+    },
+    {
+      "playerName": "kenchin0627",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 187
+    },
+    {
+      "playerName": "D0957411",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 216
+    },
+    {
+      "playerName": "D1018734",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 191
+    },
+    {
+      "playerName": "d0947523",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 192
+    },
+    {
+      "playerName": "cookie",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 247
+    },
+    {
+      "playerName": "D1018508",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 201
+    },
+    {
+      "playerName": "D0987322",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 224
+    },
+    {
+      "playerName": "user1",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 241
+    },
+    {
+      "playerName": "D1180757",
+      "playerStar": 3,
+      "playerScore": 5750,
+      "playerClearTime": 212
+    },
+    {
+      "playerName": "D1179580",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 269
+    },
+    {
+      "playerName": "D0948155",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 177
+    },
+    {
+      "playerName": "D0948214",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 181
+    },
+    {
+      "playerName": "d1090685",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 248
+    },
+    {
+      "playerName": "d0653940",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 298
+    },
+    {
+      "playerName": "D1051432",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 167
+    },
+    {
+      "playerName": "D1059887",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 240
+    },
+    {
+      "playerName": "D0948019",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 158
+    },
+    {
+      "playerName": "Loe",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 151
+    },
+    {
+      "playerName": "D1051492",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 171
+    },
+    {
+      "playerName": "D1060300",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 167
+    },
+    {
+      "playerName": "D1051888",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 140
+    },
+    {
+      "playerName": "D0982730",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 215
+    },
+    {
+      "playerName": "D0948466",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 333
+    },
+    {
+      "playerName": "d1051284",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 282
+    },
+    {
+      "playerName": "Once",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 210
+    },
+    {
+      "playerName": "D1051652",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 559
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65b66ff152a20bf165a05b27"
+  },
+  "leaderBoardType": "ClearStageBestRecord",
+  "stageName": "Auto Merging (Tutorial)",
+  "leaderBoardData": [
+    {
+      "playerName": "D0957884",
+      "playerStar": 4,
+      "playerScore": 8000,
+      "playerClearTime": 347
+    },
+    {
+      "playerName": "d1031329",
+      "playerStar": 3,
+      "playerScore": 7750,
+      "playerClearTime": 320
+    },
+    {
+      "playerName": "D0987439",
+      "playerStar": 3,
+      "playerScore": 7750,
+      "playerClearTime": 323
+    },
+    {
+      "playerName": "D1051092",
+      "playerStar": 4,
+      "playerScore": 8000,
+      "playerClearTime": 300
+    },
+    {
+      "playerName": "kenchin0627",
+      "playerStar": 3,
+      "playerScore": 7500,
+      "playerClearTime": 424
+    },
+    {
+      "playerName": "D1018734",
+      "playerStar": 3,
+      "playerScore": 7750,
+      "playerClearTime": 311
+    },
+    {
+      "playerName": "D0957411",
+      "playerStar": 4,
+      "playerScore": 8000,
+      "playerClearTime": 298
+    },
+    {
+      "playerName": "d0947523",
+      "playerStar": 4,
+      "playerScore": 8000,
+      "playerClearTime": 221
+    },
+    {
+      "playerName": "cookie",
+      "playerStar": 3,
+      "playerScore": 7750,
+      "playerClearTime": 576
+    },
+    {
+      "playerName": "user1",
+      "playerStar": 4,
+      "playerScore": 8000,
+      "playerClearTime": 271
+    },
+    {
+      "playerName": "D0987322",
+      "playerStar": 4,
+      "playerScore": 8000,
+      "playerClearTime": 358
+    },
+    {
+      "playerName": "D1180757",
+      "playerStar": 3,
+      "playerScore": 7750,
+      "playerClearTime": 418
+    },
+    {
+      "playerName": "D1018508",
+      "playerStar": 4,
+      "playerScore": 8000,
+      "playerClearTime": 165
+    },
+    {
+      "playerName": "D0948214",
+      "playerStar": 4,
+      "playerScore": 8000,
+      "playerClearTime": 211
+    },
+    {
+      "playerName": "D0948155",
+      "playerStar": 4,
+      "playerScore": 8000,
+      "playerClearTime": 186
+    },
+    {
+      "playerName": "D1179580",
+      "playerStar": 4,
+      "playerScore": 8000,
+      "playerClearTime": 313
+    },
+    {
+      "playerName": "d1090685",
+      "playerStar": 3,
+      "playerScore": 7750,
+      "playerClearTime": 467
+    },
+    {
+      "playerName": "D1051432",
+      "playerStar": 4,
+      "playerScore": 8000,
+      "playerClearTime": 329
+    },
+    {
+      "playerName": "Loe",
+      "playerStar": 3,
+      "playerScore": 7750,
+      "playerClearTime": 299
+    },
+    {
+      "playerName": "D0948019",
+      "playerStar": 4,
+      "playerScore": 8000,
+      "playerClearTime": 255
+    },
+    {
+      "playerName": "D1060300",
+      "playerStar": 3,
+      "playerScore": 7500,
+      "playerClearTime": 262
+    },
+    {
+      "playerName": "D1051492",
+      "playerStar": 3,
+      "playerScore": 7750,
+      "playerClearTime": 247
+    },
+    {
+      "playerName": "D1059887",
+      "playerStar": 4,
+      "playerScore": 8000,
+      "playerClearTime": 292
+    },
+    {
+      "playerName": "D0982730",
+      "playerStar": 3,
+      "playerScore": 7750,
+      "playerClearTime": 313
+    },
+    {
+      "playerName": "D1051888",
+      "playerStar": 3,
+      "playerScore": 7750,
+      "playerClearTime": 458
+    },
+    {
+      "playerName": "D0948466",
+      "playerStar": 3,
+      "playerScore": 7750,
+      "playerClearTime": 517
+    },
+    {
+      "playerName": "d0653940",
+      "playerStar": 3,
+      "playerScore": 7750,
+      "playerClearTime": 477
+    },
+    {
+      "playerName": "Once",
+      "playerStar": 3,
+      "playerScore": 7250,
+      "playerClearTime": 478
+    },
+    {
+      "playerName": "d1051284",
+      "playerStar": 4,
+      "playerScore": 8000,
+      "playerClearTime": 580
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65b66ff952a20bf165a05b28"
+  },
+  "leaderBoardType": "ClearStageBestRecord",
+  "stageName": "Merge Conflicts (Tutorial)",
+  "leaderBoardData": [
+    {
+      "playerName": "D0948019",
+      "playerStar": 4,
+      "playerScore": 7000,
+      "playerClearTime": 183
+    },
+    {
+      "playerName": "d0947523",
+      "playerStar": 4,
+      "playerScore": 7000,
+      "playerClearTime": 222
+    },
+    {
+      "playerName": "D1018734",
+      "playerStar": 3,
+      "playerScore": 6750,
+      "playerClearTime": 216
+    },
+    {
+      "playerName": "D0987439",
+      "playerStar": 3,
+      "playerScore": 6750,
+      "playerClearTime": 285
+    },
+    {
+      "playerName": "D0948214",
+      "playerStar": 4,
+      "playerScore": 7000,
+      "playerClearTime": 191
+    },
+    {
+      "playerName": "kenchin0627",
+      "playerStar": 3,
+      "playerScore": 6750,
+      "playerClearTime": 297
+    },
+    {
+      "playerName": "D0957411",
+      "playerStar": 4,
+      "playerScore": 7000,
+      "playerClearTime": 279
+    },
+    {
+      "playerName": "D1051432",
+      "playerStar": 4,
+      "playerScore": 7000,
+      "playerClearTime": 311
+    },
+    {
+      "playerName": "D1060300",
+      "playerStar": 3,
+      "playerScore": 6750,
+      "playerClearTime": 227
+    },
+    {
+      "playerName": "D1051092",
+      "playerStar": 4,
+      "playerScore": 7000,
+      "playerClearTime": 216
+    },
+    {
+      "playerName": "Loe",
+      "playerStar": 3,
+      "playerScore": 6750,
+      "playerClearTime": 361
+    },
+    {
+      "playerName": "D0948155",
+      "playerStar": 4,
+      "playerScore": 7000,
+      "playerClearTime": 124
+    },
+    {
+      "playerName": "user1",
+      "playerStar": 4,
+      "playerScore": 7000,
+      "playerClearTime": 321
+    },
+    {
+      "playerName": "cookie",
+      "playerStar": 4,
+      "playerScore": 7000,
+      "playerClearTime": 321
+    },
+    {
+      "playerName": "D1018508",
+      "playerStar": 4,
+      "playerScore": 7000,
+      "playerClearTime": 136
+    },
+    {
+      "playerName": "D1051492",
+      "playerStar": 1,
+      "playerScore": 5000,
+      "playerClearTime": 408
+    },
+    {
+      "playerName": "D1179580",
+      "playerStar": 4,
+      "playerScore": 7000,
+      "playerClearTime": 399
+    },
+    {
+      "playerName": "D1059887",
+      "playerStar": 4,
+      "playerScore": 7000,
+      "playerClearTime": 349
+    },
+    {
+      "playerName": "D0987322",
+      "playerStar": 4,
+      "playerScore": 7000,
+      "playerClearTime": 285
+    },
+    {
+      "playerName": "D0982730",
+      "playerStar": 4,
+      "playerScore": 7000,
+      "playerClearTime": 296
+    },
+    {
+      "playerName": "d1090685",
+      "playerStar": 4,
+      "playerScore": 7000,
+      "playerClearTime": 408
+    },
+    {
+      "playerName": "D1051888",
+      "playerStar": 3,
+      "playerScore": 6750,
+      "playerClearTime": 396
+    },
+    {
+      "playerName": "D0957884",
+      "playerStar": 4,
+      "playerScore": 7000,
+      "playerClearTime": 225
+    },
+    {
+      "playerName": "D0948466",
+      "playerStar": 4,
+      "playerScore": 7000,
+      "playerClearTime": 397
+    },
+    {
+      "playerName": "d0653940",
+      "playerStar": 3,
+      "playerScore": 6750,
+      "playerClearTime": 380
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65b66ffd52a20bf165a05b29"
+  },
+  "leaderBoardType": "ClearStageBestRecord",
+  "stageName": "Create Remote Repository (Tutorial)",
+  "leaderBoardData": [
+    {
+      "playerName": "D0957884",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 223
+    },
+    {
+      "playerName": "D0987439",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 181
+    },
+    {
+      "playerName": "kenchin0627",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 161
+    },
+    {
+      "playerName": "d1031329",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 114
+    },
+    {
+      "playerName": "cookie",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 222
+    },
+    {
+      "playerName": "D0957411",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 70
+    },
+    {
+      "playerName": "D0987322",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 102
+    },
+    {
+      "playerName": "D1018734",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 116
+    },
+    {
+      "playerName": "d0947523",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 129
+    },
+    {
+      "playerName": "D1051432",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 170
+    },
+    {
+      "playerName": "D1060300",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 141
+    },
+    {
+      "playerName": "D1051092",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 143
+    },
+    {
+      "playerName": "D0948155",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 93
+    },
+    {
+      "playerName": "D0948214",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 120
+    },
+    {
+      "playerName": "D0948019",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 54
+    },
+    {
+      "playerName": "Loe",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 95
+    },
+    {
+      "playerName": "user1",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 232
+    },
+    {
+      "playerName": "D1051492",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 145
+    },
+    {
+      "playerName": "D1180757",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 240
+    },
+    {
+      "playerName": "D1059887",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 216
+    },
+    {
+      "playerName": "D1179580",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 284
+    },
+    {
+      "playerName": "D0982730",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 268
+    },
+    {
+      "playerName": "D1018508",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 146
+    },
+    {
+      "playerName": "d1090685",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 367
+    },
+    {
+      "playerName": "D1051888",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 595
+    },
+    {
+      "playerName": "d0653940",
+      "playerStar": 3,
+      "playerScore": 5500,
+      "playerClearTime": 217
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65b6700052a20bf165a05b2a"
+  },
+  "leaderBoardType": "ClearStageBestRecord",
+  "stageName": "Push to Remote Branches (Tutorial)",
+  "leaderBoardData": [
+    {
+      "playerName": "D0957884",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 215
+    },
+    {
+      "playerName": "D0987439",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 182
+    },
+    {
+      "playerName": "kenchin0627",
+      "playerStar": 3,
+      "playerScore": 5750,
+      "playerClearTime": 420
+    },
+    {
+      "playerName": "d1031329",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 243
+    },
+    {
+      "playerName": "cookie",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 191
+    },
+    {
+      "playerName": "D0987322",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 220
+    },
+    {
+      "playerName": "D1018734",
+      "playerStar": 3,
+      "playerScore": 5750,
+      "playerClearTime": 214
+    },
+    {
+      "playerName": "D0957411",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 210
+    },
+    {
+      "playerName": "D1051432",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 207
+    },
+    {
+      "playerName": "D1051092",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 167
+    },
+    {
+      "playerName": "D0948155",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 243
+    },
+    {
+      "playerName": "d0947523",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 301
+    },
+    {
+      "playerName": "D0948019",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 216
+    },
+    {
+      "playerName": "D1060300",
+      "playerStar": 3,
+      "playerScore": 5750,
+      "playerClearTime": 367
+    },
+    {
+      "playerName": "Loe",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 242
+    },
+    {
+      "playerName": "D0948214",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 266
+    },
+    {
+      "playerName": "D1051492",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 199
+    },
+    {
+      "playerName": "user1",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 331
+    },
+    {
+      "playerName": "D1180757",
+      "playerStar": 3,
+      "playerScore": 5500,
+      "playerClearTime": 313
+    },
+    {
+      "playerName": "D1179580",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 137
+    },
+    {
+      "playerName": "D1059887",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 393
+    },
+    {
+      "playerName": "D1018508",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 164
+    },
+    {
+      "playerName": "D0982730",
+      "playerStar": 3,
+      "playerScore": 5500,
+      "playerClearTime": 371
+    },
+    {
+      "playerName": "D1051888",
+      "playerStar": 3,
+      "playerScore": 5750,
+      "playerClearTime": 487
+    },
+    {
+      "playerName": "d1090685",
+      "playerStar": 3,
+      "playerScore": 5500,
+      "playerClearTime": 793
+    },
+    {
+      "playerName": "d0653940",
+      "playerStar": 4,
+      "playerScore": 6000,
+      "playerClearTime": 529
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65b6700452a20bf165a05b2b"
+  },
+  "leaderBoardType": "ClearStageBestRecord",
+  "stageName": "Keep Branches in Sync (Tutorial)",
+  "leaderBoardData": [
+    {
+      "playerName": "D0957884",
+      "playerStar": 4,
+      "playerScore": 5000,
+      "playerClearTime": 259
+    },
+    {
+      "playerName": "D0987439",
+      "playerStar": 4,
+      "playerScore": 5000,
+      "playerClearTime": 124
+    },
+    {
+      "playerName": "kenchin0627",
+      "playerStar": 4,
+      "playerScore": 5000,
+      "playerClearTime": 175
+    },
+    {
+      "playerName": "D0987322",
+      "playerStar": 4,
+      "playerScore": 5000,
+      "playerClearTime": 160
+    },
+    {
+      "playerName": "D1018734",
+      "playerStar": 4,
+      "playerScore": 5000,
+      "playerClearTime": 144
+    },
+    {
+      "playerName": "d1031329",
+      "playerStar": 4,
+      "playerScore": 5000,
+      "playerClearTime": 813
+    },
+    {
+      "playerName": "cookie",
+      "playerStar": 4,
+      "playerScore": 5000,
+      "playerClearTime": 299
+    },
+    {
+      "playerName": "D1051092",
+      "playerStar": 4,
+      "playerScore": 5000,
+      "playerClearTime": 118
+    },
+    {
+      "playerName": "D0957411",
+      "playerStar": 4,
+      "playerScore": 5000,
+      "playerClearTime": 208
+    },
+    {
+      "playerName": "D1051432",
+      "playerStar": 4,
+      "playerScore": 5000,
+      "playerClearTime": 196
+    },
+    {
+      "playerName": "D0948019",
+      "playerStar": 4,
+      "playerScore": 5000,
+      "playerClearTime": 166
+    },
+    {
+      "playerName": "Loe",
+      "playerStar": 4,
+      "playerScore": 5000,
+      "playerClearTime": 149
+    },
+    {
+      "playerName": "D0948214",
+      "playerStar": 4,
+      "playerScore": 5000,
+      "playerClearTime": 143
+    },
+    {
+      "playerName": "D0948155",
+      "playerStar": 4,
+      "playerScore": 5000,
+      "playerClearTime": 206
+    },
+    {
+      "playerName": "d0947523",
+      "playerStar": 4,
+      "playerScore": 5000,
+      "playerClearTime": 320
+    },
+    {
+      "playerName": "D1051492",
+      "playerStar": 4,
+      "playerScore": 5000,
+      "playerClearTime": 138
+    },
+    {
+      "playerName": "D1060300",
+      "playerStar": 4,
+      "playerScore": 5000,
+      "playerClearTime": 459
+    },
+    {
+      "playerName": "D1180757",
+      "playerStar": 4,
+      "playerScore": 5000,
+      "playerClearTime": 284
+    },
+    {
+      "playerName": "user1",
+      "playerStar": 4,
+      "playerScore": 5000,
+      "playerClearTime": 422
+    },
+    {
+      "playerName": "D1059887",
+      "playerStar": 4,
+      "playerScore": 5000,
+      "playerClearTime": 263
+    },
+    {
+      "playerName": "D1179580",
+      "playerStar": 4,
+      "playerScore": 5000,
+      "playerClearTime": 247
+    },
+    {
+      "playerName": "D1018508",
+      "playerStar": 4,
+      "playerScore": 5000,
+      "playerClearTime": 193
+    },
+    {
+      "playerName": "D0982730",
+      "playerStar": 4,
+      "playerScore": 5000,
+      "playerClearTime": 207
+    },
+    {
+      "playerName": "d1090685",
+      "playerStar": 4,
+      "playerScore": 5000,
+      "playerClearTime": 539
+    },
+    {
+      "playerName": "d0653940",
+      "playerStar": 4,
+      "playerScore": 5000,
+      "playerClearTime": 289
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65b6700752a20bf165a05b2c"
+  },
+  "leaderBoardType": "ClearStageBestRecord",
+  "stageName": "Preparation for Merging (Tutorial)",
+  "leaderBoardData": [
+    {
+      "playerName": "D0957884",
+      "playerStar": 2,
+      "playerScore": 6750,
+      "playerClearTime": 675
+    },
+    {
+      "playerName": "D0987439",
+      "playerStar": 4,
+      "playerScore": 8000,
+      "playerClearTime": 181
+    },
+    {
+      "playerName": "kenchin0627",
+      "playerStar": 3,
+      "playerScore": 7750,
+      "playerClearTime": 434
+    },
+    {
+      "playerName": "D1051092",
+      "playerStar": 4,
+      "playerScore": 8000,
+      "playerClearTime": 302
+    },
+    {
+      "playerName": "D1018734",
+      "playerStar": 3,
+      "playerScore": 7250,
+      "playerClearTime": 502
+    },
+    {
+      "playerName": "d1031329",
+      "playerStar": 3,
+      "playerScore": 7000,
+      "playerClearTime": 451
+    },
+    {
+      "playerName": "D0957411",
+      "playerStar": 4,
+      "playerScore": 8000,
+      "playerClearTime": 377
+    },
+    {
+      "playerName": "D1051432",
+      "playerStar": 4,
+      "playerScore": 8000,
+      "playerClearTime": 331
+    },
+    {
+      "playerName": "D0987322",
+      "playerStar": 4,
+      "playerScore": 8000,
+      "playerClearTime": 411
+    },
+    {
+      "playerName": "D0948019",
+      "playerStar": 4,
+      "playerScore": 8000,
+      "playerClearTime": 210
+    },
+    {
+      "playerName": "Loe",
+      "playerStar": 3,
+      "playerScore": 7250,
+      "playerClearTime": 365
+    },
+    {
+      "playerName": "D0948155",
+      "playerStar": 3,
+      "playerScore": 7750,
+      "playerClearTime": 259
+    },
+    {
+      "playerName": "cookie",
+      "playerStar": 4,
+      "playerScore": 8000,
+      "playerClearTime": 573
+    },
+    {
+      "playerName": "D1051492",
+      "playerStar": 2,
+      "playerScore": 6000,
+      "playerClearTime": 388
+    },
+    {
+      "playerName": "D1060300",
+      "playerStar": 3,
+      "playerScore": 7500,
+      "playerClearTime": 258
+    },
+    {
+      "playerName": "D0948214",
+      "playerStar": 4,
+      "playerScore": 8000,
+      "playerClearTime": 339
+    },
+    {
+      "playerName": "d0947523",
+      "playerStar": 4,
+      "playerScore": 8000,
+      "playerClearTime": 291
+    },
+    {
+      "playerName": "user1",
+      "playerStar": 3,
+      "playerScore": 7750,
+      "playerClearTime": 630
+    },
+    {
+      "playerName": "D1179580",
+      "playerStar": 3,
+      "playerScore": 7750,
+      "playerClearTime": 456
+    },
+    {
+      "playerName": "D1018508",
+      "playerStar": 4,
+      "playerScore": 8000,
+      "playerClearTime": 273
+    },
+    {
+      "playerName": "D1180757",
+      "playerStar": 1,
+      "playerScore": 5500,
+      "playerClearTime": 806
+    },
+    {
+      "playerName": "D1059887",
+      "playerStar": 4,
+      "playerScore": 8000,
+      "playerClearTime": 594
+    },
+    {
+      "playerName": "D0982730",
+      "playerStar": 3,
+      "playerScore": 7250,
+      "playerClearTime": 449
+    },
+    {
+      "playerName": "d0653940",
+      "playerStar": 1,
+      "playerScore": 3000,
+      "playerClearTime": 795
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65b6700a52a20bf165a05b2d"
+  },
+  "leaderBoardType": "ClearStageBestRecord",
+  "stageName": "Creating a Pull Request (Tutorial)",
+  "leaderBoardData": [
+    {
+      "playerName": "D0957884",
+      "playerStar": 3,
+      "playerScore": 10500,
+      "playerClearTime": 269
+    },
+    {
+      "playerName": "kenchin0627",
+      "playerStar": 4,
+      "playerScore": 11000,
+      "playerClearTime": 643
+    },
+    {
+      "playerName": "D0987439",
+      "playerStar": 4,
+      "playerScore": 11000,
+      "playerClearTime": 240
+    },
+    {
+      "playerName": "D1051432",
+      "playerStar": 4,
+      "playerScore": 11000,
+      "playerClearTime": 398
+    },
+    {
+      "playerName": "D0957411",
+      "playerStar": 3,
+      "playerScore": 10750,
+      "playerClearTime": 652
+    },
+    {
+      "playerName": "D0987322",
+      "playerStar": 4,
+      "playerScore": 11000,
+      "playerClearTime": 230
+    },
+    {
+      "playerName": "D1018734",
+      "playerStar": 1,
+      "playerScore": 7500,
+      "playerClearTime": 826
+    },
+    {
+      "playerName": "D0948019",
+      "playerStar": 4,
+      "playerScore": 11000,
+      "playerClearTime": 189
+    },
+    {
+      "playerName": "D0948155",
+      "playerStar": 2,
+      "playerScore": 9750,
+      "playerClearTime": 748
+    },
+    {
+      "playerName": "d0947523",
+      "playerStar": 3,
+      "playerScore": 10750,
+      "playerClearTime": 475
+    },
+    {
+      "playerName": "d1031329",
+      "playerStar": 1,
+      "playerScore": 6750,
+      "playerClearTime": 1033
+    },
+    {
+      "playerName": "cookie",
+      "playerStar": 3,
+      "playerScore": 10750,
+      "playerClearTime": 758
+    },
+    {
+      "playerName": "D0948214",
+      "playerStar": 4,
+      "playerScore": 11000,
+      "playerClearTime": 346
+    },
+    {
+      "playerName": "Loe",
+      "playerStar": 3,
+      "playerScore": 10750,
+      "playerClearTime": 1055
+    },
+    {
+      "playerName": "D1060300",
+      "playerStar": 3,
+      "playerScore": 10000,
+      "playerClearTime": 626
+    },
+    {
+      "playerName": "D1018508",
+      "playerStar": 4,
+      "playerScore": 11000,
+      "playerClearTime": 260
+    },
+    {
+      "playerName": "D1180757",
+      "playerStar": 2,
+      "playerScore": 9500,
+      "playerClearTime": 800
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65b6700e52a20bf165a05b2e"
+  },
+  "leaderBoardType": "ClearStageBestRecord",
+  "stageName": "Review and Merge Pull Requests (Tutorial)",
+  "leaderBoardData": [
+    {
+      "playerName": "D0957884",
+      "playerStar": 4,
+      "playerScore": 4000,
+      "playerClearTime": 218
+    },
+    {
+      "playerName": "kenchin0627",
+      "playerStar": 4,
+      "playerScore": 4000,
+      "playerClearTime": 116
+    },
+    {
+      "playerName": "D1051432",
+      "playerStar": 4,
+      "playerScore": 4000,
+      "playerClearTime": 214
+    },
+    {
+      "playerName": "D0987439",
+      "playerStar": 4,
+      "playerScore": 4000,
+      "playerClearTime": 267
+    },
+    {
+      "playerName": "D0987322",
+      "playerStar": 4,
+      "playerScore": 4000,
+      "playerClearTime": 190
+    },
+    {
+      "playerName": "D1018734",
+      "playerStar": 4,
+      "playerScore": 4000,
+      "playerClearTime": 249
+    },
+    {
+      "playerName": "D0948155",
+      "playerStar": 4,
+      "playerScore": 4000,
+      "playerClearTime": 89
+    },
+    {
+      "playerName": "D0948019",
+      "playerStar": 4,
+      "playerScore": 4000,
+      "playerClearTime": 71
+    },
+    {
+      "playerName": "d1031329",
+      "playerStar": 2,
+      "playerScore": 3000,
+      "playerClearTime": 201
+    },
+    {
+      "playerName": "D0948214",
+      "playerStar": 4,
+      "playerScore": 4000,
+      "playerClearTime": 266
+    },
+    {
+      "playerName": "Loe",
+      "playerStar": 4,
+      "playerScore": 4000,
+      "playerClearTime": 120
+    },
+    {
+      "playerName": "d0947523",
+      "playerStar": 4,
+      "playerScore": 4000,
+      "playerClearTime": 182
+    },
+    {
+      "playerName": "cookie",
+      "playerStar": 4,
+      "playerScore": 4000,
+      "playerClearTime": 308
+    },
+    {
+      "playerName": "D1180757",
+      "playerStar": 4,
+      "playerScore": 4000,
+      "playerClearTime": 398
+    },
+    {
+      "playerName": "D1018508",
+      "playerStar": 4,
+      "playerScore": 4000,
+      "playerClearTime": 201
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65b6701a52a20bf165a05b2f"
+  },
+  "leaderBoardType": "ClearStageBestRecord",
+  "stageName": "Game Introduction (Practice)",
+  "leaderBoardData": [
+    {
+      "playerName": "D0987439",
+      "playerStar": 4,
+      "playerScore": 7000,
+      "playerClearTime": 50
+    },
+    {
+      "playerName": "D1051432",
+      "playerStar": 4,
+      "playerScore": 7000,
+      "playerClearTime": 40
+    },
+    {
+      "playerName": "D1018508",
+      "playerStar": 4,
+      "playerScore": 7000,
+      "playerClearTime": 34
+    },
+    {
+      "playerName": "Loe",
+      "playerStar": 4,
+      "playerScore": 7000,
+      "playerClearTime": 47
+    },
+    {
+      "playerName": "kenchin0627",
+      "playerStar": 4,
+      "playerScore": 7000,
+      "playerClearTime": 37
+    },
+    {
+      "playerName": "d0947523",
+      "playerStar": 4,
+      "playerScore": 7000,
+      "playerClearTime": 36
+    },
+    {
+      "playerName": "D1051492",
+      "playerStar": 4,
+      "playerScore": 7000,
+      "playerClearTime": 45
+    },
+    {
+      "playerName": "d1090685",
+      "playerStar": 4,
+      "playerScore": 7000,
+      "playerClearTime": 47
+    },
+    {
+      "playerName": "tom134679",
+      "playerStar": 4,
+      "playerScore": 7000,
+      "playerClearTime": 39
+    },
+    {
+      "playerName": "d1030978",
+      "playerStar": 4,
+      "playerScore": 7000,
+      "playerClearTime": 42
+    },
+    {
+      "playerName": "D0957411",
+      "playerStar": 4,
+      "playerScore": 7000,
+      "playerClearTime": 32
+    },
+    {
+      "playerName": "user1",
+      "playerStar": 4,
+      "playerScore": 7000,
+      "playerClearTime": 63
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65b6701c52a20bf165a05b30"
+  },
+  "leaderBoardType": "ClearStageBestRecord",
+  "stageName": "Version Control and Git (Practice)",
+  "leaderBoardData": [
+    {
+      "playerName": "D1018508",
+      "playerStar": 4,
+      "playerScore": 7000,
+      "playerClearTime": 63
+    },
+    {
+      "playerName": "Loe",
+      "playerStar": 3,
+      "playerScore": 5000,
+      "playerClearTime": 178
+    },
+    {
+      "playerName": "D1051492",
+      "playerStar": 4,
+      "playerScore": 7000,
+      "playerClearTime": 94
+    },
+    {
+      "playerName": "d1090685",
+      "playerStar": 4,
+      "playerScore": 7000,
+      "playerClearTime": 100
+    },
+    {
+      "playerName": "tom134679",
+      "playerStar": 4,
+      "playerScore": 7000,
+      "playerClearTime": 105
+    },
+    {
+      "playerName": "d1030978",
+      "playerStar": 4,
+      "playerScore": 7000,
+      "playerClearTime": 50
+    },
+    {
+      "playerName": "D0957411",
+      "playerStar": 4,
+      "playerScore": 7000,
+      "playerClearTime": 49
+    },
+    {
+      "playerName": "user1",
+      "playerStar": 4,
+      "playerScore": 7000,
+      "playerClearTime": 151
+    },
+    {
+      "playerName": "D1051432",
+      "playerStar": 4,
+      "playerScore": 7000,
+      "playerClearTime": 63
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65b6701f52a20bf165a05b31"
+  },
+  "leaderBoardType": "ClearStageBestRecord",
+  "stageName": "Create Local Repository (Practice)",
+  "leaderBoardData": [
+    {
+      "playerName": "Loe",
+      "playerStar": 3,
+      "playerScore": 2500,
+      "playerClearTime": 71
+    },
+    {
+      "playerName": "D1051492",
+      "playerStar": 4,
+      "playerScore": 3000,
+      "playerClearTime": 76
+    },
+    {
+      "playerName": "d1090685",
+      "playerStar": 4,
+      "playerScore": 3000,
+      "playerClearTime": 34
+    },
+    {
+      "playerName": "tom134679",
+      "playerStar": 4,
+      "playerScore": 3000,
+      "playerClearTime": 41
+    },
+    {
+      "playerName": "D0957411",
+      "playerStar": 4,
+      "playerScore": 3000,
+      "playerClearTime": 50
+    },
+    {
+      "playerName": "d1030978",
+      "playerStar": 4,
+      "playerScore": 3000,
+      "playerClearTime": 90
+    },
+    {
+      "playerName": "D1051432",
+      "playerStar": 4,
+      "playerScore": 3000,
+      "playerClearTime": 27
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65b6702252a20bf165a05b32"
+  },
+  "leaderBoardType": "ClearStageBestRecord",
+  "stageName": "Basic Staging Area (Practice)",
+  "leaderBoardData": []
+},
+{
+  "_id": {
+    "$oid": "65b6702552a20bf165a05b33"
+  },
+  "leaderBoardType": "ClearStageBestRecord",
+  "stageName": "Advanced Staging Area (Practice)",
+  "leaderBoardData": [
+    {
+      "playerName": "Loe",
+      "playerStar": 4,
+      "playerScore": 3000,
+      "playerClearTime": 77
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65b6702852a20bf165a05b34"
+  },
+  "leaderBoardType": "ClearStageBestRecord",
+  "stageName": "Creating First Version (Practice)",
+  "leaderBoardData": [
+    {
+      "playerName": "Loe",
+      "playerStar": 4,
+      "playerScore": 8000,
+      "playerClearTime": 126
+    },
+    {
+      "playerName": "D1051492",
+      "playerStar": 4,
+      "playerScore": 8000,
+      "playerClearTime": 109
+    },
+    {
+      "playerName": "d1030978",
+      "playerStar": 4,
+      "playerScore": 8000,
+      "playerClearTime": 139
+    },
+    {
+      "playerName": "tom134679",
+      "playerStar": 4,
+      "playerScore": 8000,
+      "playerClearTime": 136
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65b6702b52a20bf165a05b35"
+  },
+  "leaderBoardType": "ClearStageBestRecord",
+  "stageName": "Switching Project Versions (Practice)",
+  "leaderBoardData": [
+    {
+      "playerName": "D1051492",
+      "playerStar": 2,
+      "playerScore": 6000,
+      "playerClearTime": 270
+    },
+    {
+      "playerName": "d1030978",
+      "playerStar": 4,
+      "playerScore": 7000,
+      "playerClearTime": 74
+    },
+    {
+      "playerName": "tom134679",
+      "playerStar": 3,
+      "playerScore": 6750,
+      "playerClearTime": 282
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65b6702d52a20bf165a05b36"
+  },
+  "leaderBoardType": "ClearStageBestRecord",
+  "stageName": "Git Branching Basics (Practice)",
+  "leaderBoardData": []
+},
+{
+  "_id": {
+    "$oid": "65b6703052a20bf165a05b37"
+  },
+  "leaderBoardType": "ClearStageBestRecord",
+  "stageName": "Fast-Forward Merging (Practice)",
+  "leaderBoardData": [
+    {
+      "playerName": "Loe",
+      "playerStar": 3,
+      "playerScore": 6750,
+      "playerClearTime": 181
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65b6703452a20bf165a05b38"
+  },
+  "leaderBoardType": "ClearStageBestRecord",
+  "stageName": "Auto Merging (Practice)",
+  "leaderBoardData": []
+},
+{
+  "_id": {
+    "$oid": "65b6703952a20bf165a05b39"
+  },
+  "leaderBoardType": "ClearStageBestRecord",
+  "stageName": "Merge Conflicts (Practice)",
+  "leaderBoardData": []
+},
+{
+  "_id": {
+    "$oid": "65b6703d52a20bf165a05b3a"
+  },
+  "leaderBoardType": "ClearStageBestRecord",
+  "stageName": "Create Remote Repository (Practice)",
+  "leaderBoardData": []
+},
+{
+  "_id": {
+    "$oid": "65b6704152a20bf165a05b3b"
+  },
+  "leaderBoardType": "ClearStageBestRecord",
+  "stageName": "Push to Remote Branches (Practice)",
+  "leaderBoardData": []
+},
+{
+  "_id": {
+    "$oid": "65b6704352a20bf165a05b3c"
+  },
+  "leaderBoardType": "ClearStageBestRecord",
+  "stageName": "Keep Branches in Sync (Practice)",
+  "leaderBoardData": []
+},
+{
+  "_id": {
+    "$oid": "65b6704652a20bf165a05b3d"
+  },
+  "leaderBoardType": "ClearStageBestRecord",
+  "stageName": "Preparation for Merging (Practice)",
+  "leaderBoardData": []
+},
+{
+  "_id": {
+    "$oid": "65b6704b52a20bf165a05b3e"
+  },
+  "leaderBoardType": "ClearStageBestRecord",
+  "stageName": "Creating a Pull Request (Practice)",
+  "leaderBoardData": []
+},
+{
+  "_id": {
+    "$oid": "65b6704e52a20bf165a05b3f"
+  },
+  "leaderBoardType": "ClearStageBestRecord",
+  "stageName": "Review and Merge Pull Requests (Practice)",
+  "leaderBoardData": [
+    {
+      "playerName": "D1018508",
+      "playerStar": 4,
+      "playerScore": 5000,
+      "playerClearTime": 112
+    }
+  ]
+}]
