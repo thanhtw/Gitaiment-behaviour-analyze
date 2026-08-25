@@ -1,41 +1,29 @@
+GiTaiment Current Analysis Summary
+==================================
+Updated: 2026-08-25
 
-GiTaiment Game Analytics Summary Report
-========================================
-Generated: 2025-12-09 22:10:26
+DATA
+----
+Combined Version-1 and Version-2 events: 31,630
+Distinct per-user profiles: 105
+Active player records with positive play time: 84
 
-PLAYER OVERVIEW
----------------
-Total Active Players: 47
-Average Game Progress: 39.9%
-Average Play Time: 1.31 hours
-Average Score: 90027
+CLUSTERING
+----------
+Python K-means inputs: 11 behavioral/derived features
+Gap Statistic selected: k = 4
+Cluster sizes: 21, 44, 31, 9
 
-PLAYER SEGMENTS
----------------
-Progress Distribution:
-progressSegment
-Advanced         18
-Intermediate     17
-Beginner         11
-Completionist     1
+Alternative recommendations:
+- Silhouette: k = 5
+- Calinski-Harabasz: k = 2
+- Davies-Bouldin: k = 4
+- Stability ARI: k = 3
 
-Learning Styles:
-learningStyle
-Master            39
-Hint-Dependent     3
-Balanced           3
-Independent        2
+INTERPRETATION
+--------------
+Clusters are exploratory behavioral profiles. Performance outcomes are used for
+post-cluster comparison, not cluster formation. Sequence frequencies and state
+transition probabilities are descriptive associations and are not causal evidence.
 
-Engagement Levels:
-engagementLevel
-Medium    34
-Low       11
-High       2
-
-KEY INSIGHTS
-------------
-1. Completion Rate: 2.1%
-2. Average Perfect Clear Rate: 87.5%
-3. Average Hint Usage Rate: 6.2%
-4. Players using Game Manual: 41 (87.2%)
-5. Average Commands per Player: 124.7
+Canonical guide: PYTHON_ANALYSIS_RESEARCH_GUIDE.md

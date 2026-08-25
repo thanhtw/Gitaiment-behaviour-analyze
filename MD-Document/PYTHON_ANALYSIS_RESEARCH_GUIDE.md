@@ -113,6 +113,10 @@ Suggested methods text:
 
 Use `analysis_cluster_selection_methods.csv`, `figure_gap_statistic.png`, and `figure_cluster_selection_methods.png` to report this decision.
 
+### Current selection result (2026-08-25)
+
+Gap Statistic selected `k=4`. Final K-means membership is Cluster 1 (`n=21`), Cluster 2 (`n=44`), Cluster 3 (`n=31`), and Cluster 4 (`n=9`). All final groups satisfy the minimum-size requirement. Sensitivity indices do not unanimously agree: Silhouette recommends `k=5`, Calinski–Harabasz `k=2`, Davies–Bouldin `k=4`, and stability ARI `k=3`. The paper should report this disagreement and characterize the four-cluster solution as Gap-selected and exploratory.
+
 ## Profile analysis
 
 `analysis_cluster_profiles.csv` gives count, mean, standard deviation, and median. The standardized profile table expresses behavioral means as z-scores: positive values are above the sample average and negative values are below it. Group comparisons include one-way ANOVA, Kruskal–Wallis tests, and eta-squared effect sizes.
