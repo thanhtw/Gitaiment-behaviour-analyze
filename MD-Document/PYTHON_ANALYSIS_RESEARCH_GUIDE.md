@@ -70,24 +70,23 @@ Suggested methods text:
 
 ## Cluster construction
 
-Clusters use 12 behavioral features: activity span, sessions, events per session, quests per session, help ratio, action success rate, quest completion rate, perfect ratio, manual opens, leaderboard checks, commands executed, and stages attempted. Missing values are median-imputed and features are standardized. Performance outcomes are withheld from fitting and used afterward for profile interpretation, reducing circularity.
+Clusters use 11 behavioral and derived features: commands executed, correct actions, failed actions, hint quests, answer quests, play duration, leaderboard interactions, learning efficiency, accuracy rate, perfect quest rate, and help dependency ratio. Missing values are median-imputed and features are standardized. Performance outcomes are withheld from fitting and used afterward for profile interpretation, reducing circularity.
 
 | Clustering feature | Operational definition |
 |---|---|
-| ActivitySpanDays | Days between first and last recorded event |
-| TotalSessions | Number of recorded login/session events |
-| EventsPerSession | Total events / sessions |
-| QuestsPerSession | Quests added / sessions |
-| HelpRatio | (Hint-assisted + answer-assisted quests) / quests added |
-| ActionSuccessRate | Correct actions / (correct + failed actions) |
-| QuestCompletionRate | Completed quests / quests added |
-| PerfectRatio | Perfect completions / completed quests |
-| ManualOpens | Number of game-manual opening events |
-| LeaderboardChecks | Number of global leaderboard checks |
 | CommandsExecuted | Cumulative executed Git commands |
-| StagesAttempted | Distinct stages observed in event logs |
+| CorrectActions | Number of correct game actions |
+| FailedActions | Number of failed game actions |
+| HintQuests | Quests completed using a hint |
+| AnswerQuests | Quests completed using an answer |
+| PlayDurationMinutes | Total active game time in minutes |
+| LeaderboardInteractions | Number of leaderboard or ranking checks |
+| LearningEfficiency | Total score / play duration in minutes |
+| AccuracyRate | Correct actions / (correct + failed actions) |
+| PerfectQuestRate | Perfect completions / completed quests |
+| HelpDependencyRatio | (Hint + answer quests) / completed quests |
 
-Six variables—GameProgress, TotalScore, TotalStars, StagesCleared, AvgBestScore, and AvgClearTime—are **profile outcomes**, not K-means inputs. They help explain external performance differences after behavioral groups have been formed.
+Three variables—StagesCleared, GameProgress, and TotalScore—are **profile outcomes**, not K-means inputs. They help explain external performance differences after behavioral groups have been formed.
 
 Suggested methods text:
 

@@ -28,36 +28,32 @@ MAX_K = 10
 # Only behavioral variables define the clusters. Performance outcomes are held
 # out and used later to profile/compare the discovered groups.
 FEATURES = [
-    "ActivitySpanDays", "TotalSessions", "EventsPerSession", "QuestsPerSession",
-    "HelpRatio", "ActionSuccessRate", "QuestCompletionRate", "PerfectRatio",
-    "ManualOpens", "LeaderboardChecks", "CommandsExecuted", "StagesAttempted",
+    "CommandsExecuted", "CorrectActions", "FailedActions", "HintQuests",
+    "AnswerQuests", "PlayDurationMinutes", "LeaderboardInteractions",
+    "LearningEfficiency", "AccuracyRate", "PerfectQuestRate",
+    "HelpDependencyRatio",
 ]
 OUTCOMES = [
-    "GameProgress", "TotalScore", "TotalStars", "StagesCleared",
-    "AvgBestScore", "AvgClearTime",
+    "StagesCleared", "GameProgress", "TotalScore",
 ]
 
 FEATURE_DEFINITIONS = {
-    "ActivitySpanDays": "Days between the player's first and last recorded event.",
-    "TotalSessions": "Number of recorded login/session events.",
-    "EventsPerSession": "Total logged events divided by total sessions.",
-    "QuestsPerSession": "Quests added divided by total sessions.",
-    "HelpRatio": "Hint-assisted plus answer-assisted quests divided by quests added.",
-    "ActionSuccessRate": "Correct actions divided by correct plus failed actions.",
-    "QuestCompletionRate": "Completed quests divided by quests added.",
-    "PerfectRatio": "Perfect quest completions divided by all completed quests.",
-    "ManualOpens": "Number of game-manual opening events.",
-    "LeaderboardChecks": "Number of global leaderboard checks.",
     "CommandsExecuted": "Cumulative number of Git commands executed.",
-    "StagesAttempted": "Number of distinct stages observed in the event log.",
+    "CorrectActions": "Number of correct game-action events.",
+    "FailedActions": "Number of failed game-action events.",
+    "HintQuests": "Number of quests completed using a hint.",
+    "AnswerQuests": "Number of quests completed using an answer.",
+    "PlayDurationMinutes": "Total active game time in minutes.",
+    "LeaderboardInteractions": "Number of leaderboard or ranking checks.",
+    "LearningEfficiency": "Total score divided by play duration in minutes.",
+    "AccuracyRate": "Correct actions divided by correct plus failed actions.",
+    "PerfectQuestRate": "Perfect quest completions divided by completed quests.",
+    "HelpDependencyRatio": "Hint-assisted plus answer-assisted quests divided by completed quests.",
 }
 OUTCOME_DEFINITIONS = {
+    "StagesCleared": "Cumulative number of stages cleared; used only for profiling.",
     "GameProgress": "Cumulative game-progress percentage; used only for profiling.",
     "TotalScore": "Cumulative stage score; used only for profiling.",
-    "TotalStars": "Cumulative earned stars; used only for profiling.",
-    "StagesCleared": "Cumulative number of stages cleared; used only for profiling.",
-    "AvgBestScore": "Mean best score across player-stage records; used only for profiling.",
-    "AvgClearTime": "Mean clear time across player-stage records; used only for profiling.",
 }
 
 
@@ -69,27 +65,28 @@ def build_python_feature_table(source):
         top, bottom, out=np.zeros(len(raw), dtype=float), where=np.asarray(bottom) != 0
     )
     quests = number("event_quests_added")
+    completed = number("event_quests_completed")
     actions = number("event_correct_actions") + number("event_failed_actions")
+    duration_minutes = number("record_totalPlayTime") / 60
+    total_score = number("record_totalStageScore")
     table = pd.DataFrame({
         "ID": raw["username"],
-        "ActivitySpanDays": number("event_activity_span_days"),
-        "TotalSessions": number("event_total_sessions"),
-        "EventsPerSession": safe_ratio(number("event_total_events"), number("event_total_sessions")),
-        "QuestsPerSession": safe_ratio(quests, number("event_total_sessions")),
-        "HelpRatio": safe_ratio(number("event_hint_used_quests") + number("event_answer_used_quests"), quests),
-        "ActionSuccessRate": safe_ratio(number("event_correct_actions"), actions),
-        "QuestCompletionRate": safe_ratio(number("event_quests_completed"), quests),
-        "PerfectRatio": safe_ratio(number("event_perfect_quests"), number("event_quests_completed")),
-        "ManualOpens": number("event_game_manual_opens"),
-        "LeaderboardChecks": number("event_leaderboard_checks"),
         "CommandsExecuted": number("record_totalCommandExecuteTimes"),
-        "StagesAttempted": number("event_unique_stages_attempted"),
-        "GameProgress": number("record_totalGameProgress"),
-        "TotalScore": number("record_totalStageScore"),
-        "TotalStars": number("record_totalStarCount"),
+        "CorrectActions": number("event_correct_actions"),
+        "FailedActions": number("event_failed_actions"),
+        "HintQuests": number("event_hint_used_quests"),
+        "AnswerQuests": number("event_answer_used_quests"),
+        "PlayDurationMinutes": duration_minutes,
+        "LeaderboardInteractions": number("event_leaderboard_checks"),
+        "LearningEfficiency": safe_ratio(total_score, duration_minutes),
+        "AccuracyRate": safe_ratio(number("event_correct_actions"), actions),
+        "PerfectQuestRate": safe_ratio(number("event_perfect_quests"), completed),
+        "HelpDependencyRatio": safe_ratio(
+            number("event_hint_used_quests") + number("event_answer_used_quests"), completed
+        ),
         "StagesCleared": number("record_totalTimesStageClear"),
-        "AvgBestScore": number("stage_avg_best_score"),
-        "AvgClearTime": number("stage_avg_clear_time"),
+        "GameProgress": number("record_totalGameProgress"),
+        "TotalScore": total_score,
     })
     return table
 
