@@ -31629,3 +31629,285 @@ Version-2,6a75f2a5ff79bf083c52c637,thomasvi,Login,Success,Title Screen,2026-08-0
 Version-2,6a75f2aaff79bf083c52c639,thomasvi,Check GlobalLeaderBoard,TotalScore,Stage Select,2026-08-07 14:58:51.597000+00:00,0
 Version-2,6a75f2b0ff79bf083c52c63d,thomasvi,Check GlobalLeaderBoard,GameProgress,Stage Select,2026-08-07 14:58:58.090000+00:00,0
 Version-2,6a75f2b7ff79bf083c52c63f,thomasvi,Open Window,PlayerGameRecords,Stage Select,2026-08-07 14:59:04.884000+00:00,0
+Version-2,6a944d0cff79bf083c52c645,110123019,Login,Success,Title Screen,2026-08-30 15:32:31.759000+00:00,0
+Version-2,6a944d14ff79bf083c52c647,110123019,Start Stage,Game Introduction (Tutorial),Stage Select,2026-08-30 15:32:39.789000+00:00,0
+Version-2,6a944d38ff79bf083c52c649,110123019,Add New Quest,Quest1,Play Game - Game Introduction (Tutorial),2026-08-30 15:33:15.293000+00:00,0
+Version-2,6a944d3cff79bf083c52c64b,110123019,Complete Quest,Quest1 - Perfect,Play Game - Game Introduction (Tutorial),2026-08-30 15:33:19.383000+00:00,0
+Version-2,6a944d41ff79bf083c52c64d,110123019,Add New Quest,Quest2,Play Game - Game Introduction (Tutorial),2026-08-30 15:33:24.856000+00:00,0
+Version-2,6a944d48ff79bf083c52c64f,110123019,Correct Action,<File/FileFunctionSelection>-<Continue>,Play Game - Game Introduction (Tutorial),2026-08-30 15:33:32.041000+00:00,0
+Version-2,6a944d49ff79bf083c52c651,110123019,Complete Quest,Quest2 - Perfect,Play Game - Game Introduction (Tutorial),2026-08-30 15:33:32.133000+00:00,0
+Version-2,6a944d4cff79bf083c52c653,110123019,Add New Quest,Quest3,Play Game - Game Introduction (Tutorial),2026-08-30 15:33:35.291000+00:00,0
+Version-2,6a944d57ff79bf083c52c655,110123019,Correct Action,<FileContentWindow/RenameButtonSelection>-<Continue>,Play Game - Game Introduction (Tutorial),2026-08-30 15:33:46.665000+00:00,0
+Version-2,6a944d57ff79bf083c52c657,110123019,Complete Quest,Quest3 - Perfect,Play Game - Game Introduction (Tutorial),2026-08-30 15:33:46.758000+00:00,0
+Version-2,6a944d5aff79bf083c52c659,110123019,Add New Quest,Quest4,Play Game - Game Introduction (Tutorial),2026-08-30 15:33:49.853000+00:00,0
+Version-2,6a944d63ff79bf083c52c65b,110123019,Correct Action,<FileContentWindow/DeleteButtonSelection>-<Continue>,Play Game - Game Introduction (Tutorial),2026-08-30 15:33:58.946000+00:00,0
+Version-2,6a944d64ff79bf083c52c65d,110123019,Complete Quest,Quest4 - Perfect,Play Game - Game Introduction (Tutorial),2026-08-30 15:33:59.039000+00:00,0
+Version-2,6a944d67ff79bf083c52c65f,110123019,Add New Quest,Quest5,Play Game - Game Introduction (Tutorial),2026-08-30 15:34:02.271000+00:00,0
+Version-2,6a944d72ff79bf083c52c661,110123019,Correct Action,<File/FileFunctionSelection>-<Continue>,Play Game - Game Introduction (Tutorial),2026-08-30 15:34:13.696000+00:00,0
+Version-2,6a944d72ff79bf083c52c663,110123019,Complete Quest,Quest5 - Perfect,Play Game - Game Introduction (Tutorial),2026-08-30 15:34:13.789000+00:00,0
+Version-2,6a944d73ff79bf083c52c665,110123019,Add New Quest,Quest6,Play Game - Game Introduction (Tutorial),2026-08-30 15:34:15.009000+00:00,0
+Version-2,6a944d77ff79bf083c52c667,110123019,Correct Action,<FileContentWindow/RenameButtonSelection>-<Continue>,Play Game - Game Introduction (Tutorial),2026-08-30 15:34:18.384000+00:00,0
+Version-2,6a944d77ff79bf083c52c669,110123019,Complete Quest,Quest6 - Perfect,Play Game - Game Introduction (Tutorial),2026-08-30 15:34:18.477000+00:00,0
+Version-2,6a944d78ff79bf083c52c66b,110123019,Add New Quest,Quest7,Play Game - Game Introduction (Tutorial),2026-08-30 15:34:19.697000+00:00,0
+Version-2,6a944d7eff79bf083c52c66d,110123019,Complete Quest,Quest7 - Perfect,Play Game - Game Introduction (Tutorial),2026-08-30 15:34:25.821000+00:00,0
+Version-2,6a944d7fff79bf083c52c66f,110123019,Correct Action,<FileContentWindow/ModifyButtonSelection>-<Continue>,Play Game - Game Introduction (Tutorial),2026-08-30 15:34:25.696000+00:00,0
+Version-2,6a944d7fff79bf083c52c671,110123019,Complete Stage,,Play Game - Game Introduction (Tutorial),2026-08-30 15:34:27.036000+00:00,0
+Version-2,6a944d89ff79bf083c52c67a,110123019,Back To Stage Select(Clear),,Play Game - Game Introduction (Tutorial),2026-08-30 15:34:36.321000+00:00,0
+Version-2,6a944db0ff79bf083c52c680,110123058,Login,Success,Title Screen,2026-08-30 15:35:15.760000+00:00,0
+Version-2,6a944db6ff79bf083c52c682,110123058,Start Stage,Game Introduction (Tutorial),Stage Select,2026-08-30 15:35:21.633000+00:00,0
+Version-2,6a944dc1ff79bf083c52c684,110123058,Add New Quest,Quest1,Play Game - Game Introduction (Tutorial),2026-08-30 15:35:32.860000+00:00,0
+Version-2,6a944dc5ff79bf083c52c686,110123058,Complete Quest,Quest1 - Perfect,Play Game - Game Introduction (Tutorial),2026-08-30 15:35:36.445000+00:00,0
+Version-2,6a944dcbff79bf083c52c688,110123058,Add New Quest,Quest2,Play Game - Game Introduction (Tutorial),2026-08-30 15:35:42.480000+00:00,0
+Version-2,6a944dd4ff79bf083c52c68a,110123058,Correct Action,<File/FileFunctionSelection>-<Continue>,Play Game - Game Introduction (Tutorial),2026-08-30 15:35:51.165000+00:00,0
+Version-2,6a944dd4ff79bf083c52c68c,110123058,Complete Quest,Quest2 - Perfect,Play Game - Game Introduction (Tutorial),2026-08-30 15:35:51.257000+00:00,0
+Version-2,6a944dd7ff79bf083c52c68e,110123058,Add New Quest,Quest3,Play Game - Game Introduction (Tutorial),2026-08-30 15:35:54.448000+00:00,0
+Version-2,6a944dd9ff79bf083c52c690,110123058,Open Window,GameManual,Play Game - Game Introduction (Tutorial),2026-08-30 15:35:56.917000+00:00,0
+Version-2,6a944de2ff79bf083c52c692,110123058,Failed Action,<FileContentWindow/RenameButtonSelection>-<FileContentWindow/RenameButtonSelection/Wrong FileName>,Play Game - Game Introduction (Tutorial),2026-08-30 15:36:05.603000+00:00,0
+Version-2,6a944deaff79bf083c52c694,110123058,Failed Action,<FileContentWindow/RenameButtonSelection>-<FileContentWindow/RenameButtonSelection/Wrong FileName>,Play Game - Game Introduction (Tutorial),2026-08-30 15:36:13.383000+00:00,0
+Version-2,6a944df1ff79bf083c52c696,110123058,Correct Action,<FileContentWindow/RenameButtonSelection>-<Continue>,Play Game - Game Introduction (Tutorial),2026-08-30 15:36:20.383000+00:00,0
+Version-2,6a944df1ff79bf083c52c698,110123058,Complete Quest,Quest3 - Good,Play Game - Game Introduction (Tutorial),2026-08-30 15:36:20.446000+00:00,0
+Version-2,6a944df3ff79bf083c52c69a,110123058,Add New Quest,Quest4,Play Game - Game Introduction (Tutorial),2026-08-30 15:36:22.823000+00:00,0
+Version-2,6a944dfaff79bf083c52c69c,110123058,Correct Action,<FileContentWindow/DeleteButtonSelection>-<Continue>,Play Game - Game Introduction (Tutorial),2026-08-30 15:36:29.602000+00:00,0
+Version-2,6a944dfbff79bf083c52c69e,110123058,Complete Quest,Quest4 - Perfect,Play Game - Game Introduction (Tutorial),2026-08-30 15:36:29.695000+00:00,0
+Version-2,6a944dfdff79bf083c52c6a0,110123058,Add New Quest,Quest5,Play Game - Game Introduction (Tutorial),2026-08-30 15:36:32.764000+00:00,0
+Version-2,6a944e07ff79bf083c52c6a2,110123058,Correct Action,<File/FileFunctionSelection>-<Continue>,Play Game - Game Introduction (Tutorial),2026-08-30 15:36:42.508000+00:00,0
+Version-2,6a944e07ff79bf083c52c6a4,110123058,Complete Quest,Quest5 - Perfect,Play Game - Game Introduction (Tutorial),2026-08-30 15:36:42.601000+00:00,0
+Version-2,6a944e08ff79bf083c52c6a6,110123058,Add New Quest,Quest6,Play Game - Game Introduction (Tutorial),2026-08-30 15:36:43.824000+00:00,0
+Version-2,6a944e12ff79bf083c52c6a8,110123058,Complete Quest,Quest6 - Perfect,Play Game - Game Introduction (Tutorial),2026-08-30 15:36:53.633000+00:00,0
+Version-2,6a944e12ff79bf083c52c6aa,110123058,Correct Action,<FileContentWindow/RenameButtonSelection>-<Continue>,Play Game - Game Introduction (Tutorial),2026-08-30 15:36:53.539000+00:00,0
+Version-2,6a944e13ff79bf083c52c6ac,110123058,Add New Quest,Quest7,Play Game - Game Introduction (Tutorial),2026-08-30 15:36:54.854000+00:00,0
+Version-2,6a944e17ff79bf083c52c6ae,110123058,Correct Action,<FileContentWindow/ModifyButtonSelection>-<Continue>,Play Game - Game Introduction (Tutorial),2026-08-30 15:36:58.633000+00:00,0
+Version-2,6a944e18ff79bf083c52c6b0,110123058,Complete Quest,Quest7 - Perfect,Play Game - Game Introduction (Tutorial),2026-08-30 15:36:58.758000+00:00,0
+Version-2,6a944e18ff79bf083c52c6b2,110123058,Complete Stage,,Play Game - Game Introduction (Tutorial),2026-08-30 15:36:59.955000+00:00,0
+Version-2,6a944e1fff79bf083c52c6bb,110123058,Back To Stage Select(Clear),,Play Game - Game Introduction (Tutorial),2026-08-30 15:37:06.820000+00:00,0
+Version-2,6a944e21ff79bf083c52c6bd,110123058,Check GlobalLeaderBoard,TotalScore,Stage Select,2026-08-30 15:37:08.632000+00:00,0
+Version-2,6a944e25ff79bf083c52c6c0,110123058,Start Stage,Version Control and Git (Tutorial),Stage Select,2026-08-30 15:37:13.196000+00:00,0
+Version-2,6a944e43ff79bf083c52c6c2,110123058,Add New Quest,Quest1,Play Game - Version Control and Git (Tutorial),2026-08-30 15:37:42.984000+00:00,0
+Version-2,6a944e48ff79bf083c52c6c4,110123058,Add New Quest,Quest1,Play Game - Version Control and Git (Tutorial),2026-08-30 15:37:47.949000+00:00,0
+Version-2,6a944e50ff79bf083c52c6c6,110123058,Complete Quest,Quest1 - Perfect,Play Game - Version Control and Git (Tutorial),2026-08-30 15:37:55.820000+00:00,0
+Version-2,6a944e53ff79bf083c52c6c8,110123058,Add New Quest,Quest2,Play Game - Version Control and Git (Tutorial),2026-08-30 15:37:57.856000+00:00,0
+Version-2,6a944e73ff79bf083c52c6ca,110123058,Complete Quest,Quest2 - Answer,Play Game - Version Control and Git (Tutorial),2026-08-30 15:38:30.326000+00:00,0
+Version-2,6a944e76ff79bf083c52c6cc,110123058,Add New Quest,Quest3,Play Game - Version Control and Git (Tutorial),2026-08-30 15:38:33.104000+00:00,0
+Version-2,6a944e81ff79bf083c52c6ce,110123058,Complete Quest,Quest3 - Perfect,Play Game - Version Control and Git (Tutorial),2026-08-30 15:38:44.507000+00:00,0
+Version-2,6a944e83ff79bf083c52c6d0,110123058,Complete Stage,,Play Game - Version Control and Git (Tutorial),2026-08-30 15:38:46.392000+00:00,0
+Version-2,6a944e86ff79bf083c52c6d9,110123058,Back To Stage Select(Clear),,Play Game - Version Control and Git (Tutorial),2026-08-30 15:38:49.633000+00:00,0
+Version-2,6a944e87ff79bf083c52c6db,110123058,Check GlobalLeaderBoard,TotalScore,Stage Select,2026-08-30 15:38:50.882000+00:00,0
+Version-2,6a944e89ff79bf083c52c6de,110123058,Open Window,PlayerGameRecords,Stage Select,2026-08-30 15:38:52.575000+00:00,0
+Version-2,6a944edeff79bf083c52c6e5,110123235,Login,Success,Title Screen,2026-08-30 15:40:17.977000+00:00,0
+Version-2,6a944ee5ff79bf083c52c6e7,110123235,Start Stage,Game Introduction (Tutorial),Stage Select,2026-08-30 15:40:24.414000+00:00,0
+Version-2,6a944ef3ff79bf083c52c6e9,110123235,Add New Quest,Quest1,Play Game - Game Introduction (Tutorial),2026-08-30 15:40:38.169000+00:00,0
+Version-2,6a944ef6ff79bf083c52c6eb,110123235,Complete Quest,Quest1 - Perfect,Play Game - Game Introduction (Tutorial),2026-08-30 15:40:42.133000+00:00,0
+Version-2,6a944efcff79bf083c52c6ed,110123235,Add New Quest,Quest2,Play Game - Game Introduction (Tutorial),2026-08-30 15:40:47.981000+00:00,0
+Version-2,6a944f01ff79bf083c52c6ef,110123235,Correct Action,<File/FileFunctionSelection>-<Continue>,Play Game - Game Introduction (Tutorial),2026-08-30 15:40:52.290000+00:00,0
+Version-2,6a944f01ff79bf083c52c6f1,110123235,Complete Quest,Quest2 - Perfect,Play Game - Game Introduction (Tutorial),2026-08-30 15:40:52.383000+00:00,0
+Version-2,6a944f05ff79bf083c52c6f3,110123235,Add New Quest,Quest3,Play Game - Game Introduction (Tutorial),2026-08-30 15:40:56.229000+00:00,0
+Version-2,6a944f0dff79bf083c52c6f5,110123235,Correct Action,<FileContentWindow/RenameButtonSelection>-<Continue>,Play Game - Game Introduction (Tutorial),2026-08-30 15:41:05.165000+00:00,0
+Version-2,6a944f0eff79bf083c52c6f7,110123235,Complete Quest,Quest3 - Perfect,Play Game - Game Introduction (Tutorial),2026-08-30 15:41:05.258000+00:00,0
+Version-2,6a944f10ff79bf083c52c6f9,110123235,Add New Quest,Quest4,Play Game - Game Introduction (Tutorial),2026-08-30 15:41:07.760000+00:00,0
+Version-2,6a944f16ff79bf083c52c6fb,110123235,Correct Action,<FileContentWindow/DeleteButtonSelection>-<Continue>,Play Game - Game Introduction (Tutorial),2026-08-30 15:41:13.383000+00:00,0
+Version-2,6a944f16ff79bf083c52c6fd,110123235,Complete Quest,Quest4 - Perfect,Play Game - Game Introduction (Tutorial),2026-08-30 15:41:13.476000+00:00,0
+Version-2,6a944f19ff79bf083c52c6ff,110123235,Add New Quest,Quest5,Play Game - Game Introduction (Tutorial),2026-08-30 15:41:16.418000+00:00,0
+Version-2,6a944f20ff79bf083c52c701,110123235,Correct Action,<File/FileFunctionSelection>-<Continue>,Play Game - Game Introduction (Tutorial),2026-08-30 15:41:23.852000+00:00,0
+Version-2,6a944f21ff79bf083c52c703,110123235,Add New Quest,Quest6,Play Game - Game Introduction (Tutorial),2026-08-30 15:41:25.165000+00:00,0
+Version-2,6a944f23ff79bf083c52c705,110123235,Complete Quest,Quest5 - Perfect,Play Game - Game Introduction (Tutorial),2026-08-30 15:41:23.945000+00:00,0
+Version-2,6a944f26ff79bf083c52c707,110123235,Correct Action,<FileContentWindow/RenameButtonSelection>-<Continue>,Play Game - Game Introduction (Tutorial),2026-08-30 15:41:29.664000+00:00,0
+Version-2,6a944f26ff79bf083c52c709,110123235,Complete Quest,Quest6 - Perfect,Play Game - Game Introduction (Tutorial),2026-08-30 15:41:29.758000+00:00,0
+Version-2,6a944f27ff79bf083c52c70b,110123235,Add New Quest,Quest7,Play Game - Game Introduction (Tutorial),2026-08-30 15:41:30.977000+00:00,0
+Version-2,6a944f2bff79bf083c52c70d,110123235,Complete Quest,Quest7 - Perfect,Play Game - Game Introduction (Tutorial),2026-08-30 15:41:35.163000+00:00,0
+Version-2,6a944f2cff79bf083c52c70f,110123235,Correct Action,<FileContentWindow/ModifyButtonSelection>-<Continue>,Play Game - Game Introduction (Tutorial),2026-08-30 15:41:35.039000+00:00,0
+Version-2,6a944f2dff79bf083c52c711,110123235,Complete Stage,,Play Game - Game Introduction (Tutorial),2026-08-30 15:41:36.364000+00:00,0
+Version-2,6a944f32ff79bf083c52c71a,110123235,Back To Stage Select(Clear),,Play Game - Game Introduction (Tutorial),2026-08-30 15:41:41.726000+00:00,0
+Version-2,6a944f53ff79bf083c52c720,110123243,Login,Success,Title Screen,2026-08-30 15:42:14.039000+00:00,0
+Version-2,6a944f5cff79bf083c52c723,110123243,Check GlobalLeaderBoard,TotalScore,Stage Select,2026-08-30 15:42:23.069000+00:00,0
+Version-2,6a944f61ff79bf083c52c725,110123243,Start Stage,Game Introduction (Tutorial),Stage Select,2026-08-30 15:42:28.538000+00:00,0
+Version-2,6a944f6dff79bf083c52c727,110123243,Add New Quest,Quest1,Play Game - Game Introduction (Tutorial),2026-08-30 15:42:40.387000+00:00,0
+Version-2,6a944f70ff79bf083c52c729,110123243,Complete Quest,Quest1 - Perfect,Play Game - Game Introduction (Tutorial),2026-08-30 15:42:43.947000+00:00,0
+Version-2,6a944f79ff79bf083c52c72b,110123243,Add New Quest,Quest2,Play Game - Game Introduction (Tutorial),2026-08-30 15:42:51.887000+00:00,0
+Version-2,6a944f83ff79bf083c52c72d,110123243,Correct Action,<File/FileFunctionSelection>-<Continue>,Play Game - Game Introduction (Tutorial),2026-08-30 15:43:02.259000+00:00,0
+Version-2,6a944f85ff79bf083c52c72f,110123243,Complete Quest,Quest2 - Perfect,Play Game - Game Introduction (Tutorial),2026-08-30 15:43:02.351000+00:00,0
+Version-2,6a944f86ff79bf083c52c731,110123243,Add New Quest,Quest3,Play Game - Game Introduction (Tutorial),2026-08-30 15:43:05.605000+00:00,0
+Version-2,6a944f8dff79bf083c52c733,110123243,Failed Action,<FileContentWindow/RenameButtonSelection>-<FileContentWindow/RenameButtonSelection/Wrong FileName>,Play Game - Game Introduction (Tutorial),2026-08-30 15:43:12.820000+00:00,0
+Version-2,6a944f91ff79bf083c52c735,110123243,Correct Action,<FileContentWindow/RenameButtonSelection>-<Continue>,Play Game - Game Introduction (Tutorial),2026-08-30 15:43:16.914000+00:00,0
+Version-2,6a944f91ff79bf083c52c737,110123243,Complete Quest,Quest3 - Good,Play Game - Game Introduction (Tutorial),2026-08-30 15:43:16.977000+00:00,0
+Version-2,6a944f94ff79bf083c52c739,110123243,Add New Quest,Quest4,Play Game - Game Introduction (Tutorial),2026-08-30 15:43:20.042000+00:00,0
+Version-2,6a944f9eff79bf083c52c73b,110123243,Complete Quest,Quest4 - Perfect,Play Game - Game Introduction (Tutorial),2026-08-30 15:43:29.914000+00:00,0
+Version-2,6a944f9fff79bf083c52c73d,110123243,Correct Action,<FileContentWindow/DeleteButtonSelection>-<Continue>,Play Game - Game Introduction (Tutorial),2026-08-30 15:43:29.821000+00:00,0
+Version-2,6a944fa1ff79bf083c52c73f,110123243,Add New Quest,Quest5,Play Game - Game Introduction (Tutorial),2026-08-30 15:43:32.886000+00:00,0
+Version-2,6a944fa9ff79bf083c52c741,110123243,Correct Action,<File/FileFunctionSelection>-<Continue>,Play Game - Game Introduction (Tutorial),2026-08-30 15:43:40.602000+00:00,0
+Version-2,6a944fa9ff79bf083c52c743,110123243,Complete Quest,Quest5 - Perfect,Play Game - Game Introduction (Tutorial),2026-08-30 15:43:40.695000+00:00,0
+Version-2,6a944faaff79bf083c52c745,110123243,Add New Quest,Quest6,Play Game - Game Introduction (Tutorial),2026-08-30 15:43:41.915000+00:00,0
+Version-2,6a944faeff79bf083c52c747,110123243,Correct Action,<FileContentWindow/RenameButtonSelection>-<Continue>,Play Game - Game Introduction (Tutorial),2026-08-30 15:43:45.476000+00:00,0
+Version-2,6a944faeff79bf083c52c749,110123243,Complete Quest,Quest6 - Perfect,Play Game - Game Introduction (Tutorial),2026-08-30 15:43:45.570000+00:00,0
+Version-2,6a944fafff79bf083c52c74b,110123243,Add New Quest,Quest7,Play Game - Game Introduction (Tutorial),2026-08-30 15:43:46.789000+00:00,0
+Version-2,6a944fb3ff79bf083c52c74d,110123243,Correct Action,<FileContentWindow/ModifyButtonSelection>-<Continue>,Play Game - Game Introduction (Tutorial),2026-08-30 15:43:50.227000+00:00,0
+Version-2,6a944fb3ff79bf083c52c74f,110123243,Complete Quest,Quest7 - Perfect,Play Game - Game Introduction (Tutorial),2026-08-30 15:43:50.351000+00:00,0
+Version-2,6a944fb4ff79bf083c52c751,110123243,Complete Stage,,Play Game - Game Introduction (Tutorial),2026-08-30 15:43:51.554000+00:00,0
+Version-2,6a944fbbff79bf083c52c75a,110123243,Back To Stage Select(Clear),,Play Game - Game Introduction (Tutorial),2026-08-30 15:43:58.288000+00:00,0
+Version-2,6a944fbeff79bf083c52c75c,110123243,Start Stage,Version Control and Git (Tutorial),Stage Select,2026-08-30 15:44:01.758000+00:00,0
+Version-2,6a944fe6ff79bf083c52c75e,110123243,Add New Quest,Quest1,Play Game - Version Control and Git (Tutorial),2026-08-30 15:44:41.701000+00:00,0
+Version-2,6a944fedff79bf083c52c760,110123243,Add New Quest,Quest1,Play Game - Version Control and Git (Tutorial),2026-08-30 15:44:48.450000+00:00,0
+Version-2,6a944ff7ff79bf083c52c762,110123243,Complete Quest,Quest1 - Perfect,Play Game - Version Control and Git (Tutorial),2026-08-30 15:44:58.945000+00:00,0
+Version-2,6a944ff9ff79bf083c52c764,110123243,Add New Quest,Quest2,Play Game - Version Control and Git (Tutorial),2026-08-30 15:45:00.698000+00:00,0
+Version-2,6a945008ff79bf083c52c766,110123243,Complete Quest,Quest2 - Perfect,Play Game - Version Control and Git (Tutorial),2026-08-30 15:45:15.414000+00:00,0
+Version-2,6a945009ff79bf083c52c768,110123243,Add New Quest,Quest3,Play Game - Version Control and Git (Tutorial),2026-08-30 15:45:17.010000+00:00,0
+Version-2,6a945013ff79bf083c52c76a,110123243,Complete Quest,Quest3 - Perfect,Play Game - Version Control and Git (Tutorial),2026-08-30 15:45:26.445000+00:00,0
+Version-2,6a945014ff79bf083c52c76c,110123243,Complete Stage,,Play Game - Version Control and Git (Tutorial),2026-08-30 15:45:27.953000+00:00,0
+Version-2,6a945017ff79bf083c52c775,110123243,Back To Stage Select(Clear),,Play Game - Version Control and Git (Tutorial),2026-08-30 15:45:31.008000+00:00,0
+Version-2,6a945035ff79bf083c52c77b,110123007,Login,Success,Title Screen,2026-08-30 15:46:01.071000+00:00,0
+Version-2,6a945077ff79bf083c52c77d,110123007,Start Stage,Game Introduction (Tutorial),Stage Select,2026-08-30 15:47:06.507000+00:00,0
+Version-2,6a9450afff79bf083c52c77f,110123007,Add New Quest,Quest1,Play Game - Game Introduction (Tutorial),2026-08-30 15:48:02.325000+00:00,0
+Version-2,6a9450b2ff79bf083c52c781,110123007,Complete Quest,Quest1 - Perfect,Play Game - Game Introduction (Tutorial),2026-08-30 15:48:05.882000+00:00,0
+Version-2,6a9450b8ff79bf083c52c783,110123007,Add New Quest,Quest2,Play Game - Game Introduction (Tutorial),2026-08-30 15:48:12.011000+00:00,0
+Version-2,6a9450bcff79bf083c52c785,110123007,Correct Action,<File/FileFunctionSelection>-<Continue>,Play Game - Game Introduction (Tutorial),2026-08-30 15:48:15.258000+00:00,0
+Version-2,6a9450bcff79bf083c52c787,110123007,Complete Quest,Quest2 - Perfect,Play Game - Game Introduction (Tutorial),2026-08-30 15:48:15.351000+00:00,0
+Version-2,6a9450bfff79bf083c52c789,110123007,Add New Quest,Quest3,Play Game - Game Introduction (Tutorial),2026-08-30 15:48:18.385000+00:00,0
+Version-2,6a9450c6ff79bf083c52c78b,110123007,Complete Quest,Quest3 - Perfect,Play Game - Game Introduction (Tutorial),2026-08-30 15:48:25.789000+00:00,0
+Version-2,6a9450c6ff79bf083c52c78d,110123007,Correct Action,<FileContentWindow/RenameButtonSelection>-<Continue>,Play Game - Game Introduction (Tutorial),2026-08-30 15:48:25.695000+00:00,0
+Version-2,6a9450c9ff79bf083c52c78f,110123007,Add New Quest,Quest4,Play Game - Game Introduction (Tutorial),2026-08-30 15:48:28.166000+00:00,0
+Version-2,6a9450ceff79bf083c52c791,110123007,Correct Action,<FileContentWindow/DeleteButtonSelection>-<Continue>,Play Game - Game Introduction (Tutorial),2026-08-30 15:48:33.633000+00:00,0
+Version-2,6a9450ceff79bf083c52c793,110123007,Complete Quest,Quest4 - Perfect,Play Game - Game Introduction (Tutorial),2026-08-30 15:48:33.727000+00:00,0
+Version-2,6a9450d1ff79bf083c52c795,110123007,Add New Quest,Quest5,Play Game - Game Introduction (Tutorial),2026-08-30 15:48:36.354000+00:00,0
+Version-2,6a9450d9ff79bf083c52c797,110123007,Correct Action,<File/FileFunctionSelection>-<Continue>,Play Game - Game Introduction (Tutorial),2026-08-30 15:48:44.289000+00:00,0
+Version-2,6a9450d9ff79bf083c52c799,110123007,Complete Quest,Quest5 - Perfect,Play Game - Game Introduction (Tutorial),2026-08-30 15:48:44.382000+00:00,0
+Version-2,6a9450daff79bf083c52c79b,110123007,Add New Quest,Quest6,Play Game - Game Introduction (Tutorial),2026-08-30 15:48:45.602000+00:00,0
+Version-2,6a9450ddff79bf083c52c79d,110123007,Complete Quest,Quest6 - Perfect,Play Game - Game Introduction (Tutorial),2026-08-30 15:48:48.695000+00:00,0
+Version-2,6a9450ddff79bf083c52c79f,110123007,Correct Action,<FileContentWindow/RenameButtonSelection>-<Continue>,Play Game - Game Introduction (Tutorial),2026-08-30 15:48:48.601000+00:00,0
+Version-2,6a9450deff79bf083c52c7a1,110123007,Add New Quest,Quest7,Play Game - Game Introduction (Tutorial),2026-08-30 15:48:49.914000+00:00,0
+Version-2,6a9450e1ff79bf083c52c7a3,110123007,Correct Action,<FileContentWindow/ModifyButtonSelection>-<Continue>,Play Game - Game Introduction (Tutorial),2026-08-30 15:48:52.601000+00:00,0
+Version-2,6a9450e1ff79bf083c52c7a5,110123007,Complete Quest,Quest7 - Perfect,Play Game - Game Introduction (Tutorial),2026-08-30 15:48:52.726000+00:00,0
+Version-2,6a9450e2ff79bf083c52c7a7,110123007,Complete Stage,,Play Game - Game Introduction (Tutorial),2026-08-30 15:48:53.925000+00:00,0
+Version-2,6a9450e8ff79bf083c52c7b0,110123007,Back To Stage Select(Clear),,Play Game - Game Introduction (Tutorial),2026-08-30 15:49:00.039000+00:00,0
+Version-2,6a945100ff79bf083c52c7b6,110123018,Login,Success,Title Screen,2026-08-30 15:49:23.476000+00:00,0
+Version-2,6a94510cff79bf083c52c7b8,110123018,Start Stage,Game Introduction (Tutorial),Stage Select,2026-08-30 15:49:35.101000+00:00,0
+Version-2,6a945117ff79bf083c52c7ba,110123018,Add New Quest,Quest1,Play Game - Game Introduction (Tutorial),2026-08-30 15:49:45.950000+00:00,0
+Version-2,6a945119ff79bf083c52c7bc,110123018,Complete Quest,Quest1 - Perfect,Play Game - Game Introduction (Tutorial),2026-08-30 15:49:49.008000+00:00,0
+Version-2,6a94511fff79bf083c52c7be,110123018,Add New Quest,Quest2,Play Game - Game Introduction (Tutorial),2026-08-30 15:49:54.324000+00:00,0
+Version-2,6a945122ff79bf083c52c7c0,110123018,Correct Action,<File/FileFunctionSelection>-<Continue>,Play Game - Game Introduction (Tutorial),2026-08-30 15:49:57.539000+00:00,0
+Version-2,6a945122ff79bf083c52c7c2,110123018,Complete Quest,Quest2 - Perfect,Play Game - Game Introduction (Tutorial),2026-08-30 15:49:57.633000+00:00,0
+Version-2,6a945125ff79bf083c52c7c4,110123018,Add New Quest,Quest3,Play Game - Game Introduction (Tutorial),2026-08-30 15:50:00.573000+00:00,0
+Version-2,6a945129ff79bf083c52c7c6,110123018,Correct Action,<FileContentWindow/RenameButtonSelection>-<Continue>,Play Game - Game Introduction (Tutorial),2026-08-30 15:50:05.195000+00:00,0
+Version-2,6a94512aff79bf083c52c7c8,110123018,Complete Quest,Quest3 - Perfect,Play Game - Game Introduction (Tutorial),2026-08-30 15:50:05.288000+00:00,0
+Version-2,6a94512cff79bf083c52c7ca,110123018,Add New Quest,Quest4,Play Game - Game Introduction (Tutorial),2026-08-30 15:50:07.604000+00:00,0
+Version-2,6a945131ff79bf083c52c7cc,110123018,Correct Action,<FileContentWindow/DeleteButtonSelection>-<Continue>,Play Game - Game Introduction (Tutorial),2026-08-30 15:50:12.539000+00:00,0
+Version-2,6a945131ff79bf083c52c7ce,110123018,Complete Quest,Quest4 - Perfect,Play Game - Game Introduction (Tutorial),2026-08-30 15:50:12.632000+00:00,0
+Version-2,6a945134ff79bf083c52c7d0,110123018,Add New Quest,Quest5,Play Game - Game Introduction (Tutorial),2026-08-30 15:50:15.667000+00:00,0
+Version-2,6a94513aff79bf083c52c7d2,110123018,Correct Action,<File/FileFunctionSelection>-<Continue>,Play Game - Game Introduction (Tutorial),2026-08-30 15:50:21.383000+00:00,0
+Version-2,6a94513aff79bf083c52c7d4,110123018,Complete Quest,Quest5 - Perfect,Play Game - Game Introduction (Tutorial),2026-08-30 15:50:21.476000+00:00,0
+Version-2,6a94513bff79bf083c52c7d6,110123018,Add New Quest,Quest6,Play Game - Game Introduction (Tutorial),2026-08-30 15:50:22.696000+00:00,0
+Version-2,6a94513dff79bf083c52c7d8,110123018,Correct Action,<FileContentWindow/RenameButtonSelection>-<Continue>,Play Game - Game Introduction (Tutorial),2026-08-30 15:50:24.508000+00:00,0
+Version-2,6a94513dff79bf083c52c7da,110123018,Complete Quest,Quest6 - Perfect,Play Game - Game Introduction (Tutorial),2026-08-30 15:50:24.601000+00:00,0
+Version-2,6a94513fff79bf083c52c7dc,110123018,Add New Quest,Quest7,Play Game - Game Introduction (Tutorial),2026-08-30 15:50:25.821000+00:00,0
+Version-2,6a945140ff79bf083c52c7de,110123018,Correct Action,<FileContentWindow/ModifyButtonSelection>-<Continue>,Play Game - Game Introduction (Tutorial),2026-08-30 15:50:28.198000+00:00,0
+Version-2,6a945141ff79bf083c52c7e0,110123018,Complete Quest,Quest7 - Perfect,Play Game - Game Introduction (Tutorial),2026-08-30 15:50:28.320000+00:00,0
+Version-2,6a945142ff79bf083c52c7e2,110123018,Complete Stage,,Play Game - Game Introduction (Tutorial),2026-08-30 15:50:29.519000+00:00,0
+Version-2,6a945149ff79bf083c52c7eb,110123018,Back To Stage Select(Clear),,Play Game - Game Introduction (Tutorial),2026-08-30 15:50:37.039000+00:00,0
+Version-2,6a94514cff79bf083c52c7ee,110123018,Check GlobalLeaderBoard,TotalScore,Stage Select,2026-08-30 15:50:38.663000+00:00,0
+Version-2,6a94516bff79bf083c52c7f4,110122073,Login,Success,Title Screen,2026-08-30 15:51:10.070000+00:00,0
+Version-2,6a945170ff79bf083c52c7f6,110122073,Start Stage,Game Introduction (Tutorial),Stage Select,2026-08-30 15:51:15.882000+00:00,0
+Version-2,6a94517bff79bf083c52c7f8,110122073,Add New Quest,Quest1,Play Game - Game Introduction (Tutorial),2026-08-30 15:51:25.980000+00:00,0
+Version-2,6a94517eff79bf083c52c7fa,110122073,Complete Quest,Quest1 - Perfect,Play Game - Game Introduction (Tutorial),2026-08-30 15:51:29.476000+00:00,0
+Version-2,6a945183ff79bf083c52c7fc,110122073,Add New Quest,Quest2,Play Game - Game Introduction (Tutorial),2026-08-30 15:51:35.017000+00:00,0
+Version-2,6a945186ff79bf083c52c7fe,110122073,Correct Action,<File/FileFunctionSelection>-<Continue>,Play Game - Game Introduction (Tutorial),2026-08-30 15:51:37.852000+00:00,0
+Version-2,6a945187ff79bf083c52c800,110122073,Complete Quest,Quest2 - Perfect,Play Game - Game Introduction (Tutorial),2026-08-30 15:51:37.945000+00:00,0
+Version-2,6a945189ff79bf083c52c802,110122073,Add New Quest,Quest3,Play Game - Game Introduction (Tutorial),2026-08-30 15:51:40.418000+00:00,0
+Version-2,6a94518dff79bf083c52c804,110122073,Correct Action,<FileContentWindow/RenameButtonSelection>-<Continue>,Play Game - Game Introduction (Tutorial),2026-08-30 15:51:45.070000+00:00,0
+Version-2,6a94518eff79bf083c52c806,110122073,Complete Quest,Quest3 - Perfect,Play Game - Game Introduction (Tutorial),2026-08-30 15:51:45.164000+00:00,0
+Version-2,6a945190ff79bf083c52c808,110122073,Add New Quest,Quest4,Play Game - Game Introduction (Tutorial),2026-08-30 15:51:47.666000+00:00,0
+Version-2,6a9451a2ff79bf083c52c80a,110122073,Correct Action,<FileContentWindow/DeleteButtonSelection>-<Continue>,Play Game - Game Introduction (Tutorial),2026-08-30 15:52:05.539000+00:00,0
+Version-2,6a9451a2ff79bf083c52c80c,110122073,Complete Quest,Quest4 - Perfect,Play Game - Game Introduction (Tutorial),2026-08-30 15:52:05.632000+00:00,0
+Version-2,6a9451a5ff79bf083c52c80e,110122073,Add New Quest,Quest5,Play Game - Game Introduction (Tutorial),2026-08-30 15:52:08.448000+00:00,0
+Version-2,6a9451abff79bf083c52c810,110122073,Correct Action,<File/FileFunctionSelection>-<Continue>,Play Game - Game Introduction (Tutorial),2026-08-30 15:52:14.664000+00:00,0
+Version-2,6a9451abff79bf083c52c812,110122073,Complete Quest,Quest5 - Perfect,Play Game - Game Introduction (Tutorial),2026-08-30 15:52:14.758000+00:00,0
+Version-2,6a9451acff79bf083c52c814,110122073,Add New Quest,Quest6,Play Game - Game Introduction (Tutorial),2026-08-30 15:52:15.978000+00:00,0
+Version-2,6a9451aeff79bf083c52c816,110122073,Correct Action,<FileContentWindow/RenameButtonSelection>-<Continue>,Play Game - Game Introduction (Tutorial),2026-08-30 15:52:18.195000+00:00,0
+Version-2,6a9451afff79bf083c52c818,110122073,Complete Quest,Quest6 - Perfect,Play Game - Game Introduction (Tutorial),2026-08-30 15:52:18.289000+00:00,0
+Version-2,6a9451b0ff79bf083c52c81a,110122073,Add New Quest,Quest7,Play Game - Game Introduction (Tutorial),2026-08-30 15:52:19.508000+00:00,0
+Version-2,6a9451b1ff79bf083c52c81c,110122073,Correct Action,<FileContentWindow/ModifyButtonSelection>-<Continue>,Play Game - Game Introduction (Tutorial),2026-08-30 15:52:21.164000+00:00,0
+Version-2,6a9451b2ff79bf083c52c81e,110122073,Complete Quest,Quest7 - Perfect,Play Game - Game Introduction (Tutorial),2026-08-30 15:52:21.288000+00:00,0
+Version-2,6a9451b3ff79bf083c52c820,110122073,Complete Stage,,Play Game - Game Introduction (Tutorial),2026-08-30 15:52:22.491000+00:00,0
+Version-2,6a9451b9ff79bf083c52c829,110122073,Back To Stage Select(Clear),,Play Game - Game Introduction (Tutorial),2026-08-30 15:52:28.226000+00:00,0
+Version-2,6a9451d4ff79bf083c52c82f,110123100,Login,Success,Title Screen,2026-08-30 15:52:55.292000+00:00,0
+Version-2,6a9451e2ff79bf083c52c831,110123100,Start Stage,Game Introduction (Tutorial),Stage Select,2026-08-30 15:53:09.195000+00:00,0
+Version-2,6a9451eeff79bf083c52c833,110123100,Add New Quest,Quest1,Play Game - Game Introduction (Tutorial),2026-08-30 15:53:21.671000+00:00,0
+Version-2,6a9451f2ff79bf083c52c835,110123100,Complete Quest,Quest1 - Perfect,Play Game - Game Introduction (Tutorial),2026-08-30 15:53:26.070000+00:00,0
+Version-2,6a9451f8ff79bf083c52c837,110123100,Add New Quest,Quest2,Play Game - Game Introduction (Tutorial),2026-08-30 15:53:31.548000+00:00,0
+Version-2,6a9451faff79bf083c52c839,110123100,Correct Action,<File/FileFunctionSelection>-<Continue>,Play Game - Game Introduction (Tutorial),2026-08-30 15:53:33.758000+00:00,0
+Version-2,6a9451faff79bf083c52c83b,110123100,Complete Quest,Quest2 - Perfect,Play Game - Game Introduction (Tutorial),2026-08-30 15:53:33.851000+00:00,0
+Version-2,6a9451fdff79bf083c52c83d,110123100,Add New Quest,Quest3,Play Game - Game Introduction (Tutorial),2026-08-30 15:53:36.698000+00:00,0
+Version-2,6a945200ff79bf083c52c83f,110123100,Complete Quest,Quest3 - Perfect,Play Game - Game Introduction (Tutorial),2026-08-30 15:53:40.132000+00:00,0
+Version-2,6a945201ff79bf083c52c841,110123100,Correct Action,<FileContentWindow/RenameButtonSelection>-<Continue>,Play Game - Game Introduction (Tutorial),2026-08-30 15:53:40.039000+00:00,0
+Version-2,6a945203ff79bf083c52c843,110123100,Add New Quest,Quest4,Play Game - Game Introduction (Tutorial),2026-08-30 15:53:42.697000+00:00,0
+Version-2,6a94520bff79bf083c52c845,110123100,Correct Action,<FileContentWindow/DeleteButtonSelection>-<Continue>,Play Game - Game Introduction (Tutorial),2026-08-30 15:53:50.508000+00:00,0
+Version-2,6a94520bff79bf083c52c847,110123100,Complete Quest,Quest4 - Perfect,Play Game - Game Introduction (Tutorial),2026-08-30 15:53:50.601000+00:00,0
+Version-2,6a94520eff79bf083c52c849,110123100,Add New Quest,Quest5,Play Game - Game Introduction (Tutorial),2026-08-30 15:53:53.634000+00:00,0
+Version-2,6a945214ff79bf083c52c84b,110123100,Failed Action,<FileContentWindow/ModifyButtonSelection>-<FileContentWindow/ModifyButtonSelection/Wrong Quest>,Play Game - Game Introduction (Tutorial),2026-08-30 15:53:58.852000+00:00,0
+Version-2,6a945219ff79bf083c52c84d,110123100,Correct Action,<File/FileFunctionSelection>-<Continue>,Play Game - Game Introduction (Tutorial),2026-08-30 15:54:05.196000+00:00,0
+Version-2,6a94521aff79bf083c52c84f,110123100,Complete Quest,Quest5 - Good,Play Game - Game Introduction (Tutorial),2026-08-30 15:54:05.264000+00:00,0
+Version-2,6a94521bff79bf083c52c851,110123100,Add New Quest,Quest6,Play Game - Game Introduction (Tutorial),2026-08-30 15:54:06.511000+00:00,0
+Version-2,6a94521fff79bf083c52c853,110123100,Correct Action,<FileContentWindow/RenameButtonSelection>-<Continue>,Play Game - Game Introduction (Tutorial),2026-08-30 15:54:11.132000+00:00,0
+Version-2,6a94521fff79bf083c52c855,110123100,Complete Quest,Quest6 - Perfect,Play Game - Game Introduction (Tutorial),2026-08-30 15:54:11.226000+00:00,0
+Version-2,6a945221ff79bf083c52c857,110123100,Add New Quest,Quest7,Play Game - Game Introduction (Tutorial),2026-08-30 15:54:12.447000+00:00,0
+Version-2,6a945222ff79bf083c52c859,110123100,Correct Action,<FileContentWindow/ModifyButtonSelection>-<Continue>,Play Game - Game Introduction (Tutorial),2026-08-30 15:54:13.383000+00:00,0
+Version-2,6a945222ff79bf083c52c85b,110123100,Complete Quest,Quest7 - Perfect,Play Game - Game Introduction (Tutorial),2026-08-30 15:54:13.508000+00:00,0
+Version-2,6a945223ff79bf083c52c85d,110123100,Complete Stage,,Play Game - Game Introduction (Tutorial),2026-08-30 15:54:14.706000+00:00,0
+Version-2,6a94522aff79bf083c52c866,110123100,Back To Stage Select(Clear),,Play Game - Game Introduction (Tutorial),2026-08-30 15:54:22.226000+00:00,0
+Version-2,6a94522cff79bf083c52c868,110123100,Check GlobalLeaderBoard,TotalScore,Stage Select,2026-08-30 15:54:24.163000+00:00,0
+Version-2,6a94525dff79bf083c52c86f,110123068,Login,Success,Title Screen,2026-08-30 15:55:13.039000+00:00,0
+Version-2,6a945265ff79bf083c52c871,110123068,Start Stage,Game Introduction (Tutorial),Stage Select,2026-08-30 15:55:20.414000+00:00,0
+Version-2,6a945286ff79bf083c52c873,110123068,Add New Quest,Quest1,Play Game - Game Introduction (Tutorial),2026-08-30 15:55:53.356000+00:00,0
+Version-2,6a94528aff79bf083c52c875,110123068,Complete Quest,Quest1 - Perfect,Play Game - Game Introduction (Tutorial),2026-08-30 15:55:57.289000+00:00,0
+Version-2,6a94528fff79bf083c52c877,110123068,Add New Quest,Quest2,Play Game - Game Introduction (Tutorial),2026-08-30 15:56:02.823000+00:00,0
+Version-2,6a945293ff79bf083c52c879,110123068,Correct Action,<File/FileFunctionSelection>-<Continue>,Play Game - Game Introduction (Tutorial),2026-08-30 15:56:06.258000+00:00,0
+Version-2,6a945293ff79bf083c52c87b,110123068,Complete Quest,Quest2 - Perfect,Play Game - Game Introduction (Tutorial),2026-08-30 15:56:06.351000+00:00,0
+Version-2,6a945296ff79bf083c52c87d,110123068,Add New Quest,Quest3,Play Game - Game Introduction (Tutorial),2026-08-30 15:56:09.360000+00:00,0
+Version-2,6a94529cff79bf083c52c87f,110123068,Complete Quest,Quest3 - Perfect,Play Game - Game Introduction (Tutorial),2026-08-30 15:56:15.851000+00:00,0
+Version-2,6a94529cff79bf083c52c881,110123068,Correct Action,<FileContentWindow/RenameButtonSelection>-<Continue>,Play Game - Game Introduction (Tutorial),2026-08-30 15:56:15.758000+00:00,0
+Version-2,6a94529fff79bf083c52c883,110123068,Add New Quest,Quest4,Play Game - Game Introduction (Tutorial),2026-08-30 15:56:18.949000+00:00,0
+Version-2,6a9452a9ff79bf083c52c885,110123068,Correct Action,<FileContentWindow/DeleteButtonSelection>-<Continue>,Play Game - Game Introduction (Tutorial),2026-08-30 15:56:29.008000+00:00,0
+Version-2,6a9452a9ff79bf083c52c887,110123068,Complete Quest,Quest4 - Perfect,Play Game - Game Introduction (Tutorial),2026-08-30 15:56:29.101000+00:00,0
+Version-2,6a9452adff79bf083c52c889,110123068,Add New Quest,Quest5,Play Game - Game Introduction (Tutorial),2026-08-30 15:56:32.545000+00:00,0
+Version-2,6a9452bcff79bf083c52c88b,110123068,Correct Action,<File/FileFunctionSelection>-<Continue>,Play Game - Game Introduction (Tutorial),2026-08-30 15:56:47.070000+00:00,0
+Version-2,6a9452bcff79bf083c52c88d,110123068,Complete Quest,Quest5 - Perfect,Play Game - Game Introduction (Tutorial),2026-08-30 15:56:47.163000+00:00,0
+Version-2,6a9452bdff79bf083c52c88f,110123068,Add New Quest,Quest6,Play Game - Game Introduction (Tutorial),2026-08-30 15:56:48.384000+00:00,0
+Version-2,6a9452c0ff79bf083c52c891,110123068,Correct Action,<FileContentWindow/RenameButtonSelection>-<Continue>,Play Game - Game Introduction (Tutorial),2026-08-30 15:56:50.851000+00:00,0
+Version-2,6a9452c0ff79bf083c52c893,110123068,Complete Quest,Quest6 - Perfect,Play Game - Game Introduction (Tutorial),2026-08-30 15:56:50.946000+00:00,0
+Version-2,6a9452c0ff79bf083c52c895,110123068,Add New Quest,Quest7,Play Game - Game Introduction (Tutorial),2026-08-30 15:56:52.164000+00:00,0
+Version-2,6a9452c3ff79bf083c52c897,110123068,Correct Action,<FileContentWindow/ModifyButtonSelection>-<Continue>,Play Game - Game Introduction (Tutorial),2026-08-30 15:56:55.039000+00:00,0
+Version-2,6a9452c3ff79bf083c52c899,110123068,Complete Quest,Quest7 - Perfect,Play Game - Game Introduction (Tutorial),2026-08-30 15:56:55.164000+00:00,0
+Version-2,6a9452c5ff79bf083c52c89b,110123068,Complete Stage,,Play Game - Game Introduction (Tutorial),2026-08-30 15:56:56.362000+00:00,0
+Version-2,6a9452cbff79bf083c52c8a4,110123068,Back To Stage Select(Clear),,Play Game - Game Introduction (Tutorial),2026-08-30 15:57:02.414000+00:00,0
+Version-2,6a9452e7ff79bf083c52c8aa,11012306,Login,Success,Title Screen,2026-08-30 15:57:30.914000+00:00,0
+Version-2,6a94530cff79bf083c52c8ac,11012306,Start Stage,Game Introduction (Tutorial),Stage Select,2026-08-30 15:58:07.757000+00:00,0
+Version-2,6a945318ff79bf083c52c8ae,11012306,Add New Quest,Quest1,Play Game - Game Introduction (Tutorial),2026-08-30 15:58:19.449000+00:00,0
+Version-2,6a94531bff79bf083c52c8b0,11012306,Complete Quest,Quest1 - Perfect,Play Game - Game Introduction (Tutorial),2026-08-30 15:58:23.039000+00:00,0
+Version-2,6a945320ff79bf083c52c8b2,11012306,Add New Quest,Quest2,Play Game - Game Introduction (Tutorial),2026-08-30 15:58:28.012000+00:00,0
+Version-2,6a945327ff79bf083c52c8b4,11012306,Correct Action,<File/FileFunctionSelection>-<Continue>,Play Game - Game Introduction (Tutorial),2026-08-30 15:58:34.196000+00:00,0
+Version-2,6a945327ff79bf083c52c8b6,11012306,Complete Quest,Quest2 - Perfect,Play Game - Game Introduction (Tutorial),2026-08-30 15:58:34.288000+00:00,0
+Version-2,6a945329ff79bf083c52c8b8,11012306,Add New Quest,Quest3,Play Game - Game Introduction (Tutorial),2026-08-30 15:58:37.011000+00:00,0
+Version-2,6a94532cff79bf083c52c8ba,11012306,Open Window,GameManual,Play Game - Game Introduction (Tutorial),2026-08-30 15:58:39.636000+00:00,0
+Version-2,6a945334ff79bf083c52c8bc,11012306,Complete Quest,Quest3 - Perfect,Play Game - Game Introduction (Tutorial),2026-08-30 15:58:47.601000+00:00,0
+Version-2,6a945334ff79bf083c52c8be,11012306,Correct Action,<FileContentWindow/RenameButtonSelection>-<Continue>,Play Game - Game Introduction (Tutorial),2026-08-30 15:58:47.508000+00:00,0
+Version-2,6a945337ff79bf083c52c8c0,11012306,Add New Quest,Quest4,Play Game - Game Introduction (Tutorial),2026-08-30 15:58:50.761000+00:00,0
+Version-2,6a945341ff79bf083c52c8c2,11012306,Correct Action,<FileContentWindow/DeleteButtonSelection>-<Continue>,Play Game - Game Introduction (Tutorial),2026-08-30 15:59:00.758000+00:00,0
+Version-2,6a945341ff79bf083c52c8c4,11012306,Complete Quest,Quest4 - Perfect,Play Game - Game Introduction (Tutorial),2026-08-30 15:59:00.852000+00:00,0
+Version-2,6a945344ff79bf083c52c8c6,11012306,Add New Quest,Quest5,Play Game - Game Introduction (Tutorial),2026-08-30 15:59:03.885000+00:00,0
+Version-2,6a94534fff79bf083c52c8c8,11012306,Correct Action,<File/FileFunctionSelection>-<Continue>,Play Game - Game Introduction (Tutorial),2026-08-30 15:59:14.727000+00:00,0
+Version-2,6a94534fff79bf083c52c8ca,11012306,Complete Quest,Quest5 - Perfect,Play Game - Game Introduction (Tutorial),2026-08-30 15:59:14.820000+00:00,0
+Version-2,6a945351ff79bf083c52c8cc,11012306,Add New Quest,Quest6,Play Game - Game Introduction (Tutorial),2026-08-30 15:59:16.040000+00:00,0
+Version-2,6a945357ff79bf083c52c8ce,11012306,Correct Action,<FileContentWindow/RenameButtonSelection>-<Continue>,Play Game - Game Introduction (Tutorial),2026-08-30 15:59:23.070000+00:00,0
+Version-2,6a945358ff79bf083c52c8d0,11012306,Complete Quest,Quest6 - Perfect,Play Game - Game Introduction (Tutorial),2026-08-30 15:59:23.163000+00:00,0
+Version-2,6a945359ff79bf083c52c8d2,11012306,Add New Quest,Quest7,Play Game - Game Introduction (Tutorial),2026-08-30 15:59:24.383000+00:00,0
+Version-2,6a94535cff79bf083c52c8d4,11012306,Correct Action,<FileContentWindow/ModifyButtonSelection>-<Continue>,Play Game - Game Introduction (Tutorial),2026-08-30 15:59:27.726000+00:00,0
+Version-2,6a94535cff79bf083c52c8d6,11012306,Complete Quest,Quest7 - Perfect,Play Game - Game Introduction (Tutorial),2026-08-30 15:59:27.851000+00:00,0
+Version-2,6a94535dff79bf083c52c8d8,11012306,Complete Stage,,Play Game - Game Introduction (Tutorial),2026-08-30 15:59:29.049000+00:00,0
+Version-2,6a945364ff79bf083c52c8e1,11012306,Back To Stage Select(Clear),,Play Game - Game Introduction (Tutorial),2026-08-30 15:59:35.602000+00:00,0
+Version-2,6a945367ff79bf083c52c8e3,11012306,Start Stage,Version Control and Git (Tutorial),Stage Select,2026-08-30 15:59:38.538000+00:00,0
+Version-2,6a94538aff79bf083c52c8e5,11012306,Add New Quest,Quest1,Play Game - Version Control and Git (Tutorial),2026-08-30 16:00:13.640000+00:00,0
+Version-2,6a945393ff79bf083c52c8e7,11012306,Add New Quest,Quest1,Play Game - Version Control and Git (Tutorial),2026-08-30 16:00:22.950000+00:00,0
+Version-2,6a9453a6ff79bf083c52c8e9,11012306,Complete Quest,Quest1 - Perfect,Play Game - Version Control and Git (Tutorial),2026-08-30 16:00:41.946000+00:00,0
+Version-2,6a9453a8ff79bf083c52c8eb,11012306,Add New Quest,Quest2,Play Game - Version Control and Git (Tutorial),2026-08-30 16:00:44.042000+00:00,0
+Version-2,6a9453baff79bf083c52c8ed,11012306,Complete Quest,Quest2 - Perfect,Play Game - Version Control and Git (Tutorial),2026-08-30 16:01:02.039000+00:00,0
+Version-2,6a9453bdff79bf083c52c8ef,11012306,Add New Quest,Quest3,Play Game - Version Control and Git (Tutorial),2026-08-30 16:01:05.043000+00:00,0
+Version-2,6a9453c9ff79bf083c52c8f1,11012306,Complete Quest,Quest3 - Perfect,Play Game - Version Control and Git (Tutorial),2026-08-30 16:01:17.007000+00:00,0
+Version-2,6a9453cbff79bf083c52c8f3,11012306,Complete Stage,,Play Game - Version Control and Git (Tutorial),2026-08-30 16:01:18.517000+00:00,0
+Version-2,6a9453d3ff79bf083c52c8fc,11012306,Back To Stage Select(Clear),,Play Game - Version Control and Git (Tutorial),2026-08-30 16:01:26.414000+00:00,0

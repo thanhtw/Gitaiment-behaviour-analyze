@@ -1,150 +1,65 @@
-# GiTaiment Behavioral Analysis: Research Guide
+# Behavioral Analysis Methods
 
-## Scope and execution
+The Python workflow combines Version-1 JSON and Version-2 CSV exports. See [data provenance](DATA_DICTIONARY.md), [column definitions](COLUMN_DICTIONARY.md), and [current results](ANALYSIS_RESULTS_GUIDE.md).
 
-The Python workflow combines the Version-1 JSON exports and Version-2 CSV exports before analysis. The `dataVersion` field preserves provenance. SPSS is not required.
+## Run
+
+From the repository root in the analysis Python environment:
 
 ```powershell
-conda activate NLP
-python Extract-Data-Code\run_analysis.py
+python Extract-Data-Code/run_analysis.py
 ```
 
-Tables and figures are written to `Analysis-Log-Results`.
+To rerun clustering and its transition figures using existing extracted data:
 
-### Data used in the current combined analysis
+```powershell
+python -c "import sys; sys.path.insert(0, 'Extract-Data-Code'); import cluster_profile_analysis as c; c.main('Analysis-Log-Results'); import behavior_transition_analysis as b; b.main('Analysis-Log-Results')"
+```
 
-| Combined table | Version-1 | Version-2 | Total |
-|---|---:|---:|---:|
-| Events | 22,118 | 9,512 | 31,630 |
-| Player game records | 50 | 54 | 104 |
-| Player-stage records | 1,700 | 1,836 | 3,536 |
-| Player-owned stage leaderboard entries | 741 | 254 | 995 |
-| Global leaderboard entries | 637 | 293 | 930 |
+Regression checks:
 
-After sources are combined, the per-user table contains 105 distinct usernames observed in at least one source. Cluster and profile analyses use these 105 cases. Transition and sequence analyses use the 31,630 combined timestamped events. Event histories are concatenated across versions. One player-save username (`Le Trung Hieu`) occurs in both versions; because save and stage fields are cumulative snapshots, its latest Version-2 snapshot is retained rather than summing both snapshots and double-counting progress.
+```powershell
+python -m unittest discover -s Extract-Data-Code -p test_cluster_profile_analysis.py
+```
 
-## Behavioral sequence analysis
+## Data preparation and noise filtering
 
-Events are ordered by player and timestamp. Event sequences preceding perfect completion, hint/answer-assisted completion, and failed actions are counted. These frequencies identify recurring pathways; they do not establish causality. Highly active players produce more sequences, so frequency should be interpreted alongside engagement.
+Clustering uses the 11 behavioral and derived inputs listed in the column dictionary. Original source data and the combined per-user table are preserved.
 
-Sequence output fields are:
+1. Exclude profiles with negative/nonfinite feature values, proportions above one, or no observed commands, actions, help use, play duration, or leaderboard interactions.
+2. Leave ratios with missing or zero denominators as missing. Remove constant/all-missing features and median-impute the remaining missing values.
+3. Apply `log1p` to counts, duration, and learning efficiency, then standardize all features. Accuracy, perfect-quest rate, and help-dependency ratio remain unlogged.
+4. Flag local outliers using Local Outlier Factor with up to 20 neighbors and exclude scores greater than 2.0. This threshold is fixed before K selection and does not force an exclusion percentage.
+5. Refit imputation and scaling on retained participants. Raw profile summaries retain original units.
 
-| Field/type | Meaning |
-|---|---|
-| `sequence` | Ordered event names forming the observed pattern. |
-| `count` | Frequency across the combined Version-1 and Version-2 event logs. |
-| `success_perfect` | Three events immediately before a `Complete Quest` event marked `Perfect`. |
-| `with_help` | Three events immediately before a `Complete Quest` event marked `Hint` or `Answer`. |
-| `failed_action` | Two events before `Failed Action`, followed by the failure event. |
+Every participant appears in `analysis_cluster_noise_audit.csv`, with the inclusion decision, reason, and outlier score. Statistical outliers are candidate noise, not confirmed data errors.
 
-Sequences are calculated within players and never cross from one player to another. Only the 50 most frequent patterns per outcome are exported and visualized. The sequence features are raw event categories and local temporal order; cluster labels and performance outcomes are not used to create these patterns.
+## Select K using two scores
 
-Outputs include `analysis_behavior_sequences.csv`, three outcome-specific sequence charts, and `figure_sequence_category_comparison.png`.
+Only **silhouette** and **Calinski-Harabasz** determine K. Both scores are higher-is-better.
 
-### Cluster-specific transition diagrams
+- Fit K-means for K=2 through 10, limited by sample size and distinct feature vectors. Use 50 initializations and random seed 42 for every candidate and the final fit.
+- Exclude solutions containing singleton clusters. There is no percentage-based minimum group size.
+- Rank eligible solutions separately by descending silhouette and Calinski-Harabasz scores, with tied scores sharing a rank.
+- Select the smallest sum of the two ranks. A shared maximum of both scores wins automatically. Tied sums use higher silhouette, then smaller K.
+- If the scores have no shared maximum, report the selection as a compromise and flag disagreement. A search-boundary selection is also flagged.
+- Repeat the same two-score decision before statistical outlier exclusions to show sensitivity to filtering; invalid/inactive profiles remain excluded.
 
-The workflow also reduces events to six interpretable states: **A** (action), **E** (exploration), **CM** (command manipulation), **IM** (instructional material/help), **F** (failure), and **R** (reward/progression). For each player, consecutive state pairs are counted after ordering events by timestamp. Counts are pooled within clusters and converted to conditional probabilities, where each value means the probability of the next state given the current state.
+The rank sum gives each score equal rank weight without adding values measured on different scales. It is an explicit decision rule, not proof of a unique population partition.
 
-| State | Meaning | Included game events |
-|---|---|---|
-| A — Action | Successful task-level action | `Correct Action` |
-| E — Exploration | Navigation or information exploration | `Open Window`, `Check GlobalLeaderBoard`, `Login` |
-| CM — Command manipulation | Direct Git command activity | `Execute Git Command` |
-| IM — Instructional material/help | Instructional, hint, answer, or conversational support | `Read GameManual`, `Use Hint`, `Use Answer`, `Last Conversation` |
-| F — Failure | Unsuccessful action or unresolved stage exit | `Failed Action`, `Restart Stage(Not Clear)`, `Back To Stage Select(Not Clear)` |
-| R — Reward/progression | Quest or stage progression and clear-related activity | `Add New Quest`, `Complete Quest`, `Start Stage`, `Complete Stage`, `Back To Stage Select(Clear)`, `Restart Stage(Clear)` |
+Separate figures show each score across K:
 
-These are operational categories created for this study, not labels stored in the original database. If the paper uses different theoretical definitions, revise `EVENT_TO_STATE` in `behavior_transition_analysis.py` and rerun the workflow.
+- `figure_cluster_silhouette.png`
+- `figure_cluster_calinski_harabasz.png`
 
-The diagrams display transitions with probability at least .15 and at least five observations to control visual clutter. All transitions, including those omitted visually, remain in `analysis_behavior_transitions_by_cluster.csv`. Node size represents state frequency and arrow width represents transition probability. The accompanying heatmaps show the complete numerical transition matrices.
+`analysis_cluster_selection_methods.csv` contains both scores, ranks, eligibility, and the selected K. `analysis_cluster_selection_summary.json` records the rule, sample counts, score recommendations, and any warnings. Obsolete selection figures and tables are moved to `Analysis-Log-Results/previous_cluster_selection/`.
 
-Suggested methods text:
+## Profiles, sequences, and transitions
 
-> Event records were mapped to six behavioral states and ordered within player by timestamp. First-order transition matrices were estimated separately for each behavioral cluster. Transition probabilities were calculated conditionally on the current state. Diagrams retained transitions with probability ≥ .15 and frequency ≥ 5, while analytical tables retained all observed transitions.
+Cluster profiles report means, medians, standard deviations, and standardized feature means. ANOVA, Kruskal-Wallis, and eta-squared describe group differences. Learning efficiency contains total score, so score comparisons are not independent of cluster construction; comparisons of clustering inputs are descriptive rather than independent validation.
 
-These figures support descriptions such as “Cluster 1 showed repeated command manipulation followed by progression,” but differences should not be called statistically significant unless they are tested explicitly. Transition probabilities are descriptive and repeated transitions within players are not independent.
+Sequence analysis orders events within each player. It counts three events preceding perfect or help-assisted quest completion, and two events preceding a failed action followed by that failure. The top 50 patterns per outcome are exported. Sequences never cross player boundaries.
 
-Suggested methods text:
+Cluster-specific transitions use retained participants and six states: action, exploration, command manipulation, instructional material/help, failure, and reward/progression. Exact event mappings are in `analysis_behavior_state_dictionary.csv`. Transition probability equals a pair's count divided by all transitions leaving its current state. Diagrams show probabilities of at least 0.15 with at least five observations; tables retain all observed transitions.
 
-> Sequential pattern analysis was applied to timestamp-ordered event logs. Event n-grams preceding perfect completion, help-assisted completion, and failed actions were counted to identify recurring behavioral pathways. Frequencies were interpreted descriptively rather than causally.
-
-## Cluster construction
-
-Clusters use 11 behavioral and derived features: commands executed, correct actions, failed actions, hint quests, answer quests, play duration, leaderboard interactions, learning efficiency, accuracy rate, perfect quest rate, and help dependency ratio. Missing values are median-imputed and features are standardized. Performance outcomes are withheld from fitting and used afterward for profile interpretation, reducing circularity.
-
-| Clustering feature | Operational definition |
-|---|---|
-| CommandsExecuted | Cumulative executed Git commands |
-| CorrectActions | Number of correct game actions |
-| FailedActions | Number of failed game actions |
-| HintQuests | Quests completed using a hint |
-| AnswerQuests | Quests completed using an answer |
-| PlayDurationMinutes | Total active game time in minutes |
-| LeaderboardInteractions | Number of leaderboard or ranking checks |
-| LearningEfficiency | Total score / play duration in minutes |
-| AccuracyRate | Correct actions / (correct + failed actions) |
-| PerfectQuestRate | Perfect completions / completed quests |
-| HelpDependencyRatio | (Hint + answer quests) / completed quests |
-
-Three variables—StagesCleared, GameProgress, and TotalScore—are **profile outcomes**, not K-means inputs. They help explain external performance differences after behavioral groups have been formed.
-
-Suggested methods text:
-
-> Players were clustered using standardized behavioral indicators. Missing values were replaced by the feature median. Performance outcomes were excluded from model estimation and subsequently used to characterize the behavioral profiles. K-means used repeated centroid initializations and a fixed random seed.
-
-## Selecting the number of clusters
-
-The workflow reports complementary evidence:
-
-| Method | Preferred result |
-|---|---|
-| Gap Statistic | Larger value; the one-standard-error rule is applied |
-| Elbow/inertia | Point where improvement begins diminishing |
-| Silhouette | Higher |
-| Calinski–Harabasz | Higher |
-| Davies–Bouldin | Lower |
-| Stability ARI | Higher |
-
-Every accepted solution must have at least 5% of cases in its smallest cluster. This avoids unstable groups that cannot support profile comparisons. Gap Statistic is the primary criterion; other indices are sensitivity checks. In `analysis_gap_statistic.csv`, `k` means the number of clusters, whereas `minimum_cluster_size` means the player count in the smallest group for that candidate.
-
-Suggested methods text:
-
-> Cluster count was evaluated with the Gap Statistic, elbow criterion, silhouette coefficient, Calinski–Harabasz index, Davies–Bouldin index, and repeated-initialization stability. Solutions with a group smaller than 5% of the sample were rejected. The final solution prioritized the Gap Statistic and was checked against the remaining diagnostics.
-
-Use `analysis_cluster_selection_methods.csv`, `figure_gap_statistic.png`, and `figure_cluster_selection_methods.png` to report this decision.
-
-### Current selection result (2026-08-25)
-
-Gap Statistic selected `k=4`. Final K-means membership is Cluster 1 (`n=21`), Cluster 2 (`n=44`), Cluster 3 (`n=31`), and Cluster 4 (`n=9`). All final groups satisfy the minimum-size requirement. Sensitivity indices do not unanimously agree: Silhouette recommends `k=5`, Calinski–Harabasz `k=2`, Davies–Bouldin `k=4`, and stability ARI `k=3`. The paper should report this disagreement and characterize the four-cluster solution as Gap-selected and exploratory.
-
-## Profile analysis
-
-`analysis_cluster_profiles.csv` gives count, mean, standard deviation, and median. The standardized profile table expresses behavioral means as z-scores: positive values are above the sample average and negative values are below it. Group comparisons include one-way ANOVA, Kruskal–Wallis tests, and eta-squared effect sizes.
-
-Values near .01, .06, and .14 are often described as small, medium, and large eta-squared effects, but these are conventions. Interpret significance together with effect magnitude, group size, distribution, and multiple testing.
-
-Suggested results order:
-
-1. Report selected `k` and all group sizes.
-2. Describe agreement or disagreement among validity indices.
-3. Name profiles from their strongest standardized behavioral features.
-4. Compare withheld outcomes such as progress, score, and stages cleared.
-5. Report test statistics, p-values, and eta-squared.
-6. Describe clusters as sample-dependent behavioral profiles, not fixed learner traits.
-
-Suggested results text:
-
-> Cluster labels were assigned after inspecting standardized feature means and were not specified in advance. Differences were evaluated using ANOVA and Kruskal–Wallis tests, with eta-squared quantifying practical separation. The clusters represent observed patterns of play rather than immutable learner types.
-
-## Figure interpretation
-
-- Gap and validity-index charts justify the selected `k`.
-- The size chart verifies that no accepted group is extremely small.
-- The PCA plot is a two-dimensional illustration, not the clustering input space.
-- The heatmap supports profile naming.
-- The effect-size chart identifies the strongest group differences.
-- Sequence charts illustrate common pathways to success, help use, and failure.
-
-## Limitations
-
-This is observational analysis. K-means assumes compact groups and is sensitive to feature selection and scaling. Internal validity indices measure geometric separation, not educational importance. Sequence observations within a player are dependent, and active players contribute more events. Findings should be framed as exploratory and validated in an independent sample.
+These results are exploratory and sample-dependent. Event frequencies and transition probabilities describe associations; they do not establish causality. Repeated events within players are dependent.

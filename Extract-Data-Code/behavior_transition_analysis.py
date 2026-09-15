@@ -1,6 +1,7 @@
 """Cluster-specific behavioral transition analysis and diagrams."""
 
 from pathlib import Path
+from datetime import datetime
 
 import matplotlib.pyplot as plt
 import networkx as nx
@@ -121,6 +122,14 @@ def main(data_dir="."):
     events = pd.read_csv(data_dir / "extracted_events.csv")
     assignments = pd.read_csv(data_dir / "analysis_kmeans_assignments.csv")
     transitions, state_counts = calculate_transitions(events, assignments)
+    # Preserve obsolete generated figures outside the current result set.
+    current_names = {f"figure_behavior_transitions_cluster_{k}.png"
+                     for k in transitions['Cluster'].unique()}
+    for old_figure in data_dir.glob('figure_behavior_transitions_cluster_*.png'):
+        if old_figure.name not in current_names:
+            archive = data_dir / 'previous_cluster_figures' / datetime.now().strftime('%Y%m%d_%H%M%S_%f')
+            archive.mkdir(parents=True, exist_ok=True)
+            old_figure.replace(archive / old_figure.name)
     transitions.to_csv(data_dir / "analysis_behavior_transitions_by_cluster.csv", index=False, encoding="utf-8-sig")
     state_counts.to_csv(data_dir / "analysis_behavior_state_profiles.csv", index=False, encoding="utf-8-sig")
     pd.DataFrame([

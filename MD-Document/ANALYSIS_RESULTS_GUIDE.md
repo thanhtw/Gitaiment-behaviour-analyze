@@ -1,43 +1,52 @@
-# Current Analysis Results Guide
+# Current Analysis Results
 
-This document describes the Python analysis generated on 2026-08-25. The canonical methods and interpretation guide is [PYTHON_ANALYSIS_RESEARCH_GUIDE.md](PYTHON_ANALYSIS_RESEARCH_GUIDE.md).
+Updated 2026-09-15. See [methods](PYTHON_ANALYSIS_RESEARCH_GUIDE.md) and [data provenance](DATA_DICTIONARY.md).
 
-## Analytic sample
+## Sample
 
-- Combined events: 31,630 (Version-1: 22,118; Version-2: 9,512)
-- Distinct per-user profiles: 105
-- Active player records with positive play time: 84
-- Player-stage rows: 3,536
-- Global leaderboard entries: 930
+- Combined per-user profiles: **115**.
+- Excluded for no observed activity: **11**.
+- Retained for clustering: **104**.
+- Active profiles excluded as statistical outliers: **0**.
 
-## Current clustering result
+## Selected cluster count
 
-Gap Statistic selected `k=4` using 11 standardized behavioral and derived indicators.
+**K=3 maximizes both silhouette and Calinski-Harabasz among the tested K=2 through 10.** These are the only scores used to identify K.
 
-| Cluster | Players |
+| Score | Value at K=3 | Preferred K |
+|---|---:|---:|
+| Silhouette | 0.3093 | 3 |
+| Calinski-Harabasz | 39.5391 | 3 |
+
+Both scores agree, so no compromise or tie-break is needed for this dataset. The same K is selected before statistical outlier filtering. This is the best tested solution under the stated rule, not proof of a unique population partition.
+
+### Separate selection figures
+
+- [Silhouette score](../Analysis-Log-Results/figure_cluster_silhouette.png)
+- [Calinski-Harabasz score](../Analysis-Log-Results/figure_cluster_calinski_harabasz.png)
+
+### Cluster sizes
+
+| Cluster | Participants |
 |---|---:|
-| 1 | 21 |
-| 2 | 44 |
-| 3 | 31 |
-| 4 | 9 |
+| 1 | 57 |
+| 2 | 32 |
+| 3 | 15 |
 
-Sensitivity diagnostics recommended `k=5` (Silhouette), `k=2` (Calinski–Harabasz), `k=4` (Davies–Bouldin), and `k=3` (stability ARI). This disagreement must be reported; four clusters are a defensible Gap-based exploratory solution, not a uniquely proven partition.
+## Output reference
 
-## Main outputs
+All files are in `Analysis-Log-Results`.
 
 | Output | Purpose |
 |---|---|
-| `analysis_gap_statistic.csv` | Gap values and selected `k` |
-| `analysis_cluster_selection_methods.csv` | Alternative internal-validity measures |
-| `analysis_kmeans_assignments.csv` | Player membership and variables |
-| `analysis_cluster_profiles.csv` | Raw profile summaries |
-| `analysis_cluster_profiles_standardized.csv` | Behavioral z-score profiles |
-| `analysis_cluster_group_comparisons.csv` | ANOVA, Kruskal–Wallis, and eta-squared |
-| `analysis_behavior_sequences.csv` | Frequent success, help, and failure sequences |
-| `analysis_behavior_transitions_by_cluster.csv` | Cluster-specific transition probabilities |
-
-All tables and figures are in `Analysis-Log-Results`.
-
-## Interpretation cautions
-
-The analysis is exploratory and observational. Sequence frequency and transition probability do not demonstrate causality. Cluster labels are sample-dependent behavioral patterns. Do not report the smallest cluster membership as the number of clusters.
+| `analysis_cluster_selection_summary.json` | Selection rule, both recommendations, scores, and sample counts |
+| `analysis_cluster_selection_methods.csv` | Scores, ranks, eligibility, and final selection for each K |
+| `analysis_cluster_selection_unfiltered.csv` | Same two-score analysis before statistical outlier exclusions |
+| `analysis_cluster_noise_audit.csv` | Inclusion decisions and exclusion reasons for every participant |
+| `analysis_cluster_cleaned_features.csv` | Retained features before imputation and transformation |
+| `analysis_kmeans_assignments.csv` | Participant membership and raw variables |
+| `analysis_cluster_profiles.csv` | Raw cluster summaries |
+| `analysis_cluster_profiles_standardized.csv` | Mean transformed and standardized features |
+| `analysis_cluster_group_comparisons.csv` | Descriptive group comparisons and effect sizes |
+| `analysis_behavior_sequences.csv` | Frequent sequences around success, help, and failure |
+| `analysis_behavior_transitions_by_cluster.csv` | Cluster-specific transition counts and probabilities |

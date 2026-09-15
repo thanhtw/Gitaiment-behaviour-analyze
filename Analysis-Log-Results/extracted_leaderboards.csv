@@ -673,6 +673,16 @@ Version-2,6a5a5907553c74884c26d063,GameProgress,NguyenGiaNguyen,74,2.0,,
 Version-2,6a5a5907553c74884c26d063,GameProgress,nguyenminhthuan,407,2.0,,
 Version-2,6a5a5907553c74884c26d063,GameProgress,PhamBaHaoLong,98,2.0,,
 Version-2,6a5a5907553c74884c26d063,GameProgress,nguyenbuithieugia,571,5.0,,
+Version-2,6a5a5907553c74884c26d063,GameProgress,110123019,104,2.0,,
+Version-2,6a5a5907553c74884c26d063,GameProgress,110123058,187,5.0,,
+Version-2,6a5a5907553c74884c26d063,GameProgress,110123235,68,2.0,,
+Version-2,6a5a5907553c74884c26d063,GameProgress,110123243,164,5.0,,
+Version-2,6a5a5907553c74884c26d063,GameProgress,110123007,64,2.0,,
+Version-2,6a5a5907553c74884c26d063,GameProgress,110123018,52,2.0,,
+Version-2,6a5a5907553c74884c26d063,GameProgress,110122073,58,2.0,,
+Version-2,6a5a5907553c74884c26d063,GameProgress,110123100,63,2.0,,
+Version-2,6a5a5907553c74884c26d063,GameProgress,110123068,74,2.0,,
+Version-2,6a5a5907553c74884c26d063,GameProgress,11012306,176,5.0,,
 Version-2,6a5a5907553c74884c26d064,TotalScore,thomasvi,2685,,87250.0,
 Version-2,6a5a5907553c74884c26d064,TotalScore,tranhoanglong,3496,,84000.0,
 Version-2,6a5a5907553c74884c26d064,TotalScore,TranCongHau,1796,,71000.0,
@@ -710,6 +720,16 @@ Version-2,6a5a5907553c74884c26d064,TotalScore,NguyenGiaNguyen,74,,7000.0,
 Version-2,6a5a5907553c74884c26d064,TotalScore,nguyenminhthuan,407,,6500.0,
 Version-2,6a5a5907553c74884c26d064,TotalScore,PhamBaHaoLong,98,,7000.0,
 Version-2,6a5a5907553c74884c26d064,TotalScore,nguyenbuithieugia,571,,8500.0,
+Version-2,6a5a5907553c74884c26d064,TotalScore,110123019,104,,7000.0,
+Version-2,6a5a5907553c74884c26d064,TotalScore,110123058,187,,8750.0,
+Version-2,6a5a5907553c74884c26d064,TotalScore,110123235,68,,7000.0,
+Version-2,6a5a5907553c74884c26d064,TotalScore,110123243,164,,9750.0,
+Version-2,6a5a5907553c74884c26d064,TotalScore,110123007,64,,7000.0,
+Version-2,6a5a5907553c74884c26d064,TotalScore,110123018,52,,7000.0,
+Version-2,6a5a5907553c74884c26d064,TotalScore,110122073,58,,7000.0,
+Version-2,6a5a5907553c74884c26d064,TotalScore,110123100,63,,6750.0,
+Version-2,6a5a5907553c74884c26d064,TotalScore,110123068,74,,7000.0,
+Version-2,6a5a5907553c74884c26d064,TotalScore,11012306,176,,10000.0,
 Version-2,6a5a5907553c74884c26d065,ClearStageBestRecord,thomasvi,0,,,Game Introduction (Tutorial)
 Version-2,6a5a5907553c74884c26d065,ClearStageBestRecord,tranhoanglong,0,,,Game Introduction (Tutorial)
 Version-2,6a5a5907553c74884c26d065,ClearStageBestRecord,TranCongHau,0,,,Game Introduction (Tutorial)
@@ -747,6 +767,16 @@ Version-2,6a5a5907553c74884c26d065,ClearStageBestRecord,NguyenGiaNguyen,0,,,Game
 Version-2,6a5a5907553c74884c26d065,ClearStageBestRecord,nguyenminhthuan,0,,,Game Introduction (Tutorial)
 Version-2,6a5a5907553c74884c26d065,ClearStageBestRecord,PhamBaHaoLong,0,,,Game Introduction (Tutorial)
 Version-2,6a5a5907553c74884c26d065,ClearStageBestRecord,nguyenbuithieugia,0,,,Game Introduction (Tutorial)
+Version-2,6a5a5907553c74884c26d065,ClearStageBestRecord,110123019,0,,,Game Introduction (Tutorial)
+Version-2,6a5a5907553c74884c26d065,ClearStageBestRecord,110123058,0,,,Game Introduction (Tutorial)
+Version-2,6a5a5907553c74884c26d065,ClearStageBestRecord,110123235,0,,,Game Introduction (Tutorial)
+Version-2,6a5a5907553c74884c26d065,ClearStageBestRecord,110123243,0,,,Game Introduction (Tutorial)
+Version-2,6a5a5907553c74884c26d065,ClearStageBestRecord,110123007,0,,,Game Introduction (Tutorial)
+Version-2,6a5a5907553c74884c26d065,ClearStageBestRecord,110123018,0,,,Game Introduction (Tutorial)
+Version-2,6a5a5907553c74884c26d065,ClearStageBestRecord,110122073,0,,,Game Introduction (Tutorial)
+Version-2,6a5a5907553c74884c26d065,ClearStageBestRecord,110123100,0,,,Game Introduction (Tutorial)
+Version-2,6a5a5907553c74884c26d065,ClearStageBestRecord,110123068,0,,,Game Introduction (Tutorial)
+Version-2,6a5a5907553c74884c26d065,ClearStageBestRecord,11012306,0,,,Game Introduction (Tutorial)
 Version-2,6a5a5907553c74884c26d066,ClearStageBestRecord,thomasvi,0,,,Version Control and Git (Tutorial)
 Version-2,6a5a5907553c74884c26d066,ClearStageBestRecord,tranhoanglong,0,,,Version Control and Git (Tutorial)
 Version-2,6a5a5907553c74884c26d066,ClearStageBestRecord,TranVuNgocHuynh,0,,,Version Control and Git (Tutorial)
@@ -767,6 +797,9 @@ Version-2,6a5a5907553c74884c26d066,ClearStageBestRecord,truongquangkhai,0,,,Vers
 Version-2,6a5a5907553c74884c26d066,ClearStageBestRecord,Dang Thai Bao,0,,,Version Control and Git (Tutorial)
 Version-2,6a5a5907553c74884c26d066,ClearStageBestRecord,NguyenThiHanDu,0,,,Version Control and Git (Tutorial)
 Version-2,6a5a5907553c74884c26d066,ClearStageBestRecord,nguyenbuithieugia,0,,,Version Control and Git (Tutorial)
+Version-2,6a5a5907553c74884c26d066,ClearStageBestRecord,110123058,0,,,Version Control and Git (Tutorial)
+Version-2,6a5a5907553c74884c26d066,ClearStageBestRecord,110123243,0,,,Version Control and Git (Tutorial)
+Version-2,6a5a5907553c74884c26d066,ClearStageBestRecord,11012306,0,,,Version Control and Git (Tutorial)
 Version-2,6a5a5907553c74884c26d067,ClearStageBestRecord,thomasvi,0,,,Create Local Repository (Tutorial)
 Version-2,6a5a5907553c74884c26d067,ClearStageBestRecord,tranhoanglong,0,,,Create Local Repository (Tutorial)
 Version-2,6a5a5907553c74884c26d067,ClearStageBestRecord,TranVuNgocHuynh,0,,,Create Local Repository (Tutorial)

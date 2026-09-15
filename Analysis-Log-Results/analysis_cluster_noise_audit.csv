@@ -1,0 +1,116 @@
+﻿ID,reason,lof_score,included
+110122073,retained,1.007633219624449,True
+110123007,retained,1.000174444414252,True
+110123018,retained,1.0027990884259101,True
+110123019,retained,0.9984539743795434,True
+110123058,retained,0.9894795025553005,True
+11012306,retained,1.0004963940820049,True
+110123060,retained,1.0350208310136682,True
+110123068,retained,0.9975132418100123,True
+110123100,retained,0.9926329793786671,True
+110123235,retained,0.9980328810793166,True
+110123243,retained,1.0032731052527069,True
+D0916167,retained,0.984559974141545,True
+D0948019,retained,1.0203415678990218,True
+D0948155,retained,1.0072989960086505,True
+D0948214,retained,0.9903777638296483,True
+D0948466,retained,0.9882781921567885,True
+D0957411,retained,0.9779938867360609,True
+D0957884,retained,0.9709410107940476,True
+D096167,no_observed_activity,,False
+D0982730,retained,1.1291490931705048,True
+D0987322,retained,0.9946159175548294,True
+D0987439,retained,0.9892120730086598,True
+D1018508,retained,1.0059089093594644,True
+D1018734,retained,1.089003365421817,True
+D1051092,retained,0.9894199895743396,True
+D1051432,retained,0.99129431363851,True
+D1051492,retained,1.112128840102146,True
+D1051652,retained,1.0204102111858069,True
+D1051888,retained,0.9641297405935297,True
+D1059887,retained,1.0177316117053608,True
+D1060003,retained,1.0500264643218,True
+D1060300,retained,0.9837814979672924,True
+D1076775,retained,1.3240970196037753,True
+D1093071,retained,1.1055492306053292,True
+D1179580,retained,0.9701914938811076,True
+D1180757,retained,1.1955002502260281,True
+Dang Thai Bao,retained,1.0436463483920213,True
+Do Thanh Nhan,retained,1.4013438127176103,True
+HuynhLeNgocTrinh,retained,1.1035919083278802,True
+HuynhQuocKhanh,no_observed_activity,,False
+HuynhThienSon,no_observed_activity,,False
+HuynhThienSonTTA,retained,0.9946045815672976,True
+LEPHUCCANG,retained,1.3656873132655591,True
+Le Nguyen Minh Tan,retained,0.9978131010213284,True
+Le Trung Hieu,retained,0.9992235790483818,True
+Le trung hieu,retained,1.1764694673392593,True
+Loe,retained,0.9651038580756287,True
+Monstung,retained,1.0494050971775963,True
+NewPlayer,retained,1.4157483339164385,True
+Nguyen Thi Thuy Duy,retained,1.0963954698639014,True
+NguyenAnNinhTTA,retained,0.9870779606738674,True
+NguyenDuyTan,retained,1.001616969579094,True
+NguyenGiaNguyen,retained,0.9975132418100123,True
+NguyenNhatTan,retained,1.3656873132655591,True
+NguyenThiHanDu,retained,1.035103139932451,True
+NguyenTruongMinhCang,retained,1.1144000512291343,True
+Once,retained,0.9833129419904616,True
+PhamBaHaoLong,retained,1.0048941406127647,True
+PhanHoangDinh,retained,1.7527149653833092,True
+Player Name,retained,1.438275644819654,True
+THACH NGUYEN QUE ANH,retained,1.1086526332756255,True
+TRANPHUDINH,no_observed_activity,,False
+Thach Ngoc Phu,retained,1.0669659760433179,True
+ThachChiVinh,no_observed_activity,,False
+Thanathiti,retained,0.9984085843455853,True
+Tran Quoc Thang,no_observed_activity,,False
+TranCongHau,retained,1.3167881066481233,True
+TranThiYenKhoa,retained,1.3989068988203515,True
+TranVuNgocHuynh,retained,1.0010279215027447,True
+TuGiaDat,retained,1.1891757792689834,True
+Van Anh,no_observed_activity,,False
+Xue,retained,1.037342828738567,True
+ccc,retained,1.2283560121684596,True
+clear,retained,1.3836048493803237,True
+cookie,retained,0.9994192801279663,True
+d0653940,retained,1.1767236630313298,True
+d0947523,retained,1.0026207446623083,True
+d1030978,retained,1.2890897307295595,True
+d1031329,retained,1.025070153429581,True
+d1051284,retained,1.0000839433051352,True
+d1090685,retained,1.0721832505424218,True
+dat,retained,1.2100378283234485,True
+dinhminhven,retained,0.9933917873333075,True
+duytannguyen36,retained,1.355866662355718,True
+eee,retained,0.9795688518815069,True
+huynhchidat,retained,1.0023445158156712,True
+huynhduongtanphat,retained,0.9960580774916267,True
+k,retained,1.4318608548367577,True
+kenchin0627,retained,1.0181335971408316,True
+lamminhthien,retained,0.9970844759858425,True
+ledanghuy,retained,1.051001312207151,True
+meteor1027,no_observed_activity,,False
+minhcangda23tta,retained,1.6166820082250601,True
+minnhcangda23tta,retained,1.3832816833753092,True
+ngominhman,no_observed_activity,,False
+nguyenbuithieugia,retained,1.1902111482888325,True
+nguyenhoanthong,retained,1.2176227341566277,True
+nguyenminhthuan,retained,1.12366498494291,True
+nguyenquocanh,no_observed_activity,,False
+nguyenthixuannhi,retained,1.1270161627964255,True
+nhat123,retained,1.3593003329229973,True
+ninhbeta,no_observed_activity,,False
+phan tran truong huy ,retained,1.15883561359237,True
+phankhanhduy,retained,1.098084345875541,True
+test,retained,1.0037554678264593,True
+test player,retained,1.3179289063613042,True
+thachthingoctram,retained,1.032108982586189,True
+thomasvi,retained,1.085568255325604,True
+tom134679,retained,0.9767484763802272,True
+tranhoanglong,retained,1.0033679711680552,True
+tranhoangoanh,retained,0.9866470724463765,True
+truongquangkhai,retained,1.2022750102632944,True
+tukta26884,retained,1.2500922740199296,True
+user1,retained,0.9926285814855043,True
+xin,retained,1.161345903753721,True

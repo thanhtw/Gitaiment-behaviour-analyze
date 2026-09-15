@@ -1,0 +1,27 @@
+{
+  "input_n": 115,
+  "retained_n": 104,
+  "excluded_n": 11,
+  "exclusion_reasons": {
+    "no_observed_activity": 11
+  },
+  "noise_rule": "LOF > 2.0, neighbors=20; fixed before selecting k",
+  "preprocessing": "Undefined ratios are median-imputed; log1p non-rate features; standard scaling refit after filtering.",
+  "selection_rule": "Minimum sum of descending silhouette and Calinski-Harabasz ranks among non-singleton solutions; ties use higher silhouette, then smaller k.",
+  "selected_k": 3,
+  "metrics_agree": true,
+  "selected_scores": {
+    "silhouette": 0.30925655233439586,
+    "calinski_harabasz": 39.53906152081074
+  },
+  "unfiltered_selected_k": 3,
+  "recommendations": {
+    "silhouette": 3,
+    "calinski_harabasz": 3
+  },
+  "unfiltered_recommendations": {
+    "silhouette": 3,
+    "calinski_harabasz": 3
+  },
+  "warnings": []
+}

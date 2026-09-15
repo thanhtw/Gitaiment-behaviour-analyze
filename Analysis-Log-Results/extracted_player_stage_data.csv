@@ -3535,3 +3535,343 @@ Version-2,6a6bf168ff79bf083c52c56c,nguyenbuithieugia,Keep Branches in Sync (Prac
 Version-2,6a6bf168ff79bf083c52c56c,nguyenbuithieugia,Preparation for Merging (Practice),Remote,False,0,0,0,0
 Version-2,6a6bf168ff79bf083c52c56c,nguyenbuithieugia,Creating a Pull Request (Practice),Remote,False,0,0,0,0
 Version-2,6a6bf168ff79bf083c52c56c,nguyenbuithieugia,Review and Merge Pull Requests (Practice),Remote,False,0,0,0,0
+Version-2,6a944d0cff79bf083c52c642,110123019,Game Introduction (Tutorial),Basic,True,1,4,7000,104
+Version-2,6a944d0cff79bf083c52c642,110123019,Version Control and Git (Tutorial),Basic,True,0,0,0,0
+Version-2,6a944d0cff79bf083c52c642,110123019,Create Local Repository (Tutorial),Basic,False,0,0,0,0
+Version-2,6a944d0cff79bf083c52c642,110123019,Basic Staging Area (Tutorial),Basic,False,0,0,0,0
+Version-2,6a944d0cff79bf083c52c642,110123019,Advanced Staging Area (Tutorial),Basic,False,0,0,0,0
+Version-2,6a944d0cff79bf083c52c642,110123019,Creating First Version (Tutorial),Basic,False,0,0,0,0
+Version-2,6a944d0cff79bf083c52c642,110123019,Switching Project Versions (Tutorial),Basic,False,0,0,0,0
+Version-2,6a944d0cff79bf083c52c642,110123019,Git Branching Basics (Tutorial),Branch,False,0,0,0,0
+Version-2,6a944d0cff79bf083c52c642,110123019,Fast-Forward Merging (Tutorial),Branch,False,0,0,0,0
+Version-2,6a944d0cff79bf083c52c642,110123019,Auto Merging (Tutorial),Branch,False,0,0,0,0
+Version-2,6a944d0cff79bf083c52c642,110123019,Merge Conflicts (Tutorial),Branch,False,0,0,0,0
+Version-2,6a944d0cff79bf083c52c642,110123019,Create Remote Repository (Tutorial),Remote,False,0,0,0,0
+Version-2,6a944d0cff79bf083c52c642,110123019,Push to Remote Branches (Tutorial),Remote,False,0,0,0,0
+Version-2,6a944d0cff79bf083c52c642,110123019,Keep Branches in Sync (Tutorial),Remote,False,0,0,0,0
+Version-2,6a944d0cff79bf083c52c642,110123019,Preparation for Merging (Tutorial),Remote,False,0,0,0,0
+Version-2,6a944d0cff79bf083c52c642,110123019,Creating a Pull Request (Tutorial),Remote,False,0,0,0,0
+Version-2,6a944d0cff79bf083c52c642,110123019,Review and Merge Pull Requests (Tutorial),Remote,False,0,0,0,0
+Version-2,6a944d0cff79bf083c52c642,110123019,Game Introduction (Practice),Basic,True,0,0,0,0
+Version-2,6a944d0cff79bf083c52c642,110123019,Version Control and Git (Practice),Basic,False,0,0,0,0
+Version-2,6a944d0cff79bf083c52c642,110123019,Create Local Repository (Practice),Basic,False,0,0,0,0
+Version-2,6a944d0cff79bf083c52c642,110123019,Basic Staging Area (Practice),Basic,False,0,0,0,0
+Version-2,6a944d0cff79bf083c52c642,110123019,Advanced Staging Area (Practice),Basic,False,0,0,0,0
+Version-2,6a944d0cff79bf083c52c642,110123019,Creating First Version (Practice),Basic,False,0,0,0,0
+Version-2,6a944d0cff79bf083c52c642,110123019,Switching Project Versions (Practice),Basic,False,0,0,0,0
+Version-2,6a944d0cff79bf083c52c642,110123019,Git Branching Basics (Practice),Branch,False,0,0,0,0
+Version-2,6a944d0cff79bf083c52c642,110123019,Fast-Forward Merging (Practice),Branch,False,0,0,0,0
+Version-2,6a944d0cff79bf083c52c642,110123019,Auto Merging (Practice),Branch,False,0,0,0,0
+Version-2,6a944d0cff79bf083c52c642,110123019,Merge Conflicts (Practice),Branch,False,0,0,0,0
+Version-2,6a944d0cff79bf083c52c642,110123019,Create Remote Repository (Practice),Remote,False,0,0,0,0
+Version-2,6a944d0cff79bf083c52c642,110123019,Push to Remote Branches (Practice),Remote,False,0,0,0,0
+Version-2,6a944d0cff79bf083c52c642,110123019,Keep Branches in Sync (Practice),Remote,False,0,0,0,0
+Version-2,6a944d0cff79bf083c52c642,110123019,Preparation for Merging (Practice),Remote,False,0,0,0,0
+Version-2,6a944d0cff79bf083c52c642,110123019,Creating a Pull Request (Practice),Remote,False,0,0,0,0
+Version-2,6a944d0cff79bf083c52c642,110123019,Review and Merge Pull Requests (Practice),Remote,False,0,0,0,0
+Version-2,6a944daeff79bf083c52c67d,110123058,Game Introduction (Tutorial),Basic,True,1,3,6750,96
+Version-2,6a944daeff79bf083c52c67d,110123058,Version Control and Git (Tutorial),Basic,True,1,3,2000,91
+Version-2,6a944daeff79bf083c52c67d,110123058,Create Local Repository (Tutorial),Basic,True,0,0,0,0
+Version-2,6a944daeff79bf083c52c67d,110123058,Basic Staging Area (Tutorial),Basic,False,0,0,0,0
+Version-2,6a944daeff79bf083c52c67d,110123058,Advanced Staging Area (Tutorial),Basic,False,0,0,0,0
+Version-2,6a944daeff79bf083c52c67d,110123058,Creating First Version (Tutorial),Basic,False,0,0,0,0
+Version-2,6a944daeff79bf083c52c67d,110123058,Switching Project Versions (Tutorial),Basic,False,0,0,0,0
+Version-2,6a944daeff79bf083c52c67d,110123058,Git Branching Basics (Tutorial),Branch,False,0,0,0,0
+Version-2,6a944daeff79bf083c52c67d,110123058,Fast-Forward Merging (Tutorial),Branch,False,0,0,0,0
+Version-2,6a944daeff79bf083c52c67d,110123058,Auto Merging (Tutorial),Branch,False,0,0,0,0
+Version-2,6a944daeff79bf083c52c67d,110123058,Merge Conflicts (Tutorial),Branch,False,0,0,0,0
+Version-2,6a944daeff79bf083c52c67d,110123058,Create Remote Repository (Tutorial),Remote,False,0,0,0,0
+Version-2,6a944daeff79bf083c52c67d,110123058,Push to Remote Branches (Tutorial),Remote,False,0,0,0,0
+Version-2,6a944daeff79bf083c52c67d,110123058,Keep Branches in Sync (Tutorial),Remote,False,0,0,0,0
+Version-2,6a944daeff79bf083c52c67d,110123058,Preparation for Merging (Tutorial),Remote,False,0,0,0,0
+Version-2,6a944daeff79bf083c52c67d,110123058,Creating a Pull Request (Tutorial),Remote,False,0,0,0,0
+Version-2,6a944daeff79bf083c52c67d,110123058,Review and Merge Pull Requests (Tutorial),Remote,False,0,0,0,0
+Version-2,6a944daeff79bf083c52c67d,110123058,Game Introduction (Practice),Basic,True,0,0,0,0
+Version-2,6a944daeff79bf083c52c67d,110123058,Version Control and Git (Practice),Basic,True,0,0,0,0
+Version-2,6a944daeff79bf083c52c67d,110123058,Create Local Repository (Practice),Basic,False,0,0,0,0
+Version-2,6a944daeff79bf083c52c67d,110123058,Basic Staging Area (Practice),Basic,False,0,0,0,0
+Version-2,6a944daeff79bf083c52c67d,110123058,Advanced Staging Area (Practice),Basic,False,0,0,0,0
+Version-2,6a944daeff79bf083c52c67d,110123058,Creating First Version (Practice),Basic,False,0,0,0,0
+Version-2,6a944daeff79bf083c52c67d,110123058,Switching Project Versions (Practice),Basic,False,0,0,0,0
+Version-2,6a944daeff79bf083c52c67d,110123058,Git Branching Basics (Practice),Branch,False,0,0,0,0
+Version-2,6a944daeff79bf083c52c67d,110123058,Fast-Forward Merging (Practice),Branch,False,0,0,0,0
+Version-2,6a944daeff79bf083c52c67d,110123058,Auto Merging (Practice),Branch,False,0,0,0,0
+Version-2,6a944daeff79bf083c52c67d,110123058,Merge Conflicts (Practice),Branch,False,0,0,0,0
+Version-2,6a944daeff79bf083c52c67d,110123058,Create Remote Repository (Practice),Remote,False,0,0,0,0
+Version-2,6a944daeff79bf083c52c67d,110123058,Push to Remote Branches (Practice),Remote,False,0,0,0,0
+Version-2,6a944daeff79bf083c52c67d,110123058,Keep Branches in Sync (Practice),Remote,False,0,0,0,0
+Version-2,6a944daeff79bf083c52c67d,110123058,Preparation for Merging (Practice),Remote,False,0,0,0,0
+Version-2,6a944daeff79bf083c52c67d,110123058,Creating a Pull Request (Practice),Remote,False,0,0,0,0
+Version-2,6a944daeff79bf083c52c67d,110123058,Review and Merge Pull Requests (Practice),Remote,False,0,0,0,0
+Version-2,6a944edeff79bf083c52c6e2,110123235,Game Introduction (Tutorial),Basic,True,1,4,7000,68
+Version-2,6a944edeff79bf083c52c6e2,110123235,Version Control and Git (Tutorial),Basic,True,0,0,0,0
+Version-2,6a944edeff79bf083c52c6e2,110123235,Create Local Repository (Tutorial),Basic,False,0,0,0,0
+Version-2,6a944edeff79bf083c52c6e2,110123235,Basic Staging Area (Tutorial),Basic,False,0,0,0,0
+Version-2,6a944edeff79bf083c52c6e2,110123235,Advanced Staging Area (Tutorial),Basic,False,0,0,0,0
+Version-2,6a944edeff79bf083c52c6e2,110123235,Creating First Version (Tutorial),Basic,False,0,0,0,0
+Version-2,6a944edeff79bf083c52c6e2,110123235,Switching Project Versions (Tutorial),Basic,False,0,0,0,0
+Version-2,6a944edeff79bf083c52c6e2,110123235,Git Branching Basics (Tutorial),Branch,False,0,0,0,0
+Version-2,6a944edeff79bf083c52c6e2,110123235,Fast-Forward Merging (Tutorial),Branch,False,0,0,0,0
+Version-2,6a944edeff79bf083c52c6e2,110123235,Auto Merging (Tutorial),Branch,False,0,0,0,0
+Version-2,6a944edeff79bf083c52c6e2,110123235,Merge Conflicts (Tutorial),Branch,False,0,0,0,0
+Version-2,6a944edeff79bf083c52c6e2,110123235,Create Remote Repository (Tutorial),Remote,False,0,0,0,0
+Version-2,6a944edeff79bf083c52c6e2,110123235,Push to Remote Branches (Tutorial),Remote,False,0,0,0,0
+Version-2,6a944edeff79bf083c52c6e2,110123235,Keep Branches in Sync (Tutorial),Remote,False,0,0,0,0
+Version-2,6a944edeff79bf083c52c6e2,110123235,Preparation for Merging (Tutorial),Remote,False,0,0,0,0
+Version-2,6a944edeff79bf083c52c6e2,110123235,Creating a Pull Request (Tutorial),Remote,False,0,0,0,0
+Version-2,6a944edeff79bf083c52c6e2,110123235,Review and Merge Pull Requests (Tutorial),Remote,False,0,0,0,0
+Version-2,6a944edeff79bf083c52c6e2,110123235,Game Introduction (Practice),Basic,True,0,0,0,0
+Version-2,6a944edeff79bf083c52c6e2,110123235,Version Control and Git (Practice),Basic,False,0,0,0,0
+Version-2,6a944edeff79bf083c52c6e2,110123235,Create Local Repository (Practice),Basic,False,0,0,0,0
+Version-2,6a944edeff79bf083c52c6e2,110123235,Basic Staging Area (Practice),Basic,False,0,0,0,0
+Version-2,6a944edeff79bf083c52c6e2,110123235,Advanced Staging Area (Practice),Basic,False,0,0,0,0
+Version-2,6a944edeff79bf083c52c6e2,110123235,Creating First Version (Practice),Basic,False,0,0,0,0
+Version-2,6a944edeff79bf083c52c6e2,110123235,Switching Project Versions (Practice),Basic,False,0,0,0,0
+Version-2,6a944edeff79bf083c52c6e2,110123235,Git Branching Basics (Practice),Branch,False,0,0,0,0
+Version-2,6a944edeff79bf083c52c6e2,110123235,Fast-Forward Merging (Practice),Branch,False,0,0,0,0
+Version-2,6a944edeff79bf083c52c6e2,110123235,Auto Merging (Practice),Branch,False,0,0,0,0
+Version-2,6a944edeff79bf083c52c6e2,110123235,Merge Conflicts (Practice),Branch,False,0,0,0,0
+Version-2,6a944edeff79bf083c52c6e2,110123235,Create Remote Repository (Practice),Remote,False,0,0,0,0
+Version-2,6a944edeff79bf083c52c6e2,110123235,Push to Remote Branches (Practice),Remote,False,0,0,0,0
+Version-2,6a944edeff79bf083c52c6e2,110123235,Keep Branches in Sync (Practice),Remote,False,0,0,0,0
+Version-2,6a944edeff79bf083c52c6e2,110123235,Preparation for Merging (Practice),Remote,False,0,0,0,0
+Version-2,6a944edeff79bf083c52c6e2,110123235,Creating a Pull Request (Practice),Remote,False,0,0,0,0
+Version-2,6a944edeff79bf083c52c6e2,110123235,Review and Merge Pull Requests (Practice),Remote,False,0,0,0,0
+Version-2,6a944f52ff79bf083c52c71d,110123243,Game Introduction (Tutorial),Basic,True,1,3,6750,80
+Version-2,6a944f52ff79bf083c52c71d,110123243,Version Control and Git (Tutorial),Basic,True,1,4,3000,84
+Version-2,6a944f52ff79bf083c52c71d,110123243,Create Local Repository (Tutorial),Basic,True,0,0,0,0
+Version-2,6a944f52ff79bf083c52c71d,110123243,Basic Staging Area (Tutorial),Basic,False,0,0,0,0
+Version-2,6a944f52ff79bf083c52c71d,110123243,Advanced Staging Area (Tutorial),Basic,False,0,0,0,0
+Version-2,6a944f52ff79bf083c52c71d,110123243,Creating First Version (Tutorial),Basic,False,0,0,0,0
+Version-2,6a944f52ff79bf083c52c71d,110123243,Switching Project Versions (Tutorial),Basic,False,0,0,0,0
+Version-2,6a944f52ff79bf083c52c71d,110123243,Git Branching Basics (Tutorial),Branch,False,0,0,0,0
+Version-2,6a944f52ff79bf083c52c71d,110123243,Fast-Forward Merging (Tutorial),Branch,False,0,0,0,0
+Version-2,6a944f52ff79bf083c52c71d,110123243,Auto Merging (Tutorial),Branch,False,0,0,0,0
+Version-2,6a944f52ff79bf083c52c71d,110123243,Merge Conflicts (Tutorial),Branch,False,0,0,0,0
+Version-2,6a944f52ff79bf083c52c71d,110123243,Create Remote Repository (Tutorial),Remote,False,0,0,0,0
+Version-2,6a944f52ff79bf083c52c71d,110123243,Push to Remote Branches (Tutorial),Remote,False,0,0,0,0
+Version-2,6a944f52ff79bf083c52c71d,110123243,Keep Branches in Sync (Tutorial),Remote,False,0,0,0,0
+Version-2,6a944f52ff79bf083c52c71d,110123243,Preparation for Merging (Tutorial),Remote,False,0,0,0,0
+Version-2,6a944f52ff79bf083c52c71d,110123243,Creating a Pull Request (Tutorial),Remote,False,0,0,0,0
+Version-2,6a944f52ff79bf083c52c71d,110123243,Review and Merge Pull Requests (Tutorial),Remote,False,0,0,0,0
+Version-2,6a944f52ff79bf083c52c71d,110123243,Game Introduction (Practice),Basic,True,0,0,0,0
+Version-2,6a944f52ff79bf083c52c71d,110123243,Version Control and Git (Practice),Basic,True,0,0,0,0
+Version-2,6a944f52ff79bf083c52c71d,110123243,Create Local Repository (Practice),Basic,False,0,0,0,0
+Version-2,6a944f52ff79bf083c52c71d,110123243,Basic Staging Area (Practice),Basic,False,0,0,0,0
+Version-2,6a944f52ff79bf083c52c71d,110123243,Advanced Staging Area (Practice),Basic,False,0,0,0,0
+Version-2,6a944f52ff79bf083c52c71d,110123243,Creating First Version (Practice),Basic,False,0,0,0,0
+Version-2,6a944f52ff79bf083c52c71d,110123243,Switching Project Versions (Practice),Basic,False,0,0,0,0
+Version-2,6a944f52ff79bf083c52c71d,110123243,Git Branching Basics (Practice),Branch,False,0,0,0,0
+Version-2,6a944f52ff79bf083c52c71d,110123243,Fast-Forward Merging (Practice),Branch,False,0,0,0,0
+Version-2,6a944f52ff79bf083c52c71d,110123243,Auto Merging (Practice),Branch,False,0,0,0,0
+Version-2,6a944f52ff79bf083c52c71d,110123243,Merge Conflicts (Practice),Branch,False,0,0,0,0
+Version-2,6a944f52ff79bf083c52c71d,110123243,Create Remote Repository (Practice),Remote,False,0,0,0,0
+Version-2,6a944f52ff79bf083c52c71d,110123243,Push to Remote Branches (Practice),Remote,False,0,0,0,0
+Version-2,6a944f52ff79bf083c52c71d,110123243,Keep Branches in Sync (Practice),Remote,False,0,0,0,0
+Version-2,6a944f52ff79bf083c52c71d,110123243,Preparation for Merging (Practice),Remote,False,0,0,0,0
+Version-2,6a944f52ff79bf083c52c71d,110123243,Creating a Pull Request (Practice),Remote,False,0,0,0,0
+Version-2,6a944f52ff79bf083c52c71d,110123243,Review and Merge Pull Requests (Practice),Remote,False,0,0,0,0
+Version-2,6a945035ff79bf083c52c778,110123007,Game Introduction (Tutorial),Basic,True,1,4,7000,64
+Version-2,6a945035ff79bf083c52c778,110123007,Version Control and Git (Tutorial),Basic,True,0,0,0,0
+Version-2,6a945035ff79bf083c52c778,110123007,Create Local Repository (Tutorial),Basic,False,0,0,0,0
+Version-2,6a945035ff79bf083c52c778,110123007,Basic Staging Area (Tutorial),Basic,False,0,0,0,0
+Version-2,6a945035ff79bf083c52c778,110123007,Advanced Staging Area (Tutorial),Basic,False,0,0,0,0
+Version-2,6a945035ff79bf083c52c778,110123007,Creating First Version (Tutorial),Basic,False,0,0,0,0
+Version-2,6a945035ff79bf083c52c778,110123007,Switching Project Versions (Tutorial),Basic,False,0,0,0,0
+Version-2,6a945035ff79bf083c52c778,110123007,Git Branching Basics (Tutorial),Branch,False,0,0,0,0
+Version-2,6a945035ff79bf083c52c778,110123007,Fast-Forward Merging (Tutorial),Branch,False,0,0,0,0
+Version-2,6a945035ff79bf083c52c778,110123007,Auto Merging (Tutorial),Branch,False,0,0,0,0
+Version-2,6a945035ff79bf083c52c778,110123007,Merge Conflicts (Tutorial),Branch,False,0,0,0,0
+Version-2,6a945035ff79bf083c52c778,110123007,Create Remote Repository (Tutorial),Remote,False,0,0,0,0
+Version-2,6a945035ff79bf083c52c778,110123007,Push to Remote Branches (Tutorial),Remote,False,0,0,0,0
+Version-2,6a945035ff79bf083c52c778,110123007,Keep Branches in Sync (Tutorial),Remote,False,0,0,0,0
+Version-2,6a945035ff79bf083c52c778,110123007,Preparation for Merging (Tutorial),Remote,False,0,0,0,0
+Version-2,6a945035ff79bf083c52c778,110123007,Creating a Pull Request (Tutorial),Remote,False,0,0,0,0
+Version-2,6a945035ff79bf083c52c778,110123007,Review and Merge Pull Requests (Tutorial),Remote,False,0,0,0,0
+Version-2,6a945035ff79bf083c52c778,110123007,Game Introduction (Practice),Basic,True,0,0,0,0
+Version-2,6a945035ff79bf083c52c778,110123007,Version Control and Git (Practice),Basic,False,0,0,0,0
+Version-2,6a945035ff79bf083c52c778,110123007,Create Local Repository (Practice),Basic,False,0,0,0,0
+Version-2,6a945035ff79bf083c52c778,110123007,Basic Staging Area (Practice),Basic,False,0,0,0,0
+Version-2,6a945035ff79bf083c52c778,110123007,Advanced Staging Area (Practice),Basic,False,0,0,0,0
+Version-2,6a945035ff79bf083c52c778,110123007,Creating First Version (Practice),Basic,False,0,0,0,0
+Version-2,6a945035ff79bf083c52c778,110123007,Switching Project Versions (Practice),Basic,False,0,0,0,0
+Version-2,6a945035ff79bf083c52c778,110123007,Git Branching Basics (Practice),Branch,False,0,0,0,0
+Version-2,6a945035ff79bf083c52c778,110123007,Fast-Forward Merging (Practice),Branch,False,0,0,0,0
+Version-2,6a945035ff79bf083c52c778,110123007,Auto Merging (Practice),Branch,False,0,0,0,0
+Version-2,6a945035ff79bf083c52c778,110123007,Merge Conflicts (Practice),Branch,False,0,0,0,0
+Version-2,6a945035ff79bf083c52c778,110123007,Create Remote Repository (Practice),Remote,False,0,0,0,0
+Version-2,6a945035ff79bf083c52c778,110123007,Push to Remote Branches (Practice),Remote,False,0,0,0,0
+Version-2,6a945035ff79bf083c52c778,110123007,Keep Branches in Sync (Practice),Remote,False,0,0,0,0
+Version-2,6a945035ff79bf083c52c778,110123007,Preparation for Merging (Practice),Remote,False,0,0,0,0
+Version-2,6a945035ff79bf083c52c778,110123007,Creating a Pull Request (Practice),Remote,False,0,0,0,0
+Version-2,6a945035ff79bf083c52c778,110123007,Review and Merge Pull Requests (Practice),Remote,False,0,0,0,0
+Version-2,6a9450ffff79bf083c52c7b3,110123018,Game Introduction (Tutorial),Basic,True,1,4,7000,52
+Version-2,6a9450ffff79bf083c52c7b3,110123018,Version Control and Git (Tutorial),Basic,True,0,0,0,0
+Version-2,6a9450ffff79bf083c52c7b3,110123018,Create Local Repository (Tutorial),Basic,False,0,0,0,0
+Version-2,6a9450ffff79bf083c52c7b3,110123018,Basic Staging Area (Tutorial),Basic,False,0,0,0,0
+Version-2,6a9450ffff79bf083c52c7b3,110123018,Advanced Staging Area (Tutorial),Basic,False,0,0,0,0
+Version-2,6a9450ffff79bf083c52c7b3,110123018,Creating First Version (Tutorial),Basic,False,0,0,0,0
+Version-2,6a9450ffff79bf083c52c7b3,110123018,Switching Project Versions (Tutorial),Basic,False,0,0,0,0
+Version-2,6a9450ffff79bf083c52c7b3,110123018,Git Branching Basics (Tutorial),Branch,False,0,0,0,0
+Version-2,6a9450ffff79bf083c52c7b3,110123018,Fast-Forward Merging (Tutorial),Branch,False,0,0,0,0
+Version-2,6a9450ffff79bf083c52c7b3,110123018,Auto Merging (Tutorial),Branch,False,0,0,0,0
+Version-2,6a9450ffff79bf083c52c7b3,110123018,Merge Conflicts (Tutorial),Branch,False,0,0,0,0
+Version-2,6a9450ffff79bf083c52c7b3,110123018,Create Remote Repository (Tutorial),Remote,False,0,0,0,0
+Version-2,6a9450ffff79bf083c52c7b3,110123018,Push to Remote Branches (Tutorial),Remote,False,0,0,0,0
+Version-2,6a9450ffff79bf083c52c7b3,110123018,Keep Branches in Sync (Tutorial),Remote,False,0,0,0,0
+Version-2,6a9450ffff79bf083c52c7b3,110123018,Preparation for Merging (Tutorial),Remote,False,0,0,0,0
+Version-2,6a9450ffff79bf083c52c7b3,110123018,Creating a Pull Request (Tutorial),Remote,False,0,0,0,0
+Version-2,6a9450ffff79bf083c52c7b3,110123018,Review and Merge Pull Requests (Tutorial),Remote,False,0,0,0,0
+Version-2,6a9450ffff79bf083c52c7b3,110123018,Game Introduction (Practice),Basic,True,0,0,0,0
+Version-2,6a9450ffff79bf083c52c7b3,110123018,Version Control and Git (Practice),Basic,False,0,0,0,0
+Version-2,6a9450ffff79bf083c52c7b3,110123018,Create Local Repository (Practice),Basic,False,0,0,0,0
+Version-2,6a9450ffff79bf083c52c7b3,110123018,Basic Staging Area (Practice),Basic,False,0,0,0,0
+Version-2,6a9450ffff79bf083c52c7b3,110123018,Advanced Staging Area (Practice),Basic,False,0,0,0,0
+Version-2,6a9450ffff79bf083c52c7b3,110123018,Creating First Version (Practice),Basic,False,0,0,0,0
+Version-2,6a9450ffff79bf083c52c7b3,110123018,Switching Project Versions (Practice),Basic,False,0,0,0,0
+Version-2,6a9450ffff79bf083c52c7b3,110123018,Git Branching Basics (Practice),Branch,False,0,0,0,0
+Version-2,6a9450ffff79bf083c52c7b3,110123018,Fast-Forward Merging (Practice),Branch,False,0,0,0,0
+Version-2,6a9450ffff79bf083c52c7b3,110123018,Auto Merging (Practice),Branch,False,0,0,0,0
+Version-2,6a9450ffff79bf083c52c7b3,110123018,Merge Conflicts (Practice),Branch,False,0,0,0,0
+Version-2,6a9450ffff79bf083c52c7b3,110123018,Create Remote Repository (Practice),Remote,False,0,0,0,0
+Version-2,6a9450ffff79bf083c52c7b3,110123018,Push to Remote Branches (Practice),Remote,False,0,0,0,0
+Version-2,6a9450ffff79bf083c52c7b3,110123018,Keep Branches in Sync (Practice),Remote,False,0,0,0,0
+Version-2,6a9450ffff79bf083c52c7b3,110123018,Preparation for Merging (Practice),Remote,False,0,0,0,0
+Version-2,6a9450ffff79bf083c52c7b3,110123018,Creating a Pull Request (Practice),Remote,False,0,0,0,0
+Version-2,6a9450ffff79bf083c52c7b3,110123018,Review and Merge Pull Requests (Practice),Remote,False,0,0,0,0
+Version-2,6a945169ff79bf083c52c7f1,110122073,Game Introduction (Tutorial),Basic,True,1,4,7000,58
+Version-2,6a945169ff79bf083c52c7f1,110122073,Version Control and Git (Tutorial),Basic,True,0,0,0,0
+Version-2,6a945169ff79bf083c52c7f1,110122073,Create Local Repository (Tutorial),Basic,False,0,0,0,0
+Version-2,6a945169ff79bf083c52c7f1,110122073,Basic Staging Area (Tutorial),Basic,False,0,0,0,0
+Version-2,6a945169ff79bf083c52c7f1,110122073,Advanced Staging Area (Tutorial),Basic,False,0,0,0,0
+Version-2,6a945169ff79bf083c52c7f1,110122073,Creating First Version (Tutorial),Basic,False,0,0,0,0
+Version-2,6a945169ff79bf083c52c7f1,110122073,Switching Project Versions (Tutorial),Basic,False,0,0,0,0
+Version-2,6a945169ff79bf083c52c7f1,110122073,Git Branching Basics (Tutorial),Branch,False,0,0,0,0
+Version-2,6a945169ff79bf083c52c7f1,110122073,Fast-Forward Merging (Tutorial),Branch,False,0,0,0,0
+Version-2,6a945169ff79bf083c52c7f1,110122073,Auto Merging (Tutorial),Branch,False,0,0,0,0
+Version-2,6a945169ff79bf083c52c7f1,110122073,Merge Conflicts (Tutorial),Branch,False,0,0,0,0
+Version-2,6a945169ff79bf083c52c7f1,110122073,Create Remote Repository (Tutorial),Remote,False,0,0,0,0
+Version-2,6a945169ff79bf083c52c7f1,110122073,Push to Remote Branches (Tutorial),Remote,False,0,0,0,0
+Version-2,6a945169ff79bf083c52c7f1,110122073,Keep Branches in Sync (Tutorial),Remote,False,0,0,0,0
+Version-2,6a945169ff79bf083c52c7f1,110122073,Preparation for Merging (Tutorial),Remote,False,0,0,0,0
+Version-2,6a945169ff79bf083c52c7f1,110122073,Creating a Pull Request (Tutorial),Remote,False,0,0,0,0
+Version-2,6a945169ff79bf083c52c7f1,110122073,Review and Merge Pull Requests (Tutorial),Remote,False,0,0,0,0
+Version-2,6a945169ff79bf083c52c7f1,110122073,Game Introduction (Practice),Basic,True,0,0,0,0
+Version-2,6a945169ff79bf083c52c7f1,110122073,Version Control and Git (Practice),Basic,False,0,0,0,0
+Version-2,6a945169ff79bf083c52c7f1,110122073,Create Local Repository (Practice),Basic,False,0,0,0,0
+Version-2,6a945169ff79bf083c52c7f1,110122073,Basic Staging Area (Practice),Basic,False,0,0,0,0
+Version-2,6a945169ff79bf083c52c7f1,110122073,Advanced Staging Area (Practice),Basic,False,0,0,0,0
+Version-2,6a945169ff79bf083c52c7f1,110122073,Creating First Version (Practice),Basic,False,0,0,0,0
+Version-2,6a945169ff79bf083c52c7f1,110122073,Switching Project Versions (Practice),Basic,False,0,0,0,0
+Version-2,6a945169ff79bf083c52c7f1,110122073,Git Branching Basics (Practice),Branch,False,0,0,0,0
+Version-2,6a945169ff79bf083c52c7f1,110122073,Fast-Forward Merging (Practice),Branch,False,0,0,0,0
+Version-2,6a945169ff79bf083c52c7f1,110122073,Auto Merging (Practice),Branch,False,0,0,0,0
+Version-2,6a945169ff79bf083c52c7f1,110122073,Merge Conflicts (Practice),Branch,False,0,0,0,0
+Version-2,6a945169ff79bf083c52c7f1,110122073,Create Remote Repository (Practice),Remote,False,0,0,0,0
+Version-2,6a945169ff79bf083c52c7f1,110122073,Push to Remote Branches (Practice),Remote,False,0,0,0,0
+Version-2,6a945169ff79bf083c52c7f1,110122073,Keep Branches in Sync (Practice),Remote,False,0,0,0,0
+Version-2,6a945169ff79bf083c52c7f1,110122073,Preparation for Merging (Practice),Remote,False,0,0,0,0
+Version-2,6a945169ff79bf083c52c7f1,110122073,Creating a Pull Request (Practice),Remote,False,0,0,0,0
+Version-2,6a945169ff79bf083c52c7f1,110122073,Review and Merge Pull Requests (Practice),Remote,False,0,0,0,0
+Version-2,6a9451d3ff79bf083c52c82c,110123100,Game Introduction (Tutorial),Basic,True,1,3,6750,63
+Version-2,6a9451d3ff79bf083c52c82c,110123100,Version Control and Git (Tutorial),Basic,True,0,0,0,0
+Version-2,6a9451d3ff79bf083c52c82c,110123100,Create Local Repository (Tutorial),Basic,False,0,0,0,0
+Version-2,6a9451d3ff79bf083c52c82c,110123100,Basic Staging Area (Tutorial),Basic,False,0,0,0,0
+Version-2,6a9451d3ff79bf083c52c82c,110123100,Advanced Staging Area (Tutorial),Basic,False,0,0,0,0
+Version-2,6a9451d3ff79bf083c52c82c,110123100,Creating First Version (Tutorial),Basic,False,0,0,0,0
+Version-2,6a9451d3ff79bf083c52c82c,110123100,Switching Project Versions (Tutorial),Basic,False,0,0,0,0
+Version-2,6a9451d3ff79bf083c52c82c,110123100,Git Branching Basics (Tutorial),Branch,False,0,0,0,0
+Version-2,6a9451d3ff79bf083c52c82c,110123100,Fast-Forward Merging (Tutorial),Branch,False,0,0,0,0
+Version-2,6a9451d3ff79bf083c52c82c,110123100,Auto Merging (Tutorial),Branch,False,0,0,0,0
+Version-2,6a9451d3ff79bf083c52c82c,110123100,Merge Conflicts (Tutorial),Branch,False,0,0,0,0
+Version-2,6a9451d3ff79bf083c52c82c,110123100,Create Remote Repository (Tutorial),Remote,False,0,0,0,0
+Version-2,6a9451d3ff79bf083c52c82c,110123100,Push to Remote Branches (Tutorial),Remote,False,0,0,0,0
+Version-2,6a9451d3ff79bf083c52c82c,110123100,Keep Branches in Sync (Tutorial),Remote,False,0,0,0,0
+Version-2,6a9451d3ff79bf083c52c82c,110123100,Preparation for Merging (Tutorial),Remote,False,0,0,0,0
+Version-2,6a9451d3ff79bf083c52c82c,110123100,Creating a Pull Request (Tutorial),Remote,False,0,0,0,0
+Version-2,6a9451d3ff79bf083c52c82c,110123100,Review and Merge Pull Requests (Tutorial),Remote,False,0,0,0,0
+Version-2,6a9451d3ff79bf083c52c82c,110123100,Game Introduction (Practice),Basic,True,0,0,0,0
+Version-2,6a9451d3ff79bf083c52c82c,110123100,Version Control and Git (Practice),Basic,False,0,0,0,0
+Version-2,6a9451d3ff79bf083c52c82c,110123100,Create Local Repository (Practice),Basic,False,0,0,0,0
+Version-2,6a9451d3ff79bf083c52c82c,110123100,Basic Staging Area (Practice),Basic,False,0,0,0,0
+Version-2,6a9451d3ff79bf083c52c82c,110123100,Advanced Staging Area (Practice),Basic,False,0,0,0,0
+Version-2,6a9451d3ff79bf083c52c82c,110123100,Creating First Version (Practice),Basic,False,0,0,0,0
+Version-2,6a9451d3ff79bf083c52c82c,110123100,Switching Project Versions (Practice),Basic,False,0,0,0,0
+Version-2,6a9451d3ff79bf083c52c82c,110123100,Git Branching Basics (Practice),Branch,False,0,0,0,0
+Version-2,6a9451d3ff79bf083c52c82c,110123100,Fast-Forward Merging (Practice),Branch,False,0,0,0,0
+Version-2,6a9451d3ff79bf083c52c82c,110123100,Auto Merging (Practice),Branch,False,0,0,0,0
+Version-2,6a9451d3ff79bf083c52c82c,110123100,Merge Conflicts (Practice),Branch,False,0,0,0,0
+Version-2,6a9451d3ff79bf083c52c82c,110123100,Create Remote Repository (Practice),Remote,False,0,0,0,0
+Version-2,6a9451d3ff79bf083c52c82c,110123100,Push to Remote Branches (Practice),Remote,False,0,0,0,0
+Version-2,6a9451d3ff79bf083c52c82c,110123100,Keep Branches in Sync (Practice),Remote,False,0,0,0,0
+Version-2,6a9451d3ff79bf083c52c82c,110123100,Preparation for Merging (Practice),Remote,False,0,0,0,0
+Version-2,6a9451d3ff79bf083c52c82c,110123100,Creating a Pull Request (Practice),Remote,False,0,0,0,0
+Version-2,6a9451d3ff79bf083c52c82c,110123100,Review and Merge Pull Requests (Practice),Remote,False,0,0,0,0
+Version-2,6a94525dff79bf083c52c86c,110123068,Game Introduction (Tutorial),Basic,True,1,4,7000,74
+Version-2,6a94525dff79bf083c52c86c,110123068,Version Control and Git (Tutorial),Basic,True,0,0,0,0
+Version-2,6a94525dff79bf083c52c86c,110123068,Create Local Repository (Tutorial),Basic,False,0,0,0,0
+Version-2,6a94525dff79bf083c52c86c,110123068,Basic Staging Area (Tutorial),Basic,False,0,0,0,0
+Version-2,6a94525dff79bf083c52c86c,110123068,Advanced Staging Area (Tutorial),Basic,False,0,0,0,0
+Version-2,6a94525dff79bf083c52c86c,110123068,Creating First Version (Tutorial),Basic,False,0,0,0,0
+Version-2,6a94525dff79bf083c52c86c,110123068,Switching Project Versions (Tutorial),Basic,False,0,0,0,0
+Version-2,6a94525dff79bf083c52c86c,110123068,Git Branching Basics (Tutorial),Branch,False,0,0,0,0
+Version-2,6a94525dff79bf083c52c86c,110123068,Fast-Forward Merging (Tutorial),Branch,False,0,0,0,0
+Version-2,6a94525dff79bf083c52c86c,110123068,Auto Merging (Tutorial),Branch,False,0,0,0,0
+Version-2,6a94525dff79bf083c52c86c,110123068,Merge Conflicts (Tutorial),Branch,False,0,0,0,0
+Version-2,6a94525dff79bf083c52c86c,110123068,Create Remote Repository (Tutorial),Remote,False,0,0,0,0
+Version-2,6a94525dff79bf083c52c86c,110123068,Push to Remote Branches (Tutorial),Remote,False,0,0,0,0
+Version-2,6a94525dff79bf083c52c86c,110123068,Keep Branches in Sync (Tutorial),Remote,False,0,0,0,0
+Version-2,6a94525dff79bf083c52c86c,110123068,Preparation for Merging (Tutorial),Remote,False,0,0,0,0
+Version-2,6a94525dff79bf083c52c86c,110123068,Creating a Pull Request (Tutorial),Remote,False,0,0,0,0
+Version-2,6a94525dff79bf083c52c86c,110123068,Review and Merge Pull Requests (Tutorial),Remote,False,0,0,0,0
+Version-2,6a94525dff79bf083c52c86c,110123068,Game Introduction (Practice),Basic,True,0,0,0,0
+Version-2,6a94525dff79bf083c52c86c,110123068,Version Control and Git (Practice),Basic,False,0,0,0,0
+Version-2,6a94525dff79bf083c52c86c,110123068,Create Local Repository (Practice),Basic,False,0,0,0,0
+Version-2,6a94525dff79bf083c52c86c,110123068,Basic Staging Area (Practice),Basic,False,0,0,0,0
+Version-2,6a94525dff79bf083c52c86c,110123068,Advanced Staging Area (Practice),Basic,False,0,0,0,0
+Version-2,6a94525dff79bf083c52c86c,110123068,Creating First Version (Practice),Basic,False,0,0,0,0
+Version-2,6a94525dff79bf083c52c86c,110123068,Switching Project Versions (Practice),Basic,False,0,0,0,0
+Version-2,6a94525dff79bf083c52c86c,110123068,Git Branching Basics (Practice),Branch,False,0,0,0,0
+Version-2,6a94525dff79bf083c52c86c,110123068,Fast-Forward Merging (Practice),Branch,False,0,0,0,0
+Version-2,6a94525dff79bf083c52c86c,110123068,Auto Merging (Practice),Branch,False,0,0,0,0
+Version-2,6a94525dff79bf083c52c86c,110123068,Merge Conflicts (Practice),Branch,False,0,0,0,0
+Version-2,6a94525dff79bf083c52c86c,110123068,Create Remote Repository (Practice),Remote,False,0,0,0,0
+Version-2,6a94525dff79bf083c52c86c,110123068,Push to Remote Branches (Practice),Remote,False,0,0,0,0
+Version-2,6a94525dff79bf083c52c86c,110123068,Keep Branches in Sync (Practice),Remote,False,0,0,0,0
+Version-2,6a94525dff79bf083c52c86c,110123068,Preparation for Merging (Practice),Remote,False,0,0,0,0
+Version-2,6a94525dff79bf083c52c86c,110123068,Creating a Pull Request (Practice),Remote,False,0,0,0,0
+Version-2,6a94525dff79bf083c52c86c,110123068,Review and Merge Pull Requests (Practice),Remote,False,0,0,0,0
+Version-2,6a9452e7ff79bf083c52c8a7,11012306,Game Introduction (Tutorial),Basic,True,1,4,7000,79
+Version-2,6a9452e7ff79bf083c52c8a7,11012306,Version Control and Git (Tutorial),Basic,True,1,4,3000,97
+Version-2,6a9452e7ff79bf083c52c8a7,11012306,Create Local Repository (Tutorial),Basic,True,0,0,0,0
+Version-2,6a9452e7ff79bf083c52c8a7,11012306,Basic Staging Area (Tutorial),Basic,False,0,0,0,0
+Version-2,6a9452e7ff79bf083c52c8a7,11012306,Advanced Staging Area (Tutorial),Basic,False,0,0,0,0
+Version-2,6a9452e7ff79bf083c52c8a7,11012306,Creating First Version (Tutorial),Basic,False,0,0,0,0
+Version-2,6a9452e7ff79bf083c52c8a7,11012306,Switching Project Versions (Tutorial),Basic,False,0,0,0,0
+Version-2,6a9452e7ff79bf083c52c8a7,11012306,Git Branching Basics (Tutorial),Branch,False,0,0,0,0
+Version-2,6a9452e7ff79bf083c52c8a7,11012306,Fast-Forward Merging (Tutorial),Branch,False,0,0,0,0
+Version-2,6a9452e7ff79bf083c52c8a7,11012306,Auto Merging (Tutorial),Branch,False,0,0,0,0
+Version-2,6a9452e7ff79bf083c52c8a7,11012306,Merge Conflicts (Tutorial),Branch,False,0,0,0,0
+Version-2,6a9452e7ff79bf083c52c8a7,11012306,Create Remote Repository (Tutorial),Remote,False,0,0,0,0
+Version-2,6a9452e7ff79bf083c52c8a7,11012306,Push to Remote Branches (Tutorial),Remote,False,0,0,0,0
+Version-2,6a9452e7ff79bf083c52c8a7,11012306,Keep Branches in Sync (Tutorial),Remote,False,0,0,0,0
+Version-2,6a9452e7ff79bf083c52c8a7,11012306,Preparation for Merging (Tutorial),Remote,False,0,0,0,0
+Version-2,6a9452e7ff79bf083c52c8a7,11012306,Creating a Pull Request (Tutorial),Remote,False,0,0,0,0
+Version-2,6a9452e7ff79bf083c52c8a7,11012306,Review and Merge Pull Requests (Tutorial),Remote,False,0,0,0,0
+Version-2,6a9452e7ff79bf083c52c8a7,11012306,Game Introduction (Practice),Basic,True,0,0,0,0
+Version-2,6a9452e7ff79bf083c52c8a7,11012306,Version Control and Git (Practice),Basic,True,0,0,0,0
+Version-2,6a9452e7ff79bf083c52c8a7,11012306,Create Local Repository (Practice),Basic,False,0,0,0,0
+Version-2,6a9452e7ff79bf083c52c8a7,11012306,Basic Staging Area (Practice),Basic,False,0,0,0,0
+Version-2,6a9452e7ff79bf083c52c8a7,11012306,Advanced Staging Area (Practice),Basic,False,0,0,0,0
+Version-2,6a9452e7ff79bf083c52c8a7,11012306,Creating First Version (Practice),Basic,False,0,0,0,0
+Version-2,6a9452e7ff79bf083c52c8a7,11012306,Switching Project Versions (Practice),Basic,False,0,0,0,0
+Version-2,6a9452e7ff79bf083c52c8a7,11012306,Git Branching Basics (Practice),Branch,False,0,0,0,0
+Version-2,6a9452e7ff79bf083c52c8a7,11012306,Fast-Forward Merging (Practice),Branch,False,0,0,0,0
+Version-2,6a9452e7ff79bf083c52c8a7,11012306,Auto Merging (Practice),Branch,False,0,0,0,0
+Version-2,6a9452e7ff79bf083c52c8a7,11012306,Merge Conflicts (Practice),Branch,False,0,0,0,0
+Version-2,6a9452e7ff79bf083c52c8a7,11012306,Create Remote Repository (Practice),Remote,False,0,0,0,0
+Version-2,6a9452e7ff79bf083c52c8a7,11012306,Push to Remote Branches (Practice),Remote,False,0,0,0,0
+Version-2,6a9452e7ff79bf083c52c8a7,11012306,Keep Branches in Sync (Practice),Remote,False,0,0,0,0
+Version-2,6a9452e7ff79bf083c52c8a7,11012306,Preparation for Merging (Practice),Remote,False,0,0,0,0
+Version-2,6a9452e7ff79bf083c52c8a7,11012306,Creating a Pull Request (Practice),Remote,False,0,0,0,0
+Version-2,6a9452e7ff79bf083c52c8a7,11012306,Review and Merge Pull Requests (Practice),Remote,False,0,0,0,0

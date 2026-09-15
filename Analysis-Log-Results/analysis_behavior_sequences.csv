@@ -1,22 +1,22 @@
 ﻿sequence,count,type
 Complete Quest → Add New Quest → Execute Git Command,1074,success_perfect
 Add New Quest → Execute Git Command → Execute Git Command,971,success_perfect
-Complete Quest → Add New Quest → Correct Action,788,success_perfect
+Complete Quest → Add New Quest → Correct Action,844,success_perfect
 Execute Git Command → Execute Git Command → Execute Git Command,674,success_perfect
-Add New Quest → Complete Quest → Add New Quest,508,success_perfect
+Add New Quest → Complete Quest → Add New Quest,513,success_perfect
 Execute Git Command → Complete Quest → Add New Quest,310,success_perfect
 Back To Stage Select(Clear) → Start Stage → Add New Quest,266,success_perfect
 Start Stage → Add New Quest → Execute Git Command,245,success_perfect
+Login → Start Stage → Add New Quest,108,success_perfect
 Last Conversation → Execute Git Command → Execute Git Command,104,success_perfect
-Login → Start Stage → Add New Quest,99,success_perfect
 Correct Action → Correct Action → Correct Action,73,success_perfect
-Check GlobalLeaderBoard → Start Stage → Add New Quest,62,success_perfect
+Check GlobalLeaderBoard → Start Stage → Add New Quest,63,success_perfect
 Read GameManual → Execute Git Command → Execute Git Command,60,success_perfect
 Restart Stage(Not Clear) → Add New Quest → Execute Git Command,54,success_perfect
 Add New Quest → Last Conversation → Execute Git Command,53,success_perfect
+Start Stage → Add New Quest → Add New Quest,39,success_perfect
 Execute Git Command → Last Conversation → Execute Git Command,39,success_perfect
 Open Window → Execute Git Command → Execute Git Command,39,success_perfect
-Start Stage → Add New Quest → Add New Quest,36,success_perfect
 Last Conversation → Last Conversation → Execute Git Command,32,success_perfect
 Add New Quest → Last Conversation → Correct Action,32,success_perfect
 Add New Quest → Open Window → Execute Git Command,27,success_perfect
@@ -28,7 +28,7 @@ Complete Stage → Restart Stage(Clear) → Add New Quest,21,success_perfect
 Open Window → Add New Quest → Execute Git Command,21,success_perfect
 Open Window → Add New Quest → Correct Action,19,success_perfect
 Add New Quest → Execute Git Command → Correct Action,19,success_perfect
-Add New Quest → Open Window → Correct Action,18,success_perfect
+Add New Quest → Open Window → Correct Action,19,success_perfect
 Open Window → Read GameManual → Correct Action,15,success_perfect
 Execute Git Command → Restart Stage(Not Clear) → Add New Quest,14,success_perfect
 Add New Quest → Restart Stage(Not Clear) → Add New Quest,13,success_perfect
@@ -49,7 +49,7 @@ Add New Quest → Execute Git Command → Complete Quest,5,success_perfect
 Read GameManual → Last Conversation → Execute Git Command,5,success_perfect
 Read GameManual → Read GameManual → Correct Action,5,success_perfect
 Restart Stage(Not Clear) → Add New Quest → Add New Quest,5,success_perfect
-Add New Quest → Complete Quest → Add New Quest,54,with_help
+Add New Quest → Complete Quest → Add New Quest,55,with_help
 Execute Git Command → Execute Git Command → Execute Git Command,34,with_help
 Use Answer → Execute Git Command → Execute Git Command,10,with_help
 Failed Action → Use Hint → Correct Action,6,with_help
@@ -100,16 +100,16 @@ Read GameManual → Open Window → Add New Quest,1,with_help
 Use Answer → Use Answer → Correct Action,1,with_help
 Last Conversation → Use Answer → Execute Git Command,1,with_help
 Failed Action → Failed Action → Failed Action,368,failed_action
-Complete Quest → Add New Quest → Failed Action,196,failed_action
+Complete Quest → Add New Quest → Failed Action,198,failed_action
 Add New Quest → Failed Action → Failed Action,95,failed_action
 Execute Git Command → Execute Git Command → Failed Action,29,failed_action
 Open Window → Read GameManual → Failed Action,27,failed_action
 Execute Git Command → Failed Action → Failed Action,25,failed_action
 Last Conversation → Failed Action → Failed Action,25,failed_action
 Read GameManual → Failed Action → Failed Action,21,failed_action
-Open Window → Failed Action → Failed Action,19,failed_action
+Open Window → Failed Action → Failed Action,20,failed_action
 Add New Quest → Last Conversation → Failed Action,19,failed_action
-Add New Quest → Open Window → Failed Action,14,failed_action
+Add New Quest → Open Window → Failed Action,15,failed_action
 Failed Action → Last Conversation → Failed Action,13,failed_action
 Execute Git Command → Last Conversation → Failed Action,10,failed_action
 Add New Quest → Execute Git Command → Failed Action,10,failed_action

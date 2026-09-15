@@ -1,35 +1,35 @@
 ﻿stageName,timesUnlocked,totalPlayers,totalClears,avgBestScore,unlockRate,clearRate
-Advanced Staging Area (Practice),59,84,8,211.3095238095238,70.24,0.14
-Advanced Staging Area (Tutorial),60,84,60,4133.928571428572,71.43,1.0
-Auto Merging (Practice),38,84,2,136.9047619047619,45.24,0.05
-Auto Merging (Tutorial),40,84,44,3428.5714285714284,47.62,1.1
-Basic Staging Area (Practice),60,84,6,142.85714285714286,71.43,0.1
-Basic Staging Area (Tutorial),63,84,64,3479.1666666666665,75.0,1.02
-Create Local Repository (Practice),63,84,16,383.92857142857144,75.0,0.25
-Create Local Repository (Tutorial),65,84,87,2854.1666666666665,77.38,1.34
-Create Remote Repository (Practice),34,84,2,71.42857142857143,40.48,0.06
-Create Remote Repository (Tutorial),36,84,38,2348.214285714286,42.86,1.06
-Creating First Version (Practice),58,84,9,854.1666666666666,69.05,0.16
-Creating First Version (Tutorial),59,84,59,10755.952380952382,70.24,1.0
-Creating a Pull Request (Practice),21,84,2,130.95238095238096,25.0,0.1
-Creating a Pull Request (Tutorial),29,84,25,2586.309523809524,34.52,0.86
-Fast-Forward Merging (Practice),40,84,4,318.45238095238096,47.62,0.1
-Fast-Forward Merging (Tutorial),44,84,44,2782.7380952380954,52.38,1.0
-Game Introduction (Practice),84,84,28,1895.8333333333333,100.0,0.33
-Game Introduction (Tutorial),84,84,133,6491.071428571428,100.0,1.58
-Git Branching Basics (Practice),44,84,6,315.4761904761905,52.38,0.14
-Git Branching Basics (Tutorial),55,84,47,4508.928571428572,65.48,0.85
-Keep Branches in Sync (Practice),31,84,2,44.642857142857146,36.9,0.06
-Keep Branches in Sync (Tutorial),34,84,31,1785.7142857142858,40.48,0.91
-Merge Conflicts (Practice),34,84,1,101.19047619047619,40.48,0.03
-Merge Conflicts (Tutorial),38,84,39,2696.4285714285716,45.24,1.03
-Preparation for Merging (Practice),29,84,2,71.42857142857143,34.52,0.07
-Preparation for Merging (Tutorial),31,84,32,2500.0,36.9,1.03
-Push to Remote Branches (Practice),34,84,3,80.35714285714286,40.48,0.09
-Push to Remote Branches (Tutorial),34,84,37,2300.595238095238,40.48,1.09
-Review and Merge Pull Requests (Practice),17,84,6,119.04761904761905,20.24,0.35
-Review and Merge Pull Requests (Tutorial),21,84,20,750.0,25.0,0.95
-Switching Project Versions (Practice),55,84,9,547.6190476190476,65.48,0.16
-Switching Project Versions (Tutorial),58,84,60,5130.952380952381,69.05,1.03
-Version Control and Git (Practice),65,84,26,1511.904761904762,77.38,0.4
-Version Control and Git (Tutorial),84,84,77,2000.0,100.0,0.92
+Advanced Staging Area (Practice),59,94,8,188.82978723404256,62.77,0.14
+Advanced Staging Area (Tutorial),60,94,60,3694.148936170213,63.83,1.0
+Auto Merging (Practice),38,94,2,122.34042553191489,40.43,0.05
+Auto Merging (Tutorial),40,94,44,3063.8297872340427,42.55,1.1
+Basic Staging Area (Practice),60,94,6,127.65957446808511,63.83,0.1
+Basic Staging Area (Tutorial),63,94,64,3109.0425531914893,67.02,1.02
+Create Local Repository (Practice),63,94,16,343.0851063829787,67.02,0.25
+Create Local Repository (Tutorial),68,94,87,2550.531914893617,72.34,1.28
+Create Remote Repository (Practice),34,94,2,63.829787234042556,36.17,0.06
+Create Remote Repository (Tutorial),36,94,38,2098.404255319149,38.3,1.06
+Creating First Version (Practice),58,94,9,763.2978723404256,61.7,0.16
+Creating First Version (Tutorial),59,94,59,9611.702127659575,62.77,1.0
+Creating a Pull Request (Practice),21,94,2,117.02127659574468,22.34,0.1
+Creating a Pull Request (Tutorial),29,94,25,2311.1702127659573,30.85,0.86
+Fast-Forward Merging (Practice),40,94,4,284.5744680851064,42.55,0.1
+Fast-Forward Merging (Tutorial),44,94,44,2486.7021276595747,46.81,1.0
+Game Introduction (Practice),94,94,28,1694.1489361702127,100.0,0.3
+Game Introduction (Tutorial),94,94,143,6537.234042553191,100.0,1.52
+Git Branching Basics (Practice),44,94,6,281.9148936170213,46.81,0.14
+Git Branching Basics (Tutorial),55,94,47,4029.255319148936,58.51,0.85
+Keep Branches in Sync (Practice),31,94,2,39.8936170212766,32.98,0.06
+Keep Branches in Sync (Tutorial),34,94,31,1595.7446808510638,36.17,0.91
+Merge Conflicts (Practice),34,94,1,90.42553191489361,36.17,0.03
+Merge Conflicts (Tutorial),38,94,39,2409.574468085106,40.43,1.03
+Preparation for Merging (Practice),29,94,2,63.829787234042556,30.85,0.07
+Preparation for Merging (Tutorial),31,94,32,2234.0425531914893,32.98,1.03
+Push to Remote Branches (Practice),34,94,3,71.80851063829788,36.17,0.09
+Push to Remote Branches (Tutorial),34,94,37,2055.851063829787,36.17,1.09
+Review and Merge Pull Requests (Practice),17,94,6,106.38297872340425,18.09,0.35
+Review and Merge Pull Requests (Tutorial),21,94,20,670.2127659574468,22.34,0.95
+Switching Project Versions (Practice),55,94,9,489.36170212765956,58.51,0.16
+Switching Project Versions (Tutorial),58,94,60,4585.106382978724,61.7,1.03
+Version Control and Git (Practice),68,94,26,1351.063829787234,72.34,0.38
+Version Control and Git (Tutorial),94,94,80,1872.340425531915,100.0,0.85
