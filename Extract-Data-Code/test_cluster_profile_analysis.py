@@ -14,6 +14,57 @@ import cluster_profile_analysis as analysis
 
 
 class ClusterAnalysisTests(unittest.TestCase):
+    def test_profiles_and_tests_use_observed_values(self):
+        frame = pd.DataFrame({'CommandsExecuted': [0., 2., np.nan, 4., 8., 12.],
+                              'StagesCleared': [1., 2., np.nan, 3., 4., 5.],
+                              'GameProgress': [1., 2., 3., 4., 5., 6.],
+                              'TotalScore': [10., 20., 30., 40., 50., 60.]})
+        before = frame.copy(deep=True)
+        profiles, _, tests = analysis.profile_clusters(frame, ['CommandsExecuted'],
+                                                       np.zeros((6, 1)), np.array([1, 1, 1, 2, 2, 2]))
+        first = profiles.set_index('Cluster').loc[1]
+        self.assertEqual(first['cluster_n'], 3)
+        self.assertEqual(first['CommandsExecuted_count'], 2)
+        self.assertEqual(first['CommandsExecuted_missing'], 1)
+        self.assertEqual(first['CommandsExecuted_mean'], 1.)
+        result = tests.set_index('feature').loc['CommandsExecuted']
+        expected_f, expected_p = analysis.f_oneway([0., 2.], [4., 8., 12.])
+        self.assertAlmostEqual(result.anova_F, expected_f)
+        self.assertAlmostEqual(result.anova_p, expected_p)
+        from scipy.stats import ttest_ind
+        expected_t, expected_welch_p = ttest_ind([0., 2.], [4., 8., 12.], equal_var=False)
+        self.assertAlmostEqual(result.welch_F, expected_t ** 2)
+        self.assertAlmostEqual(result.welch_p, expected_welch_p)
+        self.assertEqual(result.n_observed, 5)
+        self.assertEqual(result.n_missing, 1)
+        self.assertEqual(result.cluster_1_n, 2)
+        self.assertTrue(np.isfinite(tests.set_index('feature').loc['StagesCleared', 'kruskal_p']))
+        self.assertAlmostEqual(result.eta_squared, 58.8 / 92.8)
+        pd.testing.assert_frame_equal(frame, before)
+
+    def test_unavailable_tests_have_explicit_status(self):
+        frame = pd.DataFrame({'CommandsExecuted': [np.nan, 1., 2., 3.],
+                              'StagesCleared': [1.] * 4, 'GameProgress': [1.] * 4,
+                              'TotalScore': [np.nan] * 4})
+        _, _, tests = analysis.profile_clusters(frame, ['CommandsExecuted'],
+                                                np.zeros((4, 1)), np.array([1, 1, 2, 2]))
+        tests = tests.set_index('feature')
+        self.assertEqual(tests.loc['CommandsExecuted', 'test_status'], 'insufficient_observed_values')
+        self.assertEqual(tests.loc['StagesCleared', 'test_status'], 'constant_indicator')
+        self.assertTrue(tests.anova_p.isna().all())
+        self.assertTrue(tests.kruskal_p.isna().all())
+
+    def test_welch_marks_zero_variance_group(self):
+        frame = pd.DataFrame({'CommandsExecuted': [0., 0., 2., 3.],
+                              'StagesCleared': [1.] * 4, 'GameProgress': [1.] * 4,
+                              'TotalScore': [1.] * 4})
+        _, _, tests = analysis.profile_clusters(frame, ['CommandsExecuted'],
+                                                np.zeros((4, 1)), np.array([1, 1, 2, 2]))
+        row = tests.set_index('feature').loc['CommandsExecuted']
+        self.assertEqual(row.welch_status, 'zero_variance_group')
+        self.assertTrue(np.isnan(row.welch_p))
+        self.assertTrue(np.isfinite(row.kruskal_p))
+
     def test_main_limits_loaded_thread_pools(self):
         from threadpoolctl import threadpool_info
         def check_pools(data_dir):

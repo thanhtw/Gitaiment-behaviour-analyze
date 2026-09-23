@@ -15,7 +15,7 @@ os.environ.setdefault("OMP_NUM_THREADS", "1")
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-from scipy.stats import f_oneway, kruskal
+from scipy.stats import f_oneway, kruskal, levene
 from sklearn.cluster import KMeans
 from sklearn.decomposition import PCA
 from sklearn.impute import SimpleImputer
@@ -23,6 +23,7 @@ from sklearn.neighbors import LocalOutlierFactor
 from sklearn.metrics import calinski_harabasz_score, silhouette_score
 from sklearn.preprocessing import StandardScaler
 from threadpoolctl import threadpool_limits
+from statsmodels.stats.oneway import anova_oneway
 
 RANDOM_STATE = 42
 MAX_K = 10
@@ -45,7 +46,7 @@ OUTCOMES = [
 
 FEATURE_DEFINITIONS = {
     "CommandsExecuted": "Cumulative number of Git commands executed.",
-    "CorrectActions": "Number of correct game-action events.",
+    "CorrectActions": "Logged Correct Action events, including tutorial UI actions; not a count of successful Git commands.",
     "FailedActions": "Number of failed game-action events.",
     "HintQuests": "Number of quests completed using a hint.",
     "AnswerQuests": "Number of quests completed using an answer.",
@@ -57,7 +58,7 @@ FEATURE_DEFINITIONS = {
     "HelpDependencyRatio": "Hint-assisted plus answer-assisted quests divided by completed quests.",
 }
 OUTCOME_DEFINITIONS = {
-    "StagesCleared": "Cumulative number of stages cleared; used only for profiling.",
+    "StagesCleared": "Saved cumulative stage-clear count, including repeat clears; not unique stages.",
     "GameProgress": "Cumulative game-progress percentage; used only for profiling.",
     "TotalScore": "Cumulative stage score; used only for profiling.",
 }
@@ -189,33 +190,65 @@ def select_cluster_count(validity):
     return result, selected_k, agreement
 
 
-def profile_clusters(df, feature_names, imputed, scaled, labels):
-    raw = pd.DataFrame(imputed, columns=feature_names, index=df.index)
-    for outcome in OUTCOMES:
-        raw[outcome] = pd.to_numeric(df[outcome], errors="coerce")
+def profile_clusters(df, feature_names, scaled, labels):
+    """Use observed values for summaries/tests; imputation is only for clustering."""
+    raw = df[feature_names + OUTCOMES].apply(pd.to_numeric, errors="coerce").replace(
+        [np.inf, -np.inf], np.nan)
     zscores = pd.DataFrame(scaled, columns=feature_names, index=df.index)
     raw["Cluster"] = labels
     zscores["Cluster"] = labels
 
     profiles = raw.groupby("Cluster").agg(["count", "mean", "std", "median"])
     profiles.columns = [f"{feature}_{stat}" for feature, stat in profiles.columns]
+    cluster_sizes = raw.groupby("Cluster").size()
+    profiles.insert(0, "cluster_n", cluster_sizes)
+    for feature in feature_names + OUTCOMES:
+        profiles[f"{feature}_missing"] = cluster_sizes - profiles[f"{feature}_count"]
     profiles = profiles.reset_index()
     standardized_profiles = zscores.groupby("Cluster").mean().reset_index()
 
     comparisons = []
     clusters = sorted(np.unique(labels))
     for feature in feature_names + OUTCOMES:
-        groups = [raw.loc[raw["Cluster"] == cluster, feature].values for cluster in clusters]
-        valid = all(len(group) >= 2 for group in groups)
-        anova_f, anova_p = f_oneway(*groups) if valid else (np.nan, np.nan)
-        kw_h, kw_p = kruskal(*groups) if valid else (np.nan, np.nan)
+        groups = [raw.loc[raw["Cluster"] == cluster, feature].dropna().to_numpy() for cluster in clusters]
+        valid = len(groups) >= 2 and all(len(group) >= 2 for group in groups)
+        constant = valid and np.ptp(np.concatenate(groups)) == 0
+        status = 'insufficient_observed_values' if not valid else ('constant_indicator' if constant else 'ok')
+        anova_f, anova_p = f_oneway(*groups) if valid and not constant else (np.nan, np.nan)
+        kw_h, kw_p = kruskal(*groups) if valid and not constant else (np.nan, np.nan)
+        # Median-centered Levene is a variance diagnostic, not automatic test selection.
+        deviations = [np.abs(group - np.median(group)) for group in groups] if valid else []
+        variance_check_defined = valid and any(np.var(group) > 0 for group in deviations)
+        levene_f, levene_p = levene(*groups, center='median') if variance_check_defined else (np.nan, np.nan)
+        welch_status = status
+        welch_f = welch_p = welch_df1 = welch_df2 = np.nan
+        if valid and not constant:
+            if all(np.var(group, ddof=1) > 0 for group in groups):
+                welch = anova_oneway(groups, use_var='unequal', welch_correction=True)
+                welch_f, welch_p = welch.statistic, welch.pvalue
+                welch_df1, welch_df2 = welch.df
+            else:
+                welch_status = 'zero_variance_group'
         grand_mean = raw[feature].mean()
-        ss_between = sum(len(group) * (group.mean() - grand_mean) ** 2 for group in groups)
+        ss_between = sum(len(group) * (group.mean() - grand_mean) ** 2 for group in groups if len(group))
         ss_total = np.square(raw[feature] - grand_mean).sum()
         comparisons.append({
             "feature": feature,
+            "n_observed": int(raw[feature].count()),
+            "n_missing": int(raw[feature].isna().sum()),
+            **{f"cluster_{cluster}_n": len(group) for cluster, group in zip(clusters, groups)},
+            "test_status": status,
+            "kruskal_small_group": any(len(group) < 5 for group in groups),
             "anova_F": anova_f,
             "anova_p": anova_p,
+            "welch_F": welch_f,
+            "welch_p": welch_p,
+            "welch_df_between": welch_df1,
+            "welch_df_within": welch_df2,
+            "welch_status": welch_status,
+            "levene_F": levene_f,
+            "levene_p": levene_p,
+            "variance_heterogeneity_flag": bool(np.isfinite(levene_p) and levene_p < .05),
             "kruskal_H": kw_h,
             "kruskal_p": kw_p,
             "eta_squared": ss_between / ss_total if ss_total else np.nan,
@@ -224,6 +257,23 @@ def profile_clusters(df, feature_names, imputed, scaled, labels):
         ["anova_p", "eta_squared"], ascending=[True, False]
     )
     return profiles, standardized_profiles, comparisons
+
+
+def create_profile_audit(df, feature_names, imputed, labels):
+    """Record missing observations and saved counters needing source review."""
+    rows = []
+    filled = pd.DataFrame(imputed, columns=feature_names, index=df.index)
+    for position, (index, row) in enumerate(df.iterrows()):
+        for feature in feature_names + OUTCOMES:
+            if pd.isna(row[feature]) or not np.isfinite(row[feature]):
+                rows.append({'ID': row['ID'], 'Cluster': labels[position], 'feature': feature,
+                             'issue': 'missing_observation', 'observed_value': row[feature],
+                             'clustering_imputed_value': filled.loc[index, feature] if feature in feature_names else np.nan})
+        if row['CommandsExecuted'] == 0 and row['StagesCleared'] > 0:
+            rows.append({'ID': row['ID'], 'Cluster': labels[position], 'feature': 'StagesCleared',
+                         'issue': 'stage_clears_with_zero_saved_commands_review_only',
+                         'observed_value': row['StagesCleared'], 'clustering_imputed_value': np.nan})
+    return pd.DataFrame(rows, columns=['ID', 'Cluster', 'feature', 'issue', 'observed_value', 'clustering_imputed_value'])
 
 
 def create_visualizations(data_dir, validity, selected_k, scaled, labels,
@@ -324,8 +374,10 @@ def _run_analysis(data_dir="."):
     assignments = df.copy()
     assignments.insert(1, "Cluster", labels)
     profiles, standardized_profiles, comparisons = profile_clusters(
-        df, feature_names, imputed, scaled, labels
+        df, feature_names, scaled, labels
     )
+    create_profile_audit(df, feature_names, imputed, labels).to_csv(
+        data_dir / 'analysis_cluster_profile_audit.csv', index=False, encoding='utf-8-sig')
 
     validity.to_csv(data_dir / "analysis_cluster_selection_methods.csv", index=False, encoding="utf-8-sig")
     pd.DataFrame(
