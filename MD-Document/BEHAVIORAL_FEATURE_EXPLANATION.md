@@ -1,5 +1,7 @@
 # Behavioral Features: Definitions and Interpretation
 
+For numbered equations for all indicators, cluster means, sample standard deviations, and manuscript wording, see [Indicator Formulas and Cluster-Level Aggregation](INDICATOR_FORMULAS.md).
+
 Updated: 2026-09-23. This reference describes the current extraction and analysis code, including the distinction between Git commands, correct game actions, and stage clears.
 
 ## 1. Where the measurements come from

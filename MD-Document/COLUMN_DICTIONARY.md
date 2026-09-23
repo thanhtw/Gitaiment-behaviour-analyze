@@ -1,5 +1,7 @@
 # Current Column and Feature Dictionary
 
+See [Indicator Formulas and Cluster-Level Aggregation](INDICATOR_FORMULAS.md) for all participant-level and cluster-level formulas.
+
 For source fields, formulas, logging qualifications, and worked examples, see [Behavioral Features: Definitions and Interpretation](BEHAVIORAL_FEATURE_EXPLANATION.md).
 
 The generated sources of truth are:
