@@ -10,6 +10,6 @@ LearningEfficiency,clustering input,Total score divided by play duration in minu
 AccuracyRate,clustering input,Correct actions divided by correct plus failed actions.
 PerfectQuestRate,clustering input,Perfect quest completions divided by completed quests.
 HelpDependencyRatio,clustering input,Hint-assisted plus answer-assisted quests divided by completed quests.
-StagesCleared,profile outcome,"Saved cumulative stage-clear count, including repeat clears; not unique stages."
+StageClearOccurrences,profile outcome,"Total recorded stage-clear occurrences, including repeated clears across saved tutorial/practice entries; not distinct study stages or completion out of 16."
 GameProgress,profile outcome,Cumulative game-progress percentage; used only for profiling.
 TotalScore,profile outcome,Cumulative stage score; used only for profiling.

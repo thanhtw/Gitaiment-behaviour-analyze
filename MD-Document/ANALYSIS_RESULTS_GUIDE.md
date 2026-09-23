@@ -33,6 +33,32 @@ Both scores agree, so no compromise or tie-break is needed for this dataset. The
 | 2 | 32 |
 | 3 | 15 |
 
+## Paper-ready reporting of stage completion
+
+Use **Total recorded stage-clear occurrences** as the table label for `StageClearOccurrences`. This outcome is the saved cumulative counter `record_totalTimesStageClear`; it includes repeated clears. It is not the number of distinct study stages completed and is not a completion score out of 16.
+
+| Cluster | Cluster membership | Observed n | Missing n | Mean (SD), clear occurrences | Median |
+|---|---:|---:|---:|---:|---:|
+| 1 | 57 | 57 | 0 | 16.23 (9.20) | 16 |
+| 2 | 32 | 31 | 1 | 3.55 (9.23) | 1 |
+| 3 | 15 | 15 | 0 | 1.87 (1.68) | 1 |
+
+**Table note:** Values represent cumulative recorded clear occurrences, including repeated completions. The counter is not restricted by the number of distinct stages. Means and standard deviations use available observations only; SD denotes standard deviation. Cluster 1's mean is 925 clear occurrences / 57 participants = 16.2281, rounded to 16.23.
+
+**Suggested Methods text**
+
+> Total recorded stage-clear occurrences were obtained from each participant's cumulative player-save counter. This measure counts repeated clears and was treated as a measure of completion activity, rather than the number of distinct stages completed. Descriptive statistics used observed values, with valid sample sizes reported for each cluster.
+
+**Suggested Results text**
+
+> Mean total recorded stage-clear occurrences were 16.23 (SD = 9.20; n = 57) in Cluster 1, 3.55 (SD = 9.23; n = 31) in Cluster 2, and 1.87 (SD = 1.68; n = 15) in Cluster 3. These values include repeated stage completions and should not be interpreted as the number of distinct stages completed out of the 16 study stages.
+
+### Distinct-stage completion is a separate, pending measure
+
+The user identifies 16 study stages, while the exports contain 17 named topics (including Game Introduction), each with Tutorial and Practice entries. To report **Distinct study stages completed (0-16)**, first confirm the eligible stage list and whether completion requires Tutorial, Practice, either mode, or both. Then count each eligible stage once per participant using those rules. Do not substitute the existing count of completed saved stage entries, cap the cumulative counter at 16, or divide it by 16 to obtain a completion percentage.
+
+The distinct-stage measure is not yet calculated. The cumulative counter remains explicitly labelled in current tables. Account eligibility and the interpretation limitations below still apply to manuscript use.
+
 ## Output reference
 
 ### Observed profile values
@@ -45,7 +71,7 @@ For Cluster 2 (32 members):
 |---|---:|---:|---:|
 | CommandsExecuted | 0.1290 | 31 | 1 |
 | CorrectActions | 5.6129 | 31 | 1 |
-| StagesCleared | 3.5484 | 31 | 1 |
+| StageClearOccurrences | 3.5484 | 31 | 1 |
 
 Correct actions include tutorial UI interactions. Stage clears include repetitions; they are not constrained to the saved command count. In the extracted data, `NewPlayer` and `clear` each have 38 saved stage clears, matching their per-stage clear totals. These accounts remain included pending confirmation of participant eligibility. The profile audit flags source-review cases without automatically excluding them.
 

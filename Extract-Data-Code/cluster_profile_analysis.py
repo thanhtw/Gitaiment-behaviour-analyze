@@ -41,7 +41,7 @@ FEATURES = [
     "HelpDependencyRatio",
 ]
 OUTCOMES = [
-    "StagesCleared", "GameProgress", "TotalScore",
+    "StageClearOccurrences", "GameProgress", "TotalScore",
 ]
 
 FEATURE_DEFINITIONS = {
@@ -58,7 +58,7 @@ FEATURE_DEFINITIONS = {
     "HelpDependencyRatio": "Hint-assisted plus answer-assisted quests divided by completed quests.",
 }
 OUTCOME_DEFINITIONS = {
-    "StagesCleared": "Saved cumulative stage-clear count, including repeat clears; not unique stages.",
+    "StageClearOccurrences": "Total recorded stage-clear occurrences, including repeated clears across saved tutorial/practice entries; not distinct study stages or completion out of 16.",
     "GameProgress": "Cumulative game-progress percentage; used only for profiling.",
     "TotalScore": "Cumulative stage score; used only for profiling.",
 }
@@ -90,7 +90,7 @@ def build_python_feature_table(source):
         "HelpDependencyRatio": safe_ratio(
             number("event_hint_used_quests") + number("event_answer_used_quests"), completed
         ),
-        "StagesCleared": number("record_totalTimesStageClear"),
+        "StageClearOccurrences": number("record_totalTimesStageClear"),
         "GameProgress": number("record_totalGameProgress"),
         "TotalScore": total_score,
     })
@@ -269,10 +269,10 @@ def create_profile_audit(df, feature_names, imputed, labels):
                 rows.append({'ID': row['ID'], 'Cluster': labels[position], 'feature': feature,
                              'issue': 'missing_observation', 'observed_value': row[feature],
                              'clustering_imputed_value': filled.loc[index, feature] if feature in feature_names else np.nan})
-        if row['CommandsExecuted'] == 0 and row['StagesCleared'] > 0:
-            rows.append({'ID': row['ID'], 'Cluster': labels[position], 'feature': 'StagesCleared',
+        if row['CommandsExecuted'] == 0 and row['StageClearOccurrences'] > 0:
+            rows.append({'ID': row['ID'], 'Cluster': labels[position], 'feature': 'StageClearOccurrences',
                          'issue': 'stage_clears_with_zero_saved_commands_review_only',
-                         'observed_value': row['StagesCleared'], 'clustering_imputed_value': np.nan})
+                         'observed_value': row['StageClearOccurrences'], 'clustering_imputed_value': np.nan})
     return pd.DataFrame(rows, columns=['ID', 'Cluster', 'feature', 'issue', 'observed_value', 'clustering_imputed_value'])
 
 
@@ -325,7 +325,8 @@ def create_visualizations(data_dir, validity, selected_k, scaled, labels,
 
     top = comparisons.nlargest(12, "eta_squared").sort_values("eta_squared")
     fig, ax = plt.subplots(figsize=(8, 6))
-    ax.barh(top["feature"], top["eta_squared"], color="#F58518")
+    display_names = top["feature"].replace({"StageClearOccurrences": "Total stage-clear occurrences"})
+    ax.barh(display_names, top["eta_squared"], color="#F58518")
     ax.set(xlabel="Eta-squared", title="Largest Differences Between Cluster Profiles")
     fig.tight_layout(); fig.savefig(data_dir / "figure_cluster_group_effects.png", dpi=300); plt.close(fig)
 

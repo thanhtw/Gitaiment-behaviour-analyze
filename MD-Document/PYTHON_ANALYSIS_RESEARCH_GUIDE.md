@@ -1,5 +1,7 @@
 # Behavioral Analysis Methods
 
+See [the feature explanation](BEHAVIORAL_FEATURE_EXPLANATION.md) for the meaning of each indicator and why correct actions can exceed Git commands.
+
 The Python workflow combines Version-1 JSON and Version-2 CSV exports. See [data provenance](DATA_DICTIONARY.md), [column definitions](COLUMN_DICTIONARY.md), and [current results](ANALYSIS_RESULTS_GUIDE.md).
 
 ## Run

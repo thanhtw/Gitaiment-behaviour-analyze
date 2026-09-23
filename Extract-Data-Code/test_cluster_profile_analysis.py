@@ -16,7 +16,7 @@ import cluster_profile_analysis as analysis
 class ClusterAnalysisTests(unittest.TestCase):
     def test_profiles_and_tests_use_observed_values(self):
         frame = pd.DataFrame({'CommandsExecuted': [0., 2., np.nan, 4., 8., 12.],
-                              'StagesCleared': [1., 2., np.nan, 3., 4., 5.],
+                              'StageClearOccurrences': [1., 2., np.nan, 3., 4., 5.],
                               'GameProgress': [1., 2., 3., 4., 5., 6.],
                               'TotalScore': [10., 20., 30., 40., 50., 60.]})
         before = frame.copy(deep=True)
@@ -38,25 +38,25 @@ class ClusterAnalysisTests(unittest.TestCase):
         self.assertEqual(result.n_observed, 5)
         self.assertEqual(result.n_missing, 1)
         self.assertEqual(result.cluster_1_n, 2)
-        self.assertTrue(np.isfinite(tests.set_index('feature').loc['StagesCleared', 'kruskal_p']))
+        self.assertTrue(np.isfinite(tests.set_index('feature').loc['StageClearOccurrences', 'kruskal_p']))
         self.assertAlmostEqual(result.eta_squared, 58.8 / 92.8)
         pd.testing.assert_frame_equal(frame, before)
 
     def test_unavailable_tests_have_explicit_status(self):
         frame = pd.DataFrame({'CommandsExecuted': [np.nan, 1., 2., 3.],
-                              'StagesCleared': [1.] * 4, 'GameProgress': [1.] * 4,
+                              'StageClearOccurrences': [1.] * 4, 'GameProgress': [1.] * 4,
                               'TotalScore': [np.nan] * 4})
         _, _, tests = analysis.profile_clusters(frame, ['CommandsExecuted'],
                                                 np.zeros((4, 1)), np.array([1, 1, 2, 2]))
         tests = tests.set_index('feature')
         self.assertEqual(tests.loc['CommandsExecuted', 'test_status'], 'insufficient_observed_values')
-        self.assertEqual(tests.loc['StagesCleared', 'test_status'], 'constant_indicator')
+        self.assertEqual(tests.loc['StageClearOccurrences', 'test_status'], 'constant_indicator')
         self.assertTrue(tests.anova_p.isna().all())
         self.assertTrue(tests.kruskal_p.isna().all())
 
     def test_welch_marks_zero_variance_group(self):
         frame = pd.DataFrame({'CommandsExecuted': [0., 0., 2., 3.],
-                              'StagesCleared': [1.] * 4, 'GameProgress': [1.] * 4,
+                              'StageClearOccurrences': [1.] * 4, 'GameProgress': [1.] * 4,
                               'TotalScore': [1.] * 4})
         _, _, tests = analysis.profile_clusters(frame, ['CommandsExecuted'],
                                                 np.zeros((4, 1)), np.array([1, 1, 2, 2]))

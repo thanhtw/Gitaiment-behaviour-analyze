@@ -1,5 +1,7 @@
 # Current Column and Feature Dictionary
 
+For source fields, formulas, logging qualifications, and worked examples, see [Behavioral Features: Definitions and Interpretation](BEHAVIORAL_FEATURE_EXPLANATION.md).
+
 The generated sources of truth are:
 
 - `Analysis-Log-Results/analysis_cluster_feature_dictionary.csv`
@@ -22,7 +24,9 @@ The generated sources of truth are:
 | PerfectQuestRate | Perfect / completed quests |
 | HelpDependencyRatio | (Hint + answer quests) / completed quests |
 
-`StagesCleared`, `GameProgress`, and `TotalScore` are reported as profile outcomes. Total score also enters the derived input `LearningEfficiency`, so comparisons of score are not independent of cluster construction.
+`StageClearOccurrences`, `GameProgress`, and `TotalScore` are reported as profile outcomes. Total score also enters the derived input `LearningEfficiency`, so comparisons of score are not independent of cluster construction.
+
+`StageClearOccurrences` replaces the ambiguous former output name `StagesCleared`. Use **Total recorded stage-clear occurrences** in paper tables: repeated clears are included, so the value can exceed 16. This rename changes labels, not values. A distinct-stage completion measure out of 16 requires a confirmed study-stage list and a Tutorial/Practice completion rule; it is not currently exported. See the [paper-ready stage reporting section](ANALYSIS_RESULTS_GUIDE.md#paper-ready-reporting-of-stage-completion).
 
 ## Cluster-selection output
 
@@ -46,7 +50,7 @@ In `analysis_cluster_profiles.csv`, `cluster_n` is total cluster membership. Eac
 
 In `analysis_cluster_group_comparisons.csv`, `n_observed`, `n_missing`, and `cluster_<label>_n` document the observations used. `test_status` is `ok`, `constant_indicator`, or `insufficient_observed_values`. ANOVA and Kruskal-Wallis use those same observed values. `levene_F`/`levene_p` provide a median-centered equal-variance diagnostic; `variance_heterogeneity_flag` is true when its p-value is below 0.05. `kruskal_small_group` flags a group with fewer than five observed values. These flags do not validate inferential assumptions or adjust p-values.
 
-`analysis_cluster_profile_audit.csv` records missing observations, their clustering-only imputed values, and saved counters flagged for manual review. `StagesCleared` counts repeat clears as well as first clears.
+`analysis_cluster_profile_audit.csv` records missing observations, their clustering-only imputed values, and saved counters flagged for manual review. `StageClearOccurrences` counts repeat clears as well as first clears.
 
 `welch_F`, `welch_p`, `welch_df_between`, and `welch_df_within` provide the supplementary Welch ANOVA result and degrees of freedom. `welch_status` identifies unavailable results, including groups with zero sample variance. The ordinary ANOVA columns retain their original meaning; no p-value is silently replaced by another test.
 

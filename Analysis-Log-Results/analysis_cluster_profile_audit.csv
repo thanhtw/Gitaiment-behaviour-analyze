@@ -1,34 +1,34 @@
 ﻿ID,Cluster,feature,issue,observed_value,clustering_imputed_value
-110122073,2,StagesCleared,stage_clears_with_zero_saved_commands_review_only,1.0,
-110123007,2,StagesCleared,stage_clears_with_zero_saved_commands_review_only,1.0,
-110123018,2,StagesCleared,stage_clears_with_zero_saved_commands_review_only,1.0,
-110123019,2,StagesCleared,stage_clears_with_zero_saved_commands_review_only,1.0,
-110123058,2,StagesCleared,stage_clears_with_zero_saved_commands_review_only,2.0,
-11012306,2,StagesCleared,stage_clears_with_zero_saved_commands_review_only,2.0,
+110122073,2,StageClearOccurrences,stage_clears_with_zero_saved_commands_review_only,1.0,
+110123007,2,StageClearOccurrences,stage_clears_with_zero_saved_commands_review_only,1.0,
+110123018,2,StageClearOccurrences,stage_clears_with_zero_saved_commands_review_only,1.0,
+110123019,2,StageClearOccurrences,stage_clears_with_zero_saved_commands_review_only,1.0,
+110123058,2,StageClearOccurrences,stage_clears_with_zero_saved_commands_review_only,2.0,
+11012306,2,StageClearOccurrences,stage_clears_with_zero_saved_commands_review_only,2.0,
 110123060,2,LearningEfficiency,missing_observation,,1261.9322664262368
-110123068,2,StagesCleared,stage_clears_with_zero_saved_commands_review_only,1.0,
-110123100,2,StagesCleared,stage_clears_with_zero_saved_commands_review_only,1.0,
-110123235,2,StagesCleared,stage_clears_with_zero_saved_commands_review_only,1.0,
-110123243,2,StagesCleared,stage_clears_with_zero_saved_commands_review_only,2.0,
-D1076775,3,StagesCleared,stage_clears_with_zero_saved_commands_review_only,1.0,
+110123068,2,StageClearOccurrences,stage_clears_with_zero_saved_commands_review_only,1.0,
+110123100,2,StageClearOccurrences,stage_clears_with_zero_saved_commands_review_only,1.0,
+110123235,2,StageClearOccurrences,stage_clears_with_zero_saved_commands_review_only,1.0,
+110123243,2,StageClearOccurrences,stage_clears_with_zero_saved_commands_review_only,2.0,
+D1076775,3,StageClearOccurrences,stage_clears_with_zero_saved_commands_review_only,1.0,
 Do Thanh Nhan,3,LearningEfficiency,missing_observation,,1261.9322664262368
-HuynhThienSonTTA,2,StagesCleared,stage_clears_with_zero_saved_commands_review_only,1.0,
+HuynhThienSonTTA,2,StageClearOccurrences,stage_clears_with_zero_saved_commands_review_only,1.0,
 LEPHUCCANG,2,LearningEfficiency,missing_observation,,1261.9322664262368
-Le Nguyen Minh Tan,2,StagesCleared,stage_clears_with_zero_saved_commands_review_only,1.0,
-Le Trung Hieu,2,StagesCleared,stage_clears_with_zero_saved_commands_review_only,2.0,
+Le Nguyen Minh Tan,2,StageClearOccurrences,stage_clears_with_zero_saved_commands_review_only,1.0,
+Le Trung Hieu,2,StageClearOccurrences,stage_clears_with_zero_saved_commands_review_only,2.0,
 NewPlayer,2,AccuracyRate,missing_observation,,0.755
 NewPlayer,2,PerfectQuestRate,missing_observation,,0.9268977802137572
 NewPlayer,2,HelpDependencyRatio,missing_observation,,0.007118249062721654
-NewPlayer,2,StagesCleared,stage_clears_with_zero_saved_commands_review_only,38.0,
-NguyenAnNinhTTA,2,StagesCleared,stage_clears_with_zero_saved_commands_review_only,2.0,
-NguyenDuyTan,2,StagesCleared,stage_clears_with_zero_saved_commands_review_only,1.0,
-NguyenGiaNguyen,2,StagesCleared,stage_clears_with_zero_saved_commands_review_only,1.0,
+NewPlayer,2,StageClearOccurrences,stage_clears_with_zero_saved_commands_review_only,38.0,
+NguyenAnNinhTTA,2,StageClearOccurrences,stage_clears_with_zero_saved_commands_review_only,2.0,
+NguyenDuyTan,2,StageClearOccurrences,stage_clears_with_zero_saved_commands_review_only,1.0,
+NguyenGiaNguyen,2,StageClearOccurrences,stage_clears_with_zero_saved_commands_review_only,1.0,
 NguyenNhatTan,2,LearningEfficiency,missing_observation,,1261.9322664262368
-NguyenTruongMinhCang,3,StagesCleared,stage_clears_with_zero_saved_commands_review_only,3.0,
-PhamBaHaoLong,2,StagesCleared,stage_clears_with_zero_saved_commands_review_only,1.0,
-PhanHoangDinh,3,StagesCleared,stage_clears_with_zero_saved_commands_review_only,1.0,
-Thach Ngoc Phu,2,StagesCleared,stage_clears_with_zero_saved_commands_review_only,1.0,
-TranThiYenKhoa,3,StagesCleared,stage_clears_with_zero_saved_commands_review_only,2.0,
+NguyenTruongMinhCang,3,StageClearOccurrences,stage_clears_with_zero_saved_commands_review_only,3.0,
+PhamBaHaoLong,2,StageClearOccurrences,stage_clears_with_zero_saved_commands_review_only,1.0,
+PhanHoangDinh,3,StageClearOccurrences,stage_clears_with_zero_saved_commands_review_only,1.0,
+Thach Ngoc Phu,2,StageClearOccurrences,stage_clears_with_zero_saved_commands_review_only,1.0,
+TranThiYenKhoa,3,StageClearOccurrences,stage_clears_with_zero_saved_commands_review_only,2.0,
 Xue,2,CorrectActions,missing_observation,,10.5
 Xue,2,FailedActions,missing_observation,,4.0
 Xue,2,HintQuests,missing_observation,,0.0
@@ -37,10 +37,10 @@ Xue,2,LeaderboardInteractions,missing_observation,,2.0
 Xue,2,AccuracyRate,missing_observation,,0.755
 Xue,2,PerfectQuestRate,missing_observation,,0.9268977802137572
 Xue,2,HelpDependencyRatio,missing_observation,,0.007118249062721654
-Xue,2,StagesCleared,stage_clears_with_zero_saved_commands_review_only,1.0,
-clear,2,StagesCleared,stage_clears_with_zero_saved_commands_review_only,38.0,
-dat,3,StagesCleared,stage_clears_with_zero_saved_commands_review_only,1.0,
-dinhminhven,2,StagesCleared,stage_clears_with_zero_saved_commands_review_only,3.0,
+Xue,2,StageClearOccurrences,stage_clears_with_zero_saved_commands_review_only,1.0,
+clear,2,StageClearOccurrences,stage_clears_with_zero_saved_commands_review_only,38.0,
+dat,3,StageClearOccurrences,stage_clears_with_zero_saved_commands_review_only,1.0,
+dinhminhven,2,StageClearOccurrences,stage_clears_with_zero_saved_commands_review_only,3.0,
 duytannguyen36,2,LearningEfficiency,missing_observation,,1261.9322664262368
 eee,1,CorrectActions,missing_observation,,10.5
 eee,1,FailedActions,missing_observation,,4.0
@@ -50,15 +50,15 @@ eee,1,LeaderboardInteractions,missing_observation,,2.0
 eee,1,AccuracyRate,missing_observation,,0.755
 eee,1,PerfectQuestRate,missing_observation,,0.9268977802137572
 eee,1,HelpDependencyRatio,missing_observation,,0.007118249062721654
-lamminhthien,2,StagesCleared,stage_clears_with_zero_saved_commands_review_only,2.0,
+lamminhthien,2,StageClearOccurrences,stage_clears_with_zero_saved_commands_review_only,2.0,
 minhcangda23tta,3,LearningEfficiency,missing_observation,,1261.9322664262368
 minnhcangda23tta,3,LearningEfficiency,missing_observation,,1261.9322664262368
-nguyenbuithieugia,3,StagesCleared,stage_clears_with_zero_saved_commands_review_only,2.0,
-nguyenminhthuan,3,StagesCleared,stage_clears_with_zero_saved_commands_review_only,1.0,
-nguyenthixuannhi,2,StagesCleared,stage_clears_with_zero_saved_commands_review_only,2.0,
+nguyenbuithieugia,3,StageClearOccurrences,stage_clears_with_zero_saved_commands_review_only,2.0,
+nguyenminhthuan,3,StageClearOccurrences,stage_clears_with_zero_saved_commands_review_only,1.0,
+nguyenthixuannhi,2,StageClearOccurrences,stage_clears_with_zero_saved_commands_review_only,2.0,
 nhat123,2,LearningEfficiency,missing_observation,,1261.9322664262368
-phan tran truong huy ,3,StagesCleared,stage_clears_with_zero_saved_commands_review_only,1.0,
-phankhanhduy,3,StagesCleared,stage_clears_with_zero_saved_commands_review_only,2.0,
+phan tran truong huy ,3,StageClearOccurrences,stage_clears_with_zero_saved_commands_review_only,1.0,
+phankhanhduy,3,StageClearOccurrences,stage_clears_with_zero_saved_commands_review_only,2.0,
 test,2,LearningEfficiency,missing_observation,,1261.9322664262368
 test player,2,CommandsExecuted,missing_observation,,58.0
 test player,2,PlayDurationMinutes,missing_observation,,44.75
@@ -66,6 +66,6 @@ test player,2,LearningEfficiency,missing_observation,,1261.9322664262368
 test player,2,AccuracyRate,missing_observation,,0.755
 test player,2,PerfectQuestRate,missing_observation,,0.9268977802137572
 test player,2,HelpDependencyRatio,missing_observation,,0.007118249062721654
-test player,2,StagesCleared,missing_observation,,
+test player,2,StageClearOccurrences,missing_observation,,
 test player,2,GameProgress,missing_observation,,
 test player,2,TotalScore,missing_observation,,
