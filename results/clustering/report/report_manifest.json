@@ -1,0 +1,34 @@
+{
+  "completed_at_utc": "2026-11-18T06:56:46.355283+00:00",
+  "fixed_k_membership_bootstrap_replicates": 500,
+  "bootstrap_seed": 42,
+  "k_reselection_subsamples": 200,
+  "subsample_seed": 20261117,
+  "subsample_fraction": 0.8,
+  "inputs_sha256": {
+    "/home/selab/Desktop/Thomas/Gitaiment-behaviour-analyze/results/clustering/analysis_cluster_selection_methods.csv": "cef6b686355c8fd9a615aa12c25879bfe8ab2c872df6bc91064cfb1ddd1b0b48",
+    "/home/selab/Desktop/Thomas/Gitaiment-behaviour-analyze/results/clustering/analysis_pca_variance.csv": "c041c9bebe658531a3387d82a61a80bcf37f06c37969a1c1ced1f211f6858cb9",
+    "/home/selab/Desktop/Thomas/Gitaiment-behaviour-analyze/results/clustering/analysis_pca_loadings.csv": "aa405af5c0dd0ac63a6e4d3e34394f3d2e438a50c8540b34c8d45716d4415524",
+    "/home/selab/Desktop/Thomas/Gitaiment-behaviour-analyze/results/clustering/analysis_cluster_seed_sensitivity.csv": "528ef73d5e42ea3bfe07c0052763c1dc1698926d062df7161887cf8bff9ef0e6",
+    "/home/selab/Desktop/Thomas/Gitaiment-behaviour-analyze/results/clustering/analysis_cluster_bootstrap_stability.csv": "88d09527e08fc5f26733dbae5599576c90c09955f5e7e8cc926095f0ff36df3a",
+    "/home/selab/Desktop/Thomas/Gitaiment-behaviour-analyze/results/clustering/analysis_cluster_stability_summary.json": "346483d493a583f08484199b1e4eab3d3ce5dbeff5bf3b88a826bca5300fa853",
+    "/home/selab/Desktop/Thomas/Gitaiment-behaviour-analyze/results/clustering/analysis_cluster_alternative_solutions.csv": "4e5731813208dcd32024ffb8b30b2041dcc3ccf19cfb8a9ce357cbf4778c3448",
+    "/home/selab/Desktop/Thomas/Gitaiment-behaviour-analyze/results/clustering/analysis_cluster_profiles.csv": "68c79956a23a7fe6eb20168034bac4ebd0fd06bf0f4230bac3f56c3654df35bd",
+    "/home/selab/Desktop/Thomas/Gitaiment-behaviour-analyze/results/clustering/analysis_cluster_selection_summary.json": "bfaee30cc59c6e0f3515b31b813068d6ed06509fe812a67c29d668274a1feba4",
+    "/home/selab/Desktop/Thomas/Gitaiment-behaviour-analyze/results/clustering/analysis_kmeans_assignments.csv": "0eecc063ff7781f3c0e926336e1b620a8b7c9254c7efc66e2a821da03a580b1c",
+    "/home/selab/Desktop/Thomas/Gitaiment-behaviour-analyze/src/gitainment_analysis/reporting/cluster_report.py": "c3e9fa8e597fa5c9faa461fd7e07c0ef9eec5355768e9697d2eb6dfcecf3cda9",
+    "/home/selab/Desktop/Thomas/Gitaiment-behaviour-analyze/src/gitainment_analysis/analysis/clustering.py": "e14171b8d21c19c4101944de304b5b4d42d77c6440ec3fdfe76f99a2b2f7eb46",
+    "/home/selab/Desktop/Thomas/Gitaiment-behaviour-analyze/src/gitainment_analysis/analysis/stability.py": "f9ee34ed36fafe4a102b7346856fd500ab086d130fa4ebe1e45353c583f2f4db"
+  },
+  "packages": {
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "scipy": "1.15.3",
+    "scikit-learn": "1.7.2",
+    "matplotlib": "3.10.0",
+    "python-docx": "1.2.0",
+    "openpyxl": "3.1.5"
+  },
+  "scope": "Conditional on retained cohort and feature definitions; no independent validation; existing assignments unchanged",
+  "report_generated_at_utc": "2026-11-18T06:59:55.675346+00:00"
+}

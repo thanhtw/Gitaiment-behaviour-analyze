@@ -1,0 +1,11 @@
+{
+  "input_events": 31912,
+  "mapped_valid_cluster_events": 31852,
+  "unmapped_input_events": 0,
+  "invalid_input_timestamps": 0,
+  "duplicate_nonempty_event_ids": 0,
+  "bootstrap_resamples": 5000,
+  "bootstrap_seed": 42,
+  "bootstrap_unit": "learner with outgoing transitions from originating state",
+  "ci": "95% percentile; fixed clusters; degenerate samples flagged; n<2 unavailable"
+}

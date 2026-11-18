@@ -1,0 +1,12 @@
+{
+  "input": "/home/selab/Desktop/Thomas/Gitaiment-behaviour-analyze/results/clustering/analysis_kmeans_assignments.csv",
+  "input_sha256": "0eecc063ff7781f3c0e926336e1b620a8b7c9254c7efc66e2a821da03a580b1c",
+  "rows": 104,
+  "indicators": 14,
+  "cluster_counts": {
+    "1": 57,
+    "2": 32,
+    "3": 15
+  },
+  "validation": "SAV read-back values/IDs/missingness agree; original Table 9 memberships preserved"
+}

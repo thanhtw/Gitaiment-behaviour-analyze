@@ -1,0 +1,11 @@
+test_clustering_uses_eleven_features_without_pca (test_workflow.WorkflowTests) ... Silhouette and Calinski-Harabasz: k=2/3
+Silhouette and Calinski-Harabasz: k=3/3
+ok
+test_export_retains_observed_missing_values_and_percent_units (test_workflow.WorkflowTests) ... ok
+test_missing_observations_are_not_imputed_into_anova (test_workflow.WorkflowTests) ... ok
+test_transition_pairs_never_cross_learners (test_workflow.WorkflowTests) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.078s
+
+OK

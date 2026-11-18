@@ -1,0 +1,20 @@
+{
+  "definition": "cumulative game score / (cumulative saved play time in seconds / 60)",
+  "unit": "game-score points per minute; not measured pre/post learning gain",
+  "n_retained": 104,
+  "n_observed": 94,
+  "n_missing": 10,
+  "mismatched_feature_rows": 0,
+  "profile_means_match": true,
+  "profile_sds_match": true,
+  "raw_F_matches_existing_output": true,
+  "raw_eta_squared_matches_existing_output": true,
+  "short_duration_observations": 3,
+  "limitations": [
+    "The source manuscript is preserved; analysis does not edit its printed entries.",
+    "Efficiency is a clustering input; between-cluster tests are circular and exploratory.",
+    "Raw descriptive statistics require raw-scale tests; log1p tests are a separate sensitivity analysis.",
+    "Missing/nonpositive-duration efficiency values are excluded from inference, not median-imputed.",
+    "Source play-time units follow the existing code; logger implementation is not available for independent unit validation."
+  ]
+}

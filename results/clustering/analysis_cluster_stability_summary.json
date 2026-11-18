@@ -1,0 +1,87 @@
+{
+  "settings": {
+    "n_clusters": 3,
+    "init": "k-means++",
+    "n_init": 50,
+    "algorithm": "lloyd",
+    "max_iter": 300,
+    "tol": 0.0001,
+    "random_state": 42,
+    "distance": "Euclidean",
+    "input_features": [
+      "CommandsExecuted",
+      "CorrectActions",
+      "FailedActions",
+      "HintQuests",
+      "AnswerQuests",
+      "PlayDurationMinutes",
+      "LeaderboardInteractions",
+      "LearningEfficiency",
+      "AccuracyRate",
+      "PerfectQuestRate",
+      "HelpDependencyRatio"
+    ],
+    "n_learners": 104,
+    "preprocessing": "median imputation; log1p non-rate variables; standard scaling",
+    "components_used_for_original_clustering": 0,
+    "clustering_space": "all standardized behavioral features; PCA is visualization only",
+    "pca_visualization_components": 2,
+    "pca_visualization_explained_variance": 0.6186797538617066
+  },
+  "seed_sensitivity": {
+    "1": {
+      "n_runs": 100,
+      "ari_min": 0.22757304388174715,
+      "ari_median": 0.9725258005011703,
+      "ari_max": 1.0,
+      "identical_partition_fraction": 0.33
+    },
+    "50": {
+      "n_runs": 100,
+      "ari_min": 1.0,
+      "ari_median": 1.0,
+      "ari_max": 1.0,
+      "identical_partition_fraction": 1.0
+    }
+  },
+  "bootstrap": {
+    "replicates": 500,
+    "seed": 42,
+    "method": "resample retained learners; refit imputation, transformations, scaling and fixed-k KMeans; predict full cohort",
+    "scope": "conditional on retained cohort, feature set, and selected k; no new k selection or LOF within replicates",
+    "quantiles_are": "empirical resampling stability ranges, not parameter confidence intervals",
+    "metrics": {
+      "ari": {
+        "mean": 0.9192276498131355,
+        "median": 0.9542910009232811,
+        "q025": 0.6182613148150435,
+        "q975": 1.0
+      },
+      "oob_ari": {
+        "mean": 0.9103003409198641,
+        "median": 0.9320759216859895,
+        "q025": 0.6128519313691766,
+        "q975": 1.0
+      },
+      "cluster_1_jaccard": {
+        "mean": 0.9562227219613195,
+        "median": 0.9824561403508771,
+        "q025": 0.7127873563218391,
+        "q975": 1.0
+      },
+      "cluster_2_jaccard": {
+        "mean": 0.9643148044384606,
+        "median": 0.9696969696969697,
+        "q025": 0.8888888888888888,
+        "q975": 1.0
+      },
+      "cluster_3_jaccard": {
+        "mean": 0.8158671071846811,
+        "median": 0.875,
+        "q025": 0.4237327188940092,
+        "q975": 1.0
+      }
+    }
+  },
+  "interpretation": "Exploratory profiles; reproducible initialization does not establish separated or definitive learner types."
+}

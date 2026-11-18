@@ -1,0 +1,55 @@
+{
+  "completed_at_utc": "2026-11-18T06:56:46.580031+00:00",
+  "python": "3.10.13",
+  "workflow": "11 indicators -> median imputation -> log1p non-rate indicators -> standardization -> K-means; PCA visualization only",
+  "sources_sha256": {
+    "Data/Version-1/GEG-database.eventdatas.json": "d146b9a13dee1f18921c521ac7b84157bff5eceeee9f7339f92295636ef290b1",
+    "Data/Version-1/GEG-database.playersavedatas.json": "d168f5d94f40de60684eb78f6cdcbc398578e29ecfa89b2966155bbb8eeca846",
+    "Data/Version-1/GEG-database.globalleaderboarddatas.json": "454895d74afbd7097744025d69c17fbff1ad5dd95d635827e95b2ed19bb01612",
+    "Data/Version-2/GEG-database.eventdatas.csv": "b4474e8070015050fbab20f7bb001918b92222f25ea05d5e8838bff8688887cd",
+    "Data/Version-2/GEG-database.playersavedatas.csv": "93aeeefd69c1b914da9456c4cf1d279503ed37a606231d552d1fa4b142a36006",
+    "Data/Version-2/GEG-database.globalleaderboarddatas.csv": "84c2a46250768f3620fc59ca8c81e6cb98c4c50c076752416f6786e7a6e90bbf"
+  },
+  "code_sha256": {
+    "src/gitainment_analysis/run_analysis.py": "b4d6a73fcc3a95302cc4801f63e32456d9173343064ab17fda7a1b40e7fa331d",
+    "src/gitainment_analysis/data_io.py": "ef039a531d81e5423adfe9ea9108505cfe01fe450bd8e98855091629d16beea2",
+    "src/gitainment_analysis/__init__.py": "e50854a2bcc29b35cc5d729e844a77d691415ed5bf94bced5af0101db2349d8d",
+    "src/gitainment_analysis/reporting/table9.py": "ffc4b91d7cad35a017f609e64c92bb7f929fdaf0ec5ab14d24e8d835f7400ce4",
+    "src/gitainment_analysis/reporting/formatting.py": "e827a8826cd8201826e4fb27b9ea036c5867b9d28e917a36523ec79ba02439d0",
+    "src/gitainment_analysis/reporting/spss_guide.py": "74f8d4af9465e0cff3ebc1673a792cbb6ee553946b6cbfc137cf4d7f145f239d",
+    "src/gitainment_analysis/reporting/__init__.py": "b98b634440d12148ca663598db7540127a7fcff8af88406514afe7d95fea1bb1",
+    "src/gitainment_analysis/reporting/cluster_report.py": "c3e9fa8e597fa5c9faa461fd7e07c0ef9eec5355768e9697d2eb6dfcecf3cda9",
+    "src/gitainment_analysis/reporting/spss_data.py": "db42d8a35f2b6ee45024c3652697d8cd4dd63cf31331c3e32573223ea78994ef",
+    "src/gitainment_analysis/extraction/learners.py": "a87e3404567072cc5b0bb97212e45b47382ffcb0eaff357fbbc8a940477ea236",
+    "src/gitainment_analysis/extraction/leaderboards.py": "2909b72a675da324fe5fa2f34c823fb43aee33115b26840637abd7da04ea5fc8",
+    "src/gitainment_analysis/extraction/__init__.py": "63a45b60513ebe590fb0a03ee50b2a6aa3e5d5c5349df4ec955967a929183226",
+    "src/gitainment_analysis/extraction/events.py": "29ba544b395deb49240ecb0c2047f5539f80c7443da59e070de664c143e97df3",
+    "src/gitainment_analysis/extraction/players.py": "73072e69d3f4b300e67d45141d1cc8604dc5add7f4dfa9f9acfcefe4a14078c2",
+    "src/gitainment_analysis/analysis/efficiency.py": "31ab57c673398657b74aa9482ac2f6e0091fbca35de75763d09acf8497bf8836",
+    "src/gitainment_analysis/analysis/clustering.py": "e14171b8d21c19c4101944de304b5b4d42d77c6440ec3fdfe76f99a2b2f7eb46",
+    "src/gitainment_analysis/analysis/stability.py": "f9ee34ed36fafe4a102b7346856fd500ab086d130fa4ebe1e45353c583f2f4db",
+    "src/gitainment_analysis/analysis/source_audit.py": "ee1e9bdd2f15c9afb23d00a9f71a50942d4c39d6c2601390239c900d450027d3",
+    "src/gitainment_analysis/analysis/__init__.py": "bd0e5d12146a798f0e75a56bc51540e940b0e0babe7f5dab41e5b48a5c69ca2b",
+    "src/gitainment_analysis/analysis/transitions.py": "a7a79480cee64570a0844ed9db7ef92226f543b578d0f3619ab37e2029fa00ea"
+  },
+  "packages": {
+    "pandas": "2.3.3",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "scikit-learn": "1.7.2",
+    "matplotlib": "3.10.0",
+    "statsmodels": "0.15.0",
+    "networkx": "3.3",
+    "python-docx": "1.2.0",
+    "pyreadstat": "1.3.8",
+    "reportlab": "4.5.1"
+  },
+  "verified_at_utc": "2026-11-18T06:59:55.675847+00:00",
+  "cleanup": {
+    "previous_generated_csv_count": 78,
+    "current_generated_csv_count": 38,
+    "removed_legacy_output_directory": "Analysis-Log-Results",
+    "source_data_preserved": true,
+    "clustering_memberships_preserved": true
+  }
+}

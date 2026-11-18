@@ -1,0 +1,114 @@
+Extracted extracted_events.csv: 31912 rows
+Extracted extracted_player_game_records.csv: 114 rows
+Extracted extracted_player_stage_data.csv: 3876 rows
+Extracted extracted_leaderboards.csv: 963 rows
+================================================================================
+DATA SOURCES AND LOADING
+================================================================================
+
+[SOURCE 1] Event Data
+  Origin: GEG-database.eventdatas.json
+  Description: Real-time player action logs
+  Records: 31912, Unique Players: 113
+
+[SOURCE 2] Player Game Records
+  Origin: GEG-database.playersavedatas.json → gameRecordData
+  Description: Cumulative player statistics
+  Records: 114 players
+
+[SOURCE 3] Player Stage Data
+  Origin: GEG-database.playersavedatas.json → stageData
+  Description: Per-stage progress for each player
+  Records: 3876 (players × stages)
+
+[SOURCE 4] Global Leaderboards
+  Origin: GEG-database.globalleaderboarddatas.json
+  Description: Global rankings by criteria
+  Records: 963 entries
+
+================================================================================
+EXTRACTING PER-USER COMBINED DATA
+================================================================================
+
+Total unique users found: 115
+Created combined profile for 115 users
+
+Exported: /home/selab/Desktop/Thomas/Gitaiment-behaviour-analyze/results/extracted/analysis_per_user_combined.csv
+Silhouette and Calinski-Harabasz: k=2/10
+Silhouette and Calinski-Harabasz: k=3/10
+Silhouette and Calinski-Harabasz: k=4/10
+Silhouette and Calinski-Harabasz: k=5/10
+Silhouette and Calinski-Harabasz: k=6/10
+Silhouette and Calinski-Harabasz: k=7/10
+Silhouette and Calinski-Harabasz: k=8/10
+Silhouette and Calinski-Harabasz: k=9/10
+Silhouette and Calinski-Harabasz: k=10/10
+================================================================================
+NOISE FILTERING, K-MEANS, AND PROFILE ANALYSIS
+================================================================================
+Cases: 104 | Clustering features: 11 | Selected k: 3
+Cluster sizes:
+1    57
+2    32
+3    15
+Selection scores: {'silhouette': 3, 'calinski_harabasz': 3}
+{
+  "input_n": 115,
+  "retained_n": 104,
+  "excluded_n": 11,
+  "exclusion_reasons": {
+    "no_observed_activity": 11
+  },
+  "noise_rule": "LOF > 2.0, neighbors=20; fixed before selecting k",
+  "preprocessing": "Undefined ratios are median-imputed; log1p non-rate features; standard scaling refit after filtering.",
+  "selection_rule": "Minimum sum of descending silhouette and Calinski-Harabasz ranks among non-singleton solutions; ties use higher silhouette, then smaller k.",
+  "clustering_space": "standardized behavioral indicators; PCA is not used for clustering",
+  "pca_role": "visualization only",
+  "selected_k": 3,
+  "metrics_agree": true,
+  "selected_scores": {
+    "silhouette": 0.3092565523343959,
+    "calinski_harabasz": 39.53906152081074
+  },
+  "unfiltered_selected_k": 3,
+  "recommendations": {
+    "silhouette": 3,
+    "calinski_harabasz": 3
+  },
+  "unfiltered_recommendations": {
+    "silhouette": 3,
+    "calinski_harabasz": 3
+  },
+  "warnings": []
+}
+
+Strongest group differences (eta-squared):
+              feature      anova_p    kruskal_p  eta_squared
+     PerfectQuestRate 1.005114e-23 1.375513e-10     0.664402
+     CommandsExecuted 2.032319e-24 2.382814e-18     0.664139
+         GameProgress 2.045829e-22 1.010715e-15     0.631687
+           TotalScore 1.239497e-21 2.152958e-15     0.618175
+   LearningEfficiency 2.633946e-12 1.972382e-06     0.443445
+       CorrectActions 5.534125e-13 2.159185e-13     0.434562
+  HelpDependencyRatio 4.744709e-11 6.054232e-08     0.387455
+StageClearOccurrences 4.421675e-11 1.384235e-14     0.379257
+  PlayDurationMinutes 6.920338e-11 6.811603e-14     0.373671
+         AccuracyRate 1.626791e-07 2.749717e-07     0.275518
+Behavior transition diagrams created for 3 clusters
+Learner membership bootstrap: 100/500
+Learner membership bootstrap: 200/500
+Learner membership bootstrap: 300/500
+Learner membership bootstrap: 400/500
+Learner membership bootstrap: 500/500
+Cluster-count subsampling: 25/200
+Cluster-count subsampling: 50/200
+Cluster-count subsampling: 75/200
+Cluster-count subsampling: 100/200
+Cluster-count subsampling: 125/200
+Cluster-count subsampling: 150/200
+Cluster-count subsampling: 175/200
+Cluster-count subsampling: 200/200
+Focused report completed: /home/selab/Desktop/Thomas/Gitaiment-behaviour-analyze/results/clustering/report
+F1–F14 export complete: /home/selab/Desktop/Thomas/Gitaiment-behaviour-analyze/results/spss
+PDF guide written: /home/selab/Desktop/Thomas/Gitaiment-behaviour-analyze/results/spss/SPSS_Table9_Step_by_Step_Guide.pdf
+Completed: /home/selab/Desktop/Thomas/Gitaiment-behaviour-analyze/results

@@ -1,0 +1,8 @@
+PASS: Full extraction -> direct K-means -> transitions -> stability -> Word/Excel/PDF/SPSS pipeline completed.
+PASS: Retained 104 original learner memberships are unchanged (57/32/15).
+PASS: Current standardized-feature K-means reproduces the assignments (ARI=1).
+PASS: Source dataset hashes are unchanged.
+PASS: All analysis modules import under the new package structure.
+PASS: 14 ANOVA rows, 108 transition rows and defined probabilities sum to one.
+PASS: 500 bootstrap replicates and 200 k-reselection subsamples.
+PASS: SPSS data membership/IDs match the clustering assignments; duplicate CSV exports removed.
