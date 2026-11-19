@@ -1,0 +1,8 @@
+PASS: 104 exact normalized username links; no missing scores, duplicate identities, unmatched learners or cluster disagreements.
+PASS: All three source workbooks agree on scores/mapping.
+PASS: HC3 F independently tested against matrix sandwich covariance in the regression test.
+PASS: Conventional ANCOVA F and partial eta-squared match independent residual sums of squares.
+PASS: 5,000 successful within-profile learner bootstrap samples; paired pre/post retained.
+PASS: Anonymous evidence workbook and SAV numeric values agree.
+PASS: Primary model, multiple-comparison correction, common-support/leave-one-out sensitivity and questionnaire limitation documented.
+PASS: Source/code hashes match manifest; manuscript and original clusters were not edited.

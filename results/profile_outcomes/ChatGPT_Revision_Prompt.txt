@@ -1,0 +1,34 @@
+Revise ONLY the manuscript content needed to address this reviewer comment:
+
+"The manuscript states that gameplay profiles are related to player perceptions and post-test performance. However, the presented results primarily describe behavioural indicators and transition patterns. A particularly important missing analysis is whether the three behavioural clusters differ in post-test performance or learning gains. The authors are encouraged to compare learning outcomes across the identified profiles, preferably accounting for pretest performance. This would help establish whether the observed behavioural differences have meaningful educational implications rather than representing only differences in game interaction."
+
+I attach:
+1. The current manuscript Word file.
+2. R1_Q7_Analysis_Report.docx.
+3. Evidence_For_ChatGPT.xlsx (analysis tables and anonymized learner records).
+
+Author-confirmed facts:
+- All 104 username-linked learners matched the retained clusters (57/32/15). No scores are missing.
+- PreTest/PostTest are the independent test outcomes provided in Data/R1-Q7. Gain=PostTest-PreTest.
+- Primary model: PostTest ~ Cluster + centered PreTest; HC3 covariance and residual-df Wald inference.
+- Primary cluster test: F(2,100)=22.754672, p=7.1689552e-09.
+- Questionnaire responses are unidentified. No profile-perception association can be estimated. Never match questionnaire rows by ordering or similar answers.
+
+Tasks:
+A. Locate the exact manuscript sentences making profile-performance or profile-perception claims.
+B. Write precise replacement Methods, Results, Discussion and Limitations text, using only the supplied evidence.
+C. Propose a compact table of n, pre/post/gain M(SD), adjusted posttest means with 95% HC3 CIs, and the adjusted contrasts/effect-size notes.
+D. Draft a respectful, point-by-point reviewer response explaining the completed username linkage, adjusted outcome comparison, secondary gains, robustness checks, and questionnaire limitation.
+E. Identify anything that remains unsupported and should be removed or qualified.
+
+Requirements:
+- Preserve the fixed three-cluster assignments; do not rerun clustering or introduce PCA-before-clustering.
+- Keep primary HC3 F/t tests separate from conventional ANCOVA. Classical partial eta-squared comes from OLS residual sums of squares, not the HC3 F.
+- Use Holm-adjusted p-values for pairwise contrasts. Confidence intervals are pointwise, not simultaneous.
+- Do not treat gains as an independent replication of the same pre/post data.
+- Do not claim pretest equivalence solely from a nonsignificant test, equal slopes from nonsignificance, or proven learning loss from a negative mean gain.
+- Explain the small n=15 profile, high posttest ceilings, model dependence, and observational rather than causal profile associations.
+- State that Low Activity Learners can still have high achievement; do not equate limited logs with poor learning.
+- Remove any unsupported individual profile-perception claim while allowing the anonymous questionnaire analysis to remain a separate study component.
+- Do not invent data, analyses, SPSS execution, manuscript edits, page numbers or line numbers.
+- If producing proposed text rather than editing the document, state that clearly. Use actual section names/paragraphs from the supplied manuscript.

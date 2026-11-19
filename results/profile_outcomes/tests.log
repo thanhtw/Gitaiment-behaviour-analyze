@@ -1,0 +1,16 @@
+test_ambiguous_duplicate_or_mismatched_linkage_is_rejected (test_profile_outcomes.ProfileOutcomesTests) ... ok
+test_bootstrap_is_reproducible_and_gain_records_remain_paired (test_profile_outcomes.ProfileOutcomesTests) ... ok
+test_hc3_omnibus_matches_independent_matrix_calculation (test_profile_outcomes.ProfileOutcomesTests) ... ok
+test_pretest_adjusted_effects_recover_known_differences (test_profile_outcomes.ProfileOutcomesTests) ... ok
+test_username_join_is_independent_of_row_order (test_profile_outcomes.ProfileOutcomesTests) ... ok
+test_clustering_uses_eleven_features_without_pca (test_workflow.WorkflowTests) ... Silhouette and Calinski-Harabasz: k=2/3
+Silhouette and Calinski-Harabasz: k=3/3
+ok
+test_export_retains_observed_missing_values_and_percent_units (test_workflow.WorkflowTests) ... ok
+test_missing_observations_are_not_imputed_into_anova (test_workflow.WorkflowTests) ... ok
+test_transition_pairs_never_cross_learners (test_workflow.WorkflowTests) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.402s
+
+OK

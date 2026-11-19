@@ -21,6 +21,7 @@ spss = ["pyreadstat>=1.2,<2"]
 gitainment-analysis = "gitainment_analysis.run_analysis:main"
 gitainment-export-anova = "gitainment_analysis.reporting.table9:main"
 gitainment-cluster-report = "gitainment_analysis.reporting.cluster_report:main"
+gitainment-profile-outcomes = "gitainment_analysis.analysis.profile_outcomes:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]

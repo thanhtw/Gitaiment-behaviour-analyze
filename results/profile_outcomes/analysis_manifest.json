@@ -1,0 +1,63 @@
+{
+  "completed_at_utc": "2026-11-18T14:48:14.198127+00:00",
+  "inputs_sha256": {
+    "/home/selab/Desktop/Thomas/Gitaiment-behaviour-analyze/Data/R1-Q7/Score-Username.xlsx": "732fbb3ae22fa54f4857b1ebcf2342bbfdce8fc0fdb4d44567599a39898d2b2a",
+    "/home/selab/Desktop/Thomas/Gitaiment-behaviour-analyze/Data/R1-Q7/104-Pre-Post-Match-Username.xlsx": "046f3aa1a27d95b511ea30a74f8bb1e7c8adc37571c19c4c135f184f6ff038c5",
+    "/home/selab/Desktop/Thomas/Gitaiment-behaviour-analyze/Data/R1-Q7/104-Username_Cluster.xlsx": "58f1100bdd07250651dce70c4a2c3d4dc8c6923c6545e24fba1372bb01436005",
+    "/home/selab/Desktop/Thomas/Gitaiment-behaviour-analyze/results/clustering/analysis_kmeans_assignments.csv": "0eecc063ff7781f3c0e926336e1b620a8b7c9254c7efc66e2a821da03a580b1c",
+    "/home/selab/Desktop/Thomas/Gitaiment-behaviour-analyze/src/gitainment_analysis/analysis/profile_outcomes.py": "50894c963aa6e44ba3883d4086b44dc8ed6c30557fcfefcb86b39aba3862390c",
+    "/home/selab/Desktop/Thomas/Gitaiment-behaviour-analyze/src/gitainment_analysis/reporting/profile_outcomes.py": "fb9dea223810ec3f71ccd2daf84aec18ada7eff1758548bf5ffa3ef16b875311"
+  },
+  "packages": {
+    "pandas": "2.3.3",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "statsmodels": "0.15.0",
+    "pyreadstat": "1.3.8",
+    "python-docx": "1.2.0",
+    "openpyxl": "3.1.5"
+  },
+  "bootstrap": {
+    "requested_replicates": 5000,
+    "successful_replicates": 5000,
+    "rank_deficient_replicates": 0,
+    "seed": 20261118,
+    "method": "Percentile; resample complete learner records within fixed clusters; refit common-slope model; original mean pretest held fixed"
+  },
+  "linkage": {
+    "authoritative_learners": 104,
+    "provided_scores": 104,
+    "matched_learners": 104,
+    "unmatched_gameplay_learners": 0,
+    "unmatched_score_learners": 0,
+    "cluster_disagreements": 0,
+    "duplicate_normalized_usernames": 0,
+    "missing_pretest": 0,
+    "missing_posttest": 0,
+    "normalization": "Trim leading/trailing whitespace only; exact case preserved; no row-order or score matching",
+    "corroborating_score_rows": 104,
+    "corroborating_mapping_rows": 104,
+    "questionnaire_status": "Anonymous/unidentified questionnaire; profile-perception associations cannot be estimated"
+  },
+  "model": {
+    "n": 104,
+    "reference_pretest": 82.72115384615384,
+    "partial_eta_squared_classical": 0.6087477818049359,
+    "r_squared": 0.6100225862754193,
+    "adjusted_r_squared": 0.5983232638636818,
+    "residual_shapiro_p": 1.5406903442056787e-09,
+    "interaction_p_HC3": 0.36196078615620153,
+    "primary_df_residual": 100.0
+  },
+  "sensitivity": {
+    "common_pretest_min": 50.0,
+    "common_pretest_max": 90.0,
+    "common_n": 87,
+    "common_cluster_counts": {
+      "1": 44,
+      "2": 28,
+      "3": 15
+    }
+  },
+  "primary_inference": "HC3 Wald F/t tests with residual degrees of freedom; fixed observed cluster assignments"
+}

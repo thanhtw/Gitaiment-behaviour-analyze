@@ -103,3 +103,31 @@ python -m unittest discover -s tests -v
 `requirements-reproduced.txt` records direct dependency versions used for the current
 run. `results/run_manifest.json` records input/code hashes. Learner-level exports contain
 identifiers; inspect them before sharing.
+
+## Username-linked pretest/posttest comparison (R1-Q7)
+
+`Data/R1-Q7/Score-Username.xlsx` now supplies an explicit username-to-test-score link.
+Run the independent-outcome analysis after the clustering pipeline:
+
+```bash
+MPLBACKEND=Agg gitainment-profile-outcomes
+```
+
+This command validates one-to-one username linkage and supplied cluster labels against
+`results/clustering/analysis_kmeans_assignments.csv`, corroborates the other two R1-Q7
+workbooks, and analyzes observed pre/post scores for the matched learners. It reports
+pretest-adjusted posttest comparisons with HC3 inference, Holm-corrected contrasts,
+secondary gains, common-support and leave-one-out checks, and learner-bootstrap CIs.
+It does not rerun or change clustering. The primary model and conventional ANCOVA
+reference statistics are explicitly distinguished.
+
+Outputs are in `results/profile_outcomes/`. To ask ChatGPT to revise the manuscript,
+provide the latest manuscript, `R1_Q7_Analysis_Report.docx`, `Evidence_For_ChatGPT.xlsx`,
+and `ChatGPT_Revision_Prompt.txt`. The evidence workbook uses anonymous learner IDs.
+`Matched_Username_Data_PRIVATE.xlsx` is for the authors' identity audit, not needed
+for the ChatGPT revision. The SAV and SPSS syntax allow author-side verification.
+
+The questionnaire has no identifiers, so profile-perception associations cannot be
+estimated. Keep anonymous questionnaire analyses separate and do not match respondents
+by row order. Profile-outcome associations remain exploratory and observational;
+ceiling effects, small cluster size and cluster-assignment uncertainty remain limitations.
